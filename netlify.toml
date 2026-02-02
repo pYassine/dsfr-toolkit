@@ -6,12 +6,6 @@
   NODE_VERSION = "22"
   NPM_FLAGS = "--version"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-  force = false
-
 [[headers]]
   for = "/*"
   [headers.values]

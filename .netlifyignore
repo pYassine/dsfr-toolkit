@@ -1,0 +1,14 @@
+# Netlify ignore file
+# On veut déployer les assets DSFR depuis node_modules
+# Donc on n'ignore PAS @gouvfr/dsfr
+
+# Ignorer tout node_modules SAUF @gouvfr/dsfr
+node_modules/*
+!node_modules/@gouvfr/
+!node_modules/@gouvfr/dsfr/
+!node_modules/@gouvfr/dsfr/dist/
+
+# Autres fichiers à ignorer
+.DS_Store
+*.log
+.env
