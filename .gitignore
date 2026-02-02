@@ -5,4 +5,5 @@ npm-debug.log*
 .env
 dist/
 build/
-.claude/settings.local.json
+!.claude/claude.md
+.claude/  
