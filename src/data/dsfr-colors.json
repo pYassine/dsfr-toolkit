@@ -1,0 +1,961 @@
+{
+  "meta": {
+    "generatedAt": "2026-02-02T23:19:27.070Z",
+    "source": "node_modules/@gouvfr/dsfr/dist/utility/colors/colors.css",
+    "totalBackgrounds": 112,
+    "totalTexts": 73
+  },
+  "background": {
+    "action-high": [
+      {
+        "class": "fr-background-action-high--beige-gris-galet",
+        "cssVar": "--background-action-high-beige-gris-galet",
+        "color": "beige-gris-galet"
+      },
+      {
+        "class": "fr-background-action-high--blue-cumulus",
+        "cssVar": "--background-action-high-blue-cumulus",
+        "color": "blue-cumulus"
+      },
+      {
+        "class": "fr-background-action-high--blue-ecume",
+        "cssVar": "--background-action-high-blue-ecume",
+        "color": "blue-ecume"
+      },
+      {
+        "class": "fr-background-action-high--blue-france",
+        "cssVar": "--background-action-high-blue-france",
+        "color": "blue-france"
+      },
+      {
+        "class": "fr-background-action-high--brown-cafe-creme",
+        "cssVar": "--background-action-high-brown-cafe-creme",
+        "color": "brown-cafe-creme"
+      },
+      {
+        "class": "fr-background-action-high--brown-caramel",
+        "cssVar": "--background-action-high-brown-caramel",
+        "color": "brown-caramel"
+      },
+      {
+        "class": "fr-background-action-high--brown-opera",
+        "cssVar": "--background-action-high-brown-opera",
+        "color": "brown-opera"
+      },
+      {
+        "class": "fr-background-action-high--error",
+        "cssVar": "--background-action-high-error",
+        "color": "error"
+      },
+      {
+        "class": "fr-background-action-high--green-archipel",
+        "cssVar": "--background-action-high-green-archipel",
+        "color": "green-archipel"
+      },
+      {
+        "class": "fr-background-action-high--green-bourgeon",
+        "cssVar": "--background-action-high-green-bourgeon",
+        "color": "green-bourgeon"
+      },
+      {
+        "class": "fr-background-action-high--green-emeraude",
+        "cssVar": "--background-action-high-green-emeraude",
+        "color": "green-emeraude"
+      },
+      {
+        "class": "fr-background-action-high--green-menthe",
+        "cssVar": "--background-action-high-green-menthe",
+        "color": "green-menthe"
+      },
+      {
+        "class": "fr-background-action-high--green-tilleul-verveine",
+        "cssVar": "--background-action-high-green-tilleul-verveine",
+        "color": "green-tilleul-verveine"
+      },
+      {
+        "class": "fr-background-action-high--grey",
+        "cssVar": "--background-action-high-grey",
+        "color": "grey"
+      },
+      {
+        "class": "fr-background-action-high--info",
+        "cssVar": "--background-action-high-info",
+        "color": "info"
+      },
+      {
+        "class": "fr-background-action-high--orange-terre-battue",
+        "cssVar": "--background-action-high-orange-terre-battue",
+        "color": "orange-terre-battue"
+      },
+      {
+        "class": "fr-background-action-high--pink-macaron",
+        "cssVar": "--background-action-high-pink-macaron",
+        "color": "pink-macaron"
+      },
+      {
+        "class": "fr-background-action-high--pink-tuile",
+        "cssVar": "--background-action-high-pink-tuile",
+        "color": "pink-tuile"
+      },
+      {
+        "class": "fr-background-action-high--purple-glycine",
+        "cssVar": "--background-action-high-purple-glycine",
+        "color": "purple-glycine"
+      },
+      {
+        "class": "fr-background-action-high--red-marianne",
+        "cssVar": "--background-action-high-red-marianne",
+        "color": "red-marianne"
+      },
+      {
+        "class": "fr-background-action-high--success",
+        "cssVar": "--background-action-high-success",
+        "color": "success"
+      },
+      {
+        "class": "fr-background-action-high--warning",
+        "cssVar": "--background-action-high-warning",
+        "color": "warning"
+      },
+      {
+        "class": "fr-background-action-high--yellow-moutarde",
+        "cssVar": "--background-action-high-yellow-moutarde",
+        "color": "yellow-moutarde"
+      },
+      {
+        "class": "fr-background-action-high--yellow-tournesol",
+        "cssVar": "--background-action-high-yellow-tournesol",
+        "color": "yellow-tournesol"
+      }
+    ],
+    "action-low": [
+      {
+        "class": "fr-background-action-low--beige-gris-galet",
+        "cssVar": "--background-action-low-beige-gris-galet",
+        "color": "beige-gris-galet"
+      },
+      {
+        "class": "fr-background-action-low--blue-cumulus",
+        "cssVar": "--background-action-low-blue-cumulus",
+        "color": "blue-cumulus"
+      },
+      {
+        "class": "fr-background-action-low--blue-ecume",
+        "cssVar": "--background-action-low-blue-ecume",
+        "color": "blue-ecume"
+      },
+      {
+        "class": "fr-background-action-low--blue-france",
+        "cssVar": "--background-action-low-blue-france",
+        "color": "blue-france"
+      },
+      {
+        "class": "fr-background-action-low--brown-cafe-creme",
+        "cssVar": "--background-action-low-brown-cafe-creme",
+        "color": "brown-cafe-creme"
+      },
+      {
+        "class": "fr-background-action-low--brown-caramel",
+        "cssVar": "--background-action-low-brown-caramel",
+        "color": "brown-caramel"
+      },
+      {
+        "class": "fr-background-action-low--brown-opera",
+        "cssVar": "--background-action-low-brown-opera",
+        "color": "brown-opera"
+      },
+      {
+        "class": "fr-background-action-low--green-archipel",
+        "cssVar": "--background-action-low-green-archipel",
+        "color": "green-archipel"
+      },
+      {
+        "class": "fr-background-action-low--green-bourgeon",
+        "cssVar": "--background-action-low-green-bourgeon",
+        "color": "green-bourgeon"
+      },
+      {
+        "class": "fr-background-action-low--green-emeraude",
+        "cssVar": "--background-action-low-green-emeraude",
+        "color": "green-emeraude"
+      },
+      {
+        "class": "fr-background-action-low--green-menthe",
+        "cssVar": "--background-action-low-green-menthe",
+        "color": "green-menthe"
+      },
+      {
+        "class": "fr-background-action-low--green-tilleul-verveine",
+        "cssVar": "--background-action-low-green-tilleul-verveine",
+        "color": "green-tilleul-verveine"
+      },
+      {
+        "class": "fr-background-action-low--orange-terre-battue",
+        "cssVar": "--background-action-low-orange-terre-battue",
+        "color": "orange-terre-battue"
+      },
+      {
+        "class": "fr-background-action-low--pink-macaron",
+        "cssVar": "--background-action-low-pink-macaron",
+        "color": "pink-macaron"
+      },
+      {
+        "class": "fr-background-action-low--pink-tuile",
+        "cssVar": "--background-action-low-pink-tuile",
+        "color": "pink-tuile"
+      },
+      {
+        "class": "fr-background-action-low--purple-glycine",
+        "cssVar": "--background-action-low-purple-glycine",
+        "color": "purple-glycine"
+      },
+      {
+        "class": "fr-background-action-low--red-marianne",
+        "cssVar": "--background-action-low-red-marianne",
+        "color": "red-marianne"
+      },
+      {
+        "class": "fr-background-action-low--yellow-moutarde",
+        "cssVar": "--background-action-low-yellow-moutarde",
+        "color": "yellow-moutarde"
+      },
+      {
+        "class": "fr-background-action-low--yellow-tournesol",
+        "cssVar": "--background-action-low-yellow-tournesol",
+        "color": "yellow-tournesol"
+      }
+    ],
+    "alt": [
+      {
+        "class": "fr-background-alt--beige-gris-galet",
+        "cssVar": "--background-alt-beige-gris-galet",
+        "color": "beige-gris-galet"
+      },
+      {
+        "class": "fr-background-alt--blue-cumulus",
+        "cssVar": "--background-alt-blue-cumulus",
+        "color": "blue-cumulus"
+      },
+      {
+        "class": "fr-background-alt--blue-ecume",
+        "cssVar": "--background-alt-blue-ecume",
+        "color": "blue-ecume"
+      },
+      {
+        "class": "fr-background-alt--blue-france",
+        "cssVar": "--background-alt-blue-france",
+        "color": "blue-france"
+      },
+      {
+        "class": "fr-background-alt--brown-cafe-creme",
+        "cssVar": "--background-alt-brown-cafe-creme",
+        "color": "brown-cafe-creme"
+      },
+      {
+        "class": "fr-background-alt--brown-caramel",
+        "cssVar": "--background-alt-brown-caramel",
+        "color": "brown-caramel"
+      },
+      {
+        "class": "fr-background-alt--brown-opera",
+        "cssVar": "--background-alt-brown-opera",
+        "color": "brown-opera"
+      },
+      {
+        "class": "fr-background-alt--green-archipel",
+        "cssVar": "--background-alt-green-archipel",
+        "color": "green-archipel"
+      },
+      {
+        "class": "fr-background-alt--green-bourgeon",
+        "cssVar": "--background-alt-green-bourgeon",
+        "color": "green-bourgeon"
+      },
+      {
+        "class": "fr-background-alt--green-emeraude",
+        "cssVar": "--background-alt-green-emeraude",
+        "color": "green-emeraude"
+      },
+      {
+        "class": "fr-background-alt--green-menthe",
+        "cssVar": "--background-alt-green-menthe",
+        "color": "green-menthe"
+      },
+      {
+        "class": "fr-background-alt--green-tilleul-verveine",
+        "cssVar": "--background-alt-green-tilleul-verveine",
+        "color": "green-tilleul-verveine"
+      },
+      {
+        "class": "fr-background-alt--grey",
+        "cssVar": "--background-alt-grey",
+        "color": "grey"
+      },
+      {
+        "class": "fr-background-alt--orange-terre-battue",
+        "cssVar": "--background-alt-orange-terre-battue",
+        "color": "orange-terre-battue"
+      },
+      {
+        "class": "fr-background-alt--pink-macaron",
+        "cssVar": "--background-alt-pink-macaron",
+        "color": "pink-macaron"
+      },
+      {
+        "class": "fr-background-alt--pink-tuile",
+        "cssVar": "--background-alt-pink-tuile",
+        "color": "pink-tuile"
+      },
+      {
+        "class": "fr-background-alt--purple-glycine",
+        "cssVar": "--background-alt-purple-glycine",
+        "color": "purple-glycine"
+      },
+      {
+        "class": "fr-background-alt--red-marianne",
+        "cssVar": "--background-alt-red-marianne",
+        "color": "red-marianne"
+      },
+      {
+        "class": "fr-background-alt--yellow-moutarde",
+        "cssVar": "--background-alt-yellow-moutarde",
+        "color": "yellow-moutarde"
+      },
+      {
+        "class": "fr-background-alt--yellow-tournesol",
+        "cssVar": "--background-alt-yellow-tournesol",
+        "color": "yellow-tournesol"
+      }
+    ],
+    "contrast": [
+      {
+        "class": "fr-background-contrast--beige-gris-galet",
+        "cssVar": "--background-contrast-beige-gris-galet",
+        "color": "beige-gris-galet"
+      },
+      {
+        "class": "fr-background-contrast--blue-cumulus",
+        "cssVar": "--background-contrast-blue-cumulus",
+        "color": "blue-cumulus"
+      },
+      {
+        "class": "fr-background-contrast--blue-ecume",
+        "cssVar": "--background-contrast-blue-ecume",
+        "color": "blue-ecume"
+      },
+      {
+        "class": "fr-background-contrast--blue-france",
+        "cssVar": "--background-contrast-blue-france",
+        "color": "blue-france"
+      },
+      {
+        "class": "fr-background-contrast--brown-cafe-creme",
+        "cssVar": "--background-contrast-brown-cafe-creme",
+        "color": "brown-cafe-creme"
+      },
+      {
+        "class": "fr-background-contrast--brown-caramel",
+        "cssVar": "--background-contrast-brown-caramel",
+        "color": "brown-caramel"
+      },
+      {
+        "class": "fr-background-contrast--brown-opera",
+        "cssVar": "--background-contrast-brown-opera",
+        "color": "brown-opera"
+      },
+      {
+        "class": "fr-background-contrast--error",
+        "cssVar": "--background-contrast-error",
+        "color": "error"
+      },
+      {
+        "class": "fr-background-contrast--green-archipel",
+        "cssVar": "--background-contrast-green-archipel",
+        "color": "green-archipel"
+      },
+      {
+        "class": "fr-background-contrast--green-bourgeon",
+        "cssVar": "--background-contrast-green-bourgeon",
+        "color": "green-bourgeon"
+      },
+      {
+        "class": "fr-background-contrast--green-emeraude",
+        "cssVar": "--background-contrast-green-emeraude",
+        "color": "green-emeraude"
+      },
+      {
+        "class": "fr-background-contrast--green-menthe",
+        "cssVar": "--background-contrast-green-menthe",
+        "color": "green-menthe"
+      },
+      {
+        "class": "fr-background-contrast--green-tilleul-verveine",
+        "cssVar": "--background-contrast-green-tilleul-verveine",
+        "color": "green-tilleul-verveine"
+      },
+      {
+        "class": "fr-background-contrast--grey",
+        "cssVar": "--background-contrast-grey",
+        "color": "grey"
+      },
+      {
+        "class": "fr-background-contrast--info",
+        "cssVar": "--background-contrast-info",
+        "color": "info"
+      },
+      {
+        "class": "fr-background-contrast--orange-terre-battue",
+        "cssVar": "--background-contrast-orange-terre-battue",
+        "color": "orange-terre-battue"
+      },
+      {
+        "class": "fr-background-contrast--pink-macaron",
+        "cssVar": "--background-contrast-pink-macaron",
+        "color": "pink-macaron"
+      },
+      {
+        "class": "fr-background-contrast--pink-tuile",
+        "cssVar": "--background-contrast-pink-tuile",
+        "color": "pink-tuile"
+      },
+      {
+        "class": "fr-background-contrast--purple-glycine",
+        "cssVar": "--background-contrast-purple-glycine",
+        "color": "purple-glycine"
+      },
+      {
+        "class": "fr-background-contrast--red-marianne",
+        "cssVar": "--background-contrast-red-marianne",
+        "color": "red-marianne"
+      },
+      {
+        "class": "fr-background-contrast--success",
+        "cssVar": "--background-contrast-success",
+        "color": "success"
+      },
+      {
+        "class": "fr-background-contrast--warning",
+        "cssVar": "--background-contrast-warning",
+        "color": "warning"
+      },
+      {
+        "class": "fr-background-contrast--yellow-moutarde",
+        "cssVar": "--background-contrast-yellow-moutarde",
+        "color": "yellow-moutarde"
+      },
+      {
+        "class": "fr-background-contrast--yellow-tournesol",
+        "cssVar": "--background-contrast-yellow-tournesol",
+        "color": "yellow-tournesol"
+      }
+    ],
+    "default": [
+      {
+        "class": "fr-background-default--grey",
+        "cssVar": "--background-default-grey",
+        "color": "grey"
+      }
+    ],
+    "flat": [
+      {
+        "class": "fr-background-flat--beige-gris-galet",
+        "cssVar": "--background-flat-beige-gris-galet",
+        "color": "beige-gris-galet"
+      },
+      {
+        "class": "fr-background-flat--blue-cumulus",
+        "cssVar": "--background-flat-blue-cumulus",
+        "color": "blue-cumulus"
+      },
+      {
+        "class": "fr-background-flat--blue-ecume",
+        "cssVar": "--background-flat-blue-ecume",
+        "color": "blue-ecume"
+      },
+      {
+        "class": "fr-background-flat--blue-france",
+        "cssVar": "--background-flat-blue-france",
+        "color": "blue-france"
+      },
+      {
+        "class": "fr-background-flat--brown-cafe-creme",
+        "cssVar": "--background-flat-brown-cafe-creme",
+        "color": "brown-cafe-creme"
+      },
+      {
+        "class": "fr-background-flat--brown-caramel",
+        "cssVar": "--background-flat-brown-caramel",
+        "color": "brown-caramel"
+      },
+      {
+        "class": "fr-background-flat--brown-opera",
+        "cssVar": "--background-flat-brown-opera",
+        "color": "brown-opera"
+      },
+      {
+        "class": "fr-background-flat--error",
+        "cssVar": "--background-flat-error",
+        "color": "error"
+      },
+      {
+        "class": "fr-background-flat--green-archipel",
+        "cssVar": "--background-flat-green-archipel",
+        "color": "green-archipel"
+      },
+      {
+        "class": "fr-background-flat--green-bourgeon",
+        "cssVar": "--background-flat-green-bourgeon",
+        "color": "green-bourgeon"
+      },
+      {
+        "class": "fr-background-flat--green-emeraude",
+        "cssVar": "--background-flat-green-emeraude",
+        "color": "green-emeraude"
+      },
+      {
+        "class": "fr-background-flat--green-menthe",
+        "cssVar": "--background-flat-green-menthe",
+        "color": "green-menthe"
+      },
+      {
+        "class": "fr-background-flat--green-tilleul-verveine",
+        "cssVar": "--background-flat-green-tilleul-verveine",
+        "color": "green-tilleul-verveine"
+      },
+      {
+        "class": "fr-background-flat--grey",
+        "cssVar": "--background-flat-grey",
+        "color": "grey"
+      },
+      {
+        "class": "fr-background-flat--info",
+        "cssVar": "--background-flat-info",
+        "color": "info"
+      },
+      {
+        "class": "fr-background-flat--orange-terre-battue",
+        "cssVar": "--background-flat-orange-terre-battue",
+        "color": "orange-terre-battue"
+      },
+      {
+        "class": "fr-background-flat--pink-macaron",
+        "cssVar": "--background-flat-pink-macaron",
+        "color": "pink-macaron"
+      },
+      {
+        "class": "fr-background-flat--pink-tuile",
+        "cssVar": "--background-flat-pink-tuile",
+        "color": "pink-tuile"
+      },
+      {
+        "class": "fr-background-flat--purple-glycine",
+        "cssVar": "--background-flat-purple-glycine",
+        "color": "purple-glycine"
+      },
+      {
+        "class": "fr-background-flat--red-marianne",
+        "cssVar": "--background-flat-red-marianne",
+        "color": "red-marianne"
+      },
+      {
+        "class": "fr-background-flat--success",
+        "cssVar": "--background-flat-success",
+        "color": "success"
+      },
+      {
+        "class": "fr-background-flat--warning",
+        "cssVar": "--background-flat-warning",
+        "color": "warning"
+      },
+      {
+        "class": "fr-background-flat--yellow-moutarde",
+        "cssVar": "--background-flat-yellow-moutarde",
+        "color": "yellow-moutarde"
+      },
+      {
+        "class": "fr-background-flat--yellow-tournesol",
+        "cssVar": "--background-flat-yellow-tournesol",
+        "color": "yellow-tournesol"
+      }
+    ]
+  },
+  "text": {
+    "action-high": [
+      {
+        "class": "fr-text-action-high--beige-gris-galet",
+        "cssVar": "--text-action-high-beige-gris-galet",
+        "color": "beige-gris-galet"
+      },
+      {
+        "class": "fr-text-action-high--blue-cumulus",
+        "cssVar": "--text-action-high-blue-cumulus",
+        "color": "blue-cumulus"
+      },
+      {
+        "class": "fr-text-action-high--blue-ecume",
+        "cssVar": "--text-action-high-blue-ecume",
+        "color": "blue-ecume"
+      },
+      {
+        "class": "fr-text-action-high--blue-france",
+        "cssVar": "--text-action-high-blue-france",
+        "color": "blue-france"
+      },
+      {
+        "class": "fr-text-action-high--brown-cafe-creme",
+        "cssVar": "--text-action-high-brown-cafe-creme",
+        "color": "brown-cafe-creme"
+      },
+      {
+        "class": "fr-text-action-high--brown-caramel",
+        "cssVar": "--text-action-high-brown-caramel",
+        "color": "brown-caramel"
+      },
+      {
+        "class": "fr-text-action-high--brown-opera",
+        "cssVar": "--text-action-high-brown-opera",
+        "color": "brown-opera"
+      },
+      {
+        "class": "fr-text-action-high--green-archipel",
+        "cssVar": "--text-action-high-green-archipel",
+        "color": "green-archipel"
+      },
+      {
+        "class": "fr-text-action-high--green-bourgeon",
+        "cssVar": "--text-action-high-green-bourgeon",
+        "color": "green-bourgeon"
+      },
+      {
+        "class": "fr-text-action-high--green-emeraude",
+        "cssVar": "--text-action-high-green-emeraude",
+        "color": "green-emeraude"
+      },
+      {
+        "class": "fr-text-action-high--green-menthe",
+        "cssVar": "--text-action-high-green-menthe",
+        "color": "green-menthe"
+      },
+      {
+        "class": "fr-text-action-high--green-tilleul-verveine",
+        "cssVar": "--text-action-high-green-tilleul-verveine",
+        "color": "green-tilleul-verveine"
+      },
+      {
+        "class": "fr-text-action-high--grey",
+        "cssVar": "--text-action-high-grey",
+        "color": "grey"
+      },
+      {
+        "class": "fr-text-action-high--orange-terre-battue",
+        "cssVar": "--text-action-high-orange-terre-battue",
+        "color": "orange-terre-battue"
+      },
+      {
+        "class": "fr-text-action-high--pink-macaron",
+        "cssVar": "--text-action-high-pink-macaron",
+        "color": "pink-macaron"
+      },
+      {
+        "class": "fr-text-action-high--pink-tuile",
+        "cssVar": "--text-action-high-pink-tuile",
+        "color": "pink-tuile"
+      },
+      {
+        "class": "fr-text-action-high--purple-glycine",
+        "cssVar": "--text-action-high-purple-glycine",
+        "color": "purple-glycine"
+      },
+      {
+        "class": "fr-text-action-high--red-marianne",
+        "cssVar": "--text-action-high-red-marianne",
+        "color": "red-marianne"
+      },
+      {
+        "class": "fr-text-action-high--yellow-moutarde",
+        "cssVar": "--text-action-high-yellow-moutarde",
+        "color": "yellow-moutarde"
+      },
+      {
+        "class": "fr-text-action-high--yellow-tournesol",
+        "cssVar": "--text-action-high-yellow-tournesol",
+        "color": "yellow-tournesol"
+      }
+    ],
+    "default": [
+      {
+        "class": "fr-text-default--error",
+        "cssVar": "--text-default-error",
+        "color": "error"
+      },
+      {
+        "class": "fr-text-default--grey",
+        "cssVar": "--text-default-grey",
+        "color": "grey"
+      },
+      {
+        "class": "fr-text-default--info",
+        "cssVar": "--text-default-info",
+        "color": "info"
+      },
+      {
+        "class": "fr-text-default--success",
+        "cssVar": "--text-default-success",
+        "color": "success"
+      },
+      {
+        "class": "fr-text-default--warning",
+        "cssVar": "--text-default-warning",
+        "color": "warning"
+      }
+    ],
+    "inverted": [
+      {
+        "class": "fr-text-inverted--beige-gris-galet",
+        "cssVar": "--text-inverted-beige-gris-galet",
+        "color": "beige-gris-galet"
+      },
+      {
+        "class": "fr-text-inverted--blue-cumulus",
+        "cssVar": "--text-inverted-blue-cumulus",
+        "color": "blue-cumulus"
+      },
+      {
+        "class": "fr-text-inverted--blue-ecume",
+        "cssVar": "--text-inverted-blue-ecume",
+        "color": "blue-ecume"
+      },
+      {
+        "class": "fr-text-inverted--blue-france",
+        "cssVar": "--text-inverted-blue-france",
+        "color": "blue-france"
+      },
+      {
+        "class": "fr-text-inverted--brown-cafe-creme",
+        "cssVar": "--text-inverted-brown-cafe-creme",
+        "color": "brown-cafe-creme"
+      },
+      {
+        "class": "fr-text-inverted--brown-caramel",
+        "cssVar": "--text-inverted-brown-caramel",
+        "color": "brown-caramel"
+      },
+      {
+        "class": "fr-text-inverted--brown-opera",
+        "cssVar": "--text-inverted-brown-opera",
+        "color": "brown-opera"
+      },
+      {
+        "class": "fr-text-inverted--error",
+        "cssVar": "--text-inverted-error",
+        "color": "error"
+      },
+      {
+        "class": "fr-text-inverted--green-archipel",
+        "cssVar": "--text-inverted-green-archipel",
+        "color": "green-archipel"
+      },
+      {
+        "class": "fr-text-inverted--green-bourgeon",
+        "cssVar": "--text-inverted-green-bourgeon",
+        "color": "green-bourgeon"
+      },
+      {
+        "class": "fr-text-inverted--green-emeraude",
+        "cssVar": "--text-inverted-green-emeraude",
+        "color": "green-emeraude"
+      },
+      {
+        "class": "fr-text-inverted--green-menthe",
+        "cssVar": "--text-inverted-green-menthe",
+        "color": "green-menthe"
+      },
+      {
+        "class": "fr-text-inverted--green-tilleul-verveine",
+        "cssVar": "--text-inverted-green-tilleul-verveine",
+        "color": "green-tilleul-verveine"
+      },
+      {
+        "class": "fr-text-inverted--grey",
+        "cssVar": "--text-inverted-grey",
+        "color": "grey"
+      },
+      {
+        "class": "fr-text-inverted--info",
+        "cssVar": "--text-inverted-info",
+        "color": "info"
+      },
+      {
+        "class": "fr-text-inverted--orange-terre-battue",
+        "cssVar": "--text-inverted-orange-terre-battue",
+        "color": "orange-terre-battue"
+      },
+      {
+        "class": "fr-text-inverted--pink-macaron",
+        "cssVar": "--text-inverted-pink-macaron",
+        "color": "pink-macaron"
+      },
+      {
+        "class": "fr-text-inverted--pink-tuile",
+        "cssVar": "--text-inverted-pink-tuile",
+        "color": "pink-tuile"
+      },
+      {
+        "class": "fr-text-inverted--purple-glycine",
+        "cssVar": "--text-inverted-purple-glycine",
+        "color": "purple-glycine"
+      },
+      {
+        "class": "fr-text-inverted--red-marianne",
+        "cssVar": "--text-inverted-red-marianne",
+        "color": "red-marianne"
+      },
+      {
+        "class": "fr-text-inverted--success",
+        "cssVar": "--text-inverted-success",
+        "color": "success"
+      },
+      {
+        "class": "fr-text-inverted--warning",
+        "cssVar": "--text-inverted-warning",
+        "color": "warning"
+      },
+      {
+        "class": "fr-text-inverted--yellow-moutarde",
+        "cssVar": "--text-inverted-yellow-moutarde",
+        "color": "yellow-moutarde"
+      },
+      {
+        "class": "fr-text-inverted--yellow-tournesol",
+        "cssVar": "--text-inverted-yellow-tournesol",
+        "color": "yellow-tournesol"
+      }
+    ],
+    "label": [
+      {
+        "class": "fr-text-label--beige-gris-galet",
+        "cssVar": "--text-label-beige-gris-galet",
+        "color": "beige-gris-galet"
+      },
+      {
+        "class": "fr-text-label--blue-cumulus",
+        "cssVar": "--text-label-blue-cumulus",
+        "color": "blue-cumulus"
+      },
+      {
+        "class": "fr-text-label--blue-ecume",
+        "cssVar": "--text-label-blue-ecume",
+        "color": "blue-ecume"
+      },
+      {
+        "class": "fr-text-label--blue-france",
+        "cssVar": "--text-label-blue-france",
+        "color": "blue-france"
+      },
+      {
+        "class": "fr-text-label--brown-cafe-creme",
+        "cssVar": "--text-label-brown-cafe-creme",
+        "color": "brown-cafe-creme"
+      },
+      {
+        "class": "fr-text-label--brown-caramel",
+        "cssVar": "--text-label-brown-caramel",
+        "color": "brown-caramel"
+      },
+      {
+        "class": "fr-text-label--brown-opera",
+        "cssVar": "--text-label-brown-opera",
+        "color": "brown-opera"
+      },
+      {
+        "class": "fr-text-label--green-archipel",
+        "cssVar": "--text-label-green-archipel",
+        "color": "green-archipel"
+      },
+      {
+        "class": "fr-text-label--green-bourgeon",
+        "cssVar": "--text-label-green-bourgeon",
+        "color": "green-bourgeon"
+      },
+      {
+        "class": "fr-text-label--green-emeraude",
+        "cssVar": "--text-label-green-emeraude",
+        "color": "green-emeraude"
+      },
+      {
+        "class": "fr-text-label--green-menthe",
+        "cssVar": "--text-label-green-menthe",
+        "color": "green-menthe"
+      },
+      {
+        "class": "fr-text-label--green-tilleul-verveine",
+        "cssVar": "--text-label-green-tilleul-verveine",
+        "color": "green-tilleul-verveine"
+      },
+      {
+        "class": "fr-text-label--grey",
+        "cssVar": "--text-label-grey",
+        "color": "grey"
+      },
+      {
+        "class": "fr-text-label--orange-terre-battue",
+        "cssVar": "--text-label-orange-terre-battue",
+        "color": "orange-terre-battue"
+      },
+      {
+        "class": "fr-text-label--pink-macaron",
+        "cssVar": "--text-label-pink-macaron",
+        "color": "pink-macaron"
+      },
+      {
+        "class": "fr-text-label--pink-tuile",
+        "cssVar": "--text-label-pink-tuile",
+        "color": "pink-tuile"
+      },
+      {
+        "class": "fr-text-label--purple-glycine",
+        "cssVar": "--text-label-purple-glycine",
+        "color": "purple-glycine"
+      },
+      {
+        "class": "fr-text-label--red-marianne",
+        "cssVar": "--text-label-red-marianne",
+        "color": "red-marianne"
+      },
+      {
+        "class": "fr-text-label--yellow-moutarde",
+        "cssVar": "--text-label-yellow-moutarde",
+        "color": "yellow-moutarde"
+      },
+      {
+        "class": "fr-text-label--yellow-tournesol",
+        "cssVar": "--text-label-yellow-tournesol",
+        "color": "yellow-tournesol"
+      }
+    ],
+    "mention": [
+      {
+        "class": "fr-text-mention--grey",
+        "cssVar": "--text-mention-grey",
+        "color": "grey"
+      }
+    ],
+    "title": [
+      {
+        "class": "fr-text-title--blue-france",
+        "cssVar": "--text-title-blue-france",
+        "color": "blue-france"
+      },
+      {
+        "class": "fr-text-title--grey",
+        "cssVar": "--text-title-grey",
+        "color": "grey"
+      },
+      {
+        "class": "fr-text-title--red-marianne",
+        "cssVar": "--text-title-red-marianne",
+        "color": "red-marianne"
+      }
+    ]
+  }
+}

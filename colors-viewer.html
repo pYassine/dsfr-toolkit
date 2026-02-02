@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palettes de couleurs DSFR</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/@gouvfr/dsfr/dist/dsfr.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/@gouvfr/dsfr/dist/utility/colors/colors.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/@gouvfr/dsfr/dist/utility/utility.min.css"
+    />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+  </head>
+  <body>
+    <header role="banner" class="fr-header">
+      <div class="fr-header__body">
+        <div class="fr-container">
+          <div class="fr-header__body-row">
+            <div class="fr-header__brand fr-enlarge-link">
+              <div class="fr-header__brand-top">
+                <div class="fr-header__logo">
+                  <p class="fr-logo">
+                    République
+                    <br />Française
+                  </p>
+                </div>
+              </div>
+              <div class="fr-header__service">
+                <p class="fr-header__service-title">
+                  Palettes de couleurs DSFR
+                </p>
+                <p class="fr-header__service-tagline">
+                  Explorer et copier les couleurs du Design System
+                </p>
+              </div>
+            </div>
+            <div class="fr-header__tools">
+              <div class="fr-header__tools-links">
+                <ul class="fr-btns-group">
+                  <li>
+                    <a
+                      class="fr-btn fr-btn--tertiary-no-outline"
+                      href="./icons-viewer.html"
+                    >
+                      Icônes
+                    </a>
+                  </li>
+                  <li>
+                    <button
+                      class="fr-btn fr-btn--secondary fr-btn--icon-left fr-icon-theme-fill"
+                      id="theme-toggle"
+                      aria-label="Basculer le mode sombre"
+                    >
+                      Mode sombre
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+      <div class="fr-container fr-py-4w">
+        <div class="fr-search-bar fr-mb-3w" role="search">
+          <input
+            class="fr-input"
+            type="search"
+            id="search-input"
+            placeholder="Rechercher une couleur..."
+            aria-label="Rechercher une couleur"
+          />
+          <button class="fr-btn" title="Rechercher">Rechercher</button>
+        </div>
+
+        <div
+          class="fr-text--sm fr-mb-2w fr-text-mention--grey"
+          id="stats"
+        ></div>
+
+        <div class="fr-tabs">
+          <ul class="fr-tabs__list" role="tablist">
+            <li role="presentation">
+              <button
+                id="tab-background"
+                class="fr-tabs__tab"
+                tabindex="0"
+                role="tab"
+                aria-selected="true"
+                aria-controls="tab-background-panel"
+              >
+                Backgrounds
+              </button>
+            </li>
+            <li role="presentation">
+              <button
+                id="tab-text"
+                class="fr-tabs__tab"
+                tabindex="-1"
+                role="tab"
+                aria-selected="false"
+                aria-controls="tab-text-panel"
+              >
+                Text
+              </button>
+            </li>
+          </ul>
+
+          <div
+            id="tab-background-panel"
+            class="fr-tabs__panel fr-tabs__panel--selected"
+            role="tabpanel"
+            aria-labelledby="tab-background"
+            tabindex="0"
+          >
+            <div id="background-container"></div>
+          </div>
+
+          <div
+            id="tab-text-panel"
+            class="fr-tabs__panel"
+            role="tabpanel"
+            aria-labelledby="tab-text"
+            tabindex="0"
+          >
+            <div id="text-container"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="fr-footer" role="contentinfo">
+      <div class="fr-container">
+        <div class="fr-footer__body">
+          <div class="fr-footer__brand fr-enlarge-link">
+            <p class="fr-logo">
+              République
+              <br />Française
+            </p>
+          </div>
+          <div class="fr-footer__content">
+            <p class="fr-footer__content-desc">
+              Palettes de couleurs pour le Système de Design de l'État Français
+              (DSFR)
+            </p>
+            <ul class="fr-footer__content-list">
+              <li class="fr-footer__content-item">
+                <a
+                  class="fr-footer__content-link"
+                  href="https://www.systeme-de-design.gouv.fr/"
+                  target="_blank"
+                >
+                  Documentation DSFR
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="fr-footer__bottom">
+          <ul class="fr-footer__bottom-list">
+            <li class="fr-footer__bottom-item">
+              <span class="fr-footer__bottom-link"
+                >Générée à partir de dsfr-colors.json</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      let colorsData = null;
+      let currentTheme = "light";
+
+      async function loadColors() {
+        try {
+          const response = await fetch("./src/data/dsfr-colors.json");
+          colorsData = await response.json();
+          renderColors();
+          updateStats();
+        } catch (error) {
+          console.error("Erreur lors du chargement des couleurs:", error);
+          document.getElementById("background-container").innerHTML =
+            '<div class="fr-alert fr-alert--error"><p>Erreur lors du chargement des couleurs.</p></div>';
+        }
+      }
+
+      function renderColors(searchTerm = "") {
+        if (!colorsData) return;
+
+        renderColorSection("background", colorsData.background, searchTerm);
+        renderColorSection("text", colorsData.text, searchTerm);
+        updateStats(searchTerm);
+      }
+
+      function renderColorSection(type, categories, searchTerm = "") {
+        const container = document.getElementById(`${type}-container`);
+        container.innerHTML = "";
+
+        Object.keys(categories)
+          .sort()
+          .forEach((categoryName) => {
+            const colors = categories[categoryName];
+
+            // Filtrer par recherche
+            const filteredColors = searchTerm
+              ? colors.filter((color) =>
+                  color.color.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                  color.class.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                  color.cssVar.toLowerCase().includes(searchTerm.toLowerCase())
+                )
+              : colors;
+
+            if (filteredColors.length === 0) return;
+
+            // Trier par nom de couleur
+            const sortedColors = [...filteredColors].sort((a, b) =>
+              a.color.localeCompare(b.color)
+            );
+
+            const section = document.createElement("div");
+            section.className = "fr-mb-6w";
+
+            const title = document.createElement("h2");
+            title.className = "fr-h3 fr-mb-2w";
+            title.style.textTransform = "capitalize";
+            title.textContent = `${categoryName.replace(/-/g, " ")} (${sortedColors.length})`;
+            section.appendChild(title);
+
+            const grid = document.createElement("div");
+            grid.className = "color-grid";
+
+            sortedColors.forEach((color) => {
+              const card = createColorCard(color, type);
+              grid.appendChild(card);
+            });
+
+            section.appendChild(grid);
+            container.appendChild(section);
+          });
+      }
+
+      function createColorCard(color, type) {
+        const card = document.createElement("div");
+        card.className = "color-card";
+        const uniqueId = `select-${type}-${color.color.replace(/[^a-z0-9]/gi, "-")}`;
+
+        const swatch = document.createElement("div");
+        swatch.className = `color-swatch ${color.class}`;
+
+        // Pour les couleurs de texte, afficher du Lorem ipsum
+        if (type === "text") {
+          swatch.innerHTML = '<div class="color-text-demo">Lorem ipsum dolor sit amet consectetur adipiscing elit</div>';
+        }
+
+        const info = document.createElement("div");
+        info.className = "color-info";
+
+        const name = document.createElement("div");
+        name.className = "color-name";
+        name.textContent = color.color;
+
+        const classText = document.createElement("div");
+        classText.className = "color-class";
+        classText.textContent = color.class;
+
+        const varText = document.createElement("div");
+        varText.className = "color-var";
+        varText.textContent = color.cssVar;
+
+        const selectGroup = document.createElement("div");
+        selectGroup.className = "fr-select-group fr-mt-1w";
+
+        const select = document.createElement("select");
+        select.className = "fr-select";
+        select.id = uniqueId;
+        select.innerHTML = `
+          <option value="" selected>Copier...</option>
+          <option value="class">La classe</option>
+          <option value="var">La variable</option>
+        `;
+
+        select.addEventListener("change", (e) => {
+          const value = e.target.value;
+          if (value === "class") {
+            copyToClipboard(color.class, "Classe copiée !");
+          } else if (value === "var") {
+            copyToClipboard(color.cssVar, "Variable copiée !");
+          }
+          e.target.value = "";
+        });
+
+        selectGroup.appendChild(select);
+
+        info.appendChild(name);
+        info.appendChild(classText);
+        info.appendChild(varText);
+        info.appendChild(selectGroup);
+
+        card.appendChild(swatch);
+        card.appendChild(info);
+
+        return card;
+      }
+
+      async function copyToClipboard(text, message) {
+        try {
+          await navigator.clipboard.writeText(text);
+          showToast(message);
+        } catch (error) {
+          console.error("Erreur lors de la copie:", error);
+          showToast("Erreur lors de la copie", true);
+        }
+      }
+
+      function showToast(message, isError = false) {
+        let alertContainer = document.querySelector(".alert-container");
+        if (!alertContainer) {
+          alertContainer = document.createElement("div");
+          alertContainer.className = "alert-container";
+          document.body.appendChild(alertContainer);
+        }
+
+        const alertType = isError ? "error" : "success";
+        const alertClass = isError ? "fr-alert--error" : "fr-alert--success";
+
+        const alert = document.createElement("div");
+        alert.className = `fr-alert ${alertClass} fr-alert--sm`;
+        alert.innerHTML = `
+          <p>${message}</p>
+        `;
+
+        alertContainer.appendChild(alert);
+
+        setTimeout(() => {
+          alert.remove();
+          if (alertContainer.children.length === 0) {
+            alertContainer.remove();
+          }
+        }, 3000);
+      }
+
+      function updateStats(searchTerm = "") {
+        if (!colorsData) return;
+
+        const statsEl = document.getElementById("stats");
+
+        if (searchTerm) {
+          // Compter les résultats filtrés
+          let bgCount = 0;
+          let txtCount = 0;
+
+          Object.values(colorsData.background).forEach(colors => {
+            bgCount += colors.filter(c =>
+              c.color.toLowerCase().includes(searchTerm.toLowerCase()) ||
+              c.class.toLowerCase().includes(searchTerm.toLowerCase()) ||
+              c.cssVar.toLowerCase().includes(searchTerm.toLowerCase())
+            ).length;
+          });
+
+          Object.values(colorsData.text).forEach(colors => {
+            txtCount += colors.filter(c =>
+              c.color.toLowerCase().includes(searchTerm.toLowerCase()) ||
+              c.class.toLowerCase().includes(searchTerm.toLowerCase()) ||
+              c.cssVar.toLowerCase().includes(searchTerm.toLowerCase())
+            ).length;
+          });
+
+          const total = bgCount + txtCount;
+          const totalAll = colorsData.meta.totalBackgrounds + colorsData.meta.totalTexts;
+
+          statsEl.innerHTML = `
+            <span><strong>${total}</strong> résultats sur <strong>${totalAll}</strong></span>
+          `;
+        } else {
+          const totalBg = colorsData.meta.totalBackgrounds;
+          const totalTxt = colorsData.meta.totalTexts;
+
+          statsEl.innerHTML = `
+            <span><strong>${totalBg}</strong> couleurs de fond • <strong>${totalTxt}</strong> couleurs de texte</span>
+          `;
+        }
+      }
+
+      function toggleTheme() {
+        currentTheme = currentTheme === "light" ? "dark" : "light";
+        document.documentElement.setAttribute("data-fr-theme", currentTheme);
+
+        const btn = document.getElementById("theme-toggle");
+        if (currentTheme === "dark") {
+          btn.className = "fr-btn fr-btn--secondary fr-btn--icon-left fr-icon-sun-line";
+          btn.textContent = "Mode clair";
+        } else {
+          btn.className = "fr-btn fr-btn--secondary fr-btn--icon-left fr-icon-theme-fill";
+          btn.textContent = "Mode sombre";
+        }
+
+        localStorage.setItem("theme", currentTheme);
+      }
+
+      function initTheme() {
+        const savedTheme = localStorage.getItem("theme");
+        if (savedTheme === "dark") {
+          toggleTheme();
+        }
+      }
+
+      // Gestion des tabs
+      function initTabs() {
+        const tabs = document.querySelectorAll('.fr-tabs__tab');
+        const panels = document.querySelectorAll('.fr-tabs__panel');
+
+        tabs.forEach(tab => {
+          tab.addEventListener('click', () => {
+            // Désactiver tous les tabs
+            tabs.forEach(t => {
+              t.setAttribute('aria-selected', 'false');
+              t.setAttribute('tabindex', '-1');
+            });
+
+            // Masquer tous les panels
+            panels.forEach(p => {
+              p.classList.remove('fr-tabs__panel--selected');
+            });
+
+            // Activer le tab cliqué
+            tab.setAttribute('aria-selected', 'true');
+            tab.setAttribute('tabindex', '0');
+
+            // Afficher le panel correspondant
+            const panelId = tab.getAttribute('aria-controls');
+            const panel = document.getElementById(panelId);
+            if (panel) {
+              panel.classList.add('fr-tabs__panel--selected');
+            }
+          });
+        });
+      }
+
+      // Recherche
+      let searchTimeout;
+      document.getElementById("search-input").addEventListener("input", (e) => {
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(() => {
+          renderColors(e.target.value);
+        }, 300);
+      });
+
+      document
+        .getElementById("theme-toggle")
+        .addEventListener("click", toggleTheme);
+
+      initTheme();
+      initTabs();
+      loadColors();
+    </script>
+    <script
+      type="module"
+      src="./node_modules/@gouvfr/dsfr/dist/dsfr.module.min.js"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+/* Grille d'icônes */
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 78em) {
+  .icon-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 62em) {
+  .icon-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 48em) {
+  .icon-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 36em) {
+  .icon-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Affichage icône */
+.icon-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+}
+
+[class^="fr-icon-"]::before {
+  --icon-size: 3rem;
+}
+
+/* Conteneur d'alertes */
+.alert-container {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1000;
+  max-width: 400px;
+}
+
+/* Grille de couleurs */
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  align-items: start;
+}
+
+/* Carte de couleur */
+.color-card {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.color-swatch {
+  height: 120px;
+  width: 100%;
+  transition: transform 0.2s;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.color-text-demo {
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.color-info {
+  padding: 1rem;
+  background: var(--background-default-grey);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.color-name {
+  font-weight: bold;
+  font-size: 0.875rem;
+  word-break: break-word;
+}
+
+.color-class,
+.color-var {
+  font-family: monospace;
+  font-size: 0.7rem;
+  color: var(--text-mention-grey);
+  word-break: break-all;
+  line-height: 1.4;
+}
+
+/* Masquer les panels non sélectionnés */
+.fr-tabs__panel {
+  display: none;
+}
+
+.fr-tabs__panel--selected {
+  display: block;
+}
+
+/* Icônes Remix */
+.icon-display [class^="ri-"]::before,
+.icon-display [class*=" ri-"]::before {
+  font-size: 3rem !important;
+}

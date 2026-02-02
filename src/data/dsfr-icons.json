@@ -1,0 +1,3354 @@
+{
+  "meta": {
+    "generatedAt": "2026-02-02T23:19:27.067Z",
+    "source": "node_modules/@gouvfr/dsfr/dist/icons",
+    "totalIcons": 662,
+    "totalCategories": 17
+  },
+  "categories": {
+    "buildings": [
+      {
+        "name": "ancient-gate-fill",
+        "class": "fr-icon-ancient-gate-fill",
+        "file": "buildings/ancient-gate-fill.svg"
+      },
+      {
+        "name": "ancient-gate-line",
+        "class": "fr-icon-ancient-gate-line",
+        "file": "buildings/ancient-gate-line.svg"
+      },
+      {
+        "name": "ancient-pavilion-fill",
+        "class": "fr-icon-ancient-pavilion-fill",
+        "file": "buildings/ancient-pavilion-fill.svg"
+      },
+      {
+        "name": "ancient-pavilion-line",
+        "class": "fr-icon-ancient-pavilion-line",
+        "file": "buildings/ancient-pavilion-line.svg"
+      },
+      {
+        "name": "bank-fill",
+        "class": "fr-icon-bank-fill",
+        "file": "buildings/bank-fill.svg"
+      },
+      {
+        "name": "bank-line",
+        "class": "fr-icon-bank-line",
+        "file": "buildings/bank-line.svg"
+      },
+      {
+        "name": "building-fill",
+        "class": "fr-icon-building-fill",
+        "file": "buildings/building-fill.svg"
+      },
+      {
+        "name": "building-line",
+        "class": "fr-icon-building-line",
+        "file": "buildings/building-line.svg"
+      },
+      {
+        "name": "community-fill",
+        "class": "fr-icon-community-fill",
+        "file": "buildings/community-fill.svg"
+      },
+      {
+        "name": "community-line",
+        "class": "fr-icon-community-line",
+        "file": "buildings/community-line.svg"
+      },
+      {
+        "name": "government-fill",
+        "class": "fr-icon-government-fill",
+        "file": "buildings/government-fill.svg"
+      },
+      {
+        "name": "government-line",
+        "class": "fr-icon-government-line",
+        "file": "buildings/government-line.svg"
+      },
+      {
+        "name": "home-4-fill",
+        "class": "fr-icon-home-4-fill",
+        "file": "buildings/home-4-fill.svg"
+      },
+      {
+        "name": "home-4-line",
+        "class": "fr-icon-home-4-line",
+        "file": "buildings/home-4-line.svg"
+      },
+      {
+        "name": "hospital-fill",
+        "class": "fr-icon-hospital-fill",
+        "file": "buildings/hospital-fill.svg"
+      },
+      {
+        "name": "hospital-line",
+        "class": "fr-icon-hospital-line",
+        "file": "buildings/hospital-line.svg"
+      },
+      {
+        "name": "hotel-fill",
+        "class": "fr-icon-hotel-fill",
+        "file": "buildings/hotel-fill.svg"
+      },
+      {
+        "name": "hotel-line",
+        "class": "fr-icon-hotel-line",
+        "file": "buildings/hotel-line.svg"
+      },
+      {
+        "name": "store-fill",
+        "class": "fr-icon-store-fill",
+        "file": "buildings/store-fill.svg"
+      },
+      {
+        "name": "store-line",
+        "class": "fr-icon-store-line",
+        "file": "buildings/store-line.svg"
+      }
+    ],
+    "business": [
+      {
+        "name": "archive-fill",
+        "class": "fr-icon-archive-fill",
+        "file": "business/archive-fill.svg"
+      },
+      {
+        "name": "archive-line",
+        "class": "fr-icon-archive-line",
+        "file": "business/archive-line.svg"
+      },
+      {
+        "name": "attachment-fill",
+        "class": "fr-icon-attachment-fill",
+        "file": "business/attachment-fill.svg"
+      },
+      {
+        "name": "attachment-line",
+        "class": "fr-icon-attachment-line",
+        "file": "business/attachment-line.svg"
+      },
+      {
+        "name": "award-fill",
+        "class": "fr-icon-award-fill",
+        "file": "business/award-fill.svg"
+      },
+      {
+        "name": "award-line",
+        "class": "fr-icon-award-line",
+        "file": "business/award-line.svg"
+      },
+      {
+        "name": "bar-chart-box-fill",
+        "class": "fr-icon-bar-chart-box-fill",
+        "file": "business/bar-chart-box-fill.svg"
+      },
+      {
+        "name": "bar-chart-box-line",
+        "class": "fr-icon-bar-chart-box-line",
+        "file": "business/bar-chart-box-line.svg"
+      },
+      {
+        "name": "bookmark-fill",
+        "class": "fr-icon-bookmark-fill",
+        "file": "business/bookmark-fill.svg"
+      },
+      {
+        "name": "bookmark-line",
+        "class": "fr-icon-bookmark-line",
+        "file": "business/bookmark-line.svg"
+      },
+      {
+        "name": "briefcase-fill",
+        "class": "fr-icon-briefcase-fill",
+        "file": "business/briefcase-fill.svg"
+      },
+      {
+        "name": "briefcase-line",
+        "class": "fr-icon-briefcase-line",
+        "file": "business/briefcase-line.svg"
+      },
+      {
+        "name": "calendar-2-fill",
+        "class": "fr-icon-calendar-2-fill",
+        "file": "business/calendar-2-fill.svg"
+      },
+      {
+        "name": "calendar-2-line",
+        "class": "fr-icon-calendar-2-line",
+        "file": "business/calendar-2-line.svg"
+      },
+      {
+        "name": "calendar-event-fill",
+        "class": "fr-icon-calendar-event-fill",
+        "file": "business/calendar-event-fill.svg"
+      },
+      {
+        "name": "calendar-event-line",
+        "class": "fr-icon-calendar-event-line",
+        "file": "business/calendar-event-line.svg"
+      },
+      {
+        "name": "calendar-fill",
+        "class": "fr-icon-calendar-fill",
+        "file": "business/calendar-fill.svg"
+      },
+      {
+        "name": "calendar-line",
+        "class": "fr-icon-calendar-line",
+        "file": "business/calendar-line.svg"
+      },
+      {
+        "name": "cloud-fill",
+        "class": "fr-icon-cloud-fill",
+        "file": "business/cloud-fill.svg"
+      },
+      {
+        "name": "cloud-line",
+        "class": "fr-icon-cloud-line",
+        "file": "business/cloud-line.svg"
+      },
+      {
+        "name": "copyright-fill",
+        "class": "fr-icon-copyright-fill",
+        "file": "business/copyright-fill.svg"
+      },
+      {
+        "name": "copyright-line",
+        "class": "fr-icon-copyright-line",
+        "file": "business/copyright-line.svg"
+      },
+      {
+        "name": "customer-service-fill",
+        "class": "fr-icon-customer-service-fill",
+        "file": "business/customer-service-fill.svg"
+      },
+      {
+        "name": "customer-service-line",
+        "class": "fr-icon-customer-service-line",
+        "file": "business/customer-service-line.svg"
+      },
+      {
+        "name": "flag-fill",
+        "class": "fr-icon-flag-fill",
+        "file": "business/flag-fill.svg"
+      },
+      {
+        "name": "flag-line",
+        "class": "fr-icon-flag-line",
+        "file": "business/flag-line.svg"
+      },
+      {
+        "name": "global-fill",
+        "class": "fr-icon-global-fill",
+        "file": "business/global-fill.svg"
+      },
+      {
+        "name": "global-line",
+        "class": "fr-icon-global-line",
+        "file": "business/global-line.svg"
+      },
+      {
+        "name": "line-chart-fill",
+        "class": "fr-icon-line-chart-fill",
+        "file": "business/line-chart-fill.svg"
+      },
+      {
+        "name": "line-chart-line",
+        "class": "fr-icon-line-chart-line",
+        "file": "business/line-chart-line.svg"
+      },
+      {
+        "name": "links-fill",
+        "class": "fr-icon-links-fill",
+        "file": "business/links-fill.svg"
+      },
+      {
+        "name": "links-line",
+        "class": "fr-icon-links-line",
+        "file": "business/links-line.svg"
+      },
+      {
+        "name": "mail-fill",
+        "class": "fr-icon-mail-fill",
+        "file": "business/mail-fill.svg"
+      },
+      {
+        "name": "mail-line",
+        "class": "fr-icon-mail-line",
+        "file": "business/mail-line.svg"
+      },
+      {
+        "name": "mail-open-fill",
+        "class": "fr-icon-mail-open-fill",
+        "file": "business/mail-open-fill.svg"
+      },
+      {
+        "name": "mail-open-line",
+        "class": "fr-icon-mail-open-line",
+        "file": "business/mail-open-line.svg"
+      },
+      {
+        "name": "medal-fill",
+        "class": "fr-icon-medal-fill",
+        "file": "business/medal-fill.svg"
+      },
+      {
+        "name": "medal-line",
+        "class": "fr-icon-medal-line",
+        "file": "business/medal-line.svg"
+      },
+      {
+        "name": "pie-chart-2-fill",
+        "class": "fr-icon-pie-chart-2-fill",
+        "file": "business/pie-chart-2-fill.svg"
+      },
+      {
+        "name": "pie-chart-2-line",
+        "class": "fr-icon-pie-chart-2-line",
+        "file": "business/pie-chart-2-line.svg"
+      },
+      {
+        "name": "pie-chart-box-fill",
+        "class": "fr-icon-pie-chart-box-fill",
+        "file": "business/pie-chart-box-fill.svg"
+      },
+      {
+        "name": "pie-chart-box-line",
+        "class": "fr-icon-pie-chart-box-line",
+        "file": "business/pie-chart-box-line.svg"
+      },
+      {
+        "name": "printer-fill",
+        "class": "fr-icon-printer-fill",
+        "file": "business/printer-fill.svg"
+      },
+      {
+        "name": "printer-line",
+        "class": "fr-icon-printer-line",
+        "file": "business/printer-line.svg"
+      },
+      {
+        "name": "profil-fill",
+        "class": "fr-icon-profil-fill",
+        "file": "business/profil-fill.svg"
+      },
+      {
+        "name": "profil-line",
+        "class": "fr-icon-profil-line",
+        "file": "business/profil-line.svg"
+      },
+      {
+        "name": "projector-2-fill",
+        "class": "fr-icon-projector-2-fill",
+        "file": "business/projector-2-fill.svg"
+      },
+      {
+        "name": "projector-2-line",
+        "class": "fr-icon-projector-2-line",
+        "file": "business/projector-2-line.svg"
+      },
+      {
+        "name": "send-plane-fill",
+        "class": "fr-icon-send-plane-fill",
+        "file": "business/send-plane-fill.svg"
+      },
+      {
+        "name": "send-plane-line",
+        "class": "fr-icon-send-plane-line",
+        "file": "business/send-plane-line.svg"
+      },
+      {
+        "name": "slideshow-fill",
+        "class": "fr-icon-slideshow-fill",
+        "file": "business/slideshow-fill.svg"
+      },
+      {
+        "name": "slideshow-line",
+        "class": "fr-icon-slideshow-line",
+        "file": "business/slideshow-line.svg"
+      },
+      {
+        "name": "window-fill",
+        "class": "fr-icon-window-fill",
+        "file": "business/window-fill.svg"
+      },
+      {
+        "name": "window-line",
+        "class": "fr-icon-window-line",
+        "file": "business/window-line.svg"
+      }
+    ],
+    "communication": [
+      {
+        "name": "chat-2-fill",
+        "class": "fr-icon-chat-2-fill",
+        "file": "communication/chat-2-fill.svg"
+      },
+      {
+        "name": "chat-2-line",
+        "class": "fr-icon-chat-2-line",
+        "file": "communication/chat-2-line.svg"
+      },
+      {
+        "name": "chat-3-fill",
+        "class": "fr-icon-chat-3-fill",
+        "file": "communication/chat-3-fill.svg"
+      },
+      {
+        "name": "chat-3-line",
+        "class": "fr-icon-chat-3-line",
+        "file": "communication/chat-3-line.svg"
+      },
+      {
+        "name": "chat-check-fill",
+        "class": "fr-icon-chat-check-fill",
+        "file": "communication/chat-check-fill.svg"
+      },
+      {
+        "name": "chat-check-line",
+        "class": "fr-icon-chat-check-line",
+        "file": "communication/chat-check-line.svg"
+      },
+      {
+        "name": "chat-delete-fill",
+        "class": "fr-icon-chat-delete-fill",
+        "file": "communication/chat-delete-fill.svg"
+      },
+      {
+        "name": "chat-delete-line",
+        "class": "fr-icon-chat-delete-line",
+        "file": "communication/chat-delete-line.svg"
+      },
+      {
+        "name": "chat-poll-fill",
+        "class": "fr-icon-chat-poll-fill",
+        "file": "communication/chat-poll-fill.svg"
+      },
+      {
+        "name": "chat-poll-line",
+        "class": "fr-icon-chat-poll-line",
+        "file": "communication/chat-poll-line.svg"
+      },
+      {
+        "name": "discuss-fill",
+        "class": "fr-icon-discuss-fill",
+        "file": "communication/discuss-fill.svg"
+      },
+      {
+        "name": "discuss-line",
+        "class": "fr-icon-discuss-line",
+        "file": "communication/discuss-line.svg"
+      },
+      {
+        "name": "feedback-fill",
+        "class": "fr-icon-feedback-fill",
+        "file": "communication/feedback-fill.svg"
+      },
+      {
+        "name": "feedback-line",
+        "class": "fr-icon-feedback-line",
+        "file": "communication/feedback-line.svg"
+      },
+      {
+        "name": "message-2-fill",
+        "class": "fr-icon-message-2-fill",
+        "file": "communication/message-2-fill.svg"
+      },
+      {
+        "name": "message-2-line",
+        "class": "fr-icon-message-2-line",
+        "file": "communication/message-2-line.svg"
+      },
+      {
+        "name": "question-answer-fill",
+        "class": "fr-icon-question-answer-fill",
+        "file": "communication/question-answer-fill.svg"
+      },
+      {
+        "name": "question-answer-line",
+        "class": "fr-icon-question-answer-line",
+        "file": "communication/question-answer-line.svg"
+      },
+      {
+        "name": "questionnaire-fill",
+        "class": "fr-icon-questionnaire-fill",
+        "file": "communication/questionnaire-fill.svg"
+      },
+      {
+        "name": "questionnaire-line",
+        "class": "fr-icon-questionnaire-line",
+        "file": "communication/questionnaire-line.svg"
+      },
+      {
+        "name": "video-chat-fill",
+        "class": "fr-icon-video-chat-fill",
+        "file": "communication/video-chat-fill.svg"
+      },
+      {
+        "name": "video-chat-line",
+        "class": "fr-icon-video-chat-line",
+        "file": "communication/video-chat-line.svg"
+      }
+    ],
+    "design": [
+      {
+        "name": "ball-pen-fill",
+        "class": "fr-icon-ball-pen-fill",
+        "file": "design/ball-pen-fill.svg"
+      },
+      {
+        "name": "ball-pen-line",
+        "class": "fr-icon-ball-pen-line",
+        "file": "design/ball-pen-line.svg"
+      },
+      {
+        "name": "brush-3-fill",
+        "class": "fr-icon-brush-3-fill",
+        "file": "design/brush-3-fill.svg"
+      },
+      {
+        "name": "brush-3-line",
+        "class": "fr-icon-brush-3-line",
+        "file": "design/brush-3-line.svg"
+      },
+      {
+        "name": "brush-fill",
+        "class": "fr-icon-brush-fill",
+        "file": "design/brush-fill.svg"
+      },
+      {
+        "name": "brush-line",
+        "class": "fr-icon-brush-line",
+        "file": "design/brush-line.svg"
+      },
+      {
+        "name": "contrast-fill",
+        "class": "fr-icon-contrast-fill",
+        "file": "design/contrast-fill.svg"
+      },
+      {
+        "name": "contrast-line",
+        "class": "fr-icon-contrast-line",
+        "file": "design/contrast-line.svg"
+      },
+      {
+        "name": "crop-fill",
+        "class": "fr-icon-crop-fill",
+        "file": "design/crop-fill.svg"
+      },
+      {
+        "name": "crop-line",
+        "class": "fr-icon-crop-line",
+        "file": "design/crop-line.svg"
+      },
+      {
+        "name": "drag-move-2-fill",
+        "class": "fr-icon-drag-move-2-fill",
+        "file": "design/drag-move-2-fill.svg"
+      },
+      {
+        "name": "drag-move-2-line",
+        "class": "fr-icon-drag-move-2-line",
+        "file": "design/drag-move-2-line.svg"
+      },
+      {
+        "name": "drop-fill",
+        "class": "fr-icon-drop-fill",
+        "file": "design/drop-fill.svg"
+      },
+      {
+        "name": "drop-line",
+        "class": "fr-icon-drop-line",
+        "file": "design/drop-line.svg"
+      },
+      {
+        "name": "edit-box-fill",
+        "class": "fr-icon-edit-box-fill",
+        "file": "design/edit-box-fill.svg"
+      },
+      {
+        "name": "edit-box-line",
+        "class": "fr-icon-edit-box-line",
+        "file": "design/edit-box-line.svg"
+      },
+      {
+        "name": "edit-fill",
+        "class": "fr-icon-edit-fill",
+        "file": "design/edit-fill.svg"
+      },
+      {
+        "name": "edit-line",
+        "class": "fr-icon-edit-line",
+        "file": "design/edit-line.svg"
+      },
+      {
+        "name": "eraser-fill",
+        "class": "fr-icon-eraser-fill",
+        "file": "design/eraser-fill.svg"
+      },
+      {
+        "name": "eraser-line",
+        "class": "fr-icon-eraser-line",
+        "file": "design/eraser-line.svg"
+      },
+      {
+        "name": "ink-bottle-fill",
+        "class": "fr-icon-ink-bottle-fill",
+        "file": "design/ink-bottle-fill.svg"
+      },
+      {
+        "name": "ink-bottle-line",
+        "class": "fr-icon-ink-bottle-line",
+        "file": "design/ink-bottle-line.svg"
+      },
+      {
+        "name": "layout-grid-fill",
+        "class": "fr-icon-layout-grid-fill",
+        "file": "design/layout-grid-fill.svg"
+      },
+      {
+        "name": "layout-grid-line",
+        "class": "fr-icon-layout-grid-line",
+        "file": "design/layout-grid-line.svg"
+      },
+      {
+        "name": "mark-pen-fill",
+        "class": "fr-icon-mark-pen-fill",
+        "file": "design/mark-pen-fill.svg"
+      },
+      {
+        "name": "mark-pen-line",
+        "class": "fr-icon-mark-pen-line",
+        "file": "design/mark-pen-line.svg"
+      },
+      {
+        "name": "paint-brush-fill",
+        "class": "fr-icon-paint-brush-fill",
+        "file": "design/paint-brush-fill.svg"
+      },
+      {
+        "name": "paint-brush-line",
+        "class": "fr-icon-paint-brush-line",
+        "file": "design/paint-brush-line.svg"
+      },
+      {
+        "name": "paint-fill",
+        "class": "fr-icon-paint-fill",
+        "file": "design/paint-fill.svg"
+      },
+      {
+        "name": "paint-line",
+        "class": "fr-icon-paint-line",
+        "file": "design/paint-line.svg"
+      },
+      {
+        "name": "palette-fill",
+        "class": "fr-icon-palette-fill",
+        "file": "design/palette-fill.svg"
+      },
+      {
+        "name": "palette-line",
+        "class": "fr-icon-palette-line",
+        "file": "design/palette-line.svg"
+      },
+      {
+        "name": "pantone-fill",
+        "class": "fr-icon-pantone-fill",
+        "file": "design/pantone-fill.svg"
+      },
+      {
+        "name": "pantone-line",
+        "class": "fr-icon-pantone-line",
+        "file": "design/pantone-line.svg"
+      },
+      {
+        "name": "pen-nib-fill",
+        "class": "fr-icon-pen-nib-fill",
+        "file": "design/pen-nib-fill.svg"
+      },
+      {
+        "name": "pen-nib-line",
+        "class": "fr-icon-pen-nib-line",
+        "file": "design/pen-nib-line.svg"
+      },
+      {
+        "name": "pencil-fill",
+        "class": "fr-icon-pencil-fill",
+        "file": "design/pencil-fill.svg"
+      },
+      {
+        "name": "pencil-line",
+        "class": "fr-icon-pencil-line",
+        "file": "design/pencil-line.svg"
+      },
+      {
+        "name": "pencil-ruler-fill",
+        "class": "fr-icon-pencil-ruler-fill",
+        "file": "design/pencil-ruler-fill.svg"
+      },
+      {
+        "name": "pencil-ruler-line",
+        "class": "fr-icon-pencil-ruler-line",
+        "file": "design/pencil-ruler-line.svg"
+      },
+      {
+        "name": "shapes-fill",
+        "class": "fr-icon-shapes-fill",
+        "file": "design/shapes-fill.svg"
+      },
+      {
+        "name": "shapes-line",
+        "class": "fr-icon-shapes-line",
+        "file": "design/shapes-line.svg"
+      },
+      {
+        "name": "sip-fill",
+        "class": "fr-icon-sip-fill",
+        "file": "design/sip-fill.svg"
+      },
+      {
+        "name": "sip-line",
+        "class": "fr-icon-sip-line",
+        "file": "design/sip-line.svg"
+      },
+      {
+        "name": "table-fill",
+        "class": "fr-icon-table-fill",
+        "file": "design/table-fill.svg"
+      },
+      {
+        "name": "table-line",
+        "class": "fr-icon-table-line",
+        "file": "design/table-line.svg"
+      }
+    ],
+    "development": [
+      {
+        "name": "bug-fill",
+        "class": "fr-icon-bug-fill",
+        "file": "development/bug-fill.svg"
+      },
+      {
+        "name": "bug-line",
+        "class": "fr-icon-bug-line",
+        "file": "development/bug-line.svg"
+      },
+      {
+        "name": "code-box-fill",
+        "class": "fr-icon-code-box-fill",
+        "file": "development/code-box-fill.svg"
+      },
+      {
+        "name": "code-box-line",
+        "class": "fr-icon-code-box-line",
+        "file": "development/code-box-line.svg"
+      },
+      {
+        "name": "code-s-slash-line",
+        "class": "fr-icon-code-s-slash-line",
+        "file": "development/code-s-slash-line.svg"
+      },
+      {
+        "name": "cursor-fill",
+        "class": "fr-icon-cursor-fill",
+        "file": "development/cursor-fill.svg"
+      },
+      {
+        "name": "cursor-line",
+        "class": "fr-icon-cursor-line",
+        "file": "development/cursor-line.svg"
+      },
+      {
+        "name": "git-branch-fill",
+        "class": "fr-icon-git-branch-fill",
+        "file": "development/git-branch-fill.svg"
+      },
+      {
+        "name": "git-branch-line",
+        "class": "fr-icon-git-branch-line",
+        "file": "development/git-branch-line.svg"
+      },
+      {
+        "name": "git-commit-fill",
+        "class": "fr-icon-git-commit-fill",
+        "file": "development/git-commit-fill.svg"
+      },
+      {
+        "name": "git-commit-line",
+        "class": "fr-icon-git-commit-line",
+        "file": "development/git-commit-line.svg"
+      },
+      {
+        "name": "git-merge-fill",
+        "class": "fr-icon-git-merge-fill",
+        "file": "development/git-merge-fill.svg"
+      },
+      {
+        "name": "git-merge-line",
+        "class": "fr-icon-git-merge-line",
+        "file": "development/git-merge-line.svg"
+      },
+      {
+        "name": "git-pull-request-fill",
+        "class": "fr-icon-git-pull-request-fill",
+        "file": "development/git-pull-request-fill.svg"
+      },
+      {
+        "name": "git-pull-request-line",
+        "class": "fr-icon-git-pull-request-line",
+        "file": "development/git-pull-request-line.svg"
+      },
+      {
+        "name": "git-repository-commits-fill",
+        "class": "fr-icon-git-repository-commits-fill",
+        "file": "development/git-repository-commits-fill.svg"
+      },
+      {
+        "name": "git-repository-commits-line",
+        "class": "fr-icon-git-repository-commits-line",
+        "file": "development/git-repository-commits-line.svg"
+      },
+      {
+        "name": "git-repository-fill",
+        "class": "fr-icon-git-repository-fill",
+        "file": "development/git-repository-fill.svg"
+      },
+      {
+        "name": "git-repository-line",
+        "class": "fr-icon-git-repository-line",
+        "file": "development/git-repository-line.svg"
+      },
+      {
+        "name": "git-repository-private-fill",
+        "class": "fr-icon-git-repository-private-fill",
+        "file": "development/git-repository-private-fill.svg"
+      },
+      {
+        "name": "git-repository-private-line",
+        "class": "fr-icon-git-repository-private-line",
+        "file": "development/git-repository-private-line.svg"
+      },
+      {
+        "name": "terminal-box-fill",
+        "class": "fr-icon-terminal-box-fill",
+        "file": "development/terminal-box-fill.svg"
+      },
+      {
+        "name": "terminal-box-line",
+        "class": "fr-icon-terminal-box-line",
+        "file": "development/terminal-box-line.svg"
+      },
+      {
+        "name": "terminal-line",
+        "class": "fr-icon-terminal-line",
+        "file": "development/terminal-line.svg"
+      },
+      {
+        "name": "terminal-window-fill",
+        "class": "fr-icon-terminal-window-fill",
+        "file": "development/terminal-window-fill.svg"
+      },
+      {
+        "name": "terminal-window-line",
+        "class": "fr-icon-terminal-window-line",
+        "file": "development/terminal-window-line.svg"
+      }
+    ],
+    "device": [
+      {
+        "name": "bluetooth-fill",
+        "class": "fr-icon-bluetooth-fill",
+        "file": "device/bluetooth-fill.svg"
+      },
+      {
+        "name": "bluetooth-line",
+        "class": "fr-icon-bluetooth-line",
+        "file": "device/bluetooth-line.svg"
+      },
+      {
+        "name": "computer-fill",
+        "class": "fr-icon-computer-fill",
+        "file": "device/computer-fill.svg"
+      },
+      {
+        "name": "computer-line",
+        "class": "fr-icon-computer-line",
+        "file": "device/computer-line.svg"
+      },
+      {
+        "name": "dashboard-3-fill",
+        "class": "fr-icon-dashboard-3-fill",
+        "file": "device/dashboard-3-fill.svg"
+      },
+      {
+        "name": "dashboard-3-line",
+        "class": "fr-icon-dashboard-3-line",
+        "file": "device/dashboard-3-line.svg"
+      },
+      {
+        "name": "database-fill",
+        "class": "fr-icon-database-fill",
+        "file": "device/database-fill.svg"
+      },
+      {
+        "name": "database-line",
+        "class": "fr-icon-database-line",
+        "file": "device/database-line.svg"
+      },
+      {
+        "name": "device-fill",
+        "class": "fr-icon-device-fill",
+        "file": "device/device-fill.svg"
+      },
+      {
+        "name": "device-line",
+        "class": "fr-icon-device-line",
+        "file": "device/device-line.svg"
+      },
+      {
+        "name": "hard-drive-2-fill",
+        "class": "fr-icon-hard-drive-2-fill",
+        "file": "device/hard-drive-2-fill.svg"
+      },
+      {
+        "name": "hard-drive-2-line",
+        "class": "fr-icon-hard-drive-2-line",
+        "file": "device/hard-drive-2-line.svg"
+      },
+      {
+        "name": "mac-fill",
+        "class": "fr-icon-mac-fill",
+        "file": "device/mac-fill.svg"
+      },
+      {
+        "name": "mac-line",
+        "class": "fr-icon-mac-line",
+        "file": "device/mac-line.svg"
+      },
+      {
+        "name": "phone-fill",
+        "class": "fr-icon-phone-fill",
+        "file": "device/phone-fill.svg"
+      },
+      {
+        "name": "phone-line",
+        "class": "fr-icon-phone-line",
+        "file": "device/phone-line.svg"
+      },
+      {
+        "name": "qr-code-fill",
+        "class": "fr-icon-qr-code-fill",
+        "file": "device/qr-code-fill.svg"
+      },
+      {
+        "name": "qr-code-line",
+        "class": "fr-icon-qr-code-line",
+        "file": "device/qr-code-line.svg"
+      },
+      {
+        "name": "rss-fill",
+        "class": "fr-icon-rss-fill",
+        "file": "device/rss-fill.svg"
+      },
+      {
+        "name": "rss-line",
+        "class": "fr-icon-rss-line",
+        "file": "device/rss-line.svg"
+      },
+      {
+        "name": "save-3-fill",
+        "class": "fr-icon-save-3-fill",
+        "file": "device/save-3-fill.svg"
+      },
+      {
+        "name": "save-3-line",
+        "class": "fr-icon-save-3-line",
+        "file": "device/save-3-line.svg"
+      },
+      {
+        "name": "save-fill",
+        "class": "fr-icon-save-fill",
+        "file": "device/save-fill.svg"
+      },
+      {
+        "name": "save-line",
+        "class": "fr-icon-save-line",
+        "file": "device/save-line.svg"
+      },
+      {
+        "name": "server-fill",
+        "class": "fr-icon-server-fill",
+        "file": "device/server-fill.svg"
+      },
+      {
+        "name": "server-line",
+        "class": "fr-icon-server-line",
+        "file": "device/server-line.svg"
+      },
+      {
+        "name": "smartphone-fill",
+        "class": "fr-icon-smartphone-fill",
+        "file": "device/smartphone-fill.svg"
+      },
+      {
+        "name": "smartphone-line",
+        "class": "fr-icon-smartphone-line",
+        "file": "device/smartphone-line.svg"
+      },
+      {
+        "name": "tablet-fill",
+        "class": "fr-icon-tablet-fill",
+        "file": "device/tablet-fill.svg"
+      },
+      {
+        "name": "tablet-line",
+        "class": "fr-icon-tablet-line",
+        "file": "device/tablet-line.svg"
+      },
+      {
+        "name": "tv-fill",
+        "class": "fr-icon-tv-fill",
+        "file": "device/tv-fill.svg"
+      },
+      {
+        "name": "tv-line",
+        "class": "fr-icon-tv-line",
+        "file": "device/tv-line.svg"
+      },
+      {
+        "name": "wifi-fill",
+        "class": "fr-icon-wifi-fill",
+        "file": "device/wifi-fill.svg"
+      },
+      {
+        "name": "wifi-line",
+        "class": "fr-icon-wifi-line",
+        "file": "device/wifi-line.svg"
+      }
+    ],
+    "document": [
+      {
+        "name": "article-fill",
+        "class": "fr-icon-article-fill",
+        "file": "document/article-fill.svg"
+      },
+      {
+        "name": "article-line",
+        "class": "fr-icon-article-line",
+        "file": "document/article-line.svg"
+      },
+      {
+        "name": "book-2-fill",
+        "class": "fr-icon-book-2-fill",
+        "file": "document/book-2-fill.svg"
+      },
+      {
+        "name": "book-2-line",
+        "class": "fr-icon-book-2-line",
+        "file": "document/book-2-line.svg"
+      },
+      {
+        "name": "booklet-fill",
+        "class": "fr-icon-booklet-fill",
+        "file": "document/booklet-fill.svg"
+      },
+      {
+        "name": "booklet-line",
+        "class": "fr-icon-booklet-line",
+        "file": "document/booklet-line.svg"
+      },
+      {
+        "name": "clipboard-fill",
+        "class": "fr-icon-clipboard-fill",
+        "file": "document/clipboard-fill.svg"
+      },
+      {
+        "name": "clipboard-line",
+        "class": "fr-icon-clipboard-line",
+        "file": "document/clipboard-line.svg"
+      },
+      {
+        "name": "draft-fill",
+        "class": "fr-icon-draft-fill",
+        "file": "document/draft-fill.svg"
+      },
+      {
+        "name": "draft-line",
+        "class": "fr-icon-draft-line",
+        "file": "document/draft-line.svg"
+      },
+      {
+        "name": "file-add-fill",
+        "class": "fr-icon-file-add-fill",
+        "file": "document/file-add-fill.svg"
+      },
+      {
+        "name": "file-add-line",
+        "class": "fr-icon-file-add-line",
+        "file": "document/file-add-line.svg"
+      },
+      {
+        "name": "file-download-fill",
+        "class": "fr-icon-file-download-fill",
+        "file": "document/file-download-fill.svg"
+      },
+      {
+        "name": "file-download-line",
+        "class": "fr-icon-file-download-line",
+        "file": "document/file-download-line.svg"
+      },
+      {
+        "name": "file-fill",
+        "class": "fr-icon-file-fill",
+        "file": "document/file-fill.svg"
+      },
+      {
+        "name": "file-line",
+        "class": "fr-icon-file-line",
+        "file": "document/file-line.svg"
+      },
+      {
+        "name": "file-pdf-fill",
+        "class": "fr-icon-file-pdf-fill",
+        "file": "document/file-pdf-fill.svg"
+      },
+      {
+        "name": "file-pdf-line",
+        "class": "fr-icon-file-pdf-line",
+        "file": "document/file-pdf-line.svg"
+      },
+      {
+        "name": "file-text-fill",
+        "class": "fr-icon-file-text-fill",
+        "file": "document/file-text-fill.svg"
+      },
+      {
+        "name": "file-text-line",
+        "class": "fr-icon-file-text-line",
+        "file": "document/file-text-line.svg"
+      },
+      {
+        "name": "folder-2-fill",
+        "class": "fr-icon-folder-2-fill",
+        "file": "document/folder-2-fill.svg"
+      },
+      {
+        "name": "folder-2-line",
+        "class": "fr-icon-folder-2-line",
+        "file": "document/folder-2-line.svg"
+      },
+      {
+        "name": "newspaper-fill",
+        "class": "fr-icon-newspaper-fill",
+        "file": "document/newspaper-fill.svg"
+      },
+      {
+        "name": "newspaper-line",
+        "class": "fr-icon-newspaper-line",
+        "file": "document/newspaper-line.svg"
+      },
+      {
+        "name": "survey-fill",
+        "class": "fr-icon-survey-fill",
+        "file": "document/survey-fill.svg"
+      },
+      {
+        "name": "survey-line",
+        "class": "fr-icon-survey-line",
+        "file": "document/survey-line.svg"
+      },
+      {
+        "name": "todo-fill",
+        "class": "fr-icon-todo-fill",
+        "file": "document/todo-fill.svg"
+      },
+      {
+        "name": "todo-line",
+        "class": "fr-icon-todo-line",
+        "file": "document/todo-line.svg"
+      }
+    ],
+    "editor": [
+      {
+        "name": "align-center",
+        "class": "fr-icon-align-center",
+        "file": "editor/align-center.svg"
+      },
+      {
+        "name": "align-justify",
+        "class": "fr-icon-align-justify",
+        "file": "editor/align-justify.svg"
+      },
+      {
+        "name": "align-left",
+        "class": "fr-icon-align-left",
+        "file": "editor/align-left.svg"
+      },
+      {
+        "name": "align-right",
+        "class": "fr-icon-align-right",
+        "file": "editor/align-right.svg"
+      },
+      {
+        "name": "code-block",
+        "class": "fr-icon-code-block",
+        "file": "editor/code-block.svg"
+      },
+      {
+        "name": "code-view",
+        "class": "fr-icon-code-view",
+        "file": "editor/code-view.svg"
+      },
+      {
+        "name": "font-color",
+        "class": "fr-icon-font-color",
+        "file": "editor/font-color.svg"
+      },
+      {
+        "name": "font-size",
+        "class": "fr-icon-font-size",
+        "file": "editor/font-size.svg"
+      },
+      {
+        "name": "format-clear",
+        "class": "fr-icon-format-clear",
+        "file": "editor/format-clear.svg"
+      },
+      {
+        "name": "fr--bold",
+        "class": "fr-icon-fr--bold",
+        "file": "editor/fr--bold.svg"
+      },
+      {
+        "name": "fr--highlight",
+        "class": "fr-icon-fr--highlight",
+        "file": "editor/fr--highlight.svg"
+      },
+      {
+        "name": "fr--quote-fill",
+        "class": "fr-icon-fr--quote-fill",
+        "file": "editor/fr--quote-fill.svg"
+      },
+      {
+        "name": "fr--quote-line",
+        "class": "fr-icon-fr--quote-line",
+        "file": "editor/fr--quote-line.svg"
+      },
+      {
+        "name": "h-1",
+        "class": "fr-icon-h-1",
+        "file": "editor/h-1.svg"
+      },
+      {
+        "name": "h-2",
+        "class": "fr-icon-h-2",
+        "file": "editor/h-2.svg"
+      },
+      {
+        "name": "h-3",
+        "class": "fr-icon-h-3",
+        "file": "editor/h-3.svg"
+      },
+      {
+        "name": "h-4",
+        "class": "fr-icon-h-4",
+        "file": "editor/h-4.svg"
+      },
+      {
+        "name": "h-5",
+        "class": "fr-icon-h-5",
+        "file": "editor/h-5.svg"
+      },
+      {
+        "name": "h-6",
+        "class": "fr-icon-h-6",
+        "file": "editor/h-6.svg"
+      },
+      {
+        "name": "hashtag",
+        "class": "fr-icon-hashtag",
+        "file": "editor/hashtag.svg"
+      },
+      {
+        "name": "indent-decrease",
+        "class": "fr-icon-indent-decrease",
+        "file": "editor/indent-decrease.svg"
+      },
+      {
+        "name": "indent-increase",
+        "class": "fr-icon-indent-increase",
+        "file": "editor/indent-increase.svg"
+      },
+      {
+        "name": "italic",
+        "class": "fr-icon-italic",
+        "file": "editor/italic.svg"
+      },
+      {
+        "name": "link",
+        "class": "fr-icon-link",
+        "file": "editor/link.svg"
+      },
+      {
+        "name": "link-unlink",
+        "class": "fr-icon-link-unlink",
+        "file": "editor/link-unlink.svg"
+      },
+      {
+        "name": "list-check",
+        "class": "fr-icon-list-check",
+        "file": "editor/list-check.svg"
+      },
+      {
+        "name": "list-ordered",
+        "class": "fr-icon-list-ordered",
+        "file": "editor/list-ordered.svg"
+      },
+      {
+        "name": "list-unordered",
+        "class": "fr-icon-list-unordered",
+        "file": "editor/list-unordered.svg"
+      },
+      {
+        "name": "question-mark",
+        "class": "fr-icon-question-mark",
+        "file": "editor/question-mark.svg"
+      },
+      {
+        "name": "separator",
+        "class": "fr-icon-separator",
+        "file": "editor/separator.svg"
+      },
+      {
+        "name": "space",
+        "class": "fr-icon-space",
+        "file": "editor/space.svg"
+      },
+      {
+        "name": "strikethrough",
+        "class": "fr-icon-strikethrough",
+        "file": "editor/strikethrough.svg"
+      },
+      {
+        "name": "subscript",
+        "class": "fr-icon-subscript",
+        "file": "editor/subscript.svg"
+      },
+      {
+        "name": "superscript",
+        "class": "fr-icon-superscript",
+        "file": "editor/superscript.svg"
+      },
+      {
+        "name": "table-2",
+        "class": "fr-icon-table-2",
+        "file": "editor/table-2.svg"
+      },
+      {
+        "name": "text-direction-r",
+        "class": "fr-icon-text-direction-r",
+        "file": "editor/text-direction-r.svg"
+      },
+      {
+        "name": "translate-2",
+        "class": "fr-icon-translate-2",
+        "file": "editor/translate-2.svg"
+      },
+      {
+        "name": "underline",
+        "class": "fr-icon-underline",
+        "file": "editor/underline.svg"
+      }
+    ],
+    "finance": [
+      {
+        "name": "bank-card-fill",
+        "class": "fr-icon-bank-card-fill",
+        "file": "finance/bank-card-fill.svg"
+      },
+      {
+        "name": "bank-card-line",
+        "class": "fr-icon-bank-card-line",
+        "file": "finance/bank-card-line.svg"
+      },
+      {
+        "name": "coin-fill",
+        "class": "fr-icon-coin-fill",
+        "file": "finance/coin-fill.svg"
+      },
+      {
+        "name": "gift-fill",
+        "class": "fr-icon-gift-fill",
+        "file": "finance/gift-fill.svg"
+      },
+      {
+        "name": "gift-line",
+        "class": "fr-icon-gift-line",
+        "file": "finance/gift-line.svg"
+      },
+      {
+        "name": "money-euro-box-fill",
+        "class": "fr-icon-money-euro-box-fill",
+        "file": "finance/money-euro-box-fill.svg"
+      },
+      {
+        "name": "money-euro-box-line",
+        "class": "fr-icon-money-euro-box-line",
+        "file": "finance/money-euro-box-line.svg"
+      },
+      {
+        "name": "money-euro-circle-fill",
+        "class": "fr-icon-money-euro-circle-fill",
+        "file": "finance/money-euro-circle-fill.svg"
+      },
+      {
+        "name": "money-euro-circle-line",
+        "class": "fr-icon-money-euro-circle-line",
+        "file": "finance/money-euro-circle-line.svg"
+      },
+      {
+        "name": "secure-payment-fill",
+        "class": "fr-icon-secure-payment-fill",
+        "file": "finance/secure-payment-fill.svg"
+      },
+      {
+        "name": "secure-payment-line",
+        "class": "fr-icon-secure-payment-line",
+        "file": "finance/secure-payment-line.svg"
+      },
+      {
+        "name": "shopping-bag-fill",
+        "class": "fr-icon-shopping-bag-fill",
+        "file": "finance/shopping-bag-fill.svg"
+      },
+      {
+        "name": "shopping-bag-line",
+        "class": "fr-icon-shopping-bag-line",
+        "file": "finance/shopping-bag-line.svg"
+      },
+      {
+        "name": "shopping-cart-2-fill",
+        "class": "fr-icon-shopping-cart-2-fill",
+        "file": "finance/shopping-cart-2-fill.svg"
+      },
+      {
+        "name": "shopping-cart-2-line",
+        "class": "fr-icon-shopping-cart-2-line",
+        "file": "finance/shopping-cart-2-line.svg"
+      },
+      {
+        "name": "trophy-fill",
+        "class": "fr-icon-trophy-fill",
+        "file": "finance/trophy-fill.svg"
+      },
+      {
+        "name": "trophy-line",
+        "class": "fr-icon-trophy-line",
+        "file": "finance/trophy-line.svg"
+      }
+    ],
+    "health": [
+      {
+        "name": "capsule-fill",
+        "class": "fr-icon-capsule-fill",
+        "file": "health/capsule-fill.svg"
+      },
+      {
+        "name": "capsule-line",
+        "class": "fr-icon-capsule-line",
+        "file": "health/capsule-line.svg"
+      },
+      {
+        "name": "dislike-fill",
+        "class": "fr-icon-dislike-fill",
+        "file": "health/dislike-fill.svg"
+      },
+      {
+        "name": "dislike-line",
+        "class": "fr-icon-dislike-line",
+        "file": "health/dislike-line.svg"
+      },
+      {
+        "name": "dossier-fill",
+        "class": "fr-icon-dossier-fill",
+        "file": "health/dossier-fill.svg"
+      },
+      {
+        "name": "dossier-line",
+        "class": "fr-icon-dossier-line",
+        "file": "health/dossier-line.svg"
+      },
+      {
+        "name": "first-aid-kit-fill",
+        "class": "fr-icon-first-aid-kit-fill",
+        "file": "health/first-aid-kit-fill.svg"
+      },
+      {
+        "name": "first-aid-kit-line",
+        "class": "fr-icon-first-aid-kit-line",
+        "file": "health/first-aid-kit-line.svg"
+      },
+      {
+        "name": "hand-sanitizer-fill",
+        "class": "fr-icon-hand-sanitizer-fill",
+        "file": "health/hand-sanitizer-fill.svg"
+      },
+      {
+        "name": "hand-sanitizer-line",
+        "class": "fr-icon-hand-sanitizer-line",
+        "file": "health/hand-sanitizer-line.svg"
+      },
+      {
+        "name": "health-book-fill",
+        "class": "fr-icon-health-book-fill",
+        "file": "health/health-book-fill.svg"
+      },
+      {
+        "name": "health-book-line",
+        "class": "fr-icon-health-book-line",
+        "file": "health/health-book-line.svg"
+      },
+      {
+        "name": "heart-fill",
+        "class": "fr-icon-heart-fill",
+        "file": "health/heart-fill.svg"
+      },
+      {
+        "name": "heart-line",
+        "class": "fr-icon-heart-line",
+        "file": "health/heart-line.svg"
+      },
+      {
+        "name": "heart-pulse-fill",
+        "class": "fr-icon-heart-pulse-fill",
+        "file": "health/heart-pulse-fill.svg"
+      },
+      {
+        "name": "heart-pulse-line",
+        "class": "fr-icon-heart-pulse-line",
+        "file": "health/heart-pulse-line.svg"
+      },
+      {
+        "name": "lungs-fill",
+        "class": "fr-icon-lungs-fill",
+        "file": "health/lungs-fill.svg"
+      },
+      {
+        "name": "lungs-line",
+        "class": "fr-icon-lungs-line",
+        "file": "health/lungs-line.svg"
+      },
+      {
+        "name": "medicine-bottle-fill",
+        "class": "fr-icon-medicine-bottle-fill",
+        "file": "health/medicine-bottle-fill.svg"
+      },
+      {
+        "name": "medicine-bottle-line",
+        "class": "fr-icon-medicine-bottle-line",
+        "file": "health/medicine-bottle-line.svg"
+      },
+      {
+        "name": "mental-health-fill",
+        "class": "fr-icon-mental-health-fill",
+        "file": "health/mental-health-fill.svg"
+      },
+      {
+        "name": "mental-health-line",
+        "class": "fr-icon-mental-health-line",
+        "file": "health/mental-health-line.svg"
+      },
+      {
+        "name": "microscope-fill",
+        "class": "fr-icon-microscope-fill",
+        "file": "health/microscope-fill.svg"
+      },
+      {
+        "name": "microscope-line",
+        "class": "fr-icon-microscope-line",
+        "file": "health/microscope-line.svg"
+      },
+      {
+        "name": "psychotherapy-fill",
+        "class": "fr-icon-psychotherapy-fill",
+        "file": "health/psychotherapy-fill.svg"
+      },
+      {
+        "name": "psychotherapy-line",
+        "class": "fr-icon-psychotherapy-line",
+        "file": "health/psychotherapy-line.svg"
+      },
+      {
+        "name": "pulse-line",
+        "class": "fr-icon-pulse-line",
+        "file": "health/pulse-line.svg"
+      },
+      {
+        "name": "stethoscope-fill",
+        "class": "fr-icon-stethoscope-fill",
+        "file": "health/stethoscope-fill.svg"
+      },
+      {
+        "name": "stethoscope-line",
+        "class": "fr-icon-stethoscope-line",
+        "file": "health/stethoscope-line.svg"
+      },
+      {
+        "name": "surgical-mask-fill",
+        "class": "fr-icon-surgical-mask-fill",
+        "file": "health/surgical-mask-fill.svg"
+      },
+      {
+        "name": "surgical-mask-line",
+        "class": "fr-icon-surgical-mask-line",
+        "file": "health/surgical-mask-line.svg"
+      },
+      {
+        "name": "syringe-fill",
+        "class": "fr-icon-syringe-fill",
+        "file": "health/syringe-fill.svg"
+      },
+      {
+        "name": "syringe-line",
+        "class": "fr-icon-syringe-line",
+        "file": "health/syringe-line.svg"
+      },
+      {
+        "name": "test-tube-fill",
+        "class": "fr-icon-test-tube-fill",
+        "file": "health/test-tube-fill.svg"
+      },
+      {
+        "name": "test-tube-line",
+        "class": "fr-icon-test-tube-line",
+        "file": "health/test-tube-line.svg"
+      },
+      {
+        "name": "thermometer-fill",
+        "class": "fr-icon-thermometer-fill",
+        "file": "health/thermometer-fill.svg"
+      },
+      {
+        "name": "thermometer-line",
+        "class": "fr-icon-thermometer-line",
+        "file": "health/thermometer-line.svg"
+      },
+      {
+        "name": "virus-fill",
+        "class": "fr-icon-virus-fill",
+        "file": "health/virus-fill.svg"
+      },
+      {
+        "name": "virus-line",
+        "class": "fr-icon-virus-line",
+        "file": "health/virus-line.svg"
+      }
+    ],
+    "logo": [
+      {
+        "name": "bluesky-fill",
+        "class": "fr-icon-bluesky-fill",
+        "file": "logo/bluesky-fill.svg"
+      },
+      {
+        "name": "bluesky-line",
+        "class": "fr-icon-bluesky-line",
+        "file": "logo/bluesky-line.svg"
+      },
+      {
+        "name": "chrome-fill",
+        "class": "fr-icon-chrome-fill",
+        "file": "logo/chrome-fill.svg"
+      },
+      {
+        "name": "chrome-line",
+        "class": "fr-icon-chrome-line",
+        "file": "logo/chrome-line.svg"
+      },
+      {
+        "name": "edge-fill",
+        "class": "fr-icon-edge-fill",
+        "file": "logo/edge-fill.svg"
+      },
+      {
+        "name": "edge-line",
+        "class": "fr-icon-edge-line",
+        "file": "logo/edge-line.svg"
+      },
+      {
+        "name": "facebook-circle-fill",
+        "class": "fr-icon-facebook-circle-fill",
+        "file": "logo/facebook-circle-fill.svg"
+      },
+      {
+        "name": "facebook-circle-line",
+        "class": "fr-icon-facebook-circle-line",
+        "file": "logo/facebook-circle-line.svg"
+      },
+      {
+        "name": "firefox-fill",
+        "class": "fr-icon-firefox-fill",
+        "file": "logo/firefox-fill.svg"
+      },
+      {
+        "name": "firefox-line",
+        "class": "fr-icon-firefox-line",
+        "file": "logo/firefox-line.svg"
+      },
+      {
+        "name": "fr--dailymotion-fill",
+        "class": "fr-icon-fr--dailymotion-fill",
+        "file": "logo/fr--dailymotion-fill.svg"
+      },
+      {
+        "name": "fr--dailymotion-line",
+        "class": "fr-icon-fr--dailymotion-line",
+        "file": "logo/fr--dailymotion-line.svg"
+      },
+      {
+        "name": "fr--tiktok-fill",
+        "class": "fr-icon-fr--tiktok-fill",
+        "file": "logo/fr--tiktok-fill.svg"
+      },
+      {
+        "name": "fr--tiktok-line",
+        "class": "fr-icon-fr--tiktok-line",
+        "file": "logo/fr--tiktok-line.svg"
+      },
+      {
+        "name": "github-fill",
+        "class": "fr-icon-github-fill",
+        "file": "logo/github-fill.svg"
+      },
+      {
+        "name": "github-line",
+        "class": "fr-icon-github-line",
+        "file": "logo/github-line.svg"
+      },
+      {
+        "name": "google-fill",
+        "class": "fr-icon-google-fill",
+        "file": "logo/google-fill.svg"
+      },
+      {
+        "name": "google-line",
+        "class": "fr-icon-google-line",
+        "file": "logo/google-line.svg"
+      },
+      {
+        "name": "ie-fill",
+        "class": "fr-icon-ie-fill",
+        "file": "logo/ie-fill.svg"
+      },
+      {
+        "name": "ie-line",
+        "class": "fr-icon-ie-line",
+        "file": "logo/ie-line.svg"
+      },
+      {
+        "name": "instagram-fill",
+        "class": "fr-icon-instagram-fill",
+        "file": "logo/instagram-fill.svg"
+      },
+      {
+        "name": "instagram-line",
+        "class": "fr-icon-instagram-line",
+        "file": "logo/instagram-line.svg"
+      },
+      {
+        "name": "linkedin-box-fill",
+        "class": "fr-icon-linkedin-box-fill",
+        "file": "logo/linkedin-box-fill.svg"
+      },
+      {
+        "name": "linkedin-box-line",
+        "class": "fr-icon-linkedin-box-line",
+        "file": "logo/linkedin-box-line.svg"
+      },
+      {
+        "name": "mastodon-fill",
+        "class": "fr-icon-mastodon-fill",
+        "file": "logo/mastodon-fill.svg"
+      },
+      {
+        "name": "mastodon-line",
+        "class": "fr-icon-mastodon-line",
+        "file": "logo/mastodon-line.svg"
+      },
+      {
+        "name": "npmjs-fill",
+        "class": "fr-icon-npmjs-fill",
+        "file": "logo/npmjs-fill.svg"
+      },
+      {
+        "name": "npmjs-line",
+        "class": "fr-icon-npmjs-line",
+        "file": "logo/npmjs-line.svg"
+      },
+      {
+        "name": "remixicon-fill",
+        "class": "fr-icon-remixicon-fill",
+        "file": "logo/remixicon-fill.svg"
+      },
+      {
+        "name": "remixicon-line",
+        "class": "fr-icon-remixicon-line",
+        "file": "logo/remixicon-line.svg"
+      },
+      {
+        "name": "safari-fill",
+        "class": "fr-icon-safari-fill",
+        "file": "logo/safari-fill.svg"
+      },
+      {
+        "name": "safari-line",
+        "class": "fr-icon-safari-line",
+        "file": "logo/safari-line.svg"
+      },
+      {
+        "name": "slack-fill",
+        "class": "fr-icon-slack-fill",
+        "file": "logo/slack-fill.svg"
+      },
+      {
+        "name": "slack-line",
+        "class": "fr-icon-slack-line",
+        "file": "logo/slack-line.svg"
+      },
+      {
+        "name": "snapchat-fill",
+        "class": "fr-icon-snapchat-fill",
+        "file": "logo/snapchat-fill.svg"
+      },
+      {
+        "name": "snapchat-line",
+        "class": "fr-icon-snapchat-line",
+        "file": "logo/snapchat-line.svg"
+      },
+      {
+        "name": "telegram-fill",
+        "class": "fr-icon-telegram-fill",
+        "file": "logo/telegram-fill.svg"
+      },
+      {
+        "name": "telegram-line",
+        "class": "fr-icon-telegram-line",
+        "file": "logo/telegram-line.svg"
+      },
+      {
+        "name": "threads-fill",
+        "class": "fr-icon-threads-fill",
+        "file": "logo/threads-fill.svg"
+      },
+      {
+        "name": "threads-line",
+        "class": "fr-icon-threads-line",
+        "file": "logo/threads-line.svg"
+      },
+      {
+        "name": "twitch-fill",
+        "class": "fr-icon-twitch-fill",
+        "file": "logo/twitch-fill.svg"
+      },
+      {
+        "name": "twitch-line",
+        "class": "fr-icon-twitch-line",
+        "file": "logo/twitch-line.svg"
+      },
+      {
+        "name": "twitter-fill",
+        "class": "fr-icon-twitter-fill",
+        "file": "logo/twitter-fill.svg"
+      },
+      {
+        "name": "twitter-line",
+        "class": "fr-icon-twitter-line",
+        "file": "logo/twitter-line.svg"
+      },
+      {
+        "name": "twitter-x-fill",
+        "class": "fr-icon-twitter-x-fill",
+        "file": "logo/twitter-x-fill.svg"
+      },
+      {
+        "name": "twitter-x-line",
+        "class": "fr-icon-twitter-x-line",
+        "file": "logo/twitter-x-line.svg"
+      },
+      {
+        "name": "vimeo-fill",
+        "class": "fr-icon-vimeo-fill",
+        "file": "logo/vimeo-fill.svg"
+      },
+      {
+        "name": "vimeo-line",
+        "class": "fr-icon-vimeo-line",
+        "file": "logo/vimeo-line.svg"
+      },
+      {
+        "name": "vuejs-fill",
+        "class": "fr-icon-vuejs-fill",
+        "file": "logo/vuejs-fill.svg"
+      },
+      {
+        "name": "vuejs-line",
+        "class": "fr-icon-vuejs-line",
+        "file": "logo/vuejs-line.svg"
+      },
+      {
+        "name": "whatsapp-fill",
+        "class": "fr-icon-whatsapp-fill",
+        "file": "logo/whatsapp-fill.svg"
+      },
+      {
+        "name": "whatsapp-line",
+        "class": "fr-icon-whatsapp-line",
+        "file": "logo/whatsapp-line.svg"
+      },
+      {
+        "name": "youtube-fill",
+        "class": "fr-icon-youtube-fill",
+        "file": "logo/youtube-fill.svg"
+      },
+      {
+        "name": "youtube-line",
+        "class": "fr-icon-youtube-line",
+        "file": "logo/youtube-line.svg"
+      }
+    ],
+    "map": [
+      {
+        "name": "anchor-fill",
+        "class": "fr-icon-anchor-fill",
+        "file": "map/anchor-fill.svg"
+      },
+      {
+        "name": "anchor-line",
+        "class": "fr-icon-anchor-line",
+        "file": "map/anchor-line.svg"
+      },
+      {
+        "name": "bike-fill",
+        "class": "fr-icon-bike-fill",
+        "file": "map/bike-fill.svg"
+      },
+      {
+        "name": "bike-line",
+        "class": "fr-icon-bike-line",
+        "file": "map/bike-line.svg"
+      },
+      {
+        "name": "bus-fill",
+        "class": "fr-icon-bus-fill",
+        "file": "map/bus-fill.svg"
+      },
+      {
+        "name": "bus-line",
+        "class": "fr-icon-bus-line",
+        "file": "map/bus-line.svg"
+      },
+      {
+        "name": "car-fill",
+        "class": "fr-icon-car-fill",
+        "file": "map/car-fill.svg"
+      },
+      {
+        "name": "car-line",
+        "class": "fr-icon-car-line",
+        "file": "map/car-line.svg"
+      },
+      {
+        "name": "caravan-fill",
+        "class": "fr-icon-caravan-fill",
+        "file": "map/caravan-fill.svg"
+      },
+      {
+        "name": "caravan-line",
+        "class": "fr-icon-caravan-line",
+        "file": "map/caravan-line.svg"
+      },
+      {
+        "name": "charging-pile-2-fill",
+        "class": "fr-icon-charging-pile-2-fill",
+        "file": "map/charging-pile-2-fill.svg"
+      },
+      {
+        "name": "charging-pile-2-line",
+        "class": "fr-icon-charging-pile-2-line",
+        "file": "map/charging-pile-2-line.svg"
+      },
+      {
+        "name": "compass-3-fill",
+        "class": "fr-icon-compass-3-fill",
+        "file": "map/compass-3-fill.svg"
+      },
+      {
+        "name": "compass-3-line",
+        "class": "fr-icon-compass-3-line",
+        "file": "map/compass-3-line.svg"
+      },
+      {
+        "name": "cup-fill",
+        "class": "fr-icon-cup-fill",
+        "file": "map/cup-fill.svg"
+      },
+      {
+        "name": "cup-line",
+        "class": "fr-icon-cup-line",
+        "file": "map/cup-line.svg"
+      },
+      {
+        "name": "earth-fill",
+        "class": "fr-icon-earth-fill",
+        "file": "map/earth-fill.svg"
+      },
+      {
+        "name": "earth-line",
+        "class": "fr-icon-earth-line",
+        "file": "map/earth-line.svg"
+      },
+      {
+        "name": "france-fill",
+        "class": "fr-icon-france-fill",
+        "file": "map/france-fill.svg"
+      },
+      {
+        "name": "france-line",
+        "class": "fr-icon-france-line",
+        "file": "map/france-line.svg"
+      },
+      {
+        "name": "gas-station-fill",
+        "class": "fr-icon-gas-station-fill",
+        "file": "map/gas-station-fill.svg"
+      },
+      {
+        "name": "gas-station-line",
+        "class": "fr-icon-gas-station-line",
+        "file": "map/gas-station-line.svg"
+      },
+      {
+        "name": "goblet-fill",
+        "class": "fr-icon-goblet-fill",
+        "file": "map/goblet-fill.svg"
+      },
+      {
+        "name": "goblet-line",
+        "class": "fr-icon-goblet-line",
+        "file": "map/goblet-line.svg"
+      },
+      {
+        "name": "map-pin-2-fill",
+        "class": "fr-icon-map-pin-2-fill",
+        "file": "map/map-pin-2-fill.svg"
+      },
+      {
+        "name": "map-pin-2-line",
+        "class": "fr-icon-map-pin-2-line",
+        "file": "map/map-pin-2-line.svg"
+      },
+      {
+        "name": "map-pin-user-fill",
+        "class": "fr-icon-map-pin-user-fill",
+        "file": "map/map-pin-user-fill.svg"
+      },
+      {
+        "name": "map-pin-user-line",
+        "class": "fr-icon-map-pin-user-line",
+        "file": "map/map-pin-user-line.svg"
+      },
+      {
+        "name": "motorbike-fill",
+        "class": "fr-icon-motorbike-fill",
+        "file": "map/motorbike-fill.svg"
+      },
+      {
+        "name": "motorbike-line",
+        "class": "fr-icon-motorbike-line",
+        "file": "map/motorbike-line.svg"
+      },
+      {
+        "name": "passport-fill",
+        "class": "fr-icon-passport-fill",
+        "file": "map/passport-fill.svg"
+      },
+      {
+        "name": "passport-line",
+        "class": "fr-icon-passport-line",
+        "file": "map/passport-line.svg"
+      },
+      {
+        "name": "restaurant-fill",
+        "class": "fr-icon-restaurant-fill",
+        "file": "map/restaurant-fill.svg"
+      },
+      {
+        "name": "restaurant-line",
+        "class": "fr-icon-restaurant-line",
+        "file": "map/restaurant-line.svg"
+      },
+      {
+        "name": "road-map-fill",
+        "class": "fr-icon-road-map-fill",
+        "file": "map/road-map-fill.svg"
+      },
+      {
+        "name": "road-map-line",
+        "class": "fr-icon-road-map-line",
+        "file": "map/road-map-line.svg"
+      },
+      {
+        "name": "sailboat-fill",
+        "class": "fr-icon-sailboat-fill",
+        "file": "map/sailboat-fill.svg"
+      },
+      {
+        "name": "sailboat-line",
+        "class": "fr-icon-sailboat-line",
+        "file": "map/sailboat-line.svg"
+      },
+      {
+        "name": "ship-2-fill",
+        "class": "fr-icon-ship-2-fill",
+        "file": "map/ship-2-fill.svg"
+      },
+      {
+        "name": "ship-2-line",
+        "class": "fr-icon-ship-2-line",
+        "file": "map/ship-2-line.svg"
+      },
+      {
+        "name": "signal-tower-fill",
+        "class": "fr-icon-signal-tower-fill",
+        "file": "map/signal-tower-fill.svg"
+      },
+      {
+        "name": "signal-tower-line",
+        "class": "fr-icon-signal-tower-line",
+        "file": "map/signal-tower-line.svg"
+      },
+      {
+        "name": "suitcase-2-fill",
+        "class": "fr-icon-suitcase-2-fill",
+        "file": "map/suitcase-2-fill.svg"
+      },
+      {
+        "name": "suitcase-2-line",
+        "class": "fr-icon-suitcase-2-line",
+        "file": "map/suitcase-2-line.svg"
+      },
+      {
+        "name": "taxi-fill",
+        "class": "fr-icon-taxi-fill",
+        "file": "map/taxi-fill.svg"
+      },
+      {
+        "name": "taxi-line",
+        "class": "fr-icon-taxi-line",
+        "file": "map/taxi-line.svg"
+      },
+      {
+        "name": "train-fill",
+        "class": "fr-icon-train-fill",
+        "file": "map/train-fill.svg"
+      },
+      {
+        "name": "train-line",
+        "class": "fr-icon-train-line",
+        "file": "map/train-line.svg"
+      }
+    ],
+    "media": [
+      {
+        "name": "camera-fill",
+        "class": "fr-icon-camera-fill",
+        "file": "media/camera-fill.svg"
+      },
+      {
+        "name": "camera-line",
+        "class": "fr-icon-camera-line",
+        "file": "media/camera-line.svg"
+      },
+      {
+        "name": "clapperboard-fill",
+        "class": "fr-icon-clapperboard-fill",
+        "file": "media/clapperboard-fill.svg"
+      },
+      {
+        "name": "clapperboard-line",
+        "class": "fr-icon-clapperboard-line",
+        "file": "media/clapperboard-line.svg"
+      },
+      {
+        "name": "equalizer-fill",
+        "class": "fr-icon-equalizer-fill",
+        "file": "media/equalizer-fill.svg"
+      },
+      {
+        "name": "equalizer-line",
+        "class": "fr-icon-equalizer-line",
+        "file": "media/equalizer-line.svg"
+      },
+      {
+        "name": "film-fill",
+        "class": "fr-icon-film-fill",
+        "file": "media/film-fill.svg"
+      },
+      {
+        "name": "film-line",
+        "class": "fr-icon-film-line",
+        "file": "media/film-line.svg"
+      },
+      {
+        "name": "fullscreen-line",
+        "class": "fr-icon-fullscreen-line",
+        "file": "media/fullscreen-line.svg"
+      },
+      {
+        "name": "gallery-fill",
+        "class": "fr-icon-gallery-fill",
+        "file": "media/gallery-fill.svg"
+      },
+      {
+        "name": "gallery-line",
+        "class": "fr-icon-gallery-line",
+        "file": "media/gallery-line.svg"
+      },
+      {
+        "name": "headphone-fill",
+        "class": "fr-icon-headphone-fill",
+        "file": "media/headphone-fill.svg"
+      },
+      {
+        "name": "headphone-line",
+        "class": "fr-icon-headphone-line",
+        "file": "media/headphone-line.svg"
+      },
+      {
+        "name": "image-add-fill",
+        "class": "fr-icon-image-add-fill",
+        "file": "media/image-add-fill.svg"
+      },
+      {
+        "name": "image-add-line",
+        "class": "fr-icon-image-add-line",
+        "file": "media/image-add-line.svg"
+      },
+      {
+        "name": "image-edit-fill",
+        "class": "fr-icon-image-edit-fill",
+        "file": "media/image-edit-fill.svg"
+      },
+      {
+        "name": "image-edit-line",
+        "class": "fr-icon-image-edit-line",
+        "file": "media/image-edit-line.svg"
+      },
+      {
+        "name": "image-fill",
+        "class": "fr-icon-image-fill",
+        "file": "media/image-fill.svg"
+      },
+      {
+        "name": "image-line",
+        "class": "fr-icon-image-line",
+        "file": "media/image-line.svg"
+      },
+      {
+        "name": "live-fill",
+        "class": "fr-icon-live-fill",
+        "file": "media/live-fill.svg"
+      },
+      {
+        "name": "live-line",
+        "class": "fr-icon-live-line",
+        "file": "media/live-line.svg"
+      },
+      {
+        "name": "mic-fill",
+        "class": "fr-icon-mic-fill",
+        "file": "media/mic-fill.svg"
+      },
+      {
+        "name": "mic-line",
+        "class": "fr-icon-mic-line",
+        "file": "media/mic-line.svg"
+      },
+      {
+        "name": "music-2-fill",
+        "class": "fr-icon-music-2-fill",
+        "file": "media/music-2-fill.svg"
+      },
+      {
+        "name": "music-2-line",
+        "class": "fr-icon-music-2-line",
+        "file": "media/music-2-line.svg"
+      },
+      {
+        "name": "notification-3-fill",
+        "class": "fr-icon-notification-3-fill",
+        "file": "media/notification-3-fill.svg"
+      },
+      {
+        "name": "notification-3-line",
+        "class": "fr-icon-notification-3-line",
+        "file": "media/notification-3-line.svg"
+      },
+      {
+        "name": "pause-circle-fill",
+        "class": "fr-icon-pause-circle-fill",
+        "file": "media/pause-circle-fill.svg"
+      },
+      {
+        "name": "pause-circle-line",
+        "class": "fr-icon-pause-circle-line",
+        "file": "media/pause-circle-line.svg"
+      },
+      {
+        "name": "play-circle-fill",
+        "class": "fr-icon-play-circle-fill",
+        "file": "media/play-circle-fill.svg"
+      },
+      {
+        "name": "play-circle-line",
+        "class": "fr-icon-play-circle-line",
+        "file": "media/play-circle-line.svg"
+      },
+      {
+        "name": "stop-circle-fill",
+        "class": "fr-icon-stop-circle-fill",
+        "file": "media/stop-circle-fill.svg"
+      },
+      {
+        "name": "stop-circle-line",
+        "class": "fr-icon-stop-circle-line",
+        "file": "media/stop-circle-line.svg"
+      },
+      {
+        "name": "volume-down-fill",
+        "class": "fr-icon-volume-down-fill",
+        "file": "media/volume-down-fill.svg"
+      },
+      {
+        "name": "volume-down-line",
+        "class": "fr-icon-volume-down-line",
+        "file": "media/volume-down-line.svg"
+      },
+      {
+        "name": "volume-mute-fill",
+        "class": "fr-icon-volume-mute-fill",
+        "file": "media/volume-mute-fill.svg"
+      },
+      {
+        "name": "volume-mute-line",
+        "class": "fr-icon-volume-mute-line",
+        "file": "media/volume-mute-line.svg"
+      },
+      {
+        "name": "volume-up-fill",
+        "class": "fr-icon-volume-up-fill",
+        "file": "media/volume-up-fill.svg"
+      },
+      {
+        "name": "volume-up-line",
+        "class": "fr-icon-volume-up-line",
+        "file": "media/volume-up-line.svg"
+      }
+    ],
+    "others": [
+      {
+        "name": "fr--accessibility-fill",
+        "class": "fr-icon-fr--accessibility-fill",
+        "file": "others/fr--accessibility-fill.svg"
+      },
+      {
+        "name": "fr--accessibility-line",
+        "class": "fr-icon-fr--accessibility-line",
+        "file": "others/fr--accessibility-line.svg"
+      },
+      {
+        "name": "fr--ear-off-fill",
+        "class": "fr-icon-fr--ear-off-fill",
+        "file": "others/fr--ear-off-fill.svg"
+      },
+      {
+        "name": "fr--ear-off-line",
+        "class": "fr-icon-fr--ear-off-line",
+        "file": "others/fr--ear-off-line.svg"
+      },
+      {
+        "name": "fr--mental-disabilities-fill",
+        "class": "fr-icon-fr--mental-disabilities-fill",
+        "file": "others/fr--mental-disabilities-fill.svg"
+      },
+      {
+        "name": "fr--mental-disabilities-line",
+        "class": "fr-icon-fr--mental-disabilities-line",
+        "file": "others/fr--mental-disabilities-line.svg"
+      },
+      {
+        "name": "fr--sign-language-fill",
+        "class": "fr-icon-fr--sign-language-fill",
+        "file": "others/fr--sign-language-fill.svg"
+      },
+      {
+        "name": "fr--sign-language-line",
+        "class": "fr-icon-fr--sign-language-line",
+        "file": "others/fr--sign-language-line.svg"
+      },
+      {
+        "name": "leaf-fill",
+        "class": "fr-icon-leaf-fill",
+        "file": "others/leaf-fill.svg"
+      },
+      {
+        "name": "leaf-line",
+        "class": "fr-icon-leaf-line",
+        "file": "others/leaf-line.svg"
+      },
+      {
+        "name": "lightbulb-fill",
+        "class": "fr-icon-lightbulb-fill",
+        "file": "others/lightbulb-fill.svg"
+      },
+      {
+        "name": "lightbulb-line",
+        "class": "fr-icon-lightbulb-line",
+        "file": "others/lightbulb-line.svg"
+      },
+      {
+        "name": "plant-fill",
+        "class": "fr-icon-plant-fill",
+        "file": "others/plant-fill.svg"
+      },
+      {
+        "name": "plant-line",
+        "class": "fr-icon-plant-line",
+        "file": "others/plant-line.svg"
+      },
+      {
+        "name": "recycle-fill",
+        "class": "fr-icon-recycle-fill",
+        "file": "others/recycle-fill.svg"
+      },
+      {
+        "name": "recycle-line",
+        "class": "fr-icon-recycle-line",
+        "file": "others/recycle-line.svg"
+      },
+      {
+        "name": "scales-3-fill",
+        "class": "fr-icon-scales-3-fill",
+        "file": "others/scales-3-fill.svg"
+      },
+      {
+        "name": "scales-3-line",
+        "class": "fr-icon-scales-3-line",
+        "file": "others/scales-3-line.svg"
+      },
+      {
+        "name": "seedling-fill",
+        "class": "fr-icon-seedling-fill",
+        "file": "others/seedling-fill.svg"
+      },
+      {
+        "name": "seedling-line",
+        "class": "fr-icon-seedling-line",
+        "file": "others/seedling-line.svg"
+      },
+      {
+        "name": "umbrella-fill",
+        "class": "fr-icon-umbrella-fill",
+        "file": "others/umbrella-fill.svg"
+      },
+      {
+        "name": "umbrella-line",
+        "class": "fr-icon-umbrella-line",
+        "file": "others/umbrella-line.svg"
+      },
+      {
+        "name": "wheelchair-fill",
+        "class": "fr-icon-wheelchair-fill",
+        "file": "others/wheelchair-fill.svg"
+      },
+      {
+        "name": "wheelchair-line",
+        "class": "fr-icon-wheelchair-line",
+        "file": "others/wheelchair-line.svg"
+      }
+    ],
+    "system": [
+      {
+        "name": "add-circle-fill",
+        "class": "fr-icon-add-circle-fill",
+        "file": "system/add-circle-fill.svg"
+      },
+      {
+        "name": "add-circle-line",
+        "class": "fr-icon-add-circle-line",
+        "file": "system/add-circle-line.svg"
+      },
+      {
+        "name": "add-line",
+        "class": "fr-icon-add-line",
+        "file": "system/add-line.svg"
+      },
+      {
+        "name": "alarm-warning-fill",
+        "class": "fr-icon-alarm-warning-fill",
+        "file": "system/alarm-warning-fill.svg"
+      },
+      {
+        "name": "alarm-warning-line",
+        "class": "fr-icon-alarm-warning-line",
+        "file": "system/alarm-warning-line.svg"
+      },
+      {
+        "name": "alert-fill",
+        "class": "fr-icon-alert-fill",
+        "file": "system/alert-fill.svg"
+      },
+      {
+        "name": "alert-line",
+        "class": "fr-icon-alert-line",
+        "file": "system/alert-line.svg"
+      },
+      {
+        "name": "arrow-down-fill",
+        "class": "fr-icon-arrow-down-fill",
+        "file": "system/arrow-down-fill.svg"
+      },
+      {
+        "name": "arrow-down-line",
+        "class": "fr-icon-arrow-down-line",
+        "file": "system/arrow-down-line.svg"
+      },
+      {
+        "name": "arrow-down-s-fill",
+        "class": "fr-icon-arrow-down-s-fill",
+        "file": "system/arrow-down-s-fill.svg"
+      },
+      {
+        "name": "arrow-down-s-line",
+        "class": "fr-icon-arrow-down-s-line",
+        "file": "system/arrow-down-s-line.svg"
+      },
+      {
+        "name": "arrow-go-back-fill",
+        "class": "fr-icon-arrow-go-back-fill",
+        "file": "system/arrow-go-back-fill.svg"
+      },
+      {
+        "name": "arrow-go-back-line",
+        "class": "fr-icon-arrow-go-back-line",
+        "file": "system/arrow-go-back-line.svg"
+      },
+      {
+        "name": "arrow-go-forward-fill",
+        "class": "fr-icon-arrow-go-forward-fill",
+        "file": "system/arrow-go-forward-fill.svg"
+      },
+      {
+        "name": "arrow-go-forward-line",
+        "class": "fr-icon-arrow-go-forward-line",
+        "file": "system/arrow-go-forward-line.svg"
+      },
+      {
+        "name": "arrow-left-fill",
+        "class": "fr-icon-arrow-left-fill",
+        "file": "system/arrow-left-fill.svg"
+      },
+      {
+        "name": "arrow-left-line",
+        "class": "fr-icon-arrow-left-line",
+        "file": "system/arrow-left-line.svg"
+      },
+      {
+        "name": "arrow-left-s-fill",
+        "class": "fr-icon-arrow-left-s-fill",
+        "file": "system/arrow-left-s-fill.svg"
+      },
+      {
+        "name": "arrow-left-s-line",
+        "class": "fr-icon-arrow-left-s-line",
+        "file": "system/arrow-left-s-line.svg"
+      },
+      {
+        "name": "arrow-right-fill",
+        "class": "fr-icon-arrow-right-fill",
+        "file": "system/arrow-right-fill.svg"
+      },
+      {
+        "name": "arrow-right-line",
+        "class": "fr-icon-arrow-right-line",
+        "file": "system/arrow-right-line.svg"
+      },
+      {
+        "name": "arrow-right-s-fill",
+        "class": "fr-icon-arrow-right-s-fill",
+        "file": "system/arrow-right-s-fill.svg"
+      },
+      {
+        "name": "arrow-right-s-line",
+        "class": "fr-icon-arrow-right-s-line",
+        "file": "system/arrow-right-s-line.svg"
+      },
+      {
+        "name": "arrow-right-up-line",
+        "class": "fr-icon-arrow-right-up-line",
+        "file": "system/arrow-right-up-line.svg"
+      },
+      {
+        "name": "arrow-up-down-line",
+        "class": "fr-icon-arrow-up-down-line",
+        "file": "system/arrow-up-down-line.svg"
+      },
+      {
+        "name": "arrow-up-fill",
+        "class": "fr-icon-arrow-up-fill",
+        "file": "system/arrow-up-fill.svg"
+      },
+      {
+        "name": "arrow-up-line",
+        "class": "fr-icon-arrow-up-line",
+        "file": "system/arrow-up-line.svg"
+      },
+      {
+        "name": "arrow-up-s-fill",
+        "class": "fr-icon-arrow-up-s-fill",
+        "file": "system/arrow-up-s-fill.svg"
+      },
+      {
+        "name": "arrow-up-s-line",
+        "class": "fr-icon-arrow-up-s-line",
+        "file": "system/arrow-up-s-line.svg"
+      },
+      {
+        "name": "check-line",
+        "class": "fr-icon-check-line",
+        "file": "system/check-line.svg"
+      },
+      {
+        "name": "checkbox-circle-fill",
+        "class": "fr-icon-checkbox-circle-fill",
+        "file": "system/checkbox-circle-fill.svg"
+      },
+      {
+        "name": "checkbox-circle-line",
+        "class": "fr-icon-checkbox-circle-line",
+        "file": "system/checkbox-circle-line.svg"
+      },
+      {
+        "name": "checkbox-fill",
+        "class": "fr-icon-checkbox-fill",
+        "file": "system/checkbox-fill.svg"
+      },
+      {
+        "name": "checkbox-line",
+        "class": "fr-icon-checkbox-line",
+        "file": "system/checkbox-line.svg"
+      },
+      {
+        "name": "close-circle-fill",
+        "class": "fr-icon-close-circle-fill",
+        "file": "system/close-circle-fill.svg"
+      },
+      {
+        "name": "close-circle-line",
+        "class": "fr-icon-close-circle-line",
+        "file": "system/close-circle-line.svg"
+      },
+      {
+        "name": "close-line",
+        "class": "fr-icon-close-line",
+        "file": "system/close-line.svg"
+      },
+      {
+        "name": "delete-bin-fill",
+        "class": "fr-icon-delete-bin-fill",
+        "file": "system/delete-bin-fill.svg"
+      },
+      {
+        "name": "delete-bin-line",
+        "class": "fr-icon-delete-bin-line",
+        "file": "system/delete-bin-line.svg"
+      },
+      {
+        "name": "download-fill",
+        "class": "fr-icon-download-fill",
+        "file": "system/download-fill.svg"
+      },
+      {
+        "name": "download-line",
+        "class": "fr-icon-download-line",
+        "file": "system/download-line.svg"
+      },
+      {
+        "name": "error-warning-fill",
+        "class": "fr-icon-error-warning-fill",
+        "file": "system/error-warning-fill.svg"
+      },
+      {
+        "name": "error-warning-line",
+        "class": "fr-icon-error-warning-line",
+        "file": "system/error-warning-line.svg"
+      },
+      {
+        "name": "external-link-fill",
+        "class": "fr-icon-external-link-fill",
+        "file": "system/external-link-fill.svg"
+      },
+      {
+        "name": "external-link-line",
+        "class": "fr-icon-external-link-line",
+        "file": "system/external-link-line.svg"
+      },
+      {
+        "name": "eye-fill",
+        "class": "fr-icon-eye-fill",
+        "file": "system/eye-fill.svg"
+      },
+      {
+        "name": "eye-line",
+        "class": "fr-icon-eye-line",
+        "file": "system/eye-line.svg"
+      },
+      {
+        "name": "eye-off-fill",
+        "class": "fr-icon-eye-off-fill",
+        "file": "system/eye-off-fill.svg"
+      },
+      {
+        "name": "eye-off-line",
+        "class": "fr-icon-eye-off-line",
+        "file": "system/eye-off-line.svg"
+      },
+      {
+        "name": "filter-fill",
+        "class": "fr-icon-filter-fill",
+        "file": "system/filter-fill.svg"
+      },
+      {
+        "name": "filter-line",
+        "class": "fr-icon-filter-line",
+        "file": "system/filter-line.svg"
+      },
+      {
+        "name": "fr--alert-warning-2-fill",
+        "class": "fr-icon-fr--alert-warning-2-fill",
+        "file": "system/fr--alert-warning-2-fill.svg"
+      },
+      {
+        "name": "fr--alert-warning-fill",
+        "class": "fr-icon-fr--alert-warning-fill",
+        "file": "system/fr--alert-warning-fill.svg"
+      },
+      {
+        "name": "fr--arrow-left-s-first-line",
+        "class": "fr-icon-fr--arrow-left-s-first-line",
+        "file": "system/fr--arrow-left-s-first-line.svg"
+      },
+      {
+        "name": "fr--arrow-left-s-line-double",
+        "class": "fr-icon-fr--arrow-left-s-line-double",
+        "file": "system/fr--arrow-left-s-line-double.svg"
+      },
+      {
+        "name": "fr--arrow-right-down-circle-fill",
+        "class": "fr-icon-fr--arrow-right-down-circle-fill",
+        "file": "system/fr--arrow-right-down-circle-fill.svg"
+      },
+      {
+        "name": "fr--arrow-right-s-last-line",
+        "class": "fr-icon-fr--arrow-right-s-last-line",
+        "file": "system/fr--arrow-right-s-last-line.svg"
+      },
+      {
+        "name": "fr--arrow-right-s-line-double",
+        "class": "fr-icon-fr--arrow-right-s-line-double",
+        "file": "system/fr--arrow-right-s-line-double.svg"
+      },
+      {
+        "name": "fr--arrow-right-up-circle-fill",
+        "class": "fr-icon-fr--arrow-right-up-circle-fill",
+        "file": "system/fr--arrow-right-up-circle-fill.svg"
+      },
+      {
+        "name": "fr--capslock-line",
+        "class": "fr-icon-fr--capslock-line",
+        "file": "system/fr--capslock-line.svg"
+      },
+      {
+        "name": "fr--equal-circle-fill",
+        "class": "fr-icon-fr--equal-circle-fill",
+        "file": "system/fr--equal-circle-fill.svg"
+      },
+      {
+        "name": "fr--error-fill",
+        "class": "fr-icon-fr--error-fill",
+        "file": "system/fr--error-fill.svg"
+      },
+      {
+        "name": "fr--error-line",
+        "class": "fr-icon-fr--error-line",
+        "file": "system/fr--error-line.svg"
+      },
+      {
+        "name": "fr--info-fill",
+        "class": "fr-icon-fr--info-fill",
+        "file": "system/fr--info-fill.svg"
+      },
+      {
+        "name": "fr--info-line",
+        "class": "fr-icon-fr--info-line",
+        "file": "system/fr--info-line.svg"
+      },
+      {
+        "name": "fr--success-fill",
+        "class": "fr-icon-fr--success-fill",
+        "file": "system/fr--success-fill.svg"
+      },
+      {
+        "name": "fr--success-line",
+        "class": "fr-icon-fr--success-line",
+        "file": "system/fr--success-line.svg"
+      },
+      {
+        "name": "fr--theme-fill",
+        "class": "fr-icon-fr--theme-fill",
+        "file": "system/fr--theme-fill.svg"
+      },
+      {
+        "name": "fr--warning-fill",
+        "class": "fr-icon-fr--warning-fill",
+        "file": "system/fr--warning-fill.svg"
+      },
+      {
+        "name": "fr--warning-line",
+        "class": "fr-icon-fr--warning-line",
+        "file": "system/fr--warning-line.svg"
+      },
+      {
+        "name": "information-fill",
+        "class": "fr-icon-information-fill",
+        "file": "system/information-fill.svg"
+      },
+      {
+        "name": "information-line",
+        "class": "fr-icon-information-line",
+        "file": "system/information-line.svg"
+      },
+      {
+        "name": "lock-fill",
+        "class": "fr-icon-lock-fill",
+        "file": "system/lock-fill.svg"
+      },
+      {
+        "name": "lock-line",
+        "class": "fr-icon-lock-line",
+        "file": "system/lock-line.svg"
+      },
+      {
+        "name": "lock-unlock-fill",
+        "class": "fr-icon-lock-unlock-fill",
+        "file": "system/lock-unlock-fill.svg"
+      },
+      {
+        "name": "lock-unlock-line",
+        "class": "fr-icon-lock-unlock-line",
+        "file": "system/lock-unlock-line.svg"
+      },
+      {
+        "name": "logout-box-r-fill",
+        "class": "fr-icon-logout-box-r-fill",
+        "file": "system/logout-box-r-fill.svg"
+      },
+      {
+        "name": "logout-box-r-line",
+        "class": "fr-icon-logout-box-r-line",
+        "file": "system/logout-box-r-line.svg"
+      },
+      {
+        "name": "menu-2-fill",
+        "class": "fr-icon-menu-2-fill",
+        "file": "system/menu-2-fill.svg"
+      },
+      {
+        "name": "menu-fill",
+        "class": "fr-icon-menu-fill",
+        "file": "system/menu-fill.svg"
+      },
+      {
+        "name": "more-fill",
+        "class": "fr-icon-more-fill",
+        "file": "system/more-fill.svg"
+      },
+      {
+        "name": "more-line",
+        "class": "fr-icon-more-line",
+        "file": "system/more-line.svg"
+      },
+      {
+        "name": "notification-badge-fill",
+        "class": "fr-icon-notification-badge-fill",
+        "file": "system/notification-badge-fill.svg"
+      },
+      {
+        "name": "notification-badge-line",
+        "class": "fr-icon-notification-badge-line",
+        "file": "system/notification-badge-line.svg"
+      },
+      {
+        "name": "question-fill",
+        "class": "fr-icon-question-fill",
+        "file": "system/question-fill.svg"
+      },
+      {
+        "name": "question-line",
+        "class": "fr-icon-question-line",
+        "file": "system/question-line.svg"
+      },
+      {
+        "name": "refresh-fill",
+        "class": "fr-icon-refresh-fill",
+        "file": "system/refresh-fill.svg"
+      },
+      {
+        "name": "refresh-line",
+        "class": "fr-icon-refresh-line",
+        "file": "system/refresh-line.svg"
+      },
+      {
+        "name": "search-fill",
+        "class": "fr-icon-search-fill",
+        "file": "system/search-fill.svg"
+      },
+      {
+        "name": "search-line",
+        "class": "fr-icon-search-line",
+        "file": "system/search-line.svg"
+      },
+      {
+        "name": "settings-5-fill",
+        "class": "fr-icon-settings-5-fill",
+        "file": "system/settings-5-fill.svg"
+      },
+      {
+        "name": "settings-5-line",
+        "class": "fr-icon-settings-5-line",
+        "file": "system/settings-5-line.svg"
+      },
+      {
+        "name": "share-fill",
+        "class": "fr-icon-share-fill",
+        "file": "system/share-fill.svg"
+      },
+      {
+        "name": "share-forward-fill",
+        "class": "fr-icon-share-forward-fill",
+        "file": "system/share-forward-fill.svg"
+      },
+      {
+        "name": "share-forward-line",
+        "class": "fr-icon-share-forward-line",
+        "file": "system/share-forward-line.svg"
+      },
+      {
+        "name": "share-line",
+        "class": "fr-icon-share-line",
+        "file": "system/share-line.svg"
+      },
+      {
+        "name": "shield-fill",
+        "class": "fr-icon-shield-fill",
+        "file": "system/shield-fill.svg"
+      },
+      {
+        "name": "shield-line",
+        "class": "fr-icon-shield-line",
+        "file": "system/shield-line.svg"
+      },
+      {
+        "name": "star-fill",
+        "class": "fr-icon-star-fill",
+        "file": "system/star-fill.svg"
+      },
+      {
+        "name": "star-line",
+        "class": "fr-icon-star-line",
+        "file": "system/star-line.svg"
+      },
+      {
+        "name": "star-s-fill",
+        "class": "fr-icon-star-s-fill",
+        "file": "system/star-s-fill.svg"
+      },
+      {
+        "name": "star-s-line",
+        "class": "fr-icon-star-s-line",
+        "file": "system/star-s-line.svg"
+      },
+      {
+        "name": "subtract-line",
+        "class": "fr-icon-subtract-line",
+        "file": "system/subtract-line.svg"
+      },
+      {
+        "name": "thumb-down-fill",
+        "class": "fr-icon-thumb-down-fill",
+        "file": "system/thumb-down-fill.svg"
+      },
+      {
+        "name": "thumb-down-line",
+        "class": "fr-icon-thumb-down-line",
+        "file": "system/thumb-down-line.svg"
+      },
+      {
+        "name": "thumb-up-fill",
+        "class": "fr-icon-thumb-up-fill",
+        "file": "system/thumb-up-fill.svg"
+      },
+      {
+        "name": "thumb-up-line",
+        "class": "fr-icon-thumb-up-line",
+        "file": "system/thumb-up-line.svg"
+      },
+      {
+        "name": "time-fill",
+        "class": "fr-icon-time-fill",
+        "file": "system/time-fill.svg"
+      },
+      {
+        "name": "time-line",
+        "class": "fr-icon-time-line",
+        "file": "system/time-line.svg"
+      },
+      {
+        "name": "timer-fill",
+        "class": "fr-icon-timer-fill",
+        "file": "system/timer-fill.svg"
+      },
+      {
+        "name": "timer-line",
+        "class": "fr-icon-timer-line",
+        "file": "system/timer-line.svg"
+      },
+      {
+        "name": "upload-2-fill",
+        "class": "fr-icon-upload-2-fill",
+        "file": "system/upload-2-fill.svg"
+      },
+      {
+        "name": "upload-2-line",
+        "class": "fr-icon-upload-2-line",
+        "file": "system/upload-2-line.svg"
+      },
+      {
+        "name": "upload-fill",
+        "class": "fr-icon-upload-fill",
+        "file": "system/upload-fill.svg"
+      },
+      {
+        "name": "upload-line",
+        "class": "fr-icon-upload-line",
+        "file": "system/upload-line.svg"
+      },
+      {
+        "name": "zoom-in-fill",
+        "class": "fr-icon-zoom-in-fill",
+        "file": "system/zoom-in-fill.svg"
+      },
+      {
+        "name": "zoom-in-line",
+        "class": "fr-icon-zoom-in-line",
+        "file": "system/zoom-in-line.svg"
+      },
+      {
+        "name": "zoom-out-fill",
+        "class": "fr-icon-zoom-out-fill",
+        "file": "system/zoom-out-fill.svg"
+      },
+      {
+        "name": "zoom-out-line",
+        "class": "fr-icon-zoom-out-line",
+        "file": "system/zoom-out-line.svg"
+      }
+    ],
+    "user": [
+      {
+        "name": "account-circle-fill",
+        "class": "fr-icon-account-circle-fill",
+        "file": "user/account-circle-fill.svg"
+      },
+      {
+        "name": "account-circle-line",
+        "class": "fr-icon-account-circle-line",
+        "file": "user/account-circle-line.svg"
+      },
+      {
+        "name": "account-pin-circle-fill",
+        "class": "fr-icon-account-pin-circle-fill",
+        "file": "user/account-pin-circle-fill.svg"
+      },
+      {
+        "name": "account-pin-circle-line",
+        "class": "fr-icon-account-pin-circle-line",
+        "file": "user/account-pin-circle-line.svg"
+      },
+      {
+        "name": "admin-fill",
+        "class": "fr-icon-admin-fill",
+        "file": "user/admin-fill.svg"
+      },
+      {
+        "name": "admin-line",
+        "class": "fr-icon-admin-line",
+        "file": "user/admin-line.svg"
+      },
+      {
+        "name": "group-fill",
+        "class": "fr-icon-group-fill",
+        "file": "user/group-fill.svg"
+      },
+      {
+        "name": "group-line",
+        "class": "fr-icon-group-line",
+        "file": "user/group-line.svg"
+      },
+      {
+        "name": "parent-fill",
+        "class": "fr-icon-parent-fill",
+        "file": "user/parent-fill.svg"
+      },
+      {
+        "name": "parent-line",
+        "class": "fr-icon-parent-line",
+        "file": "user/parent-line.svg"
+      },
+      {
+        "name": "team-fill",
+        "class": "fr-icon-team-fill",
+        "file": "user/team-fill.svg"
+      },
+      {
+        "name": "team-line",
+        "class": "fr-icon-team-line",
+        "file": "user/team-line.svg"
+      },
+      {
+        "name": "user-add-fill",
+        "class": "fr-icon-user-add-fill",
+        "file": "user/user-add-fill.svg"
+      },
+      {
+        "name": "user-add-line",
+        "class": "fr-icon-user-add-line",
+        "file": "user/user-add-line.svg"
+      },
+      {
+        "name": "user-fill",
+        "class": "fr-icon-user-fill",
+        "file": "user/user-fill.svg"
+      },
+      {
+        "name": "user-heart-fill",
+        "class": "fr-icon-user-heart-fill",
+        "file": "user/user-heart-fill.svg"
+      },
+      {
+        "name": "user-heart-line",
+        "class": "fr-icon-user-heart-line",
+        "file": "user/user-heart-line.svg"
+      },
+      {
+        "name": "user-line",
+        "class": "fr-icon-user-line",
+        "file": "user/user-line.svg"
+      },
+      {
+        "name": "user-search-fill",
+        "class": "fr-icon-user-search-fill",
+        "file": "user/user-search-fill.svg"
+      },
+      {
+        "name": "user-search-line",
+        "class": "fr-icon-user-search-line",
+        "file": "user/user-search-line.svg"
+      },
+      {
+        "name": "user-setting-fill",
+        "class": "fr-icon-user-setting-fill",
+        "file": "user/user-setting-fill.svg"
+      },
+      {
+        "name": "user-setting-line",
+        "class": "fr-icon-user-setting-line",
+        "file": "user/user-setting-line.svg"
+      },
+      {
+        "name": "user-star-fill",
+        "class": "fr-icon-user-star-fill",
+        "file": "user/user-star-fill.svg"
+      },
+      {
+        "name": "user-star-line",
+        "class": "fr-icon-user-star-line",
+        "file": "user/user-star-line.svg"
+      }
+    ],
+    "weather": [
+      {
+        "name": "cloudy-2-fill",
+        "class": "fr-icon-cloudy-2-fill",
+        "file": "weather/cloudy-2-fill.svg"
+      },
+      {
+        "name": "cloudy-2-line",
+        "class": "fr-icon-cloudy-2-line",
+        "file": "weather/cloudy-2-line.svg"
+      },
+      {
+        "name": "fire-fill",
+        "class": "fr-icon-fire-fill",
+        "file": "weather/fire-fill.svg"
+      },
+      {
+        "name": "fire-line",
+        "class": "fr-icon-fire-line",
+        "file": "weather/fire-line.svg"
+      },
+      {
+        "name": "flashlight-fill",
+        "class": "fr-icon-flashlight-fill",
+        "file": "weather/flashlight-fill.svg"
+      },
+      {
+        "name": "flashlight-line",
+        "class": "fr-icon-flashlight-line",
+        "file": "weather/flashlight-line.svg"
+      },
+      {
+        "name": "flood-fill",
+        "class": "fr-icon-flood-fill",
+        "file": "weather/flood-fill.svg"
+      },
+      {
+        "name": "flood-line",
+        "class": "fr-icon-flood-line",
+        "file": "weather/flood-line.svg"
+      },
+      {
+        "name": "fr--avalanches-fill",
+        "class": "fr-icon-fr--avalanches-fill",
+        "file": "weather/fr--avalanches-fill.svg"
+      },
+      {
+        "name": "fr--submersion-fill",
+        "class": "fr-icon-fr--submersion-fill",
+        "file": "weather/fr--submersion-fill.svg"
+      },
+      {
+        "name": "heavy-showers-fill",
+        "class": "fr-icon-heavy-showers-fill",
+        "file": "weather/heavy-showers-fill.svg"
+      },
+      {
+        "name": "heavy-showers-line",
+        "class": "fr-icon-heavy-showers-line",
+        "file": "weather/heavy-showers-line.svg"
+      },
+      {
+        "name": "moon-fill",
+        "class": "fr-icon-moon-fill",
+        "file": "weather/moon-fill.svg"
+      },
+      {
+        "name": "moon-line",
+        "class": "fr-icon-moon-line",
+        "file": "weather/moon-line.svg"
+      },
+      {
+        "name": "snowy-fill",
+        "class": "fr-icon-snowy-fill",
+        "file": "weather/snowy-fill.svg"
+      },
+      {
+        "name": "snowy-line",
+        "class": "fr-icon-snowy-line",
+        "file": "weather/snowy-line.svg"
+      },
+      {
+        "name": "sparkling-2-fill",
+        "class": "fr-icon-sparkling-2-fill",
+        "file": "weather/sparkling-2-fill.svg"
+      },
+      {
+        "name": "sparkling-2-line",
+        "class": "fr-icon-sparkling-2-line",
+        "file": "weather/sparkling-2-line.svg"
+      },
+      {
+        "name": "sun-fill",
+        "class": "fr-icon-sun-fill",
+        "file": "weather/sun-fill.svg"
+      },
+      {
+        "name": "sun-line",
+        "class": "fr-icon-sun-line",
+        "file": "weather/sun-line.svg"
+      },
+      {
+        "name": "temp-cold-fill",
+        "class": "fr-icon-temp-cold-fill",
+        "file": "weather/temp-cold-fill.svg"
+      },
+      {
+        "name": "temp-cold-line",
+        "class": "fr-icon-temp-cold-line",
+        "file": "weather/temp-cold-line.svg"
+      },
+      {
+        "name": "thunderstorms-fill",
+        "class": "fr-icon-thunderstorms-fill",
+        "file": "weather/thunderstorms-fill.svg"
+      },
+      {
+        "name": "thunderstorms-line",
+        "class": "fr-icon-thunderstorms-line",
+        "file": "weather/thunderstorms-line.svg"
+      },
+      {
+        "name": "tornado-fill",
+        "class": "fr-icon-tornado-fill",
+        "file": "weather/tornado-fill.svg"
+      },
+      {
+        "name": "tornado-line",
+        "class": "fr-icon-tornado-line",
+        "file": "weather/tornado-line.svg"
+      },
+      {
+        "name": "typhoon-fill",
+        "class": "fr-icon-typhoon-fill",
+        "file": "weather/typhoon-fill.svg"
+      },
+      {
+        "name": "typhoon-line",
+        "class": "fr-icon-typhoon-line",
+        "file": "weather/typhoon-line.svg"
+      },
+      {
+        "name": "windy-fill",
+        "class": "fr-icon-windy-fill",
+        "file": "weather/windy-fill.svg"
+      },
+      {
+        "name": "windy-line",
+        "class": "fr-icon-windy-line",
+        "file": "weather/windy-line.svg"
+      }
+    ]
+  }
+}

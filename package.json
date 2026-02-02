@@ -1,0 +1,25 @@
+{
+  "name": "dsfr-icons-explorer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "http-server -p 8080 -o",
+    "dev": "http-server -p 8080 -o",
+    "extract": "node scripts/extract-colors.js --output ./src/data && node scripts/extract-remix.js --output ./src/data",
+    "extract:icons": "node scripts/extract-icons.js --output ./src/data",
+    "extract:colors": "node scripts/extract-colors.js --output ./src/data",
+    "extract:remix": "node scripts/extract-remix.js --output ./src/data"
+  },
+  "dependencies": {
+    "@gouvfr/dsfr": "1.14.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remixicon": "^4.9.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.0",
+    "http-server": "^14.1.1",
+    "prettier": "^3.8.1",
+    "vite": "5.4.0"
+  }
+}

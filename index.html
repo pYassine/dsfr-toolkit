@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visualiseur DSFR</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/@gouvfr/dsfr/dist/dsfr.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/@gouvfr/dsfr/dist/utility/icons/icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/@gouvfr/dsfr/dist/utility/utility.min.css"
+    />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+  </head>
+  <body>
+    <header role="banner" class="fr-header">
+      <div class="fr-header__body">
+        <div class="fr-container">
+          <div class="fr-header__body-row">
+            <div class="fr-header__brand fr-enlarge-link">
+              <div class="fr-header__brand-top">
+                <div class="fr-header__logo">
+                  <p class="fr-logo">
+                    République
+                    <br />Française
+                  </p>
+                </div>
+              </div>
+              <div class="fr-header__service">
+                <p class="fr-header__service-title">Visualiseur DSFR</p>
+                <p class="fr-header__service-tagline">
+                  Explorer les icônes et couleurs du Design System
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+      <div class="fr-container fr-py-8w">
+        <div class="fr-grid-row fr-grid-row--center">
+          <div class="fr-col-12 fr-col-md-8">
+            <h1 class="fr-h1 fr-mb-6w">
+              Bienvenue dans le visualiseur DSFR
+            </h1>
+            <p class="fr-text--lead fr-mb-6w">
+              Explorez et copiez facilement les icônes et couleurs du Système
+              de Design de l'État Français.
+            </p>
+
+            <div class="fr-grid-row fr-grid-row--gutters">
+              <div class="fr-col-12 fr-col-md-6">
+                <div class="fr-card fr-card--horizontal fr-enlarge-link">
+                  <div class="fr-card__body">
+                    <div class="fr-card__content">
+                      <h2 class="fr-card__title">
+                        <a href="./icons-viewer.html">Icônes</a>
+                      </h2>
+                      <p class="fr-card__desc">
+                        Parcourez les 662 icônes organisées en 17 catégories.
+                        Recherchez et copiez rapidement les classes CSS.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="fr-card__header">
+                    <div class="fr-card__img">
+                      <div
+                        style="
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          height: 100%;
+                          font-size: 4rem;
+                        "
+                      >
+                        <span
+                          class="fr-icon-palette-line"
+                          aria-hidden="true"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="fr-col-12 fr-col-md-6">
+                <div class="fr-card fr-card--horizontal fr-enlarge-link">
+                  <div class="fr-card__body">
+                    <div class="fr-card__content">
+                      <h2 class="fr-card__title">
+                        <a href="./colors-viewer.html">Couleurs</a>
+                      </h2>
+                      <p class="fr-card__desc">
+                        Explorez les palettes de couleurs du DSFR. Backgrounds
+                        et couleurs de texte avec leurs variables CSS.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="fr-card__header">
+                    <div class="fr-card__img">
+                      <div
+                        style="
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          height: 100%;
+                          font-size: 4rem;
+                        "
+                      >
+                        <span
+                          class="fr-icon-brush-line"
+                          aria-hidden="true"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="fr-mt-6w">
+              <h2 class="fr-h3 fr-mb-2w">Fonctionnalités</h2>
+              <ul class="fr-text--lg">
+                <li>Mode sombre/clair</li>
+                <li>Recherche et filtrage</li>
+                <li>Copie rapide des classes CSS</li>
+                <li>Responsive design</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="fr-footer" role="contentinfo">
+      <div class="fr-container">
+        <div class="fr-footer__body">
+          <div class="fr-footer__brand fr-enlarge-link">
+            <p class="fr-logo">
+              République
+              <br />Française
+            </p>
+          </div>
+          <div class="fr-footer__content">
+            <p class="fr-footer__content-desc">
+              Visualiseur pour le Système de Design de l'État Français (DSFR)
+            </p>
+            <ul class="fr-footer__content-list">
+              <li class="fr-footer__content-item">
+                <a
+                  class="fr-footer__content-link"
+                  href="https://www.systeme-de-design.gouv.fr/"
+                  target="_blank"
+                >
+                  Documentation DSFR
+                </a>
+              </li>
+              <li class="fr-footer__content-item">
+                <a
+                  class="fr-footer__content-link"
+                  href="https://github.com/GouvernementFR/dsfr"
+                  target="_blank"
+                >
+                  GitHub DSFR
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="./node_modules/@gouvfr/dsfr/dist/dsfr.module.min.js"
+    ></script>
+  </body>
+</html>
