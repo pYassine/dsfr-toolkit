@@ -1,6 +1,8 @@
 # DSFR Toolkit
 
-Un ensemble d'outils pour faciliter la prise en main du [Système de Design de l'État Français (DSFR)](https://www.systeme-de-design.gouv.fr/).
+**Une boîte à outils pour mieux intégrer le Design System de l'État**
+
+Un ensemble d'outils interactifs pour faciliter la prise en main du [Système de Design de l'État Français (DSFR)](https://www.systeme-de-design.gouv.fr/).
 
 > **Auteur :** [pYassine](https://github.com/pyassine)
 > **Licence :** Open Source - Respecte les standards du DSFR
@@ -8,7 +10,7 @@ Un ensemble d'outils pour faciliter la prise en main du [Système de Design de l
 
 ## 🎯 Objectif
 
-Ce projet regroupe plusieurs outils interactifs pour aider les développeurs et designers à découvrir, explorer et utiliser les ressources du DSFR de manière simple et intuitive.
+DSFR Toolkit aide les développeurs et designers à découvrir, explorer et utiliser les ressources du DSFR de manière simple et intuitive, avec des exemples pratiques et interactifs.
 
 ## 🌐 Démo en ligne
 
@@ -46,6 +48,21 @@ Un outil pour explorer et utiliser les couleurs du DSFR.
 - 📝 Prévisualisation avec Lorem ipsum pour les couleurs de texte
 - ↕️ Tri alphabétique automatique
 - 🌓 Mode sombre/clair
+
+### 3. Exemples de grille
+
+Une collection d'exemples pratiques pour maîtriser le système de grille DSFR.
+
+**Fonctionnalités :**
+
+- 📐 Système de grille à 12 colonnes expliqué
+- 📱 Exemples responsive (mobile-first)
+- 📏 Gutters (espacements) et alignements
+- 🎯 Offset et colonnes décalées
+- 🔄 Grilles imbriquées
+- 💼 Exemples pratiques : blog, galerie, dashboard
+- 📊 Tableau de référence rapide des classes
+- 💡 Code source visible pour chaque exemple
 
 ## 📦 Installation
 
@@ -93,6 +110,7 @@ dsfr-toolkit/
 ├── index.html                  # Page d'accueil
 ├── icons-viewer.html           # Visualiseur d'icônes
 ├── colors-viewer.html          # Palette de couleurs
+├── grid-viewer.html            # Exemples de grille
 ├── src/
 │   ├── styles/
 │   │   └── style.css          # Styles centralisés
