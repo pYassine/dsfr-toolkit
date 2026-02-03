@@ -10,6 +10,10 @@ Un ensemble d'outils pour faciliter la prise en main du [Système de Design de l
 
 Ce projet regroupe plusieurs outils interactifs pour aider les développeurs et designers à découvrir, explorer et utiliser les ressources du DSFR de manière simple et intuitive.
 
+## 🌐 Démo en ligne
+
+Découvrez l'outil en ligne : **[https://storied-nougat-78ee14.netlify.app/](https://storied-nougat-78ee14.netlify.app/)**
+
 ## 🛠️ Outils disponibles
 
 ### 1. Visualiseur d'icônes
