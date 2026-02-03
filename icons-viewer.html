@@ -93,6 +93,14 @@
 
     <main role="main">
       <div class="fr-container fr-py-4w">
+        <!-- Sélecteur de couleur -->
+        <div class="fr-mb-3w">
+          <h2 class="fr-h6 fr-mb-2w">Couleur des icônes</h2>
+          <div class="color-selector" id="color-selector">
+            <!-- Les boutons de couleur seront générés par JavaScript -->
+          </div>
+        </div>
+
         <div class="fr-search-bar fr-mb-3w" role="search">
           <input
             class="fr-input"
@@ -228,6 +236,88 @@
       let remixData = null;
       let currentTheme = "light";
       let currentTab = "dsfr";
+      let currentColor = ""; // Couleur sélectionnée
+
+      // Couleurs disponibles pour les icônes
+      const iconColors = [
+        { name: "Défaut", class: "", type: "default" },
+        { name: "Success", class: "fr-text-default--success", type: "success" },
+        { name: "Error", class: "fr-text-default--error", type: "error" },
+        { name: "Warning", class: "fr-text-default--warning", type: "warning" },
+        { name: "Info", class: "fr-text-default--info", type: "info" },
+        { name: "Blue France", class: "fr-text-label--blue-france", type: "blue-france" },
+        { name: "Red Marianne", class: "fr-text-label--red-marianne", type: "red-marianne" },
+        { name: "Green Emeraude", class: "fr-text-label--green-emeraude", type: "green-emeraude" },
+        { name: "Orange Terre Battue", class: "fr-text-label--orange-terre-battue", type: "orange-terre-battue" },
+        { name: "Purple Glycine", class: "fr-text-label--purple-glycine", type: "purple-glycine" },
+        { name: "Pink Tuile", class: "fr-text-label--pink-tuile", type: "pink-tuile" },
+      ];
+
+      // Mapping des icônes fr-- vers leurs équivalents
+      const iconAlternatives = {
+        'fr--success-fill': 'checkbox-circle-fill',
+        'fr--success-line': 'checkbox-circle-line',
+        'fr--error-fill': 'error-warning-fill',
+        'fr--error-line': 'error-warning-line',
+        'fr--info-fill': 'information-fill',
+        'fr--info-line': 'information-line',
+        'fr--warning-fill': 'alert-fill',
+        'fr--warning-line': 'alert-line',
+        'fr--alert-warning-fill': 'alert-fill',
+        'fr--alert-warning-2-fill': 'alert-fill',
+        'fr--theme-fill': 'moon-fill ou sun-fill',
+      };
+
+      function initColorSelector() {
+        const container = document.getElementById("color-selector");
+        container.innerHTML = "";
+
+        iconColors.forEach((color) => {
+          const button = document.createElement("button");
+          button.className = `fr-btn fr-btn--sm ${color.class === currentColor ? "fr-btn--primary" : "fr-btn--secondary"}`;
+          button.onclick = () => selectColor(color.class);
+
+          const swatch = document.createElement("span");
+          swatch.className = `color-swatch-btn ${color.class}`;
+          swatch.innerHTML = color.type === "default" ? "Aa" : "●";
+          swatch.setAttribute("aria-hidden", "true");
+
+          const label = document.createElement("span");
+          label.textContent = color.name;
+
+          button.appendChild(swatch);
+          button.appendChild(document.createTextNode(" "));
+          button.appendChild(label);
+
+          container.appendChild(button);
+        });
+      }
+
+      function selectColor(colorClass) {
+        currentColor = colorClass;
+        initColorSelector(); // Mettre à jour l'apparence des boutons
+
+        // Appliquer la couleur à toutes les icônes affichées
+        const icons = document.querySelectorAll(".icon-display i, .icon-display .fr-icon-check-line");
+        icons.forEach((icon) => {
+          // Retirer toutes les classes de couleur
+          icon.className = icon.className.split(" ").filter(c => !c.includes("fr-text-")).join(" ");
+
+          // Ajouter la nouvelle couleur
+          if (colorClass) {
+            icon.classList.add(colorClass);
+          }
+        });
+
+        // Re-render pour appliquer aux nouvelles icônes
+        if (currentTab === 'remix') {
+          const searchTerm = document.getElementById("search-input").value;
+          renderRemixIcons(searchTerm);
+        } else {
+          const searchTerm = document.getElementById("search-input").value;
+          renderIcons(searchTerm);
+        }
+      }
 
       async function loadIcons() {
         try {
@@ -361,15 +451,41 @@
         card.className = "fr-card fr-card--no-border fr-card--shadow";
         const uniqueId = `select-${type}-${icon.name.replace(/[^a-z0-9]/gi, "-")}`;
 
+        // Ajouter la classe de couleur si une couleur est sélectionnée
+        const colorClass = currentColor ? ` ${currentColor}` : "";
+
+        // Vérifier si l'icône a le préfixe fr-- dans le nom du fichier
+        const hasDoubleDash = icon.name.startsWith('fr--');
+        const alternative = iconAlternatives[icon.name];
+
+        let infoBadge = '';
+        let infoMessage = '';
+
+        if (hasDoubleDash) {
+          infoBadge = `<span class="fr-badge fr-badge--info fr-badge--sm" title="Icône spécifique DSFR">DSFR</span>`;
+
+          if (alternative) {
+            infoMessage = `
+              <div class="fr-alert fr-alert--info fr-mt-2w">
+                <p class="fr-mb-0">
+                  <strong>Alternative :</strong> <code>${alternative}</code>
+                </p>
+              </div>
+            `;
+          }
+        }
+
         card.innerHTML = `
                 <div class="fr-card__body">
                     <div class="fr-card__content">
                         <div class="icon-display">
-                            <i class="${icon.class}" aria-hidden="true"></i>
+                            <i class="${icon.class}${colorClass}" aria-hidden="true"></i>
                         </div>
-                        <div style="text-align: center; margin-bottom: 1rem;">
-                            <p class="fr-tag fr-tag--sm">${icon.name}</p>
+                        <div style="text-align: center; margin-bottom: 1rem; display: flex; flex-direction: column; align-items: center; gap: 0.5rem;">
+                            <p class="fr-tag fr-tag--sm fr-mb-0">${icon.name}</p>
+                            ${hasDoubleDash ? infoBadge : ''}
                         </div>
+                        ${infoMessage}
                         <div class="fr-select-group">
                             <select class="fr-select" id="${uniqueId}" onchange="handleCopy(this, '${icon.name}', '${icon.class}')">
                                 <option value="" selected>Copier...</option>
@@ -409,16 +525,19 @@
       }
 
       function copyClass(className) {
-        copyToClipboard(className, "Classe copiée !");
+        const classWithColor = currentColor ? `${className} ${currentColor}` : className;
+        copyToClipboard(classWithColor, "Classe copiée !");
       }
 
       function copySpan(className) {
-        const spanElement = `<span class="${className}" aria-hidden="true"></span>`;
+        const classWithColor = currentColor ? `${className} ${currentColor}` : className;
+        const spanElement = `<span class="${classWithColor}" aria-hidden="true"></span>`;
         copyToClipboard(spanElement, "Élément <span> copié !");
       }
 
       function copyI(className) {
-        const iElement = `<i class="${className}" aria-hidden="true"></i>`;
+        const classWithColor = currentColor ? `${className} ${currentColor}` : className;
+        const iElement = `<i class="${classWithColor}" aria-hidden="true"></i>`;
         copyToClipboard(iElement, "Élément <i> copié !");
       }
 
@@ -576,6 +695,7 @@
 
       initTheme();
       initTabs();
+      initColorSelector();
       loadIcons();
     </script>
     <script

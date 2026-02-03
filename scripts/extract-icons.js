@@ -57,13 +57,19 @@ function main() {
     const category = parts[0];
     const iconName = path.basename(file, ".svg");
 
+    // Le DSFR retire le préfixe "fr--" des noms de fichiers lors de la génération CSS
+    // Exemple: fr--success-fill.svg → .fr-icon-success-fill
+    const className = iconName.startsWith('fr--')
+      ? iconName.replace('fr--', '')
+      : iconName;
+
     if (!icons[category]) {
       icons[category] = [];
     }
 
     icons[category].push({
       name: iconName,
-      class: `fr-icon-${iconName}`,
+      class: `fr-icon-${className}`,
       file: relativePath,
     });
   }

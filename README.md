@@ -24,10 +24,12 @@ Un outil interactif pour explorer et copier les icônes DSFR et Remix Icon.
 
 - 🔍 Recherche en temps réel parmi toutes les icônes
 - 🎨 Deux bibliothèques d'icônes : **DSFR** (662 icônes) et **Remix Icon** (3078 icônes)
-- 📋 Copie rapide du nom, de la classe CSS, ou des éléments HTML (`<span>`, `<i>`)
+- 🎨 **Sélecteur de couleur interactif** : Testez les icônes avec 11 couleurs DSFR (Success, Error, Warning, Info, etc.)
+- 📋 Copie rapide avec couleur : Le nom, la classe CSS (avec couleur si sélectionnée), ou les éléments HTML (`<span>`, `<i>`)
+- 🏷️ **Badges informatifs** : Identification des icônes spécifiques DSFR avec suggestions d'alternatives
 - 🌓 Mode sombre/clair avec sauvegarde des préférences
 - 📱 Design responsive (grille adaptative)
-- 🎯 Interface 100% DSFR (utilisation des composants natifs : `fr-card`, `fr-tag`, `fr-select`, `fr-tabs`)
+- 🎯 Interface 100% DSFR (utilisation des composants natifs : `fr-card`, `fr-tag`, `fr-select`, `fr-tabs`, `fr-badge`, `fr-alert`)
 - 📊 Statistiques en temps réel
 - 🏷️ Organisation par catégories
 

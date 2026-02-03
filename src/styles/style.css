@@ -126,3 +126,54 @@
 .icon-display [class*=" ri-"]::before {
   font-size: 3rem !important;
 }
+
+/* Sélecteur de couleur */
+.color-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.color-selector button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+}
+
+.color-swatch-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+/* Badge d'avertissement double tiret */
+.fr-card .fr-badge {
+  font-size: 0.625rem;
+  padding: 0.25rem 0.5rem;
+}
+
+/* Alertes dans les cartes */
+.fr-card .fr-alert {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.fr-card .fr-alert p {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.fr-card .fr-alert code {
+  background-color: var(--background-contrast-grey);
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 0.25rem;
+}
