@@ -20,6 +20,11 @@ const FILES = [
   'favicon/apple-touch-icon.png'
 ];
 
+const DIRECTORIES = [
+  'fonts',
+  'icons'
+];
+
 function ensureDir(dir) {
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir, { recursive: true });
@@ -30,6 +35,28 @@ function copyFile(src, dest) {
   ensureDir(path.dirname(dest));
   fs.copyFileSync(src, dest);
   console.log(`✓ ${path.relative(ROOT, dest)}`);
+}
+
+function copyDirectory(src, dest) {
+  if (!fs.existsSync(src)) {
+    console.warn(`⚠ Directory not found: ${src}`);
+    return;
+  }
+
+  ensureDir(dest);
+  const entries = fs.readdirSync(src, { withFileTypes: true });
+
+  for (const entry of entries) {
+    const srcPath = path.join(src, entry.name);
+    const destPath = path.join(dest, entry.name);
+
+    if (entry.isDirectory()) {
+      copyDirectory(srcPath, destPath);
+    } else {
+      fs.copyFileSync(srcPath, destPath);
+    }
+  }
+  console.log(`✓ ${path.relative(ROOT, dest)}/ (directory)`);
 }
 
 // Clean target
@@ -43,6 +70,15 @@ FILES.forEach(file => {
   copyFile(
     path.join(SOURCE, file),
     path.join(TARGET, file)
+  );
+});
+
+console.log('\nCopying directories...\n');
+
+DIRECTORIES.forEach(dir => {
+  copyDirectory(
+    path.join(SOURCE, dir),
+    path.join(TARGET, dir)
   );
 });
 
