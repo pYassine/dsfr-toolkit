@@ -1,5 +1,5 @@
 [build]
-  command = "pnpm install && pnpm extract"
+  command = "pnpm install && pnpm build"
   publish = "."
 
 [build.environment]

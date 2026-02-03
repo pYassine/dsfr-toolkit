@@ -8,7 +8,9 @@
     "extract": "node scripts/extract-colors.js --output ./src/data && node scripts/extract-remix.js --output ./src/data",
     "extract:icons": "node scripts/extract-icons.js --output ./src/data",
     "extract:colors": "node scripts/extract-colors.js --output ./src/data",
-    "extract:remix": "node scripts/extract-remix.js --output ./src/data"
+    "extract:remix": "node scripts/extract-remix.js --output ./src/data",
+    "copy:assets": "node scripts/copy-dsfr-assets.js",
+    "build": "pnpm extract && pnpm copy:assets"
   },
   "dependencies": {
     "@gouvfr/dsfr": "1.14.0",
