@@ -1,0 +1,1389 @@
+# Icônes DSFR
+
+> 662 icônes organisées en 17 catégories
+
+**Source:** Design System de l'État Français (DSFR)
+
+## Utilisation
+
+```html
+<span class="fr-icon-[nom-icone]" aria-hidden="true"></span>
+```
+
+## Liste des icônes par catégorie
+
+### Buildings (20)
+
+- **ancient-gate-fill**
+  - Classe: `fr-icon-ancient-gate-fill`
+- **ancient-gate-line**
+  - Classe: `fr-icon-ancient-gate-line`
+- **ancient-pavilion-fill**
+  - Classe: `fr-icon-ancient-pavilion-fill`
+- **ancient-pavilion-line**
+  - Classe: `fr-icon-ancient-pavilion-line`
+- **bank-fill**
+  - Classe: `fr-icon-bank-fill`
+- **bank-line**
+  - Classe: `fr-icon-bank-line`
+- **building-fill**
+  - Classe: `fr-icon-building-fill`
+- **building-line**
+  - Classe: `fr-icon-building-line`
+- **community-fill**
+  - Classe: `fr-icon-community-fill`
+- **community-line**
+  - Classe: `fr-icon-community-line`
+- **government-fill**
+  - Classe: `fr-icon-government-fill`
+- **government-line**
+  - Classe: `fr-icon-government-line`
+- **home-4-fill**
+  - Classe: `fr-icon-home-4-fill`
+- **home-4-line**
+  - Classe: `fr-icon-home-4-line`
+- **hospital-fill**
+  - Classe: `fr-icon-hospital-fill`
+- **hospital-line**
+  - Classe: `fr-icon-hospital-line`
+- **hotel-fill**
+  - Classe: `fr-icon-hotel-fill`
+- **hotel-line**
+  - Classe: `fr-icon-hotel-line`
+- **store-fill**
+  - Classe: `fr-icon-store-fill`
+- **store-line**
+  - Classe: `fr-icon-store-line`
+
+### Business (54)
+
+- **archive-fill**
+  - Classe: `fr-icon-archive-fill`
+- **archive-line**
+  - Classe: `fr-icon-archive-line`
+- **attachment-fill**
+  - Classe: `fr-icon-attachment-fill`
+- **attachment-line**
+  - Classe: `fr-icon-attachment-line`
+- **award-fill**
+  - Classe: `fr-icon-award-fill`
+- **award-line**
+  - Classe: `fr-icon-award-line`
+- **bar-chart-box-fill**
+  - Classe: `fr-icon-bar-chart-box-fill`
+- **bar-chart-box-line**
+  - Classe: `fr-icon-bar-chart-box-line`
+- **bookmark-fill**
+  - Classe: `fr-icon-bookmark-fill`
+- **bookmark-line**
+  - Classe: `fr-icon-bookmark-line`
+- **briefcase-fill**
+  - Classe: `fr-icon-briefcase-fill`
+- **briefcase-line**
+  - Classe: `fr-icon-briefcase-line`
+- **calendar-2-fill**
+  - Classe: `fr-icon-calendar-2-fill`
+- **calendar-2-line**
+  - Classe: `fr-icon-calendar-2-line`
+- **calendar-event-fill**
+  - Classe: `fr-icon-calendar-event-fill`
+- **calendar-event-line**
+  - Classe: `fr-icon-calendar-event-line`
+- **calendar-fill**
+  - Classe: `fr-icon-calendar-fill`
+- **calendar-line**
+  - Classe: `fr-icon-calendar-line`
+- **cloud-fill**
+  - Classe: `fr-icon-cloud-fill`
+- **cloud-line**
+  - Classe: `fr-icon-cloud-line`
+- **copyright-fill**
+  - Classe: `fr-icon-copyright-fill`
+- **copyright-line**
+  - Classe: `fr-icon-copyright-line`
+- **customer-service-fill**
+  - Classe: `fr-icon-customer-service-fill`
+- **customer-service-line**
+  - Classe: `fr-icon-customer-service-line`
+- **flag-fill**
+  - Classe: `fr-icon-flag-fill`
+- **flag-line**
+  - Classe: `fr-icon-flag-line`
+- **global-fill**
+  - Classe: `fr-icon-global-fill`
+- **global-line**
+  - Classe: `fr-icon-global-line`
+- **line-chart-fill**
+  - Classe: `fr-icon-line-chart-fill`
+- **line-chart-line**
+  - Classe: `fr-icon-line-chart-line`
+- **links-fill**
+  - Classe: `fr-icon-links-fill`
+- **links-line**
+  - Classe: `fr-icon-links-line`
+- **mail-fill**
+  - Classe: `fr-icon-mail-fill`
+- **mail-line**
+  - Classe: `fr-icon-mail-line`
+- **mail-open-fill**
+  - Classe: `fr-icon-mail-open-fill`
+- **mail-open-line**
+  - Classe: `fr-icon-mail-open-line`
+- **medal-fill**
+  - Classe: `fr-icon-medal-fill`
+- **medal-line**
+  - Classe: `fr-icon-medal-line`
+- **pie-chart-2-fill**
+  - Classe: `fr-icon-pie-chart-2-fill`
+- **pie-chart-2-line**
+  - Classe: `fr-icon-pie-chart-2-line`
+- **pie-chart-box-fill**
+  - Classe: `fr-icon-pie-chart-box-fill`
+- **pie-chart-box-line**
+  - Classe: `fr-icon-pie-chart-box-line`
+- **printer-fill**
+  - Classe: `fr-icon-printer-fill`
+- **printer-line**
+  - Classe: `fr-icon-printer-line`
+- **profil-fill**
+  - Classe: `fr-icon-profil-fill`
+- **profil-line**
+  - Classe: `fr-icon-profil-line`
+- **projector-2-fill**
+  - Classe: `fr-icon-projector-2-fill`
+- **projector-2-line**
+  - Classe: `fr-icon-projector-2-line`
+- **send-plane-fill**
+  - Classe: `fr-icon-send-plane-fill`
+- **send-plane-line**
+  - Classe: `fr-icon-send-plane-line`
+- **slideshow-fill**
+  - Classe: `fr-icon-slideshow-fill`
+- **slideshow-line**
+  - Classe: `fr-icon-slideshow-line`
+- **window-fill**
+  - Classe: `fr-icon-window-fill`
+- **window-line**
+  - Classe: `fr-icon-window-line`
+
+### Communication (22)
+
+- **chat-2-fill**
+  - Classe: `fr-icon-chat-2-fill`
+- **chat-2-line**
+  - Classe: `fr-icon-chat-2-line`
+- **chat-3-fill**
+  - Classe: `fr-icon-chat-3-fill`
+- **chat-3-line**
+  - Classe: `fr-icon-chat-3-line`
+- **chat-check-fill**
+  - Classe: `fr-icon-chat-check-fill`
+- **chat-check-line**
+  - Classe: `fr-icon-chat-check-line`
+- **chat-delete-fill**
+  - Classe: `fr-icon-chat-delete-fill`
+- **chat-delete-line**
+  - Classe: `fr-icon-chat-delete-line`
+- **chat-poll-fill**
+  - Classe: `fr-icon-chat-poll-fill`
+- **chat-poll-line**
+  - Classe: `fr-icon-chat-poll-line`
+- **discuss-fill**
+  - Classe: `fr-icon-discuss-fill`
+- **discuss-line**
+  - Classe: `fr-icon-discuss-line`
+- **feedback-fill**
+  - Classe: `fr-icon-feedback-fill`
+- **feedback-line**
+  - Classe: `fr-icon-feedback-line`
+- **message-2-fill**
+  - Classe: `fr-icon-message-2-fill`
+- **message-2-line**
+  - Classe: `fr-icon-message-2-line`
+- **question-answer-fill**
+  - Classe: `fr-icon-question-answer-fill`
+- **question-answer-line**
+  - Classe: `fr-icon-question-answer-line`
+- **questionnaire-fill**
+  - Classe: `fr-icon-questionnaire-fill`
+- **questionnaire-line**
+  - Classe: `fr-icon-questionnaire-line`
+- **video-chat-fill**
+  - Classe: `fr-icon-video-chat-fill`
+- **video-chat-line**
+  - Classe: `fr-icon-video-chat-line`
+
+### Design (46)
+
+- **ball-pen-fill**
+  - Classe: `fr-icon-ball-pen-fill`
+- **ball-pen-line**
+  - Classe: `fr-icon-ball-pen-line`
+- **brush-3-fill**
+  - Classe: `fr-icon-brush-3-fill`
+- **brush-3-line**
+  - Classe: `fr-icon-brush-3-line`
+- **brush-fill**
+  - Classe: `fr-icon-brush-fill`
+- **brush-line**
+  - Classe: `fr-icon-brush-line`
+- **contrast-fill**
+  - Classe: `fr-icon-contrast-fill`
+- **contrast-line**
+  - Classe: `fr-icon-contrast-line`
+- **crop-fill**
+  - Classe: `fr-icon-crop-fill`
+- **crop-line**
+  - Classe: `fr-icon-crop-line`
+- **drag-move-2-fill**
+  - Classe: `fr-icon-drag-move-2-fill`
+- **drag-move-2-line**
+  - Classe: `fr-icon-drag-move-2-line`
+- **drop-fill**
+  - Classe: `fr-icon-drop-fill`
+- **drop-line**
+  - Classe: `fr-icon-drop-line`
+- **edit-box-fill**
+  - Classe: `fr-icon-edit-box-fill`
+- **edit-box-line**
+  - Classe: `fr-icon-edit-box-line`
+- **edit-fill**
+  - Classe: `fr-icon-edit-fill`
+- **edit-line**
+  - Classe: `fr-icon-edit-line`
+- **eraser-fill**
+  - Classe: `fr-icon-eraser-fill`
+- **eraser-line**
+  - Classe: `fr-icon-eraser-line`
+- **ink-bottle-fill**
+  - Classe: `fr-icon-ink-bottle-fill`
+- **ink-bottle-line**
+  - Classe: `fr-icon-ink-bottle-line`
+- **layout-grid-fill**
+  - Classe: `fr-icon-layout-grid-fill`
+- **layout-grid-line**
+  - Classe: `fr-icon-layout-grid-line`
+- **mark-pen-fill**
+  - Classe: `fr-icon-mark-pen-fill`
+- **mark-pen-line**
+  - Classe: `fr-icon-mark-pen-line`
+- **paint-brush-fill**
+  - Classe: `fr-icon-paint-brush-fill`
+- **paint-brush-line**
+  - Classe: `fr-icon-paint-brush-line`
+- **paint-fill**
+  - Classe: `fr-icon-paint-fill`
+- **paint-line**
+  - Classe: `fr-icon-paint-line`
+- **palette-fill**
+  - Classe: `fr-icon-palette-fill`
+- **palette-line**
+  - Classe: `fr-icon-palette-line`
+- **pantone-fill**
+  - Classe: `fr-icon-pantone-fill`
+- **pantone-line**
+  - Classe: `fr-icon-pantone-line`
+- **pen-nib-fill**
+  - Classe: `fr-icon-pen-nib-fill`
+- **pen-nib-line**
+  - Classe: `fr-icon-pen-nib-line`
+- **pencil-fill**
+  - Classe: `fr-icon-pencil-fill`
+- **pencil-line**
+  - Classe: `fr-icon-pencil-line`
+- **pencil-ruler-fill**
+  - Classe: `fr-icon-pencil-ruler-fill`
+- **pencil-ruler-line**
+  - Classe: `fr-icon-pencil-ruler-line`
+- **shapes-fill**
+  - Classe: `fr-icon-shapes-fill`
+- **shapes-line**
+  - Classe: `fr-icon-shapes-line`
+- **sip-fill**
+  - Classe: `fr-icon-sip-fill`
+- **sip-line**
+  - Classe: `fr-icon-sip-line`
+- **table-fill**
+  - Classe: `fr-icon-table-fill`
+- **table-line**
+  - Classe: `fr-icon-table-line`
+
+### Development (26)
+
+- **bug-fill**
+  - Classe: `fr-icon-bug-fill`
+- **bug-line**
+  - Classe: `fr-icon-bug-line`
+- **code-box-fill**
+  - Classe: `fr-icon-code-box-fill`
+- **code-box-line**
+  - Classe: `fr-icon-code-box-line`
+- **code-s-slash-line**
+  - Classe: `fr-icon-code-s-slash-line`
+- **cursor-fill**
+  - Classe: `fr-icon-cursor-fill`
+- **cursor-line**
+  - Classe: `fr-icon-cursor-line`
+- **git-branch-fill**
+  - Classe: `fr-icon-git-branch-fill`
+- **git-branch-line**
+  - Classe: `fr-icon-git-branch-line`
+- **git-commit-fill**
+  - Classe: `fr-icon-git-commit-fill`
+- **git-commit-line**
+  - Classe: `fr-icon-git-commit-line`
+- **git-merge-fill**
+  - Classe: `fr-icon-git-merge-fill`
+- **git-merge-line**
+  - Classe: `fr-icon-git-merge-line`
+- **git-pull-request-fill**
+  - Classe: `fr-icon-git-pull-request-fill`
+- **git-pull-request-line**
+  - Classe: `fr-icon-git-pull-request-line`
+- **git-repository-commits-fill**
+  - Classe: `fr-icon-git-repository-commits-fill`
+- **git-repository-commits-line**
+  - Classe: `fr-icon-git-repository-commits-line`
+- **git-repository-fill**
+  - Classe: `fr-icon-git-repository-fill`
+- **git-repository-line**
+  - Classe: `fr-icon-git-repository-line`
+- **git-repository-private-fill**
+  - Classe: `fr-icon-git-repository-private-fill`
+- **git-repository-private-line**
+  - Classe: `fr-icon-git-repository-private-line`
+- **terminal-box-fill**
+  - Classe: `fr-icon-terminal-box-fill`
+- **terminal-box-line**
+  - Classe: `fr-icon-terminal-box-line`
+- **terminal-line**
+  - Classe: `fr-icon-terminal-line`
+- **terminal-window-fill**
+  - Classe: `fr-icon-terminal-window-fill`
+- **terminal-window-line**
+  - Classe: `fr-icon-terminal-window-line`
+
+### Device (34)
+
+- **bluetooth-fill**
+  - Classe: `fr-icon-bluetooth-fill`
+- **bluetooth-line**
+  - Classe: `fr-icon-bluetooth-line`
+- **computer-fill**
+  - Classe: `fr-icon-computer-fill`
+- **computer-line**
+  - Classe: `fr-icon-computer-line`
+- **dashboard-3-fill**
+  - Classe: `fr-icon-dashboard-3-fill`
+- **dashboard-3-line**
+  - Classe: `fr-icon-dashboard-3-line`
+- **database-fill**
+  - Classe: `fr-icon-database-fill`
+- **database-line**
+  - Classe: `fr-icon-database-line`
+- **device-fill**
+  - Classe: `fr-icon-device-fill`
+- **device-line**
+  - Classe: `fr-icon-device-line`
+- **hard-drive-2-fill**
+  - Classe: `fr-icon-hard-drive-2-fill`
+- **hard-drive-2-line**
+  - Classe: `fr-icon-hard-drive-2-line`
+- **mac-fill**
+  - Classe: `fr-icon-mac-fill`
+- **mac-line**
+  - Classe: `fr-icon-mac-line`
+- **phone-fill**
+  - Classe: `fr-icon-phone-fill`
+- **phone-line**
+  - Classe: `fr-icon-phone-line`
+- **qr-code-fill**
+  - Classe: `fr-icon-qr-code-fill`
+- **qr-code-line**
+  - Classe: `fr-icon-qr-code-line`
+- **rss-fill**
+  - Classe: `fr-icon-rss-fill`
+- **rss-line**
+  - Classe: `fr-icon-rss-line`
+- **save-3-fill**
+  - Classe: `fr-icon-save-3-fill`
+- **save-3-line**
+  - Classe: `fr-icon-save-3-line`
+- **save-fill**
+  - Classe: `fr-icon-save-fill`
+- **save-line**
+  - Classe: `fr-icon-save-line`
+- **server-fill**
+  - Classe: `fr-icon-server-fill`
+- **server-line**
+  - Classe: `fr-icon-server-line`
+- **smartphone-fill**
+  - Classe: `fr-icon-smartphone-fill`
+- **smartphone-line**
+  - Classe: `fr-icon-smartphone-line`
+- **tablet-fill**
+  - Classe: `fr-icon-tablet-fill`
+- **tablet-line**
+  - Classe: `fr-icon-tablet-line`
+- **tv-fill**
+  - Classe: `fr-icon-tv-fill`
+- **tv-line**
+  - Classe: `fr-icon-tv-line`
+- **wifi-fill**
+  - Classe: `fr-icon-wifi-fill`
+- **wifi-line**
+  - Classe: `fr-icon-wifi-line`
+
+### Document (28)
+
+- **article-fill**
+  - Classe: `fr-icon-article-fill`
+- **article-line**
+  - Classe: `fr-icon-article-line`
+- **book-2-fill**
+  - Classe: `fr-icon-book-2-fill`
+- **book-2-line**
+  - Classe: `fr-icon-book-2-line`
+- **booklet-fill**
+  - Classe: `fr-icon-booklet-fill`
+- **booklet-line**
+  - Classe: `fr-icon-booklet-line`
+- **clipboard-fill**
+  - Classe: `fr-icon-clipboard-fill`
+- **clipboard-line**
+  - Classe: `fr-icon-clipboard-line`
+- **draft-fill**
+  - Classe: `fr-icon-draft-fill`
+- **draft-line**
+  - Classe: `fr-icon-draft-line`
+- **file-add-fill**
+  - Classe: `fr-icon-file-add-fill`
+- **file-add-line**
+  - Classe: `fr-icon-file-add-line`
+- **file-download-fill**
+  - Classe: `fr-icon-file-download-fill`
+- **file-download-line**
+  - Classe: `fr-icon-file-download-line`
+- **file-fill**
+  - Classe: `fr-icon-file-fill`
+- **file-line**
+  - Classe: `fr-icon-file-line`
+- **file-pdf-fill**
+  - Classe: `fr-icon-file-pdf-fill`
+- **file-pdf-line**
+  - Classe: `fr-icon-file-pdf-line`
+- **file-text-fill**
+  - Classe: `fr-icon-file-text-fill`
+- **file-text-line**
+  - Classe: `fr-icon-file-text-line`
+- **folder-2-fill**
+  - Classe: `fr-icon-folder-2-fill`
+- **folder-2-line**
+  - Classe: `fr-icon-folder-2-line`
+- **newspaper-fill**
+  - Classe: `fr-icon-newspaper-fill`
+- **newspaper-line**
+  - Classe: `fr-icon-newspaper-line`
+- **survey-fill**
+  - Classe: `fr-icon-survey-fill`
+- **survey-line**
+  - Classe: `fr-icon-survey-line`
+- **todo-fill**
+  - Classe: `fr-icon-todo-fill`
+- **todo-line**
+  - Classe: `fr-icon-todo-line`
+
+### Editor (38)
+
+- **align-center**
+  - Classe: `fr-icon-align-center`
+- **align-justify**
+  - Classe: `fr-icon-align-justify`
+- **align-left**
+  - Classe: `fr-icon-align-left`
+- **align-right**
+  - Classe: `fr-icon-align-right`
+- **code-block**
+  - Classe: `fr-icon-code-block`
+- **code-view**
+  - Classe: `fr-icon-code-view`
+- **font-color**
+  - Classe: `fr-icon-font-color`
+- **font-size**
+  - Classe: `fr-icon-font-size`
+- **format-clear**
+  - Classe: `fr-icon-format-clear`
+- **fr--bold**
+  - Classe: `fr-icon-fr--bold`
+- **fr--highlight**
+  - Classe: `fr-icon-fr--highlight`
+- **fr--quote-fill**
+  - Classe: `fr-icon-fr--quote-fill`
+- **fr--quote-line**
+  - Classe: `fr-icon-fr--quote-line`
+- **h-1**
+  - Classe: `fr-icon-h-1`
+- **h-2**
+  - Classe: `fr-icon-h-2`
+- **h-3**
+  - Classe: `fr-icon-h-3`
+- **h-4**
+  - Classe: `fr-icon-h-4`
+- **h-5**
+  - Classe: `fr-icon-h-5`
+- **h-6**
+  - Classe: `fr-icon-h-6`
+- **hashtag**
+  - Classe: `fr-icon-hashtag`
+- **indent-decrease**
+  - Classe: `fr-icon-indent-decrease`
+- **indent-increase**
+  - Classe: `fr-icon-indent-increase`
+- **italic**
+  - Classe: `fr-icon-italic`
+- **link**
+  - Classe: `fr-icon-link`
+- **link-unlink**
+  - Classe: `fr-icon-link-unlink`
+- **list-check**
+  - Classe: `fr-icon-list-check`
+- **list-ordered**
+  - Classe: `fr-icon-list-ordered`
+- **list-unordered**
+  - Classe: `fr-icon-list-unordered`
+- **question-mark**
+  - Classe: `fr-icon-question-mark`
+- **separator**
+  - Classe: `fr-icon-separator`
+- **space**
+  - Classe: `fr-icon-space`
+- **strikethrough**
+  - Classe: `fr-icon-strikethrough`
+- **subscript**
+  - Classe: `fr-icon-subscript`
+- **superscript**
+  - Classe: `fr-icon-superscript`
+- **table-2**
+  - Classe: `fr-icon-table-2`
+- **text-direction-r**
+  - Classe: `fr-icon-text-direction-r`
+- **translate-2**
+  - Classe: `fr-icon-translate-2`
+- **underline**
+  - Classe: `fr-icon-underline`
+
+### Finance (17)
+
+- **bank-card-fill**
+  - Classe: `fr-icon-bank-card-fill`
+- **bank-card-line**
+  - Classe: `fr-icon-bank-card-line`
+- **coin-fill**
+  - Classe: `fr-icon-coin-fill`
+- **gift-fill**
+  - Classe: `fr-icon-gift-fill`
+- **gift-line**
+  - Classe: `fr-icon-gift-line`
+- **money-euro-box-fill**
+  - Classe: `fr-icon-money-euro-box-fill`
+- **money-euro-box-line**
+  - Classe: `fr-icon-money-euro-box-line`
+- **money-euro-circle-fill**
+  - Classe: `fr-icon-money-euro-circle-fill`
+- **money-euro-circle-line**
+  - Classe: `fr-icon-money-euro-circle-line`
+- **secure-payment-fill**
+  - Classe: `fr-icon-secure-payment-fill`
+- **secure-payment-line**
+  - Classe: `fr-icon-secure-payment-line`
+- **shopping-bag-fill**
+  - Classe: `fr-icon-shopping-bag-fill`
+- **shopping-bag-line**
+  - Classe: `fr-icon-shopping-bag-line`
+- **shopping-cart-2-fill**
+  - Classe: `fr-icon-shopping-cart-2-fill`
+- **shopping-cart-2-line**
+  - Classe: `fr-icon-shopping-cart-2-line`
+- **trophy-fill**
+  - Classe: `fr-icon-trophy-fill`
+- **trophy-line**
+  - Classe: `fr-icon-trophy-line`
+
+### Health (39)
+
+- **capsule-fill**
+  - Classe: `fr-icon-capsule-fill`
+- **capsule-line**
+  - Classe: `fr-icon-capsule-line`
+- **dislike-fill**
+  - Classe: `fr-icon-dislike-fill`
+- **dislike-line**
+  - Classe: `fr-icon-dislike-line`
+- **dossier-fill**
+  - Classe: `fr-icon-dossier-fill`
+- **dossier-line**
+  - Classe: `fr-icon-dossier-line`
+- **first-aid-kit-fill**
+  - Classe: `fr-icon-first-aid-kit-fill`
+- **first-aid-kit-line**
+  - Classe: `fr-icon-first-aid-kit-line`
+- **hand-sanitizer-fill**
+  - Classe: `fr-icon-hand-sanitizer-fill`
+- **hand-sanitizer-line**
+  - Classe: `fr-icon-hand-sanitizer-line`
+- **health-book-fill**
+  - Classe: `fr-icon-health-book-fill`
+- **health-book-line**
+  - Classe: `fr-icon-health-book-line`
+- **heart-fill**
+  - Classe: `fr-icon-heart-fill`
+- **heart-line**
+  - Classe: `fr-icon-heart-line`
+- **heart-pulse-fill**
+  - Classe: `fr-icon-heart-pulse-fill`
+- **heart-pulse-line**
+  - Classe: `fr-icon-heart-pulse-line`
+- **lungs-fill**
+  - Classe: `fr-icon-lungs-fill`
+- **lungs-line**
+  - Classe: `fr-icon-lungs-line`
+- **medicine-bottle-fill**
+  - Classe: `fr-icon-medicine-bottle-fill`
+- **medicine-bottle-line**
+  - Classe: `fr-icon-medicine-bottle-line`
+- **mental-health-fill**
+  - Classe: `fr-icon-mental-health-fill`
+- **mental-health-line**
+  - Classe: `fr-icon-mental-health-line`
+- **microscope-fill**
+  - Classe: `fr-icon-microscope-fill`
+- **microscope-line**
+  - Classe: `fr-icon-microscope-line`
+- **psychotherapy-fill**
+  - Classe: `fr-icon-psychotherapy-fill`
+- **psychotherapy-line**
+  - Classe: `fr-icon-psychotherapy-line`
+- **pulse-line**
+  - Classe: `fr-icon-pulse-line`
+- **stethoscope-fill**
+  - Classe: `fr-icon-stethoscope-fill`
+- **stethoscope-line**
+  - Classe: `fr-icon-stethoscope-line`
+- **surgical-mask-fill**
+  - Classe: `fr-icon-surgical-mask-fill`
+- **surgical-mask-line**
+  - Classe: `fr-icon-surgical-mask-line`
+- **syringe-fill**
+  - Classe: `fr-icon-syringe-fill`
+- **syringe-line**
+  - Classe: `fr-icon-syringe-line`
+- **test-tube-fill**
+  - Classe: `fr-icon-test-tube-fill`
+- **test-tube-line**
+  - Classe: `fr-icon-test-tube-line`
+- **thermometer-fill**
+  - Classe: `fr-icon-thermometer-fill`
+- **thermometer-line**
+  - Classe: `fr-icon-thermometer-line`
+- **virus-fill**
+  - Classe: `fr-icon-virus-fill`
+- **virus-line**
+  - Classe: `fr-icon-virus-line`
+
+### Logo (54)
+
+- **bluesky-fill**
+  - Classe: `fr-icon-bluesky-fill`
+- **bluesky-line**
+  - Classe: `fr-icon-bluesky-line`
+- **chrome-fill**
+  - Classe: `fr-icon-chrome-fill`
+- **chrome-line**
+  - Classe: `fr-icon-chrome-line`
+- **edge-fill**
+  - Classe: `fr-icon-edge-fill`
+- **edge-line**
+  - Classe: `fr-icon-edge-line`
+- **facebook-circle-fill**
+  - Classe: `fr-icon-facebook-circle-fill`
+- **facebook-circle-line**
+  - Classe: `fr-icon-facebook-circle-line`
+- **firefox-fill**
+  - Classe: `fr-icon-firefox-fill`
+- **firefox-line**
+  - Classe: `fr-icon-firefox-line`
+- **fr--dailymotion-fill**
+  - Classe: `fr-icon-fr--dailymotion-fill`
+- **fr--dailymotion-line**
+  - Classe: `fr-icon-fr--dailymotion-line`
+- **fr--tiktok-fill**
+  - Classe: `fr-icon-fr--tiktok-fill`
+- **fr--tiktok-line**
+  - Classe: `fr-icon-fr--tiktok-line`
+- **github-fill**
+  - Classe: `fr-icon-github-fill`
+- **github-line**
+  - Classe: `fr-icon-github-line`
+- **google-fill**
+  - Classe: `fr-icon-google-fill`
+- **google-line**
+  - Classe: `fr-icon-google-line`
+- **ie-fill**
+  - Classe: `fr-icon-ie-fill`
+- **ie-line**
+  - Classe: `fr-icon-ie-line`
+- **instagram-fill**
+  - Classe: `fr-icon-instagram-fill`
+- **instagram-line**
+  - Classe: `fr-icon-instagram-line`
+- **linkedin-box-fill**
+  - Classe: `fr-icon-linkedin-box-fill`
+- **linkedin-box-line**
+  - Classe: `fr-icon-linkedin-box-line`
+- **mastodon-fill**
+  - Classe: `fr-icon-mastodon-fill`
+- **mastodon-line**
+  - Classe: `fr-icon-mastodon-line`
+- **npmjs-fill**
+  - Classe: `fr-icon-npmjs-fill`
+- **npmjs-line**
+  - Classe: `fr-icon-npmjs-line`
+- **remixicon-fill**
+  - Classe: `fr-icon-remixicon-fill`
+- **remixicon-line**
+  - Classe: `fr-icon-remixicon-line`
+- **safari-fill**
+  - Classe: `fr-icon-safari-fill`
+- **safari-line**
+  - Classe: `fr-icon-safari-line`
+- **slack-fill**
+  - Classe: `fr-icon-slack-fill`
+- **slack-line**
+  - Classe: `fr-icon-slack-line`
+- **snapchat-fill**
+  - Classe: `fr-icon-snapchat-fill`
+- **snapchat-line**
+  - Classe: `fr-icon-snapchat-line`
+- **telegram-fill**
+  - Classe: `fr-icon-telegram-fill`
+- **telegram-line**
+  - Classe: `fr-icon-telegram-line`
+- **threads-fill**
+  - Classe: `fr-icon-threads-fill`
+- **threads-line**
+  - Classe: `fr-icon-threads-line`
+- **twitch-fill**
+  - Classe: `fr-icon-twitch-fill`
+- **twitch-line**
+  - Classe: `fr-icon-twitch-line`
+- **twitter-fill**
+  - Classe: `fr-icon-twitter-fill`
+- **twitter-line**
+  - Classe: `fr-icon-twitter-line`
+- **twitter-x-fill**
+  - Classe: `fr-icon-twitter-x-fill`
+- **twitter-x-line**
+  - Classe: `fr-icon-twitter-x-line`
+- **vimeo-fill**
+  - Classe: `fr-icon-vimeo-fill`
+- **vimeo-line**
+  - Classe: `fr-icon-vimeo-line`
+- **vuejs-fill**
+  - Classe: `fr-icon-vuejs-fill`
+- **vuejs-line**
+  - Classe: `fr-icon-vuejs-line`
+- **whatsapp-fill**
+  - Classe: `fr-icon-whatsapp-fill`
+- **whatsapp-line**
+  - Classe: `fr-icon-whatsapp-line`
+- **youtube-fill**
+  - Classe: `fr-icon-youtube-fill`
+- **youtube-line**
+  - Classe: `fr-icon-youtube-line`
+
+### Map (48)
+
+- **anchor-fill**
+  - Classe: `fr-icon-anchor-fill`
+- **anchor-line**
+  - Classe: `fr-icon-anchor-line`
+- **bike-fill**
+  - Classe: `fr-icon-bike-fill`
+- **bike-line**
+  - Classe: `fr-icon-bike-line`
+- **bus-fill**
+  - Classe: `fr-icon-bus-fill`
+- **bus-line**
+  - Classe: `fr-icon-bus-line`
+- **car-fill**
+  - Classe: `fr-icon-car-fill`
+- **car-line**
+  - Classe: `fr-icon-car-line`
+- **caravan-fill**
+  - Classe: `fr-icon-caravan-fill`
+- **caravan-line**
+  - Classe: `fr-icon-caravan-line`
+- **charging-pile-2-fill**
+  - Classe: `fr-icon-charging-pile-2-fill`
+- **charging-pile-2-line**
+  - Classe: `fr-icon-charging-pile-2-line`
+- **compass-3-fill**
+  - Classe: `fr-icon-compass-3-fill`
+- **compass-3-line**
+  - Classe: `fr-icon-compass-3-line`
+- **cup-fill**
+  - Classe: `fr-icon-cup-fill`
+- **cup-line**
+  - Classe: `fr-icon-cup-line`
+- **earth-fill**
+  - Classe: `fr-icon-earth-fill`
+- **earth-line**
+  - Classe: `fr-icon-earth-line`
+- **france-fill**
+  - Classe: `fr-icon-france-fill`
+- **france-line**
+  - Classe: `fr-icon-france-line`
+- **gas-station-fill**
+  - Classe: `fr-icon-gas-station-fill`
+- **gas-station-line**
+  - Classe: `fr-icon-gas-station-line`
+- **goblet-fill**
+  - Classe: `fr-icon-goblet-fill`
+- **goblet-line**
+  - Classe: `fr-icon-goblet-line`
+- **map-pin-2-fill**
+  - Classe: `fr-icon-map-pin-2-fill`
+- **map-pin-2-line**
+  - Classe: `fr-icon-map-pin-2-line`
+- **map-pin-user-fill**
+  - Classe: `fr-icon-map-pin-user-fill`
+- **map-pin-user-line**
+  - Classe: `fr-icon-map-pin-user-line`
+- **motorbike-fill**
+  - Classe: `fr-icon-motorbike-fill`
+- **motorbike-line**
+  - Classe: `fr-icon-motorbike-line`
+- **passport-fill**
+  - Classe: `fr-icon-passport-fill`
+- **passport-line**
+  - Classe: `fr-icon-passport-line`
+- **restaurant-fill**
+  - Classe: `fr-icon-restaurant-fill`
+- **restaurant-line**
+  - Classe: `fr-icon-restaurant-line`
+- **road-map-fill**
+  - Classe: `fr-icon-road-map-fill`
+- **road-map-line**
+  - Classe: `fr-icon-road-map-line`
+- **sailboat-fill**
+  - Classe: `fr-icon-sailboat-fill`
+- **sailboat-line**
+  - Classe: `fr-icon-sailboat-line`
+- **ship-2-fill**
+  - Classe: `fr-icon-ship-2-fill`
+- **ship-2-line**
+  - Classe: `fr-icon-ship-2-line`
+- **signal-tower-fill**
+  - Classe: `fr-icon-signal-tower-fill`
+- **signal-tower-line**
+  - Classe: `fr-icon-signal-tower-line`
+- **suitcase-2-fill**
+  - Classe: `fr-icon-suitcase-2-fill`
+- **suitcase-2-line**
+  - Classe: `fr-icon-suitcase-2-line`
+- **taxi-fill**
+  - Classe: `fr-icon-taxi-fill`
+- **taxi-line**
+  - Classe: `fr-icon-taxi-line`
+- **train-fill**
+  - Classe: `fr-icon-train-fill`
+- **train-line**
+  - Classe: `fr-icon-train-line`
+
+### Media (39)
+
+- **camera-fill**
+  - Classe: `fr-icon-camera-fill`
+- **camera-line**
+  - Classe: `fr-icon-camera-line`
+- **clapperboard-fill**
+  - Classe: `fr-icon-clapperboard-fill`
+- **clapperboard-line**
+  - Classe: `fr-icon-clapperboard-line`
+- **equalizer-fill**
+  - Classe: `fr-icon-equalizer-fill`
+- **equalizer-line**
+  - Classe: `fr-icon-equalizer-line`
+- **film-fill**
+  - Classe: `fr-icon-film-fill`
+- **film-line**
+  - Classe: `fr-icon-film-line`
+- **fullscreen-line**
+  - Classe: `fr-icon-fullscreen-line`
+- **gallery-fill**
+  - Classe: `fr-icon-gallery-fill`
+- **gallery-line**
+  - Classe: `fr-icon-gallery-line`
+- **headphone-fill**
+  - Classe: `fr-icon-headphone-fill`
+- **headphone-line**
+  - Classe: `fr-icon-headphone-line`
+- **image-add-fill**
+  - Classe: `fr-icon-image-add-fill`
+- **image-add-line**
+  - Classe: `fr-icon-image-add-line`
+- **image-edit-fill**
+  - Classe: `fr-icon-image-edit-fill`
+- **image-edit-line**
+  - Classe: `fr-icon-image-edit-line`
+- **image-fill**
+  - Classe: `fr-icon-image-fill`
+- **image-line**
+  - Classe: `fr-icon-image-line`
+- **live-fill**
+  - Classe: `fr-icon-live-fill`
+- **live-line**
+  - Classe: `fr-icon-live-line`
+- **mic-fill**
+  - Classe: `fr-icon-mic-fill`
+- **mic-line**
+  - Classe: `fr-icon-mic-line`
+- **music-2-fill**
+  - Classe: `fr-icon-music-2-fill`
+- **music-2-line**
+  - Classe: `fr-icon-music-2-line`
+- **notification-3-fill**
+  - Classe: `fr-icon-notification-3-fill`
+- **notification-3-line**
+  - Classe: `fr-icon-notification-3-line`
+- **pause-circle-fill**
+  - Classe: `fr-icon-pause-circle-fill`
+- **pause-circle-line**
+  - Classe: `fr-icon-pause-circle-line`
+- **play-circle-fill**
+  - Classe: `fr-icon-play-circle-fill`
+- **play-circle-line**
+  - Classe: `fr-icon-play-circle-line`
+- **stop-circle-fill**
+  - Classe: `fr-icon-stop-circle-fill`
+- **stop-circle-line**
+  - Classe: `fr-icon-stop-circle-line`
+- **volume-down-fill**
+  - Classe: `fr-icon-volume-down-fill`
+- **volume-down-line**
+  - Classe: `fr-icon-volume-down-line`
+- **volume-mute-fill**
+  - Classe: `fr-icon-volume-mute-fill`
+- **volume-mute-line**
+  - Classe: `fr-icon-volume-mute-line`
+- **volume-up-fill**
+  - Classe: `fr-icon-volume-up-fill`
+- **volume-up-line**
+  - Classe: `fr-icon-volume-up-line`
+
+### Others (24)
+
+- **fr--accessibility-fill**
+  - Classe: `fr-icon-fr--accessibility-fill`
+- **fr--accessibility-line**
+  - Classe: `fr-icon-fr--accessibility-line`
+- **fr--ear-off-fill**
+  - Classe: `fr-icon-fr--ear-off-fill`
+- **fr--ear-off-line**
+  - Classe: `fr-icon-fr--ear-off-line`
+- **fr--mental-disabilities-fill**
+  - Classe: `fr-icon-fr--mental-disabilities-fill`
+- **fr--mental-disabilities-line**
+  - Classe: `fr-icon-fr--mental-disabilities-line`
+- **fr--sign-language-fill**
+  - Classe: `fr-icon-fr--sign-language-fill`
+- **fr--sign-language-line**
+  - Classe: `fr-icon-fr--sign-language-line`
+- **leaf-fill**
+  - Classe: `fr-icon-leaf-fill`
+- **leaf-line**
+  - Classe: `fr-icon-leaf-line`
+- **lightbulb-fill**
+  - Classe: `fr-icon-lightbulb-fill`
+- **lightbulb-line**
+  - Classe: `fr-icon-lightbulb-line`
+- **plant-fill**
+  - Classe: `fr-icon-plant-fill`
+- **plant-line**
+  - Classe: `fr-icon-plant-line`
+- **recycle-fill**
+  - Classe: `fr-icon-recycle-fill`
+- **recycle-line**
+  - Classe: `fr-icon-recycle-line`
+- **scales-3-fill**
+  - Classe: `fr-icon-scales-3-fill`
+- **scales-3-line**
+  - Classe: `fr-icon-scales-3-line`
+- **seedling-fill**
+  - Classe: `fr-icon-seedling-fill`
+- **seedling-line**
+  - Classe: `fr-icon-seedling-line`
+- **umbrella-fill**
+  - Classe: `fr-icon-umbrella-fill`
+- **umbrella-line**
+  - Classe: `fr-icon-umbrella-line`
+- **wheelchair-fill**
+  - Classe: `fr-icon-wheelchair-fill`
+- **wheelchair-line**
+  - Classe: `fr-icon-wheelchair-line`
+
+### System (119)
+
+- **add-circle-fill**
+  - Classe: `fr-icon-add-circle-fill`
+- **add-circle-line**
+  - Classe: `fr-icon-add-circle-line`
+- **add-line**
+  - Classe: `fr-icon-add-line`
+- **alarm-warning-fill**
+  - Classe: `fr-icon-alarm-warning-fill`
+- **alarm-warning-line**
+  - Classe: `fr-icon-alarm-warning-line`
+- **alert-fill**
+  - Classe: `fr-icon-alert-fill`
+- **alert-line**
+  - Classe: `fr-icon-alert-line`
+- **arrow-down-fill**
+  - Classe: `fr-icon-arrow-down-fill`
+- **arrow-down-line**
+  - Classe: `fr-icon-arrow-down-line`
+- **arrow-down-s-fill**
+  - Classe: `fr-icon-arrow-down-s-fill`
+- **arrow-down-s-line**
+  - Classe: `fr-icon-arrow-down-s-line`
+- **arrow-go-back-fill**
+  - Classe: `fr-icon-arrow-go-back-fill`
+- **arrow-go-back-line**
+  - Classe: `fr-icon-arrow-go-back-line`
+- **arrow-go-forward-fill**
+  - Classe: `fr-icon-arrow-go-forward-fill`
+- **arrow-go-forward-line**
+  - Classe: `fr-icon-arrow-go-forward-line`
+- **arrow-left-fill**
+  - Classe: `fr-icon-arrow-left-fill`
+- **arrow-left-line**
+  - Classe: `fr-icon-arrow-left-line`
+- **arrow-left-s-fill**
+  - Classe: `fr-icon-arrow-left-s-fill`
+- **arrow-left-s-line**
+  - Classe: `fr-icon-arrow-left-s-line`
+- **arrow-right-fill**
+  - Classe: `fr-icon-arrow-right-fill`
+- **arrow-right-line**
+  - Classe: `fr-icon-arrow-right-line`
+- **arrow-right-s-fill**
+  - Classe: `fr-icon-arrow-right-s-fill`
+- **arrow-right-s-line**
+  - Classe: `fr-icon-arrow-right-s-line`
+- **arrow-right-up-line**
+  - Classe: `fr-icon-arrow-right-up-line`
+- **arrow-up-down-line**
+  - Classe: `fr-icon-arrow-up-down-line`
+- **arrow-up-fill**
+  - Classe: `fr-icon-arrow-up-fill`
+- **arrow-up-line**
+  - Classe: `fr-icon-arrow-up-line`
+- **arrow-up-s-fill**
+  - Classe: `fr-icon-arrow-up-s-fill`
+- **arrow-up-s-line**
+  - Classe: `fr-icon-arrow-up-s-line`
+- **check-line**
+  - Classe: `fr-icon-check-line`
+- **checkbox-circle-fill**
+  - Classe: `fr-icon-checkbox-circle-fill`
+- **checkbox-circle-line**
+  - Classe: `fr-icon-checkbox-circle-line`
+- **checkbox-fill**
+  - Classe: `fr-icon-checkbox-fill`
+- **checkbox-line**
+  - Classe: `fr-icon-checkbox-line`
+- **close-circle-fill**
+  - Classe: `fr-icon-close-circle-fill`
+- **close-circle-line**
+  - Classe: `fr-icon-close-circle-line`
+- **close-line**
+  - Classe: `fr-icon-close-line`
+- **delete-bin-fill**
+  - Classe: `fr-icon-delete-bin-fill`
+- **delete-bin-line**
+  - Classe: `fr-icon-delete-bin-line`
+- **download-fill**
+  - Classe: `fr-icon-download-fill`
+- **download-line**
+  - Classe: `fr-icon-download-line`
+- **error-warning-fill**
+  - Classe: `fr-icon-error-warning-fill`
+- **error-warning-line**
+  - Classe: `fr-icon-error-warning-line`
+- **external-link-fill**
+  - Classe: `fr-icon-external-link-fill`
+- **external-link-line**
+  - Classe: `fr-icon-external-link-line`
+- **eye-fill**
+  - Classe: `fr-icon-eye-fill`
+- **eye-line**
+  - Classe: `fr-icon-eye-line`
+- **eye-off-fill**
+  - Classe: `fr-icon-eye-off-fill`
+- **eye-off-line**
+  - Classe: `fr-icon-eye-off-line`
+- **filter-fill**
+  - Classe: `fr-icon-filter-fill`
+- **filter-line**
+  - Classe: `fr-icon-filter-line`
+- **fr--alert-warning-2-fill**
+  - Classe: `fr-icon-fr--alert-warning-2-fill`
+- **fr--alert-warning-fill**
+  - Classe: `fr-icon-fr--alert-warning-fill`
+- **fr--arrow-left-s-first-line**
+  - Classe: `fr-icon-fr--arrow-left-s-first-line`
+- **fr--arrow-left-s-line-double**
+  - Classe: `fr-icon-fr--arrow-left-s-line-double`
+- **fr--arrow-right-down-circle-fill**
+  - Classe: `fr-icon-fr--arrow-right-down-circle-fill`
+- **fr--arrow-right-s-last-line**
+  - Classe: `fr-icon-fr--arrow-right-s-last-line`
+- **fr--arrow-right-s-line-double**
+  - Classe: `fr-icon-fr--arrow-right-s-line-double`
+- **fr--arrow-right-up-circle-fill**
+  - Classe: `fr-icon-fr--arrow-right-up-circle-fill`
+- **fr--capslock-line**
+  - Classe: `fr-icon-fr--capslock-line`
+- **fr--equal-circle-fill**
+  - Classe: `fr-icon-fr--equal-circle-fill`
+- **fr--error-fill**
+  - Classe: `fr-icon-fr--error-fill`
+- **fr--error-line**
+  - Classe: `fr-icon-fr--error-line`
+- **fr--info-fill**
+  - Classe: `fr-icon-fr--info-fill`
+- **fr--info-line**
+  - Classe: `fr-icon-fr--info-line`
+- **fr--success-fill**
+  - Classe: `fr-icon-fr--success-fill`
+- **fr--success-line**
+  - Classe: `fr-icon-fr--success-line`
+- **fr--theme-fill**
+  - Classe: `fr-icon-fr--theme-fill`
+- **fr--warning-fill**
+  - Classe: `fr-icon-fr--warning-fill`
+- **fr--warning-line**
+  - Classe: `fr-icon-fr--warning-line`
+- **information-fill**
+  - Classe: `fr-icon-information-fill`
+- **information-line**
+  - Classe: `fr-icon-information-line`
+- **lock-fill**
+  - Classe: `fr-icon-lock-fill`
+- **lock-line**
+  - Classe: `fr-icon-lock-line`
+- **lock-unlock-fill**
+  - Classe: `fr-icon-lock-unlock-fill`
+- **lock-unlock-line**
+  - Classe: `fr-icon-lock-unlock-line`
+- **logout-box-r-fill**
+  - Classe: `fr-icon-logout-box-r-fill`
+- **logout-box-r-line**
+  - Classe: `fr-icon-logout-box-r-line`
+- **menu-2-fill**
+  - Classe: `fr-icon-menu-2-fill`
+- **menu-fill**
+  - Classe: `fr-icon-menu-fill`
+- **more-fill**
+  - Classe: `fr-icon-more-fill`
+- **more-line**
+  - Classe: `fr-icon-more-line`
+- **notification-badge-fill**
+  - Classe: `fr-icon-notification-badge-fill`
+- **notification-badge-line**
+  - Classe: `fr-icon-notification-badge-line`
+- **question-fill**
+  - Classe: `fr-icon-question-fill`
+- **question-line**
+  - Classe: `fr-icon-question-line`
+- **refresh-fill**
+  - Classe: `fr-icon-refresh-fill`
+- **refresh-line**
+  - Classe: `fr-icon-refresh-line`
+- **search-fill**
+  - Classe: `fr-icon-search-fill`
+- **search-line**
+  - Classe: `fr-icon-search-line`
+- **settings-5-fill**
+  - Classe: `fr-icon-settings-5-fill`
+- **settings-5-line**
+  - Classe: `fr-icon-settings-5-line`
+- **share-fill**
+  - Classe: `fr-icon-share-fill`
+- **share-forward-fill**
+  - Classe: `fr-icon-share-forward-fill`
+- **share-forward-line**
+  - Classe: `fr-icon-share-forward-line`
+- **share-line**
+  - Classe: `fr-icon-share-line`
+- **shield-fill**
+  - Classe: `fr-icon-shield-fill`
+- **shield-line**
+  - Classe: `fr-icon-shield-line`
+- **star-fill**
+  - Classe: `fr-icon-star-fill`
+- **star-line**
+  - Classe: `fr-icon-star-line`
+- **star-s-fill**
+  - Classe: `fr-icon-star-s-fill`
+- **star-s-line**
+  - Classe: `fr-icon-star-s-line`
+- **subtract-line**
+  - Classe: `fr-icon-subtract-line`
+- **thumb-down-fill**
+  - Classe: `fr-icon-thumb-down-fill`
+- **thumb-down-line**
+  - Classe: `fr-icon-thumb-down-line`
+- **thumb-up-fill**
+  - Classe: `fr-icon-thumb-up-fill`
+- **thumb-up-line**
+  - Classe: `fr-icon-thumb-up-line`
+- **time-fill**
+  - Classe: `fr-icon-time-fill`
+- **time-line**
+  - Classe: `fr-icon-time-line`
+- **timer-fill**
+  - Classe: `fr-icon-timer-fill`
+- **timer-line**
+  - Classe: `fr-icon-timer-line`
+- **upload-2-fill**
+  - Classe: `fr-icon-upload-2-fill`
+- **upload-2-line**
+  - Classe: `fr-icon-upload-2-line`
+- **upload-fill**
+  - Classe: `fr-icon-upload-fill`
+- **upload-line**
+  - Classe: `fr-icon-upload-line`
+- **zoom-in-fill**
+  - Classe: `fr-icon-zoom-in-fill`
+- **zoom-in-line**
+  - Classe: `fr-icon-zoom-in-line`
+- **zoom-out-fill**
+  - Classe: `fr-icon-zoom-out-fill`
+- **zoom-out-line**
+  - Classe: `fr-icon-zoom-out-line`
+
+### User (24)
+
+- **account-circle-fill**
+  - Classe: `fr-icon-account-circle-fill`
+- **account-circle-line**
+  - Classe: `fr-icon-account-circle-line`
+- **account-pin-circle-fill**
+  - Classe: `fr-icon-account-pin-circle-fill`
+- **account-pin-circle-line**
+  - Classe: `fr-icon-account-pin-circle-line`
+- **admin-fill**
+  - Classe: `fr-icon-admin-fill`
+- **admin-line**
+  - Classe: `fr-icon-admin-line`
+- **group-fill**
+  - Classe: `fr-icon-group-fill`
+- **group-line**
+  - Classe: `fr-icon-group-line`
+- **parent-fill**
+  - Classe: `fr-icon-parent-fill`
+- **parent-line**
+  - Classe: `fr-icon-parent-line`
+- **team-fill**
+  - Classe: `fr-icon-team-fill`
+- **team-line**
+  - Classe: `fr-icon-team-line`
+- **user-add-fill**
+  - Classe: `fr-icon-user-add-fill`
+- **user-add-line**
+  - Classe: `fr-icon-user-add-line`
+- **user-fill**
+  - Classe: `fr-icon-user-fill`
+- **user-heart-fill**
+  - Classe: `fr-icon-user-heart-fill`
+- **user-heart-line**
+  - Classe: `fr-icon-user-heart-line`
+- **user-line**
+  - Classe: `fr-icon-user-line`
+- **user-search-fill**
+  - Classe: `fr-icon-user-search-fill`
+- **user-search-line**
+  - Classe: `fr-icon-user-search-line`
+- **user-setting-fill**
+  - Classe: `fr-icon-user-setting-fill`
+- **user-setting-line**
+  - Classe: `fr-icon-user-setting-line`
+- **user-star-fill**
+  - Classe: `fr-icon-user-star-fill`
+- **user-star-line**
+  - Classe: `fr-icon-user-star-line`
+
+### Weather (30)
+
+- **cloudy-2-fill**
+  - Classe: `fr-icon-cloudy-2-fill`
+- **cloudy-2-line**
+  - Classe: `fr-icon-cloudy-2-line`
+- **fire-fill**
+  - Classe: `fr-icon-fire-fill`
+- **fire-line**
+  - Classe: `fr-icon-fire-line`
+- **flashlight-fill**
+  - Classe: `fr-icon-flashlight-fill`
+- **flashlight-line**
+  - Classe: `fr-icon-flashlight-line`
+- **flood-fill**
+  - Classe: `fr-icon-flood-fill`
+- **flood-line**
+  - Classe: `fr-icon-flood-line`
+- **fr--avalanches-fill**
+  - Classe: `fr-icon-fr--avalanches-fill`
+- **fr--submersion-fill**
+  - Classe: `fr-icon-fr--submersion-fill`
+- **heavy-showers-fill**
+  - Classe: `fr-icon-heavy-showers-fill`
+- **heavy-showers-line**
+  - Classe: `fr-icon-heavy-showers-line`
+- **moon-fill**
+  - Classe: `fr-icon-moon-fill`
+- **moon-line**
+  - Classe: `fr-icon-moon-line`
+- **snowy-fill**
+  - Classe: `fr-icon-snowy-fill`
+- **snowy-line**
+  - Classe: `fr-icon-snowy-line`
+- **sparkling-2-fill**
+  - Classe: `fr-icon-sparkling-2-fill`
+- **sparkling-2-line**
+  - Classe: `fr-icon-sparkling-2-line`
+- **sun-fill**
+  - Classe: `fr-icon-sun-fill`
+- **sun-line**
+  - Classe: `fr-icon-sun-line`
+- **temp-cold-fill**
+  - Classe: `fr-icon-temp-cold-fill`
+- **temp-cold-line**
+  - Classe: `fr-icon-temp-cold-line`
+- **thunderstorms-fill**
+  - Classe: `fr-icon-thunderstorms-fill`
+- **thunderstorms-line**
+  - Classe: `fr-icon-thunderstorms-line`
+- **tornado-fill**
+  - Classe: `fr-icon-tornado-fill`
+- **tornado-line**
+  - Classe: `fr-icon-tornado-line`
+- **typhoon-fill**
+  - Classe: `fr-icon-typhoon-fill`
+- **typhoon-line**
+  - Classe: `fr-icon-typhoon-line`
+- **windy-fill**
+  - Classe: `fr-icon-windy-fill`
+- **windy-line**
+  - Classe: `fr-icon-windy-line`
+

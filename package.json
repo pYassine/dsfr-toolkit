@@ -10,7 +10,8 @@
     "extract:colors": "node scripts/extract-colors.js --output ./src/data",
     "extract:remix": "node scripts/extract-remix.js --output ./src/data",
     "copy:assets": "node scripts/copy-dsfr-assets.js",
-    "build": "pnpm extract && pnpm copy:assets"
+    "docs": "node scripts/generate-markdown.js",
+    "build": "pnpm extract && pnpm copy:assets && node scripts/generate-markdown.js"
   },
   "dependencies": {
     "@gouvfr/dsfr": "1.14.0",

@@ -1,0 +1,601 @@
+# Couleurs DSFR
+
+> 112 couleurs de fond • 73 couleurs de texte
+
+**Source:** Design System de l'État Français (DSFR)
+
+## Couleurs de fond
+
+### action high (24)
+
+- **beige-gris-galet**
+  - Classe: `fr-background-action-high--beige-gris-galet`
+  - Variable CSS: `--background-action-high-beige-gris-galet`
+- **blue-cumulus**
+  - Classe: `fr-background-action-high--blue-cumulus`
+  - Variable CSS: `--background-action-high-blue-cumulus`
+- **blue-ecume**
+  - Classe: `fr-background-action-high--blue-ecume`
+  - Variable CSS: `--background-action-high-blue-ecume`
+- **blue-france**
+  - Classe: `fr-background-action-high--blue-france`
+  - Variable CSS: `--background-action-high-blue-france`
+- **brown-cafe-creme**
+  - Classe: `fr-background-action-high--brown-cafe-creme`
+  - Variable CSS: `--background-action-high-brown-cafe-creme`
+- **brown-caramel**
+  - Classe: `fr-background-action-high--brown-caramel`
+  - Variable CSS: `--background-action-high-brown-caramel`
+- **brown-opera**
+  - Classe: `fr-background-action-high--brown-opera`
+  - Variable CSS: `--background-action-high-brown-opera`
+- **error**
+  - Classe: `fr-background-action-high--error`
+  - Variable CSS: `--background-action-high-error`
+- **green-archipel**
+  - Classe: `fr-background-action-high--green-archipel`
+  - Variable CSS: `--background-action-high-green-archipel`
+- **green-bourgeon**
+  - Classe: `fr-background-action-high--green-bourgeon`
+  - Variable CSS: `--background-action-high-green-bourgeon`
+- **green-emeraude**
+  - Classe: `fr-background-action-high--green-emeraude`
+  - Variable CSS: `--background-action-high-green-emeraude`
+- **green-menthe**
+  - Classe: `fr-background-action-high--green-menthe`
+  - Variable CSS: `--background-action-high-green-menthe`
+- **green-tilleul-verveine**
+  - Classe: `fr-background-action-high--green-tilleul-verveine`
+  - Variable CSS: `--background-action-high-green-tilleul-verveine`
+- **grey**
+  - Classe: `fr-background-action-high--grey`
+  - Variable CSS: `--background-action-high-grey`
+- **info**
+  - Classe: `fr-background-action-high--info`
+  - Variable CSS: `--background-action-high-info`
+- **orange-terre-battue**
+  - Classe: `fr-background-action-high--orange-terre-battue`
+  - Variable CSS: `--background-action-high-orange-terre-battue`
+- **pink-macaron**
+  - Classe: `fr-background-action-high--pink-macaron`
+  - Variable CSS: `--background-action-high-pink-macaron`
+- **pink-tuile**
+  - Classe: `fr-background-action-high--pink-tuile`
+  - Variable CSS: `--background-action-high-pink-tuile`
+- **purple-glycine**
+  - Classe: `fr-background-action-high--purple-glycine`
+  - Variable CSS: `--background-action-high-purple-glycine`
+- **red-marianne**
+  - Classe: `fr-background-action-high--red-marianne`
+  - Variable CSS: `--background-action-high-red-marianne`
+- **success**
+  - Classe: `fr-background-action-high--success`
+  - Variable CSS: `--background-action-high-success`
+- **warning**
+  - Classe: `fr-background-action-high--warning`
+  - Variable CSS: `--background-action-high-warning`
+- **yellow-moutarde**
+  - Classe: `fr-background-action-high--yellow-moutarde`
+  - Variable CSS: `--background-action-high-yellow-moutarde`
+- **yellow-tournesol**
+  - Classe: `fr-background-action-high--yellow-tournesol`
+  - Variable CSS: `--background-action-high-yellow-tournesol`
+
+### action low (19)
+
+- **beige-gris-galet**
+  - Classe: `fr-background-action-low--beige-gris-galet`
+  - Variable CSS: `--background-action-low-beige-gris-galet`
+- **blue-cumulus**
+  - Classe: `fr-background-action-low--blue-cumulus`
+  - Variable CSS: `--background-action-low-blue-cumulus`
+- **blue-ecume**
+  - Classe: `fr-background-action-low--blue-ecume`
+  - Variable CSS: `--background-action-low-blue-ecume`
+- **blue-france**
+  - Classe: `fr-background-action-low--blue-france`
+  - Variable CSS: `--background-action-low-blue-france`
+- **brown-cafe-creme**
+  - Classe: `fr-background-action-low--brown-cafe-creme`
+  - Variable CSS: `--background-action-low-brown-cafe-creme`
+- **brown-caramel**
+  - Classe: `fr-background-action-low--brown-caramel`
+  - Variable CSS: `--background-action-low-brown-caramel`
+- **brown-opera**
+  - Classe: `fr-background-action-low--brown-opera`
+  - Variable CSS: `--background-action-low-brown-opera`
+- **green-archipel**
+  - Classe: `fr-background-action-low--green-archipel`
+  - Variable CSS: `--background-action-low-green-archipel`
+- **green-bourgeon**
+  - Classe: `fr-background-action-low--green-bourgeon`
+  - Variable CSS: `--background-action-low-green-bourgeon`
+- **green-emeraude**
+  - Classe: `fr-background-action-low--green-emeraude`
+  - Variable CSS: `--background-action-low-green-emeraude`
+- **green-menthe**
+  - Classe: `fr-background-action-low--green-menthe`
+  - Variable CSS: `--background-action-low-green-menthe`
+- **green-tilleul-verveine**
+  - Classe: `fr-background-action-low--green-tilleul-verveine`
+  - Variable CSS: `--background-action-low-green-tilleul-verveine`
+- **orange-terre-battue**
+  - Classe: `fr-background-action-low--orange-terre-battue`
+  - Variable CSS: `--background-action-low-orange-terre-battue`
+- **pink-macaron**
+  - Classe: `fr-background-action-low--pink-macaron`
+  - Variable CSS: `--background-action-low-pink-macaron`
+- **pink-tuile**
+  - Classe: `fr-background-action-low--pink-tuile`
+  - Variable CSS: `--background-action-low-pink-tuile`
+- **purple-glycine**
+  - Classe: `fr-background-action-low--purple-glycine`
+  - Variable CSS: `--background-action-low-purple-glycine`
+- **red-marianne**
+  - Classe: `fr-background-action-low--red-marianne`
+  - Variable CSS: `--background-action-low-red-marianne`
+- **yellow-moutarde**
+  - Classe: `fr-background-action-low--yellow-moutarde`
+  - Variable CSS: `--background-action-low-yellow-moutarde`
+- **yellow-tournesol**
+  - Classe: `fr-background-action-low--yellow-tournesol`
+  - Variable CSS: `--background-action-low-yellow-tournesol`
+
+### alt (20)
+
+- **beige-gris-galet**
+  - Classe: `fr-background-alt--beige-gris-galet`
+  - Variable CSS: `--background-alt-beige-gris-galet`
+- **blue-cumulus**
+  - Classe: `fr-background-alt--blue-cumulus`
+  - Variable CSS: `--background-alt-blue-cumulus`
+- **blue-ecume**
+  - Classe: `fr-background-alt--blue-ecume`
+  - Variable CSS: `--background-alt-blue-ecume`
+- **blue-france**
+  - Classe: `fr-background-alt--blue-france`
+  - Variable CSS: `--background-alt-blue-france`
+- **brown-cafe-creme**
+  - Classe: `fr-background-alt--brown-cafe-creme`
+  - Variable CSS: `--background-alt-brown-cafe-creme`
+- **brown-caramel**
+  - Classe: `fr-background-alt--brown-caramel`
+  - Variable CSS: `--background-alt-brown-caramel`
+- **brown-opera**
+  - Classe: `fr-background-alt--brown-opera`
+  - Variable CSS: `--background-alt-brown-opera`
+- **green-archipel**
+  - Classe: `fr-background-alt--green-archipel`
+  - Variable CSS: `--background-alt-green-archipel`
+- **green-bourgeon**
+  - Classe: `fr-background-alt--green-bourgeon`
+  - Variable CSS: `--background-alt-green-bourgeon`
+- **green-emeraude**
+  - Classe: `fr-background-alt--green-emeraude`
+  - Variable CSS: `--background-alt-green-emeraude`
+- **green-menthe**
+  - Classe: `fr-background-alt--green-menthe`
+  - Variable CSS: `--background-alt-green-menthe`
+- **green-tilleul-verveine**
+  - Classe: `fr-background-alt--green-tilleul-verveine`
+  - Variable CSS: `--background-alt-green-tilleul-verveine`
+- **grey**
+  - Classe: `fr-background-alt--grey`
+  - Variable CSS: `--background-alt-grey`
+- **orange-terre-battue**
+  - Classe: `fr-background-alt--orange-terre-battue`
+  - Variable CSS: `--background-alt-orange-terre-battue`
+- **pink-macaron**
+  - Classe: `fr-background-alt--pink-macaron`
+  - Variable CSS: `--background-alt-pink-macaron`
+- **pink-tuile**
+  - Classe: `fr-background-alt--pink-tuile`
+  - Variable CSS: `--background-alt-pink-tuile`
+- **purple-glycine**
+  - Classe: `fr-background-alt--purple-glycine`
+  - Variable CSS: `--background-alt-purple-glycine`
+- **red-marianne**
+  - Classe: `fr-background-alt--red-marianne`
+  - Variable CSS: `--background-alt-red-marianne`
+- **yellow-moutarde**
+  - Classe: `fr-background-alt--yellow-moutarde`
+  - Variable CSS: `--background-alt-yellow-moutarde`
+- **yellow-tournesol**
+  - Classe: `fr-background-alt--yellow-tournesol`
+  - Variable CSS: `--background-alt-yellow-tournesol`
+
+### contrast (24)
+
+- **beige-gris-galet**
+  - Classe: `fr-background-contrast--beige-gris-galet`
+  - Variable CSS: `--background-contrast-beige-gris-galet`
+- **blue-cumulus**
+  - Classe: `fr-background-contrast--blue-cumulus`
+  - Variable CSS: `--background-contrast-blue-cumulus`
+- **blue-ecume**
+  - Classe: `fr-background-contrast--blue-ecume`
+  - Variable CSS: `--background-contrast-blue-ecume`
+- **blue-france**
+  - Classe: `fr-background-contrast--blue-france`
+  - Variable CSS: `--background-contrast-blue-france`
+- **brown-cafe-creme**
+  - Classe: `fr-background-contrast--brown-cafe-creme`
+  - Variable CSS: `--background-contrast-brown-cafe-creme`
+- **brown-caramel**
+  - Classe: `fr-background-contrast--brown-caramel`
+  - Variable CSS: `--background-contrast-brown-caramel`
+- **brown-opera**
+  - Classe: `fr-background-contrast--brown-opera`
+  - Variable CSS: `--background-contrast-brown-opera`
+- **error**
+  - Classe: `fr-background-contrast--error`
+  - Variable CSS: `--background-contrast-error`
+- **green-archipel**
+  - Classe: `fr-background-contrast--green-archipel`
+  - Variable CSS: `--background-contrast-green-archipel`
+- **green-bourgeon**
+  - Classe: `fr-background-contrast--green-bourgeon`
+  - Variable CSS: `--background-contrast-green-bourgeon`
+- **green-emeraude**
+  - Classe: `fr-background-contrast--green-emeraude`
+  - Variable CSS: `--background-contrast-green-emeraude`
+- **green-menthe**
+  - Classe: `fr-background-contrast--green-menthe`
+  - Variable CSS: `--background-contrast-green-menthe`
+- **green-tilleul-verveine**
+  - Classe: `fr-background-contrast--green-tilleul-verveine`
+  - Variable CSS: `--background-contrast-green-tilleul-verveine`
+- **grey**
+  - Classe: `fr-background-contrast--grey`
+  - Variable CSS: `--background-contrast-grey`
+- **info**
+  - Classe: `fr-background-contrast--info`
+  - Variable CSS: `--background-contrast-info`
+- **orange-terre-battue**
+  - Classe: `fr-background-contrast--orange-terre-battue`
+  - Variable CSS: `--background-contrast-orange-terre-battue`
+- **pink-macaron**
+  - Classe: `fr-background-contrast--pink-macaron`
+  - Variable CSS: `--background-contrast-pink-macaron`
+- **pink-tuile**
+  - Classe: `fr-background-contrast--pink-tuile`
+  - Variable CSS: `--background-contrast-pink-tuile`
+- **purple-glycine**
+  - Classe: `fr-background-contrast--purple-glycine`
+  - Variable CSS: `--background-contrast-purple-glycine`
+- **red-marianne**
+  - Classe: `fr-background-contrast--red-marianne`
+  - Variable CSS: `--background-contrast-red-marianne`
+- **success**
+  - Classe: `fr-background-contrast--success`
+  - Variable CSS: `--background-contrast-success`
+- **warning**
+  - Classe: `fr-background-contrast--warning`
+  - Variable CSS: `--background-contrast-warning`
+- **yellow-moutarde**
+  - Classe: `fr-background-contrast--yellow-moutarde`
+  - Variable CSS: `--background-contrast-yellow-moutarde`
+- **yellow-tournesol**
+  - Classe: `fr-background-contrast--yellow-tournesol`
+  - Variable CSS: `--background-contrast-yellow-tournesol`
+
+### default (1)
+
+- **grey**
+  - Classe: `fr-background-default--grey`
+  - Variable CSS: `--background-default-grey`
+
+### flat (24)
+
+- **beige-gris-galet**
+  - Classe: `fr-background-flat--beige-gris-galet`
+  - Variable CSS: `--background-flat-beige-gris-galet`
+- **blue-cumulus**
+  - Classe: `fr-background-flat--blue-cumulus`
+  - Variable CSS: `--background-flat-blue-cumulus`
+- **blue-ecume**
+  - Classe: `fr-background-flat--blue-ecume`
+  - Variable CSS: `--background-flat-blue-ecume`
+- **blue-france**
+  - Classe: `fr-background-flat--blue-france`
+  - Variable CSS: `--background-flat-blue-france`
+- **brown-cafe-creme**
+  - Classe: `fr-background-flat--brown-cafe-creme`
+  - Variable CSS: `--background-flat-brown-cafe-creme`
+- **brown-caramel**
+  - Classe: `fr-background-flat--brown-caramel`
+  - Variable CSS: `--background-flat-brown-caramel`
+- **brown-opera**
+  - Classe: `fr-background-flat--brown-opera`
+  - Variable CSS: `--background-flat-brown-opera`
+- **error**
+  - Classe: `fr-background-flat--error`
+  - Variable CSS: `--background-flat-error`
+- **green-archipel**
+  - Classe: `fr-background-flat--green-archipel`
+  - Variable CSS: `--background-flat-green-archipel`
+- **green-bourgeon**
+  - Classe: `fr-background-flat--green-bourgeon`
+  - Variable CSS: `--background-flat-green-bourgeon`
+- **green-emeraude**
+  - Classe: `fr-background-flat--green-emeraude`
+  - Variable CSS: `--background-flat-green-emeraude`
+- **green-menthe**
+  - Classe: `fr-background-flat--green-menthe`
+  - Variable CSS: `--background-flat-green-menthe`
+- **green-tilleul-verveine**
+  - Classe: `fr-background-flat--green-tilleul-verveine`
+  - Variable CSS: `--background-flat-green-tilleul-verveine`
+- **grey**
+  - Classe: `fr-background-flat--grey`
+  - Variable CSS: `--background-flat-grey`
+- **info**
+  - Classe: `fr-background-flat--info`
+  - Variable CSS: `--background-flat-info`
+- **orange-terre-battue**
+  - Classe: `fr-background-flat--orange-terre-battue`
+  - Variable CSS: `--background-flat-orange-terre-battue`
+- **pink-macaron**
+  - Classe: `fr-background-flat--pink-macaron`
+  - Variable CSS: `--background-flat-pink-macaron`
+- **pink-tuile**
+  - Classe: `fr-background-flat--pink-tuile`
+  - Variable CSS: `--background-flat-pink-tuile`
+- **purple-glycine**
+  - Classe: `fr-background-flat--purple-glycine`
+  - Variable CSS: `--background-flat-purple-glycine`
+- **red-marianne**
+  - Classe: `fr-background-flat--red-marianne`
+  - Variable CSS: `--background-flat-red-marianne`
+- **success**
+  - Classe: `fr-background-flat--success`
+  - Variable CSS: `--background-flat-success`
+- **warning**
+  - Classe: `fr-background-flat--warning`
+  - Variable CSS: `--background-flat-warning`
+- **yellow-moutarde**
+  - Classe: `fr-background-flat--yellow-moutarde`
+  - Variable CSS: `--background-flat-yellow-moutarde`
+- **yellow-tournesol**
+  - Classe: `fr-background-flat--yellow-tournesol`
+  - Variable CSS: `--background-flat-yellow-tournesol`
+
+## Couleurs de texte
+
+### action high (20)
+
+- **beige-gris-galet**
+  - Classe: `fr-text-action-high--beige-gris-galet`
+  - Variable CSS: `--text-action-high-beige-gris-galet`
+- **blue-cumulus**
+  - Classe: `fr-text-action-high--blue-cumulus`
+  - Variable CSS: `--text-action-high-blue-cumulus`
+- **blue-ecume**
+  - Classe: `fr-text-action-high--blue-ecume`
+  - Variable CSS: `--text-action-high-blue-ecume`
+- **blue-france**
+  - Classe: `fr-text-action-high--blue-france`
+  - Variable CSS: `--text-action-high-blue-france`
+- **brown-cafe-creme**
+  - Classe: `fr-text-action-high--brown-cafe-creme`
+  - Variable CSS: `--text-action-high-brown-cafe-creme`
+- **brown-caramel**
+  - Classe: `fr-text-action-high--brown-caramel`
+  - Variable CSS: `--text-action-high-brown-caramel`
+- **brown-opera**
+  - Classe: `fr-text-action-high--brown-opera`
+  - Variable CSS: `--text-action-high-brown-opera`
+- **green-archipel**
+  - Classe: `fr-text-action-high--green-archipel`
+  - Variable CSS: `--text-action-high-green-archipel`
+- **green-bourgeon**
+  - Classe: `fr-text-action-high--green-bourgeon`
+  - Variable CSS: `--text-action-high-green-bourgeon`
+- **green-emeraude**
+  - Classe: `fr-text-action-high--green-emeraude`
+  - Variable CSS: `--text-action-high-green-emeraude`
+- **green-menthe**
+  - Classe: `fr-text-action-high--green-menthe`
+  - Variable CSS: `--text-action-high-green-menthe`
+- **green-tilleul-verveine**
+  - Classe: `fr-text-action-high--green-tilleul-verveine`
+  - Variable CSS: `--text-action-high-green-tilleul-verveine`
+- **grey**
+  - Classe: `fr-text-action-high--grey`
+  - Variable CSS: `--text-action-high-grey`
+- **orange-terre-battue**
+  - Classe: `fr-text-action-high--orange-terre-battue`
+  - Variable CSS: `--text-action-high-orange-terre-battue`
+- **pink-macaron**
+  - Classe: `fr-text-action-high--pink-macaron`
+  - Variable CSS: `--text-action-high-pink-macaron`
+- **pink-tuile**
+  - Classe: `fr-text-action-high--pink-tuile`
+  - Variable CSS: `--text-action-high-pink-tuile`
+- **purple-glycine**
+  - Classe: `fr-text-action-high--purple-glycine`
+  - Variable CSS: `--text-action-high-purple-glycine`
+- **red-marianne**
+  - Classe: `fr-text-action-high--red-marianne`
+  - Variable CSS: `--text-action-high-red-marianne`
+- **yellow-moutarde**
+  - Classe: `fr-text-action-high--yellow-moutarde`
+  - Variable CSS: `--text-action-high-yellow-moutarde`
+- **yellow-tournesol**
+  - Classe: `fr-text-action-high--yellow-tournesol`
+  - Variable CSS: `--text-action-high-yellow-tournesol`
+
+### default (5)
+
+- **error**
+  - Classe: `fr-text-default--error`
+  - Variable CSS: `--text-default-error`
+- **grey**
+  - Classe: `fr-text-default--grey`
+  - Variable CSS: `--text-default-grey`
+- **info**
+  - Classe: `fr-text-default--info`
+  - Variable CSS: `--text-default-info`
+- **success**
+  - Classe: `fr-text-default--success`
+  - Variable CSS: `--text-default-success`
+- **warning**
+  - Classe: `fr-text-default--warning`
+  - Variable CSS: `--text-default-warning`
+
+### inverted (24)
+
+- **beige-gris-galet**
+  - Classe: `fr-text-inverted--beige-gris-galet`
+  - Variable CSS: `--text-inverted-beige-gris-galet`
+- **blue-cumulus**
+  - Classe: `fr-text-inverted--blue-cumulus`
+  - Variable CSS: `--text-inverted-blue-cumulus`
+- **blue-ecume**
+  - Classe: `fr-text-inverted--blue-ecume`
+  - Variable CSS: `--text-inverted-blue-ecume`
+- **blue-france**
+  - Classe: `fr-text-inverted--blue-france`
+  - Variable CSS: `--text-inverted-blue-france`
+- **brown-cafe-creme**
+  - Classe: `fr-text-inverted--brown-cafe-creme`
+  - Variable CSS: `--text-inverted-brown-cafe-creme`
+- **brown-caramel**
+  - Classe: `fr-text-inverted--brown-caramel`
+  - Variable CSS: `--text-inverted-brown-caramel`
+- **brown-opera**
+  - Classe: `fr-text-inverted--brown-opera`
+  - Variable CSS: `--text-inverted-brown-opera`
+- **error**
+  - Classe: `fr-text-inverted--error`
+  - Variable CSS: `--text-inverted-error`
+- **green-archipel**
+  - Classe: `fr-text-inverted--green-archipel`
+  - Variable CSS: `--text-inverted-green-archipel`
+- **green-bourgeon**
+  - Classe: `fr-text-inverted--green-bourgeon`
+  - Variable CSS: `--text-inverted-green-bourgeon`
+- **green-emeraude**
+  - Classe: `fr-text-inverted--green-emeraude`
+  - Variable CSS: `--text-inverted-green-emeraude`
+- **green-menthe**
+  - Classe: `fr-text-inverted--green-menthe`
+  - Variable CSS: `--text-inverted-green-menthe`
+- **green-tilleul-verveine**
+  - Classe: `fr-text-inverted--green-tilleul-verveine`
+  - Variable CSS: `--text-inverted-green-tilleul-verveine`
+- **grey**
+  - Classe: `fr-text-inverted--grey`
+  - Variable CSS: `--text-inverted-grey`
+- **info**
+  - Classe: `fr-text-inverted--info`
+  - Variable CSS: `--text-inverted-info`
+- **orange-terre-battue**
+  - Classe: `fr-text-inverted--orange-terre-battue`
+  - Variable CSS: `--text-inverted-orange-terre-battue`
+- **pink-macaron**
+  - Classe: `fr-text-inverted--pink-macaron`
+  - Variable CSS: `--text-inverted-pink-macaron`
+- **pink-tuile**
+  - Classe: `fr-text-inverted--pink-tuile`
+  - Variable CSS: `--text-inverted-pink-tuile`
+- **purple-glycine**
+  - Classe: `fr-text-inverted--purple-glycine`
+  - Variable CSS: `--text-inverted-purple-glycine`
+- **red-marianne**
+  - Classe: `fr-text-inverted--red-marianne`
+  - Variable CSS: `--text-inverted-red-marianne`
+- **success**
+  - Classe: `fr-text-inverted--success`
+  - Variable CSS: `--text-inverted-success`
+- **warning**
+  - Classe: `fr-text-inverted--warning`
+  - Variable CSS: `--text-inverted-warning`
+- **yellow-moutarde**
+  - Classe: `fr-text-inverted--yellow-moutarde`
+  - Variable CSS: `--text-inverted-yellow-moutarde`
+- **yellow-tournesol**
+  - Classe: `fr-text-inverted--yellow-tournesol`
+  - Variable CSS: `--text-inverted-yellow-tournesol`
+
+### label (20)
+
+- **beige-gris-galet**
+  - Classe: `fr-text-label--beige-gris-galet`
+  - Variable CSS: `--text-label-beige-gris-galet`
+- **blue-cumulus**
+  - Classe: `fr-text-label--blue-cumulus`
+  - Variable CSS: `--text-label-blue-cumulus`
+- **blue-ecume**
+  - Classe: `fr-text-label--blue-ecume`
+  - Variable CSS: `--text-label-blue-ecume`
+- **blue-france**
+  - Classe: `fr-text-label--blue-france`
+  - Variable CSS: `--text-label-blue-france`
+- **brown-cafe-creme**
+  - Classe: `fr-text-label--brown-cafe-creme`
+  - Variable CSS: `--text-label-brown-cafe-creme`
+- **brown-caramel**
+  - Classe: `fr-text-label--brown-caramel`
+  - Variable CSS: `--text-label-brown-caramel`
+- **brown-opera**
+  - Classe: `fr-text-label--brown-opera`
+  - Variable CSS: `--text-label-brown-opera`
+- **green-archipel**
+  - Classe: `fr-text-label--green-archipel`
+  - Variable CSS: `--text-label-green-archipel`
+- **green-bourgeon**
+  - Classe: `fr-text-label--green-bourgeon`
+  - Variable CSS: `--text-label-green-bourgeon`
+- **green-emeraude**
+  - Classe: `fr-text-label--green-emeraude`
+  - Variable CSS: `--text-label-green-emeraude`
+- **green-menthe**
+  - Classe: `fr-text-label--green-menthe`
+  - Variable CSS: `--text-label-green-menthe`
+- **green-tilleul-verveine**
+  - Classe: `fr-text-label--green-tilleul-verveine`
+  - Variable CSS: `--text-label-green-tilleul-verveine`
+- **grey**
+  - Classe: `fr-text-label--grey`
+  - Variable CSS: `--text-label-grey`
+- **orange-terre-battue**
+  - Classe: `fr-text-label--orange-terre-battue`
+  - Variable CSS: `--text-label-orange-terre-battue`
+- **pink-macaron**
+  - Classe: `fr-text-label--pink-macaron`
+  - Variable CSS: `--text-label-pink-macaron`
+- **pink-tuile**
+  - Classe: `fr-text-label--pink-tuile`
+  - Variable CSS: `--text-label-pink-tuile`
+- **purple-glycine**
+  - Classe: `fr-text-label--purple-glycine`
+  - Variable CSS: `--text-label-purple-glycine`
+- **red-marianne**
+  - Classe: `fr-text-label--red-marianne`
+  - Variable CSS: `--text-label-red-marianne`
+- **yellow-moutarde**
+  - Classe: `fr-text-label--yellow-moutarde`
+  - Variable CSS: `--text-label-yellow-moutarde`
+- **yellow-tournesol**
+  - Classe: `fr-text-label--yellow-tournesol`
+  - Variable CSS: `--text-label-yellow-tournesol`
+
+### mention (1)
+
+- **grey**
+  - Classe: `fr-text-mention--grey`
+  - Variable CSS: `--text-mention-grey`
+
+### title (3)
+
+- **blue-france**
+  - Classe: `fr-text-title--blue-france`
+  - Variable CSS: `--text-title-blue-france`
+- **grey**
+  - Classe: `fr-text-title--grey`
+  - Variable CSS: `--text-title-grey`
+- **red-marianne**
+  - Classe: `fr-text-title--red-marianne`
+  - Variable CSS: `--text-title-red-marianne`
+
