@@ -49,7 +49,24 @@ Un outil pour explorer et utiliser les couleurs du DSFR.
 - ↕️ Tri alphabétique automatique
 - 🌓 Mode sombre/clair
 
-### 3. Exemples de grille
+### 3. Tags & Badges
+
+Un outil interactif pour composer et explorer les tags et badges DSFR.
+
+**Fonctionnalités :**
+
+- 🎨 **Compositeur interactif** : Créez vos propres tags et badges en quelques clics
+- 🎯 Choix du type (Badge ou Tag), élément HTML (paragraphe, lien, bouton), et taille
+- 🌈 **Sélecteur de couleurs** : 23 couleurs DSFR (system colors + couleurs thématiques)
+- 🎨 **Sélecteur d'icônes** : 16 icônes populaires avec aperçu visuel
+- 👁️ **Aperçu en temps réel** : Visualisez votre composition instantanément
+- 📋 **Copie rapide** : Code HTML généré automatiquement
+- 📚 **Catalogues complets** : 51 badges et 109 tags extraits du DSFR
+- 🔍 Recherche et filtrage par type et couleur
+- ✅ **100% accessible** : Uniquement des combinaisons conformes au DSFR
+- 🌓 Mode sombre/clair
+
+### 4. Exemples de grille
 
 Une collection d'exemples pratiques pour maîtriser le système de grille DSFR.
 
@@ -90,7 +107,7 @@ Le serveur démarre sur http://localhost:8080 et ouvre automatiquement le naviga
 ### Extraction des données
 
 ```bash
-# Extraire toutes les données (icônes DSFR, couleurs, Remix Icon)
+# Extraire toutes les données (icônes, couleurs, tags & badges, Remix Icon)
 pnpm extract
 
 # Extraire uniquement les icônes DSFR
@@ -98,6 +115,9 @@ pnpm extract:icons
 
 # Extraire uniquement les couleurs
 pnpm extract:colors
+
+# Extraire uniquement les tags et badges
+pnpm extract:tags-badges
 
 # Extraire uniquement Remix Icon
 pnpm extract:remix
@@ -107,23 +127,26 @@ pnpm extract:remix
 
 ```
 dsfr-toolkit/
-├── index.html                  # Page d'accueil
-├── icons-viewer.html           # Visualiseur d'icônes
-├── colors-viewer.html          # Palette de couleurs
-├── grid-viewer.html            # Exemples de grille
+├── index.html                     # Page d'accueil
+├── icons-viewer.html              # Visualiseur d'icônes
+├── colors-viewer.html             # Palette de couleurs
+├── tags-badges-viewer.html        # Compositeur de tags et badges
+├── grid-viewer.html               # Exemples de grille
 ├── src/
 │   ├── styles/
-│   │   └── style.css          # Styles centralisés
+│   │   └── style.css             # Styles centralisés
 │   └── data/
-│       ├── dsfr-icons.json    # Données des icônes DSFR
-│       ├── remix-icons.json   # Données Remix Icon
-│       └── dsfr-colors.json   # Données des couleurs
+│       ├── dsfr-icons.json       # Données des icônes DSFR
+│       ├── remix-icons.json      # Données Remix Icon
+│       ├── dsfr-colors.json      # Données des couleurs
+│       └── tags-badges.json      # Données des tags et badges
 ├── scripts/
-│   ├── extract-icons.js       # Script d'extraction DSFR
-│   ├── extract-colors.js      # Script d'extraction couleurs
-│   └── extract-remix.js       # Script d'extraction Remix
-├── package.json               # Dépendances
-└── README.md                  # Documentation
+│   ├── extract-icons.js          # Script d'extraction DSFR
+│   ├── extract-colors.js         # Script d'extraction couleurs
+│   ├── extract-tags-badges.js    # Script d'extraction tags & badges
+│   └── extract-remix.js          # Script d'extraction Remix
+├── package.json                  # Dépendances
+└── README.md                     # Documentation
 ```
 
 ## 🎨 Technologies utilisées

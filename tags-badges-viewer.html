@@ -1,0 +1,893 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🇫🇷 Tags & Badges DSFR</title>
+    <meta name="description" content="Explorez les tags et badges du Design System de l'État Français (DSFR). Toutes les combinaisons accessibles extraites du code source." />
+
+    <link rel="icon" href="./assets/dsfr/favicon/favicon.ico" />
+    <link rel="icon" href="./assets/dsfr/favicon/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./assets/dsfr/favicon/apple-touch-icon.png" />
+    <link rel="stylesheet" href="./assets/dsfr/dsfr.min.css" />
+    <link rel="stylesheet" href="./assets/dsfr/utility/icons/icons.min.css" />
+    <link rel="stylesheet" href="./assets/dsfr/utility/utility.min.css" />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <style>
+      .composer-section {
+        background: var(--background-alt-grey);
+        border-radius: 0.5rem;
+        padding: 2rem;
+      }
+
+      .composer-preview {
+        background: var(--background-default-grey);
+        border-radius: 0.5rem;
+        padding: 3rem;
+        text-align: center;
+        min-height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+      }
+
+      .color-grid, .icon-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+        gap: 0.5rem;
+      }
+
+      .color-btn, .icon-btn {
+        aspect-ratio: 1;
+        border: 2px solid transparent;
+        border-radius: 0.25rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s;
+        font-size: 1.5rem;
+        padding: 0.5rem;
+      }
+
+      .color-btn:hover, .icon-btn:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      }
+
+      .color-btn.selected, .icon-btn.selected {
+        border-color: var(--border-action-high-blue-france);
+        box-shadow: 0 0 0 2px var(--background-action-high-blue-france);
+      }
+
+      .icon-btn {
+        background: var(--background-contrast-grey);
+      }
+
+      .option-group {
+        margin-bottom: 1.5rem;
+      }
+
+      .option-group-label {
+        font-weight: 700;
+        margin-bottom: 0.75rem;
+        display: block;
+      }
+
+      .btn-group-inline {
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+      }
+
+      .btn-group-inline .fr-btn.selected {
+        background-color: var(--background-action-high-blue-france);
+        color: var(--text-inverted-blue-france);
+      }
+
+      .btn-group-inline .fr-btn.selected:hover {
+        background-color: var(--background-action-high-blue-france-hover);
+      }
+    </style>
+  </head>
+  <body>
+    <header role="banner" class="fr-header">
+      <div class="fr-header__body">
+        <div class="fr-container">
+          <div class="fr-header__body-row">
+            <div class="fr-header__brand fr-enlarge-link">
+              <div class="fr-header__brand-top">
+                <div class="fr-header__logo">
+                  <a href="./index.html" title="Accueil - DSFR Toolkit">
+                    <p class="fr-logo">République<br />Française</p>
+                  </a>
+                </div>
+              </div>
+              <div class="fr-header__service">
+                <p class="fr-header__service-title">🇫🇷 Tags & Badges DSFR</p>
+                <p class="fr-header__service-tagline">Composer et explorer toutes les combinaisons</p>
+              </div>
+            </div>
+            <div class="fr-header__tools">
+              <div class="fr-header__tools-links">
+                <ul class="fr-btns-group">
+                  <li>
+                    <a class="fr-btn fr-btn--tertiary-no-outline" href="./icons-viewer.html">Icônes</a>
+                  </li>
+                  <li>
+                    <a class="fr-btn fr-btn--tertiary-no-outline" href="./colors-viewer.html">Couleurs</a>
+                  </li>
+                  <li>
+                    <button class="fr-btn fr-btn--secondary fr-btn--icon-left fr-icon-theme-fill" id="theme-toggle">
+                      Mode sombre
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+      <div class="fr-container fr-py-4w">
+        <!-- Filtres pour la liste -->
+        <div class="fr-mb-3w">
+          <div class="fr-grid-row fr-grid-row--gutters">
+            <div class="fr-col-12 fr-col-md-4">
+              <div class="fr-select-group">
+                <label class="fr-label" for="type-filter">Filtrer par type</label>
+                <select class="fr-select" id="type-filter">
+                  <option value="">Tous les types</option>
+                </select>
+              </div>
+            </div>
+            <div class="fr-col-12 fr-col-md-4">
+              <div class="fr-select-group">
+                <label class="fr-label" for="color-filter">Filtrer par couleur</label>
+                <select class="fr-select" id="color-filter">
+                  <option value="">Toutes les couleurs</option>
+                </select>
+              </div>
+            </div>
+            <div class="fr-col-12 fr-col-md-4">
+              <div class="fr-input-group">
+                <label class="fr-label" for="search-input">Rechercher</label>
+                <input class="fr-input" type="search" id="search-input" placeholder="Rechercher un badge ou tag..." />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="fr-tabs">
+          <ul class="fr-tabs__list" role="tablist">
+            <li role="presentation">
+              <button id="tab-composer" class="fr-tabs__tab" tabindex="0" role="tab" aria-selected="true" aria-controls="tab-composer-panel">
+                Composer badge & tag
+              </button>
+            </li>
+            <li role="presentation">
+              <button id="tab-badges" class="fr-tabs__tab" tabindex="-1" role="tab" aria-selected="false" aria-controls="tab-badges-panel">
+                Liste des badges
+              </button>
+            </li>
+            <li role="presentation">
+              <button id="tab-tags" class="fr-tabs__tab" tabindex="-1" role="tab" aria-selected="false" aria-controls="tab-tags-panel">
+                Liste des tags
+              </button>
+            </li>
+          </ul>
+
+          <div id="tab-composer-panel" class="fr-tabs__panel fr-tabs__panel--selected" role="tabpanel" aria-labelledby="tab-composer">
+            <!-- Compositeur -->
+            <div class="composer-section">
+              <h2 class="fr-h4 fr-mb-3w">🎨 Composer votre badge/tag</h2>
+
+              <div class="fr-grid-row fr-grid-row--gutters">
+                <div class="fr-col-12 fr-col-lg-8">
+                  <!-- Type -->
+                  <div class="option-group">
+                    <span class="option-group-label">Type</span>
+                    <div class="btn-group-inline">
+                      <button class="fr-btn fr-btn--sm fr-btn--secondary selected" data-composer="type" data-value="badge">Badge</button>
+                      <button class="fr-btn fr-btn--sm fr-btn--secondary" data-composer="type" data-value="tag">Tag</button>
+                    </div>
+                  </div>
+
+                  <!-- Élément HTML -->
+                  <div class="option-group">
+                    <span class="option-group-label">Élément HTML</span>
+                    <div class="btn-group-inline">
+                      <button class="fr-btn fr-btn--sm fr-btn--secondary selected" data-composer="element" data-value="p">Paragraphe</button>
+                      <button class="fr-btn fr-btn--sm fr-btn--secondary" data-composer="element" data-value="a">Lien</button>
+                      <button class="fr-btn fr-btn--sm fr-btn--secondary" data-composer="element" data-value="button">Bouton</button>
+                    </div>
+                  </div>
+
+                  <!-- Taille -->
+                  <div class="option-group">
+                    <span class="option-group-label">Taille</span>
+                    <div class="btn-group-inline">
+                      <button class="fr-btn fr-btn--sm fr-btn--secondary selected" data-composer="size" data-value="normal">Normale</button>
+                      <button class="fr-btn fr-btn--sm fr-btn--secondary" data-composer="size" data-value="small">Petite</button>
+                    </div>
+                  </div>
+
+                  <!-- Options -->
+                  <div class="option-group">
+                    <span class="option-group-label">Options</span>
+                    <div class="btn-group-inline">
+                      <button class="fr-btn fr-btn--sm fr-btn--secondary" data-composer="option" data-value="icon">Avec icône</button>
+                      <button class="fr-btn fr-btn--sm fr-btn--secondary" data-composer="option" data-value="no-icon">Sans icône</button>
+                    </div>
+                  </div>
+
+                  <!-- Icônes -->
+                  <div class="option-group" id="icon-selector-group" style="display: none;">
+                    <span class="option-group-label">Choisir une icône</span>
+                    <div class="icon-grid" id="icon-grid"></div>
+                  </div>
+
+                  <!-- Couleurs -->
+                  <div class="option-group">
+                    <span class="option-group-label">Couleur</span>
+                    <div class="color-grid" id="color-grid"></div>
+                  </div>
+                </div>
+
+                <div class="fr-col-12 fr-col-lg-4">
+                  <span class="option-group-label">Aperçu</span>
+                  <div class="composer-preview" id="composer-preview">
+                    <p class="fr-badge">Label badge</p>
+                  </div>
+
+                  <div class="fr-mb-2w">
+                    <label class="fr-label" for="composer-code">Code HTML</label>
+                    <textarea class="fr-input" id="composer-code" rows="4" readonly></textarea>
+                  </div>
+
+                  <button class="fr-btn fr-btn--icon-left fr-icon-clipboard-line" id="copy-composer-code">
+                    Copier le code
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="tab-badges-panel" class="fr-tabs__panel" role="tabpanel" aria-labelledby="tab-badges">
+            <div class="fr-text--sm fr-mb-2w fr-text-mention--grey" id="stats-badges"></div>
+            <div id="badges-container"></div>
+          </div>
+
+          <div id="tab-tags-panel" class="fr-tabs__panel" role="tabpanel" aria-labelledby="tab-tags">
+            <div class="fr-text--sm fr-mb-2w fr-text-mention--grey" id="stats-tags"></div>
+            <div id="tags-container"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="fr-footer" role="contentinfo">
+      <div class="fr-container">
+        <div class="fr-footer__body">
+          <div class="fr-footer__brand fr-enlarge-link">
+            <p class="fr-logo">République<br />Française</p>
+          </div>
+          <div class="fr-footer__content">
+            <p class="fr-footer__content-desc">DSFR Toolkit - Composer et explorer</p>
+            <ul class="fr-footer__content-list">
+              <li class="fr-footer__content-item">
+                <a class="fr-footer__content-link" href="https://www.systeme-de-design.gouv.fr/" target="_blank">
+                  Documentation DSFR
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="fr-footer__bottom">
+          <ul class="fr-footer__bottom-list">
+            <li class="fr-footer__bottom-item">
+              <a class="fr-footer__bottom-link" href="https://github.com/pYassine/dsfr-toolkit" target="_blank">
+                Fait avec du coeur & des robots
+              </a>
+            </li>
+            <li class="fr-footer__bottom-item">
+              <span class="fr-footer__bottom-link" id="dsfr-version">DSFR v1.14.0</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      let data = null;
+      let iconsData = null;
+      let currentTheme = "light";
+      let currentTab = "badges";
+      let currentTypeFilter = "";
+      let currentColorFilter = "";
+      let currentSearch = "";
+
+      // État du compositeur
+      const composer = {
+        type: 'badge',
+        element: 'p',
+        size: 'normal',
+        color: '',
+        option: '',
+        icon: ''
+      };
+
+      const popularIcons = [
+        { class: 'fr-icon-star-fill', label: '⭐' },
+        { class: 'fr-icon-heart-fill', label: '❤️' },
+        { class: 'fr-icon-home-4-line', label: '🏠' },
+        { class: 'fr-icon-user-line', label: '👤' },
+        { class: 'fr-icon-settings-5-line', label: '⚙️' },
+        { class: 'fr-icon-notification-badge-line', label: '🔔' },
+        { class: 'fr-icon-check-line', label: '✓' },
+        { class: 'fr-icon-close-line', label: '✕' },
+        { class: 'fr-icon-arrow-right-line', label: '→' },
+        { class: 'fr-icon-arrow-left-line', label: '←' },
+        { class: 'fr-icon-add-line', label: '+' },
+        { class: 'fr-icon-subtract-line', label: '−' },
+        { class: 'fr-icon-mail-line', label: '✉' },
+        { class: 'fr-icon-phone-line', label: '☎' },
+        { class: 'fr-icon-search-line', label: '🔍' },
+        { class: 'fr-icon-calendar-line', label: '📅' }
+      ];
+
+      async function loadData() {
+        try {
+          const [tagsResponse, iconsResponse] = await Promise.all([
+            fetch("./src/data/tags-badges.json"),
+            fetch("./src/data/dsfr-icons.json")
+          ]);
+
+          data = await tagsResponse.json();
+          iconsData = await iconsResponse.json();
+
+          document.getElementById("dsfr-version").textContent = `DSFR v${data.meta.dsfrVersion}`;
+
+          initComposer();
+          initFilters();
+          renderCurrent();
+        } catch (error) {
+          console.error("Erreur:", error);
+          showError("Erreur lors du chargement des données");
+        }
+      }
+
+      function initComposer() {
+        // Initialiser la grille de couleurs
+        const colorGrid = document.getElementById('color-grid');
+        const colors = [
+          { value: '', name: 'Par défaut', bg: 'var(--background-contrast-grey)' },
+          { value: 'info', name: 'Info', bg: 'var(--background-contrast-info)' },
+          { value: 'success', name: 'Success', bg: 'var(--background-contrast-success)' },
+          { value: 'error', name: 'Error', bg: 'var(--background-contrast-error)' },
+          { value: 'warning', name: 'Warning', bg: 'var(--background-contrast-warning)' },
+          { value: 'new', name: 'New', bg: 'var(--background-contrast-yellow-moutarde)' },
+          { value: 'green-tilleul-verveine', name: 'Green Tilleul', bg: 'var(--background-contrast-green-tilleul-verveine)' },
+          { value: 'green-bourgeon', name: 'Green Bourgeon', bg: 'var(--background-contrast-green-bourgeon)' },
+          { value: 'green-emeraude', name: 'Green Émeraude', bg: 'var(--background-contrast-green-emeraude)' },
+          { value: 'green-menthe', name: 'Green Menthe', bg: 'var(--background-contrast-green-menthe)' },
+          { value: 'green-archipel', name: 'Green Archipel', bg: 'var(--background-contrast-green-archipel)' },
+          { value: 'blue-ecume', name: 'Blue Écume', bg: 'var(--background-contrast-blue-ecume)' },
+          { value: 'blue-cumulus', name: 'Blue Cumulus', bg: 'var(--background-contrast-blue-cumulus)' },
+          { value: 'purple-glycine', name: 'Purple Glycine', bg: 'var(--background-contrast-purple-glycine)' },
+          { value: 'pink-macaron', name: 'Pink Macaron', bg: 'var(--background-contrast-pink-macaron)' },
+          { value: 'pink-tuile', name: 'Pink Tuile', bg: 'var(--background-contrast-pink-tuile)' },
+          { value: 'yellow-tournesol', name: 'Yellow Tournesol', bg: 'var(--background-contrast-yellow-tournesol)' },
+          { value: 'yellow-moutarde', name: 'Yellow Moutarde', bg: 'var(--background-contrast-yellow-moutarde)' },
+          { value: 'orange-terre-battue', name: 'Orange Terre Battue', bg: 'var(--background-contrast-orange-terre-battue)' },
+          { value: 'brown-cafe-creme', name: 'Brown Café Crème', bg: 'var(--background-contrast-brown-cafe-creme)' },
+          { value: 'brown-caramel', name: 'Brown Caramel', bg: 'var(--background-contrast-brown-caramel)' },
+          { value: 'brown-opera', name: 'Brown Opera', bg: 'var(--background-contrast-brown-opera)' },
+          { value: 'beige-gris-galet', name: 'Beige Gris Galet', bg: 'var(--background-contrast-beige-gris-galet)' }
+        ];
+
+        colors.forEach((color, index) => {
+          const btn = document.createElement('button');
+          btn.className = `color-btn${index === 0 ? ' selected' : ''}`;
+          btn.style.backgroundColor = color.bg;
+          btn.title = color.name;
+          btn.dataset.color = color.value;
+          btn.addEventListener('click', () => selectColor(color.value));
+          colorGrid.appendChild(btn);
+        });
+
+        // Initialiser la grille d'icônes
+        const iconGrid = document.getElementById('icon-grid');
+        popularIcons.forEach(icon => {
+          const btn = document.createElement('button');
+          btn.className = 'icon-btn';
+          btn.innerHTML = `<i class="${icon.class}" aria-hidden="true"></i>`;
+          btn.title = icon.class;
+          btn.dataset.icon = icon.class;
+          btn.addEventListener('click', () => selectIcon(icon.class));
+          iconGrid.appendChild(btn);
+        });
+
+        // Event listeners pour les options
+        document.querySelectorAll('[data-composer]').forEach(btn => {
+          btn.addEventListener('click', (e) => {
+            const type = e.target.dataset.composer;
+            const value = e.target.dataset.value;
+
+            // Désélectionner les autres boutons du même groupe
+            document.querySelectorAll(`[data-composer="${type}"]`).forEach(b => {
+              b.classList.remove('selected');
+            });
+            e.target.classList.add('selected');
+
+            composer[type] = value;
+
+            // Afficher/masquer le sélecteur d'icônes
+            if (type === 'option') {
+              const iconSelector = document.getElementById('icon-selector-group');
+              if (value === 'icon') {
+                iconSelector.style.display = 'block';
+                if (!composer.icon) {
+                  selectIcon(popularIcons[0].class);
+                }
+              } else {
+                iconSelector.style.display = 'none';
+              }
+            }
+
+            updateComposerPreview();
+          });
+        });
+
+        // Copier le code
+        document.getElementById('copy-composer-code').addEventListener('click', () => {
+          const code = document.getElementById('composer-code').value;
+          copyToClipboard(code, 'Code copié !');
+        });
+
+        updateComposerPreview();
+      }
+
+      function selectColor(colorValue) {
+        composer.color = colorValue;
+        document.querySelectorAll('.color-btn').forEach(btn => {
+          btn.classList.toggle('selected', btn.dataset.color === colorValue);
+        });
+        updateComposerPreview();
+      }
+
+      function selectIcon(iconClass) {
+        composer.icon = iconClass;
+        document.querySelectorAll('.icon-btn').forEach(btn => {
+          btn.classList.toggle('selected', btn.dataset.icon === iconClass);
+        });
+        updateComposerPreview();
+      }
+
+      function updateComposerPreview() {
+        const preview = document.getElementById('composer-preview');
+        const codeTextarea = document.getElementById('composer-code');
+
+        const baseClass = composer.type === 'badge' ? 'fr-badge' : 'fr-tag';
+        let classes = [baseClass];
+
+        // Ajouter la couleur
+        if (composer.color) {
+          classes.push(`${baseClass}--${composer.color}`);
+        }
+
+        // Ajouter la taille
+        if (composer.size === 'small') {
+          classes.push(`${baseClass}--sm`);
+        }
+
+        // Ajouter les options
+        if (composer.option === 'icon' && composer.icon) {
+          classes.push(`${baseClass}--icon-left`);
+          classes.push(composer.icon);
+        } else if (composer.option === 'no-icon') {
+          classes.push(`${baseClass}--no-icon`);
+        }
+
+        const className = classes.join(' ');
+        const text = composer.type === 'badge' ? 'Label badge' : 'Label tag';
+
+        // Générer le HTML
+        let html = '';
+        if (composer.element === 'a') {
+          html = `<a href="#" class="${className}">${text}</a>`;
+        } else if (composer.element === 'button') {
+          html = `<button class="${className}">${text}</button>`;
+        } else {
+          html = `<p class="${className}">${text}</p>`;
+        }
+
+        // Mettre à jour l'aperçu
+        preview.innerHTML = html;
+
+        // Mettre à jour le code
+        codeTextarea.value = html;
+      }
+
+      function initFilters() {
+        if (!data) return;
+
+        const badgeTypes = [...new Set(data.badges.map(b => b.type))].sort();
+        const typeSelect = document.getElementById("type-filter");
+
+        badgeTypes.forEach(type => {
+          const option = document.createElement("option");
+          option.value = type;
+          option.textContent = formatTypeName(type);
+          typeSelect.appendChild(option);
+        });
+
+        const allColors = [...new Set([...data.badges.map(b => b.color), ...data.tags.map(t => t.color)])].sort();
+        const colorSelect = document.getElementById("color-filter");
+        const systemColors = allColors.filter(c => ['default', 'blue-france', 'info', 'success', 'error', 'warning', 'new'].includes(c));
+
+        if (systemColors.length > 0) {
+          const systemGroup = document.createElement("optgroup");
+          systemGroup.label = "Couleurs système";
+          systemColors.forEach(color => {
+            const option = document.createElement("option");
+            option.value = color;
+            option.textContent = formatColorName(color);
+            systemGroup.appendChild(option);
+          });
+          colorSelect.appendChild(systemGroup);
+        }
+
+        const themeColors = allColors.filter(c => !systemColors.includes(c));
+        if (themeColors.length > 0) {
+          const themeGroup = document.createElement("optgroup");
+          themeGroup.label = "Couleurs thématiques";
+          themeColors.forEach(color => {
+            const option = document.createElement("option");
+            option.value = color;
+            option.textContent = formatColorName(color);
+            themeGroup.appendChild(option);
+          });
+          colorSelect.appendChild(themeGroup);
+        }
+      }
+
+      function formatTypeName(type) {
+        const names = {
+          'base': 'Base',
+          'no-icon': 'Sans icône',
+          'icon-left': 'Avec icône',
+          'simple': 'Simple',
+          'link': 'Lien',
+          'button': 'Bouton',
+          'selectable': 'Sélectionnable',
+          'selected': 'Sélectionné',
+          'dismiss': 'Avec suppression'
+        };
+        return names[type] || type;
+      }
+
+      function formatColorName(color) {
+        if (color === 'default') return 'Par défaut';
+        if (color === 'blue-france') return 'Blue France';
+        return color.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+      }
+
+      function renderCurrent() {
+        if (currentTab === "badges") {
+          renderBadges();
+        } else {
+          renderTags();
+        }
+      }
+
+      function renderBadges() {
+        if (!data) return;
+
+        const container = document.getElementById("badges-container");
+        container.innerHTML = "";
+
+        let filteredBadges = data.badges.filter(badge => {
+          if (currentTypeFilter && badge.type !== currentTypeFilter) return false;
+          if (currentColorFilter && badge.color !== currentColorFilter) return false;
+          if (currentSearch) {
+            const searchLower = currentSearch.toLowerCase();
+            return badge.name.toLowerCase().includes(searchLower) ||
+                   badge.className.toLowerCase().includes(searchLower) ||
+                   badge.color.toLowerCase().includes(searchLower);
+          }
+          return true;
+        });
+
+        const groupedByType = {};
+        filteredBadges.forEach(badge => {
+          if (!groupedByType[badge.type]) groupedByType[badge.type] = [];
+          groupedByType[badge.type].push(badge);
+        });
+
+        let totalDisplayed = 0;
+
+        Object.keys(groupedByType).sort().forEach(type => {
+          const badges = groupedByType[type];
+          const section = createSection(formatTypeName(type), badges.length);
+          const grid = document.createElement("div");
+          grid.className = "fr-grid-row fr-grid-row--gutters";
+
+          badges.forEach(badge => {
+            grid.appendChild(createComponentCard(badge));
+            totalDisplayed++;
+          });
+
+          section.appendChild(grid);
+          container.appendChild(section);
+        });
+
+        updateStats(totalDisplayed, "badges");
+      }
+
+      function renderTags() {
+        if (!data) return;
+
+        const tagTypes = [...new Set(data.tags.map(t => t.type))].sort();
+        const typeSelect = document.getElementById("type-filter");
+        typeSelect.innerHTML = '<option value="">Tous les types</option>';
+
+        tagTypes.forEach(type => {
+          const option = document.createElement("option");
+          option.value = type;
+          option.textContent = formatTypeName(type);
+          typeSelect.appendChild(option);
+        });
+
+        const container = document.getElementById("tags-container");
+        container.innerHTML = "";
+
+        let filteredTags = data.tags.filter(tag => {
+          if (currentTypeFilter && tag.type !== currentTypeFilter) return false;
+          if (currentColorFilter && tag.color !== currentColorFilter) return false;
+          if (currentSearch) {
+            const searchLower = currentSearch.toLowerCase();
+            return tag.name.toLowerCase().includes(searchLower) ||
+                   tag.className.toLowerCase().includes(searchLower) ||
+                   tag.color.toLowerCase().includes(searchLower);
+          }
+          return true;
+        });
+
+        const groupedByType = {};
+        filteredTags.forEach(tag => {
+          if (!groupedByType[tag.type]) groupedByType[tag.type] = [];
+          groupedByType[tag.type].push(tag);
+        });
+
+        let totalDisplayed = 0;
+
+        const typeOrder = ['simple', 'link', 'button', 'icon-left', 'selectable', 'selected', 'dismiss'];
+        typeOrder.forEach(type => {
+          if (groupedByType[type]) {
+            const tags = groupedByType[type];
+            const section = createSection(formatTypeName(type), tags.length);
+            const grid = document.createElement("div");
+            grid.className = "fr-grid-row fr-grid-row--gutters";
+
+            tags.forEach(tag => {
+              grid.appendChild(createComponentCard(tag));
+              totalDisplayed++;
+            });
+
+            section.appendChild(grid);
+            container.appendChild(section);
+          }
+        });
+
+        updateStats(totalDisplayed, "tags");
+      }
+
+      function createSection(title, count) {
+        const section = document.createElement("div");
+        section.className = "fr-mb-6w";
+        const h2 = document.createElement("h2");
+        h2.className = "fr-h3 fr-mb-2w";
+        h2.textContent = `${title} (${count})`;
+        section.appendChild(h2);
+        return section;
+      }
+
+      function createComponentCard(component) {
+        const col = document.createElement("div");
+        col.className = "fr-col-12 fr-col-md-6 fr-col-lg-4";
+
+        const card = document.createElement("div");
+        card.className = "fr-card fr-card--no-border fr-card--shadow";
+
+        const text = currentTab === "badges" ? "Label badge" : "Label tag";
+        let htmlCode = "";
+
+        if (component.element === "a") {
+          const href = component.href || "#";
+          const ariaPressed = component.ariaPressed ? ` aria-pressed="${component.ariaPressed}"` : "";
+          htmlCode = `<a href="${href}" class="${component.className}"${ariaPressed}>${text}</a>`;
+        } else if (component.element === "button") {
+          const ariaPressed = component.ariaPressed ? ` aria-pressed="${component.ariaPressed}"` : "";
+          htmlCode = `<button class="${component.className}"${ariaPressed}>${text}</button>`;
+        } else {
+          htmlCode = `<p class="${component.className}">${text}</p>`;
+        }
+
+        let preview = "";
+        if (component.element === "a") {
+          const ariaPressed = component.ariaPressed ? ` aria-pressed="${component.ariaPressed}"` : "";
+          preview = `<a href="#" class="${component.className}"${ariaPressed} style="pointer-events: none;">${text}</a>`;
+        } else if (component.element === "button") {
+          const ariaPressed = component.ariaPressed ? ` aria-pressed="${component.ariaPressed}"` : "";
+          preview = `<button class="${component.className}"${ariaPressed} disabled>${text}</button>`;
+        } else {
+          preview = `<p class="${component.className}">${text}</p>`;
+        }
+
+        const cardBody = document.createElement("div");
+        cardBody.className = "fr-card__body";
+
+        const cardContent = document.createElement("div");
+        cardContent.className = "fr-card__content";
+
+        const previewDiv = document.createElement("div");
+        previewDiv.style.cssText = "text-align: center; padding: 1.5rem; background-color: var(--background-alt-grey); border-radius: 0.5rem; margin-bottom: 1rem; min-height: 80px; display: flex; align-items: center; justify-content: center;";
+        previewDiv.innerHTML = preview;
+
+        const title = document.createElement("h3");
+        title.className = "fr-card__title fr-text--sm fr-mb-2w";
+        title.textContent = component.name;
+
+        const btnGroup = document.createElement("div");
+        btnGroup.className = "fr-btns-group fr-btns-group--inline fr-btns-group--sm";
+
+        const btnHtml = document.createElement("button");
+        btnHtml.className = "fr-btn fr-btn--sm fr-btn--secondary";
+        btnHtml.textContent = "HTML";
+        btnHtml.addEventListener("click", () => copyToClipboard(htmlCode, "Code HTML copié !"));
+
+        const btnClass = document.createElement("button");
+        btnClass.className = "fr-btn fr-btn--sm fr-btn--secondary";
+        btnClass.textContent = "Classes";
+        btnClass.addEventListener("click", () => copyToClipboard(component.className, "Classes copiées !"));
+
+        btnGroup.appendChild(btnHtml);
+        btnGroup.appendChild(btnClass);
+
+        cardContent.appendChild(previewDiv);
+        cardContent.appendChild(title);
+        cardContent.appendChild(btnGroup);
+        cardBody.appendChild(cardContent);
+        card.appendChild(cardBody);
+        col.appendChild(card);
+
+        return col;
+      }
+
+      async function copyToClipboard(text, message) {
+        try {
+          await navigator.clipboard.writeText(text);
+          showToast(message);
+        } catch (error) {
+          console.error("Erreur:", error);
+          showToast("Erreur lors de la copie", true);
+        }
+      }
+
+      function showToast(message, isError = false) {
+        let alertContainer = document.querySelector(".alert-container");
+        if (!alertContainer) {
+          alertContainer = document.createElement("div");
+          alertContainer.className = "alert-container";
+          document.body.appendChild(alertContainer);
+        }
+
+        const alert = document.createElement("div");
+        alert.className = `fr-alert ${isError ? 'fr-alert--error' : 'fr-alert--success'} fr-alert--sm`;
+        const p = document.createElement("p");
+        p.textContent = message;
+        alert.appendChild(p);
+        alertContainer.appendChild(alert);
+
+        setTimeout(() => {
+          alert.remove();
+          if (alertContainer.children.length === 0) alertContainer.remove();
+        }, 3000);
+      }
+
+      function showError(message) {
+        [document.getElementById("badges-container"), document.getElementById("tags-container")].forEach(container => {
+          const alert = document.createElement("div");
+          alert.className = "fr-alert fr-alert--error";
+          const p = document.createElement("p");
+          p.textContent = message;
+          alert.appendChild(p);
+          container.appendChild(alert);
+        });
+      }
+
+      function updateStats(displayed, type) {
+        const statsEl = document.getElementById(`stats-${type}`);
+        if (!statsEl) return;
+        const total = type === "badges" ? data.meta.totalBadges : data.meta.totalTags;
+        const label = type === "badges" ? "badges" : "tags";
+        statsEl.textContent = displayed !== total ? `${displayed} sur ${total} ${label}` : `${total} ${label}`;
+      }
+
+      function toggleTheme() {
+        currentTheme = currentTheme === "light" ? "dark" : "light";
+        document.documentElement.setAttribute("data-fr-theme", currentTheme);
+        const btn = document.getElementById("theme-toggle");
+        if (currentTheme === "dark") {
+          btn.className = "fr-btn fr-btn--secondary fr-btn--icon-left fr-icon-sun-line";
+          btn.textContent = "Mode clair";
+        } else {
+          btn.className = "fr-btn fr-btn--secondary fr-btn--icon-left fr-icon-theme-fill";
+          btn.textContent = "Mode sombre";
+        }
+        localStorage.setItem("theme", currentTheme);
+      }
+
+      function initTheme() {
+        const savedTheme = localStorage.getItem("theme");
+        if (savedTheme === "dark") toggleTheme();
+      }
+
+      function initTabs() {
+        document.querySelectorAll('.fr-tabs__tab').forEach(tab => {
+          tab.addEventListener('click', () => {
+            document.querySelectorAll('.fr-tabs__tab').forEach(t => {
+              t.setAttribute('aria-selected', 'false');
+              t.setAttribute('tabindex', '-1');
+            });
+            document.querySelectorAll('.fr-tabs__panel').forEach(p => {
+              p.classList.remove('fr-tabs__panel--selected');
+            });
+            tab.setAttribute('aria-selected', 'true');
+            tab.setAttribute('tabindex', '0');
+            const panel = document.getElementById(tab.getAttribute('aria-controls'));
+            if (panel) panel.classList.add('fr-tabs__panel--selected');
+
+            // Mettre à jour l'onglet actif et render si nécessaire
+            if (tab.id === 'tab-badges') {
+              currentTab = 'badges';
+              renderCurrent();
+            } else if (tab.id === 'tab-tags') {
+              currentTab = 'tags';
+              renderCurrent();
+            }
+            // Pas de render pour l'onglet composer
+          });
+        });
+      }
+
+      let searchTimeout;
+      document.getElementById("search-input").addEventListener("input", (e) => {
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(() => {
+          currentSearch = e.target.value;
+          renderCurrent();
+        }, 300);
+      });
+
+      document.getElementById("theme-toggle").addEventListener("click", toggleTheme);
+      document.getElementById("type-filter").addEventListener("change", () => {
+        currentTypeFilter = document.getElementById("type-filter").value;
+        renderCurrent();
+      });
+      document.getElementById("color-filter").addEventListener("change", () => {
+        currentColorFilter = document.getElementById("color-filter").value;
+        renderCurrent();
+      });
+
+      initTheme();
+      initTabs();
+      loadData();
+    </script>
+    <script type="module" src="./assets/dsfr/dsfr.module.min.js"></script>
+  </body>
+</html>

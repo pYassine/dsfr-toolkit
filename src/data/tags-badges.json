@@ -1,0 +1,1633 @@
+{
+  "meta": {
+    "generatedAt": "2026-02-04T15:57:56.650Z",
+    "source": {
+      "badge": "node_modules/@gouvfr/dsfr/dist/component/badge/badge.css",
+      "tag": "node_modules/@gouvfr/dsfr/dist/component/tag/tag.css"
+    },
+    "totalBadges": 51,
+    "totalTags": 109,
+    "dsfrVersion": "1.14.0"
+  },
+  "variants": {
+    "badge": {
+      "colors": [
+        "beige-gris-galet",
+        "blue-cumulus",
+        "blue-ecume",
+        "brown-cafe-creme",
+        "brown-caramel",
+        "brown-opera",
+        "error",
+        "green-archipel",
+        "green-bourgeon",
+        "green-emeraude",
+        "green-menthe",
+        "green-tilleul-verveine",
+        "info",
+        "new",
+        "orange-terre-battue",
+        "pink-macaron",
+        "pink-tuile",
+        "purple-glycine",
+        "success",
+        "warning",
+        "yellow-moutarde",
+        "yellow-tournesol"
+      ],
+      "modifiers": [
+        "icon-left",
+        "no-icon",
+        "sm"
+      ],
+      "states": []
+    },
+    "tag": {
+      "colors": [
+        "beige-gris-galet",
+        "blue-cumulus",
+        "blue-ecume",
+        "brown-cafe-creme",
+        "brown-caramel",
+        "brown-opera",
+        "green-archipel",
+        "green-bourgeon",
+        "green-emeraude",
+        "green-menthe",
+        "green-tilleul-verveine",
+        "orange-terre-battue",
+        "pink-macaron",
+        "pink-tuile",
+        "purple-glycine",
+        "yellow-moutarde",
+        "yellow-tournesol"
+      ],
+      "modifiers": [
+        "dismiss",
+        "icon-left",
+        "sm"
+      ],
+      "states": [
+        "false",
+        "true"
+      ]
+    }
+  },
+  "badges": [
+    {
+      "name": "Badge par défaut",
+      "className": "fr-badge",
+      "color": "default",
+      "colorType": "default",
+      "type": "base",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "Beige Gris Galet",
+      "className": "fr-badge fr-badge--beige-gris-galet",
+      "color": "beige-gris-galet",
+      "colorType": "beige",
+      "type": "base",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "Blue Cumulus",
+      "className": "fr-badge fr-badge--blue-cumulus",
+      "color": "blue-cumulus",
+      "colorType": "blue",
+      "type": "base",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "Blue Ecume",
+      "className": "fr-badge fr-badge--blue-ecume",
+      "color": "blue-ecume",
+      "colorType": "blue",
+      "type": "base",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "Brown Cafe Creme",
+      "className": "fr-badge fr-badge--brown-cafe-creme",
+      "color": "brown-cafe-creme",
+      "colorType": "brown",
+      "type": "base",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "Brown Caramel",
+      "className": "fr-badge fr-badge--brown-caramel",
+      "color": "brown-caramel",
+      "colorType": "brown",
+      "type": "base",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "Brown Opera",
+      "className": "fr-badge fr-badge--brown-opera",
+      "color": "brown-opera",
+      "colorType": "brown",
+      "type": "base",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "Error",
+      "className": "fr-badge fr-badge--error",
+      "color": "error",
+      "colorType": "system",
+      "type": "base",
+      "hasIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Green Archipel",
+      "className": "fr-badge fr-badge--green-archipel",
+      "color": "green-archipel",
+      "colorType": "green",
+      "type": "base",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "Green Bourgeon",
+      "className": "fr-badge fr-badge--green-bourgeon",
+      "color": "green-bourgeon",
+      "colorType": "green",
+      "type": "base",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "Green Emeraude",
+      "className": "fr-badge fr-badge--green-emeraude",
+      "color": "green-emeraude",
+      "colorType": "green",
+      "type": "base",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "Green Menthe",
+      "className": "fr-badge fr-badge--green-menthe",
+      "color": "green-menthe",
+      "colorType": "green",
+      "type": "base",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "Green Tilleul Verveine",
+      "className": "fr-badge fr-badge--green-tilleul-verveine",
+      "color": "green-tilleul-verveine",
+      "colorType": "green",
+      "type": "base",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "Info",
+      "className": "fr-badge fr-badge--info",
+      "color": "info",
+      "colorType": "system",
+      "type": "base",
+      "hasIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "New",
+      "className": "fr-badge fr-badge--new",
+      "color": "new",
+      "colorType": "system",
+      "type": "base",
+      "hasIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Orange Terre Battue",
+      "className": "fr-badge fr-badge--orange-terre-battue",
+      "color": "orange-terre-battue",
+      "colorType": "orange",
+      "type": "base",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "Pink Macaron",
+      "className": "fr-badge fr-badge--pink-macaron",
+      "color": "pink-macaron",
+      "colorType": "pink",
+      "type": "base",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "Pink Tuile",
+      "className": "fr-badge fr-badge--pink-tuile",
+      "color": "pink-tuile",
+      "colorType": "pink",
+      "type": "base",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "Purple Glycine",
+      "className": "fr-badge fr-badge--purple-glycine",
+      "color": "purple-glycine",
+      "colorType": "purple",
+      "type": "base",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "Success",
+      "className": "fr-badge fr-badge--success",
+      "color": "success",
+      "colorType": "system",
+      "type": "base",
+      "hasIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Warning",
+      "className": "fr-badge fr-badge--warning",
+      "color": "warning",
+      "colorType": "system",
+      "type": "base",
+      "hasIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Yellow Moutarde",
+      "className": "fr-badge fr-badge--yellow-moutarde",
+      "color": "yellow-moutarde",
+      "colorType": "yellow",
+      "type": "base",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "Yellow Tournesol",
+      "className": "fr-badge fr-badge--yellow-tournesol",
+      "color": "yellow-tournesol",
+      "colorType": "yellow",
+      "type": "base",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "Error sans icône",
+      "className": "fr-badge fr-badge--error fr-badge--no-icon",
+      "color": "error",
+      "colorType": "system",
+      "type": "no-icon",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "Info sans icône",
+      "className": "fr-badge fr-badge--info fr-badge--no-icon",
+      "color": "info",
+      "colorType": "system",
+      "type": "no-icon",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "New sans icône",
+      "className": "fr-badge fr-badge--new fr-badge--no-icon",
+      "color": "new",
+      "colorType": "system",
+      "type": "no-icon",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "Success sans icône",
+      "className": "fr-badge fr-badge--success fr-badge--no-icon",
+      "color": "success",
+      "colorType": "system",
+      "type": "no-icon",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "Warning sans icône",
+      "className": "fr-badge fr-badge--warning fr-badge--no-icon",
+      "color": "warning",
+      "colorType": "system",
+      "type": "no-icon",
+      "hasIcon": false,
+      "element": "p"
+    },
+    {
+      "name": "Badge avec icône",
+      "className": "fr-badge fr-badge--icon-left fr-icon-star-fill",
+      "color": "default",
+      "colorType": "default",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Beige Gris Galet avec icône",
+      "className": "fr-badge fr-badge--beige-gris-galet fr-badge--icon-left fr-icon-star-fill",
+      "color": "beige-gris-galet",
+      "colorType": "beige",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Blue Cumulus avec icône",
+      "className": "fr-badge fr-badge--blue-cumulus fr-badge--icon-left fr-icon-star-fill",
+      "color": "blue-cumulus",
+      "colorType": "blue",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Blue Ecume avec icône",
+      "className": "fr-badge fr-badge--blue-ecume fr-badge--icon-left fr-icon-star-fill",
+      "color": "blue-ecume",
+      "colorType": "blue",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Brown Cafe Creme avec icône",
+      "className": "fr-badge fr-badge--brown-cafe-creme fr-badge--icon-left fr-icon-star-fill",
+      "color": "brown-cafe-creme",
+      "colorType": "brown",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Brown Caramel avec icône",
+      "className": "fr-badge fr-badge--brown-caramel fr-badge--icon-left fr-icon-star-fill",
+      "color": "brown-caramel",
+      "colorType": "brown",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Brown Opera avec icône",
+      "className": "fr-badge fr-badge--brown-opera fr-badge--icon-left fr-icon-star-fill",
+      "color": "brown-opera",
+      "colorType": "brown",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Error avec icône",
+      "className": "fr-badge fr-badge--error fr-badge--icon-left fr-icon-star-fill",
+      "color": "error",
+      "colorType": "system",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Green Archipel avec icône",
+      "className": "fr-badge fr-badge--green-archipel fr-badge--icon-left fr-icon-star-fill",
+      "color": "green-archipel",
+      "colorType": "green",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Green Bourgeon avec icône",
+      "className": "fr-badge fr-badge--green-bourgeon fr-badge--icon-left fr-icon-star-fill",
+      "color": "green-bourgeon",
+      "colorType": "green",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Green Emeraude avec icône",
+      "className": "fr-badge fr-badge--green-emeraude fr-badge--icon-left fr-icon-star-fill",
+      "color": "green-emeraude",
+      "colorType": "green",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Green Menthe avec icône",
+      "className": "fr-badge fr-badge--green-menthe fr-badge--icon-left fr-icon-star-fill",
+      "color": "green-menthe",
+      "colorType": "green",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Green Tilleul Verveine avec icône",
+      "className": "fr-badge fr-badge--green-tilleul-verveine fr-badge--icon-left fr-icon-star-fill",
+      "color": "green-tilleul-verveine",
+      "colorType": "green",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Info avec icône",
+      "className": "fr-badge fr-badge--info fr-badge--icon-left fr-icon-star-fill",
+      "color": "info",
+      "colorType": "system",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "New avec icône",
+      "className": "fr-badge fr-badge--new fr-badge--icon-left fr-icon-star-fill",
+      "color": "new",
+      "colorType": "system",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Orange Terre Battue avec icône",
+      "className": "fr-badge fr-badge--orange-terre-battue fr-badge--icon-left fr-icon-star-fill",
+      "color": "orange-terre-battue",
+      "colorType": "orange",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Pink Macaron avec icône",
+      "className": "fr-badge fr-badge--pink-macaron fr-badge--icon-left fr-icon-star-fill",
+      "color": "pink-macaron",
+      "colorType": "pink",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Pink Tuile avec icône",
+      "className": "fr-badge fr-badge--pink-tuile fr-badge--icon-left fr-icon-star-fill",
+      "color": "pink-tuile",
+      "colorType": "pink",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Purple Glycine avec icône",
+      "className": "fr-badge fr-badge--purple-glycine fr-badge--icon-left fr-icon-star-fill",
+      "color": "purple-glycine",
+      "colorType": "purple",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Success avec icône",
+      "className": "fr-badge fr-badge--success fr-badge--icon-left fr-icon-star-fill",
+      "color": "success",
+      "colorType": "system",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Warning avec icône",
+      "className": "fr-badge fr-badge--warning fr-badge--icon-left fr-icon-star-fill",
+      "color": "warning",
+      "colorType": "system",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Yellow Moutarde avec icône",
+      "className": "fr-badge fr-badge--yellow-moutarde fr-badge--icon-left fr-icon-star-fill",
+      "color": "yellow-moutarde",
+      "colorType": "yellow",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    },
+    {
+      "name": "Yellow Tournesol avec icône",
+      "className": "fr-badge fr-badge--yellow-tournesol fr-badge--icon-left fr-icon-star-fill",
+      "color": "yellow-tournesol",
+      "colorType": "yellow",
+      "type": "icon-left",
+      "hasIcon": true,
+      "customIcon": true,
+      "element": "p"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Tag simple",
+      "className": "fr-tag",
+      "color": "default",
+      "colorType": "default",
+      "type": "simple",
+      "element": "p",
+      "interactive": false
+    },
+    {
+      "name": "Tag lien",
+      "className": "fr-tag",
+      "color": "blue-france",
+      "colorType": "system",
+      "type": "link",
+      "element": "a",
+      "interactive": true,
+      "href": "#"
+    },
+    {
+      "name": "Beige Gris Galet (lien)",
+      "className": "fr-tag fr-tag--beige-gris-galet",
+      "color": "beige-gris-galet",
+      "colorType": "beige",
+      "type": "link",
+      "element": "a",
+      "interactive": true,
+      "href": "#"
+    },
+    {
+      "name": "Blue Cumulus (lien)",
+      "className": "fr-tag fr-tag--blue-cumulus",
+      "color": "blue-cumulus",
+      "colorType": "blue",
+      "type": "link",
+      "element": "a",
+      "interactive": true,
+      "href": "#"
+    },
+    {
+      "name": "Blue Ecume (lien)",
+      "className": "fr-tag fr-tag--blue-ecume",
+      "color": "blue-ecume",
+      "colorType": "blue",
+      "type": "link",
+      "element": "a",
+      "interactive": true,
+      "href": "#"
+    },
+    {
+      "name": "Brown Cafe Creme (lien)",
+      "className": "fr-tag fr-tag--brown-cafe-creme",
+      "color": "brown-cafe-creme",
+      "colorType": "brown",
+      "type": "link",
+      "element": "a",
+      "interactive": true,
+      "href": "#"
+    },
+    {
+      "name": "Brown Caramel (lien)",
+      "className": "fr-tag fr-tag--brown-caramel",
+      "color": "brown-caramel",
+      "colorType": "brown",
+      "type": "link",
+      "element": "a",
+      "interactive": true,
+      "href": "#"
+    },
+    {
+      "name": "Brown Opera (lien)",
+      "className": "fr-tag fr-tag--brown-opera",
+      "color": "brown-opera",
+      "colorType": "brown",
+      "type": "link",
+      "element": "a",
+      "interactive": true,
+      "href": "#"
+    },
+    {
+      "name": "Green Archipel (lien)",
+      "className": "fr-tag fr-tag--green-archipel",
+      "color": "green-archipel",
+      "colorType": "green",
+      "type": "link",
+      "element": "a",
+      "interactive": true,
+      "href": "#"
+    },
+    {
+      "name": "Green Bourgeon (lien)",
+      "className": "fr-tag fr-tag--green-bourgeon",
+      "color": "green-bourgeon",
+      "colorType": "green",
+      "type": "link",
+      "element": "a",
+      "interactive": true,
+      "href": "#"
+    },
+    {
+      "name": "Green Emeraude (lien)",
+      "className": "fr-tag fr-tag--green-emeraude",
+      "color": "green-emeraude",
+      "colorType": "green",
+      "type": "link",
+      "element": "a",
+      "interactive": true,
+      "href": "#"
+    },
+    {
+      "name": "Green Menthe (lien)",
+      "className": "fr-tag fr-tag--green-menthe",
+      "color": "green-menthe",
+      "colorType": "green",
+      "type": "link",
+      "element": "a",
+      "interactive": true,
+      "href": "#"
+    },
+    {
+      "name": "Green Tilleul Verveine (lien)",
+      "className": "fr-tag fr-tag--green-tilleul-verveine",
+      "color": "green-tilleul-verveine",
+      "colorType": "green",
+      "type": "link",
+      "element": "a",
+      "interactive": true,
+      "href": "#"
+    },
+    {
+      "name": "Orange Terre Battue (lien)",
+      "className": "fr-tag fr-tag--orange-terre-battue",
+      "color": "orange-terre-battue",
+      "colorType": "orange",
+      "type": "link",
+      "element": "a",
+      "interactive": true,
+      "href": "#"
+    },
+    {
+      "name": "Pink Macaron (lien)",
+      "className": "fr-tag fr-tag--pink-macaron",
+      "color": "pink-macaron",
+      "colorType": "pink",
+      "type": "link",
+      "element": "a",
+      "interactive": true,
+      "href": "#"
+    },
+    {
+      "name": "Pink Tuile (lien)",
+      "className": "fr-tag fr-tag--pink-tuile",
+      "color": "pink-tuile",
+      "colorType": "pink",
+      "type": "link",
+      "element": "a",
+      "interactive": true,
+      "href": "#"
+    },
+    {
+      "name": "Purple Glycine (lien)",
+      "className": "fr-tag fr-tag--purple-glycine",
+      "color": "purple-glycine",
+      "colorType": "purple",
+      "type": "link",
+      "element": "a",
+      "interactive": true,
+      "href": "#"
+    },
+    {
+      "name": "Yellow Moutarde (lien)",
+      "className": "fr-tag fr-tag--yellow-moutarde",
+      "color": "yellow-moutarde",
+      "colorType": "yellow",
+      "type": "link",
+      "element": "a",
+      "interactive": true,
+      "href": "#"
+    },
+    {
+      "name": "Yellow Tournesol (lien)",
+      "className": "fr-tag fr-tag--yellow-tournesol",
+      "color": "yellow-tournesol",
+      "colorType": "yellow",
+      "type": "link",
+      "element": "a",
+      "interactive": true,
+      "href": "#"
+    },
+    {
+      "name": "Tag bouton",
+      "className": "fr-tag",
+      "color": "blue-france",
+      "colorType": "system",
+      "type": "button",
+      "element": "button",
+      "interactive": true
+    },
+    {
+      "name": "Beige Gris Galet (bouton)",
+      "className": "fr-tag fr-tag--beige-gris-galet",
+      "color": "beige-gris-galet",
+      "colorType": "beige",
+      "type": "button",
+      "element": "button",
+      "interactive": true
+    },
+    {
+      "name": "Blue Cumulus (bouton)",
+      "className": "fr-tag fr-tag--blue-cumulus",
+      "color": "blue-cumulus",
+      "colorType": "blue",
+      "type": "button",
+      "element": "button",
+      "interactive": true
+    },
+    {
+      "name": "Blue Ecume (bouton)",
+      "className": "fr-tag fr-tag--blue-ecume",
+      "color": "blue-ecume",
+      "colorType": "blue",
+      "type": "button",
+      "element": "button",
+      "interactive": true
+    },
+    {
+      "name": "Brown Cafe Creme (bouton)",
+      "className": "fr-tag fr-tag--brown-cafe-creme",
+      "color": "brown-cafe-creme",
+      "colorType": "brown",
+      "type": "button",
+      "element": "button",
+      "interactive": true
+    },
+    {
+      "name": "Brown Caramel (bouton)",
+      "className": "fr-tag fr-tag--brown-caramel",
+      "color": "brown-caramel",
+      "colorType": "brown",
+      "type": "button",
+      "element": "button",
+      "interactive": true
+    },
+    {
+      "name": "Brown Opera (bouton)",
+      "className": "fr-tag fr-tag--brown-opera",
+      "color": "brown-opera",
+      "colorType": "brown",
+      "type": "button",
+      "element": "button",
+      "interactive": true
+    },
+    {
+      "name": "Green Archipel (bouton)",
+      "className": "fr-tag fr-tag--green-archipel",
+      "color": "green-archipel",
+      "colorType": "green",
+      "type": "button",
+      "element": "button",
+      "interactive": true
+    },
+    {
+      "name": "Green Bourgeon (bouton)",
+      "className": "fr-tag fr-tag--green-bourgeon",
+      "color": "green-bourgeon",
+      "colorType": "green",
+      "type": "button",
+      "element": "button",
+      "interactive": true
+    },
+    {
+      "name": "Green Emeraude (bouton)",
+      "className": "fr-tag fr-tag--green-emeraude",
+      "color": "green-emeraude",
+      "colorType": "green",
+      "type": "button",
+      "element": "button",
+      "interactive": true
+    },
+    {
+      "name": "Green Menthe (bouton)",
+      "className": "fr-tag fr-tag--green-menthe",
+      "color": "green-menthe",
+      "colorType": "green",
+      "type": "button",
+      "element": "button",
+      "interactive": true
+    },
+    {
+      "name": "Green Tilleul Verveine (bouton)",
+      "className": "fr-tag fr-tag--green-tilleul-verveine",
+      "color": "green-tilleul-verveine",
+      "colorType": "green",
+      "type": "button",
+      "element": "button",
+      "interactive": true
+    },
+    {
+      "name": "Orange Terre Battue (bouton)",
+      "className": "fr-tag fr-tag--orange-terre-battue",
+      "color": "orange-terre-battue",
+      "colorType": "orange",
+      "type": "button",
+      "element": "button",
+      "interactive": true
+    },
+    {
+      "name": "Pink Macaron (bouton)",
+      "className": "fr-tag fr-tag--pink-macaron",
+      "color": "pink-macaron",
+      "colorType": "pink",
+      "type": "button",
+      "element": "button",
+      "interactive": true
+    },
+    {
+      "name": "Pink Tuile (bouton)",
+      "className": "fr-tag fr-tag--pink-tuile",
+      "color": "pink-tuile",
+      "colorType": "pink",
+      "type": "button",
+      "element": "button",
+      "interactive": true
+    },
+    {
+      "name": "Purple Glycine (bouton)",
+      "className": "fr-tag fr-tag--purple-glycine",
+      "color": "purple-glycine",
+      "colorType": "purple",
+      "type": "button",
+      "element": "button",
+      "interactive": true
+    },
+    {
+      "name": "Yellow Moutarde (bouton)",
+      "className": "fr-tag fr-tag--yellow-moutarde",
+      "color": "yellow-moutarde",
+      "colorType": "yellow",
+      "type": "button",
+      "element": "button",
+      "interactive": true
+    },
+    {
+      "name": "Yellow Tournesol (bouton)",
+      "className": "fr-tag fr-tag--yellow-tournesol",
+      "color": "yellow-tournesol",
+      "colorType": "yellow",
+      "type": "button",
+      "element": "button",
+      "interactive": true
+    },
+    {
+      "name": "Tag avec icône",
+      "className": "fr-tag fr-tag--icon-left fr-icon-star-fill",
+      "color": "blue-france",
+      "colorType": "system",
+      "type": "icon-left",
+      "element": "button",
+      "interactive": true,
+      "hasIcon": true
+    },
+    {
+      "name": "Beige Gris Galet avec icône",
+      "className": "fr-tag fr-tag--beige-gris-galet fr-tag--icon-left fr-icon-star-fill",
+      "color": "beige-gris-galet",
+      "colorType": "beige",
+      "type": "icon-left",
+      "element": "button",
+      "interactive": true,
+      "hasIcon": true
+    },
+    {
+      "name": "Blue Cumulus avec icône",
+      "className": "fr-tag fr-tag--blue-cumulus fr-tag--icon-left fr-icon-star-fill",
+      "color": "blue-cumulus",
+      "colorType": "blue",
+      "type": "icon-left",
+      "element": "button",
+      "interactive": true,
+      "hasIcon": true
+    },
+    {
+      "name": "Blue Ecume avec icône",
+      "className": "fr-tag fr-tag--blue-ecume fr-tag--icon-left fr-icon-star-fill",
+      "color": "blue-ecume",
+      "colorType": "blue",
+      "type": "icon-left",
+      "element": "button",
+      "interactive": true,
+      "hasIcon": true
+    },
+    {
+      "name": "Brown Cafe Creme avec icône",
+      "className": "fr-tag fr-tag--brown-cafe-creme fr-tag--icon-left fr-icon-star-fill",
+      "color": "brown-cafe-creme",
+      "colorType": "brown",
+      "type": "icon-left",
+      "element": "button",
+      "interactive": true,
+      "hasIcon": true
+    },
+    {
+      "name": "Brown Caramel avec icône",
+      "className": "fr-tag fr-tag--brown-caramel fr-tag--icon-left fr-icon-star-fill",
+      "color": "brown-caramel",
+      "colorType": "brown",
+      "type": "icon-left",
+      "element": "button",
+      "interactive": true,
+      "hasIcon": true
+    },
+    {
+      "name": "Brown Opera avec icône",
+      "className": "fr-tag fr-tag--brown-opera fr-tag--icon-left fr-icon-star-fill",
+      "color": "brown-opera",
+      "colorType": "brown",
+      "type": "icon-left",
+      "element": "button",
+      "interactive": true,
+      "hasIcon": true
+    },
+    {
+      "name": "Green Archipel avec icône",
+      "className": "fr-tag fr-tag--green-archipel fr-tag--icon-left fr-icon-star-fill",
+      "color": "green-archipel",
+      "colorType": "green",
+      "type": "icon-left",
+      "element": "button",
+      "interactive": true,
+      "hasIcon": true
+    },
+    {
+      "name": "Green Bourgeon avec icône",
+      "className": "fr-tag fr-tag--green-bourgeon fr-tag--icon-left fr-icon-star-fill",
+      "color": "green-bourgeon",
+      "colorType": "green",
+      "type": "icon-left",
+      "element": "button",
+      "interactive": true,
+      "hasIcon": true
+    },
+    {
+      "name": "Green Emeraude avec icône",
+      "className": "fr-tag fr-tag--green-emeraude fr-tag--icon-left fr-icon-star-fill",
+      "color": "green-emeraude",
+      "colorType": "green",
+      "type": "icon-left",
+      "element": "button",
+      "interactive": true,
+      "hasIcon": true
+    },
+    {
+      "name": "Green Menthe avec icône",
+      "className": "fr-tag fr-tag--green-menthe fr-tag--icon-left fr-icon-star-fill",
+      "color": "green-menthe",
+      "colorType": "green",
+      "type": "icon-left",
+      "element": "button",
+      "interactive": true,
+      "hasIcon": true
+    },
+    {
+      "name": "Green Tilleul Verveine avec icône",
+      "className": "fr-tag fr-tag--green-tilleul-verveine fr-tag--icon-left fr-icon-star-fill",
+      "color": "green-tilleul-verveine",
+      "colorType": "green",
+      "type": "icon-left",
+      "element": "button",
+      "interactive": true,
+      "hasIcon": true
+    },
+    {
+      "name": "Orange Terre Battue avec icône",
+      "className": "fr-tag fr-tag--orange-terre-battue fr-tag--icon-left fr-icon-star-fill",
+      "color": "orange-terre-battue",
+      "colorType": "orange",
+      "type": "icon-left",
+      "element": "button",
+      "interactive": true,
+      "hasIcon": true
+    },
+    {
+      "name": "Pink Macaron avec icône",
+      "className": "fr-tag fr-tag--pink-macaron fr-tag--icon-left fr-icon-star-fill",
+      "color": "pink-macaron",
+      "colorType": "pink",
+      "type": "icon-left",
+      "element": "button",
+      "interactive": true,
+      "hasIcon": true
+    },
+    {
+      "name": "Pink Tuile avec icône",
+      "className": "fr-tag fr-tag--pink-tuile fr-tag--icon-left fr-icon-star-fill",
+      "color": "pink-tuile",
+      "colorType": "pink",
+      "type": "icon-left",
+      "element": "button",
+      "interactive": true,
+      "hasIcon": true
+    },
+    {
+      "name": "Purple Glycine avec icône",
+      "className": "fr-tag fr-tag--purple-glycine fr-tag--icon-left fr-icon-star-fill",
+      "color": "purple-glycine",
+      "colorType": "purple",
+      "type": "icon-left",
+      "element": "button",
+      "interactive": true,
+      "hasIcon": true
+    },
+    {
+      "name": "Yellow Moutarde avec icône",
+      "className": "fr-tag fr-tag--yellow-moutarde fr-tag--icon-left fr-icon-star-fill",
+      "color": "yellow-moutarde",
+      "colorType": "yellow",
+      "type": "icon-left",
+      "element": "button",
+      "interactive": true,
+      "hasIcon": true
+    },
+    {
+      "name": "Yellow Tournesol avec icône",
+      "className": "fr-tag fr-tag--yellow-tournesol fr-tag--icon-left fr-icon-star-fill",
+      "color": "yellow-tournesol",
+      "colorType": "yellow",
+      "type": "icon-left",
+      "element": "button",
+      "interactive": true,
+      "hasIcon": true
+    },
+    {
+      "name": "Tag sélectionnable",
+      "className": "fr-tag",
+      "color": "blue-france",
+      "colorType": "system",
+      "type": "selectable",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "false"
+    },
+    {
+      "name": "Beige Gris Galet sélectionnable",
+      "className": "fr-tag fr-tag--beige-gris-galet",
+      "color": "beige-gris-galet",
+      "colorType": "beige",
+      "type": "selectable",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "false"
+    },
+    {
+      "name": "Blue Cumulus sélectionnable",
+      "className": "fr-tag fr-tag--blue-cumulus",
+      "color": "blue-cumulus",
+      "colorType": "blue",
+      "type": "selectable",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "false"
+    },
+    {
+      "name": "Blue Ecume sélectionnable",
+      "className": "fr-tag fr-tag--blue-ecume",
+      "color": "blue-ecume",
+      "colorType": "blue",
+      "type": "selectable",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "false"
+    },
+    {
+      "name": "Brown Cafe Creme sélectionnable",
+      "className": "fr-tag fr-tag--brown-cafe-creme",
+      "color": "brown-cafe-creme",
+      "colorType": "brown",
+      "type": "selectable",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "false"
+    },
+    {
+      "name": "Brown Caramel sélectionnable",
+      "className": "fr-tag fr-tag--brown-caramel",
+      "color": "brown-caramel",
+      "colorType": "brown",
+      "type": "selectable",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "false"
+    },
+    {
+      "name": "Brown Opera sélectionnable",
+      "className": "fr-tag fr-tag--brown-opera",
+      "color": "brown-opera",
+      "colorType": "brown",
+      "type": "selectable",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "false"
+    },
+    {
+      "name": "Green Archipel sélectionnable",
+      "className": "fr-tag fr-tag--green-archipel",
+      "color": "green-archipel",
+      "colorType": "green",
+      "type": "selectable",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "false"
+    },
+    {
+      "name": "Green Bourgeon sélectionnable",
+      "className": "fr-tag fr-tag--green-bourgeon",
+      "color": "green-bourgeon",
+      "colorType": "green",
+      "type": "selectable",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "false"
+    },
+    {
+      "name": "Green Emeraude sélectionnable",
+      "className": "fr-tag fr-tag--green-emeraude",
+      "color": "green-emeraude",
+      "colorType": "green",
+      "type": "selectable",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "false"
+    },
+    {
+      "name": "Green Menthe sélectionnable",
+      "className": "fr-tag fr-tag--green-menthe",
+      "color": "green-menthe",
+      "colorType": "green",
+      "type": "selectable",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "false"
+    },
+    {
+      "name": "Green Tilleul Verveine sélectionnable",
+      "className": "fr-tag fr-tag--green-tilleul-verveine",
+      "color": "green-tilleul-verveine",
+      "colorType": "green",
+      "type": "selectable",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "false"
+    },
+    {
+      "name": "Orange Terre Battue sélectionnable",
+      "className": "fr-tag fr-tag--orange-terre-battue",
+      "color": "orange-terre-battue",
+      "colorType": "orange",
+      "type": "selectable",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "false"
+    },
+    {
+      "name": "Pink Macaron sélectionnable",
+      "className": "fr-tag fr-tag--pink-macaron",
+      "color": "pink-macaron",
+      "colorType": "pink",
+      "type": "selectable",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "false"
+    },
+    {
+      "name": "Pink Tuile sélectionnable",
+      "className": "fr-tag fr-tag--pink-tuile",
+      "color": "pink-tuile",
+      "colorType": "pink",
+      "type": "selectable",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "false"
+    },
+    {
+      "name": "Purple Glycine sélectionnable",
+      "className": "fr-tag fr-tag--purple-glycine",
+      "color": "purple-glycine",
+      "colorType": "purple",
+      "type": "selectable",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "false"
+    },
+    {
+      "name": "Yellow Moutarde sélectionnable",
+      "className": "fr-tag fr-tag--yellow-moutarde",
+      "color": "yellow-moutarde",
+      "colorType": "yellow",
+      "type": "selectable",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "false"
+    },
+    {
+      "name": "Yellow Tournesol sélectionnable",
+      "className": "fr-tag fr-tag--yellow-tournesol",
+      "color": "yellow-tournesol",
+      "colorType": "yellow",
+      "type": "selectable",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "false"
+    },
+    {
+      "name": "Tag sélectionné",
+      "className": "fr-tag",
+      "color": "blue-france",
+      "colorType": "system",
+      "type": "selected",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "true"
+    },
+    {
+      "name": "Beige Gris Galet sélectionné",
+      "className": "fr-tag fr-tag--beige-gris-galet",
+      "color": "beige-gris-galet",
+      "colorType": "beige",
+      "type": "selected",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "true"
+    },
+    {
+      "name": "Blue Cumulus sélectionné",
+      "className": "fr-tag fr-tag--blue-cumulus",
+      "color": "blue-cumulus",
+      "colorType": "blue",
+      "type": "selected",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "true"
+    },
+    {
+      "name": "Blue Ecume sélectionné",
+      "className": "fr-tag fr-tag--blue-ecume",
+      "color": "blue-ecume",
+      "colorType": "blue",
+      "type": "selected",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "true"
+    },
+    {
+      "name": "Brown Cafe Creme sélectionné",
+      "className": "fr-tag fr-tag--brown-cafe-creme",
+      "color": "brown-cafe-creme",
+      "colorType": "brown",
+      "type": "selected",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "true"
+    },
+    {
+      "name": "Brown Caramel sélectionné",
+      "className": "fr-tag fr-tag--brown-caramel",
+      "color": "brown-caramel",
+      "colorType": "brown",
+      "type": "selected",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "true"
+    },
+    {
+      "name": "Brown Opera sélectionné",
+      "className": "fr-tag fr-tag--brown-opera",
+      "color": "brown-opera",
+      "colorType": "brown",
+      "type": "selected",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "true"
+    },
+    {
+      "name": "Green Archipel sélectionné",
+      "className": "fr-tag fr-tag--green-archipel",
+      "color": "green-archipel",
+      "colorType": "green",
+      "type": "selected",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "true"
+    },
+    {
+      "name": "Green Bourgeon sélectionné",
+      "className": "fr-tag fr-tag--green-bourgeon",
+      "color": "green-bourgeon",
+      "colorType": "green",
+      "type": "selected",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "true"
+    },
+    {
+      "name": "Green Emeraude sélectionné",
+      "className": "fr-tag fr-tag--green-emeraude",
+      "color": "green-emeraude",
+      "colorType": "green",
+      "type": "selected",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "true"
+    },
+    {
+      "name": "Green Menthe sélectionné",
+      "className": "fr-tag fr-tag--green-menthe",
+      "color": "green-menthe",
+      "colorType": "green",
+      "type": "selected",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "true"
+    },
+    {
+      "name": "Green Tilleul Verveine sélectionné",
+      "className": "fr-tag fr-tag--green-tilleul-verveine",
+      "color": "green-tilleul-verveine",
+      "colorType": "green",
+      "type": "selected",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "true"
+    },
+    {
+      "name": "Orange Terre Battue sélectionné",
+      "className": "fr-tag fr-tag--orange-terre-battue",
+      "color": "orange-terre-battue",
+      "colorType": "orange",
+      "type": "selected",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "true"
+    },
+    {
+      "name": "Pink Macaron sélectionné",
+      "className": "fr-tag fr-tag--pink-macaron",
+      "color": "pink-macaron",
+      "colorType": "pink",
+      "type": "selected",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "true"
+    },
+    {
+      "name": "Pink Tuile sélectionné",
+      "className": "fr-tag fr-tag--pink-tuile",
+      "color": "pink-tuile",
+      "colorType": "pink",
+      "type": "selected",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "true"
+    },
+    {
+      "name": "Purple Glycine sélectionné",
+      "className": "fr-tag fr-tag--purple-glycine",
+      "color": "purple-glycine",
+      "colorType": "purple",
+      "type": "selected",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "true"
+    },
+    {
+      "name": "Yellow Moutarde sélectionné",
+      "className": "fr-tag fr-tag--yellow-moutarde",
+      "color": "yellow-moutarde",
+      "colorType": "yellow",
+      "type": "selected",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "true"
+    },
+    {
+      "name": "Yellow Tournesol sélectionné",
+      "className": "fr-tag fr-tag--yellow-tournesol",
+      "color": "yellow-tournesol",
+      "colorType": "yellow",
+      "type": "selected",
+      "element": "button",
+      "interactive": true,
+      "ariaPressed": "true"
+    },
+    {
+      "name": "Tag avec suppression",
+      "className": "fr-tag fr-tag--dismiss",
+      "color": "blue-france",
+      "colorType": "system",
+      "type": "dismiss",
+      "element": "button",
+      "interactive": true,
+      "dismissible": true
+    },
+    {
+      "name": "Beige Gris Galet avec suppression",
+      "className": "fr-tag fr-tag--beige-gris-galet fr-tag--dismiss",
+      "color": "beige-gris-galet",
+      "colorType": "beige",
+      "type": "dismiss",
+      "element": "button",
+      "interactive": true,
+      "dismissible": true
+    },
+    {
+      "name": "Blue Cumulus avec suppression",
+      "className": "fr-tag fr-tag--blue-cumulus fr-tag--dismiss",
+      "color": "blue-cumulus",
+      "colorType": "blue",
+      "type": "dismiss",
+      "element": "button",
+      "interactive": true,
+      "dismissible": true
+    },
+    {
+      "name": "Blue Ecume avec suppression",
+      "className": "fr-tag fr-tag--blue-ecume fr-tag--dismiss",
+      "color": "blue-ecume",
+      "colorType": "blue",
+      "type": "dismiss",
+      "element": "button",
+      "interactive": true,
+      "dismissible": true
+    },
+    {
+      "name": "Brown Cafe Creme avec suppression",
+      "className": "fr-tag fr-tag--brown-cafe-creme fr-tag--dismiss",
+      "color": "brown-cafe-creme",
+      "colorType": "brown",
+      "type": "dismiss",
+      "element": "button",
+      "interactive": true,
+      "dismissible": true
+    },
+    {
+      "name": "Brown Caramel avec suppression",
+      "className": "fr-tag fr-tag--brown-caramel fr-tag--dismiss",
+      "color": "brown-caramel",
+      "colorType": "brown",
+      "type": "dismiss",
+      "element": "button",
+      "interactive": true,
+      "dismissible": true
+    },
+    {
+      "name": "Brown Opera avec suppression",
+      "className": "fr-tag fr-tag--brown-opera fr-tag--dismiss",
+      "color": "brown-opera",
+      "colorType": "brown",
+      "type": "dismiss",
+      "element": "button",
+      "interactive": true,
+      "dismissible": true
+    },
+    {
+      "name": "Green Archipel avec suppression",
+      "className": "fr-tag fr-tag--green-archipel fr-tag--dismiss",
+      "color": "green-archipel",
+      "colorType": "green",
+      "type": "dismiss",
+      "element": "button",
+      "interactive": true,
+      "dismissible": true
+    },
+    {
+      "name": "Green Bourgeon avec suppression",
+      "className": "fr-tag fr-tag--green-bourgeon fr-tag--dismiss",
+      "color": "green-bourgeon",
+      "colorType": "green",
+      "type": "dismiss",
+      "element": "button",
+      "interactive": true,
+      "dismissible": true
+    },
+    {
+      "name": "Green Emeraude avec suppression",
+      "className": "fr-tag fr-tag--green-emeraude fr-tag--dismiss",
+      "color": "green-emeraude",
+      "colorType": "green",
+      "type": "dismiss",
+      "element": "button",
+      "interactive": true,
+      "dismissible": true
+    },
+    {
+      "name": "Green Menthe avec suppression",
+      "className": "fr-tag fr-tag--green-menthe fr-tag--dismiss",
+      "color": "green-menthe",
+      "colorType": "green",
+      "type": "dismiss",
+      "element": "button",
+      "interactive": true,
+      "dismissible": true
+    },
+    {
+      "name": "Green Tilleul Verveine avec suppression",
+      "className": "fr-tag fr-tag--green-tilleul-verveine fr-tag--dismiss",
+      "color": "green-tilleul-verveine",
+      "colorType": "green",
+      "type": "dismiss",
+      "element": "button",
+      "interactive": true,
+      "dismissible": true
+    },
+    {
+      "name": "Orange Terre Battue avec suppression",
+      "className": "fr-tag fr-tag--orange-terre-battue fr-tag--dismiss",
+      "color": "orange-terre-battue",
+      "colorType": "orange",
+      "type": "dismiss",
+      "element": "button",
+      "interactive": true,
+      "dismissible": true
+    },
+    {
+      "name": "Pink Macaron avec suppression",
+      "className": "fr-tag fr-tag--pink-macaron fr-tag--dismiss",
+      "color": "pink-macaron",
+      "colorType": "pink",
+      "type": "dismiss",
+      "element": "button",
+      "interactive": true,
+      "dismissible": true
+    },
+    {
+      "name": "Pink Tuile avec suppression",
+      "className": "fr-tag fr-tag--pink-tuile fr-tag--dismiss",
+      "color": "pink-tuile",
+      "colorType": "pink",
+      "type": "dismiss",
+      "element": "button",
+      "interactive": true,
+      "dismissible": true
+    },
+    {
+      "name": "Purple Glycine avec suppression",
+      "className": "fr-tag fr-tag--purple-glycine fr-tag--dismiss",
+      "color": "purple-glycine",
+      "colorType": "purple",
+      "type": "dismiss",
+      "element": "button",
+      "interactive": true,
+      "dismissible": true
+    },
+    {
+      "name": "Yellow Moutarde avec suppression",
+      "className": "fr-tag fr-tag--yellow-moutarde fr-tag--dismiss",
+      "color": "yellow-moutarde",
+      "colorType": "yellow",
+      "type": "dismiss",
+      "element": "button",
+      "interactive": true,
+      "dismissible": true
+    },
+    {
+      "name": "Yellow Tournesol avec suppression",
+      "className": "fr-tag fr-tag--yellow-tournesol fr-tag--dismiss",
+      "color": "yellow-tournesol",
+      "colorType": "yellow",
+      "type": "dismiss",
+      "element": "button",
+      "interactive": true,
+      "dismissible": true
+    }
+  ]
+}
