@@ -4,7 +4,7 @@
  *
  * Usage:
  *   node extract-tags-badges.js
- *   node extract-tags-badges.js --output ./src/data/tags-badges.json
+ *   node extract-tags-badges.js --output ./src/data
  */
 
 const fs = require("node:fs");
@@ -20,7 +20,8 @@ const getArg = (flag, defaultValue) => {
 const dsfrPath = "./node_modules/@gouvfr/dsfr/dist";
 const badgeCssPath = path.join(dsfrPath, "component/badge/badge.css");
 const tagCssPath = path.join(dsfrPath, "component/tag/tag.css");
-const outputPath = getArg("--output", "./data/tags-badges.json");
+const outputDir = getArg("--output", "./src/data");
+const outputPath = path.join(outputDir, "tags-badges.json");
 
 /**
  * Parse CSS to extract class variants

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generatedAt": "2026-02-03T17:27:49.415Z",
-    "source": "./node_modules/@gouvfr/dsfr/dist/icons",
+    "generatedAt": "2026-02-04T16:51:27.889Z",
+    "source": "node_modules/@gouvfr/dsfr/dist/icons",
     "totalIcons": 662,
     "totalCategories": 17
   },
@@ -1218,22 +1218,22 @@
       },
       {
         "name": "fr--bold",
-        "class": "fr-icon-bold",
+        "class": "fr-icon-fr--bold",
         "file": "editor/fr--bold.svg"
       },
       {
         "name": "fr--highlight",
-        "class": "fr-icon-highlight",
+        "class": "fr-icon-fr--highlight",
         "file": "editor/fr--highlight.svg"
       },
       {
         "name": "fr--quote-fill",
-        "class": "fr-icon-quote-fill",
+        "class": "fr-icon-fr--quote-fill",
         "file": "editor/fr--quote-fill.svg"
       },
       {
         "name": "fr--quote-line",
-        "class": "fr-icon-quote-line",
+        "class": "fr-icon-fr--quote-line",
         "file": "editor/fr--quote-line.svg"
       },
       {
@@ -1699,22 +1699,22 @@
       },
       {
         "name": "fr--dailymotion-fill",
-        "class": "fr-icon-dailymotion-fill",
+        "class": "fr-icon-fr--dailymotion-fill",
         "file": "logo/fr--dailymotion-fill.svg"
       },
       {
         "name": "fr--dailymotion-line",
-        "class": "fr-icon-dailymotion-line",
+        "class": "fr-icon-fr--dailymotion-line",
         "file": "logo/fr--dailymotion-line.svg"
       },
       {
         "name": "fr--tiktok-fill",
-        "class": "fr-icon-tiktok-fill",
+        "class": "fr-icon-fr--tiktok-fill",
         "file": "logo/fr--tiktok-fill.svg"
       },
       {
         "name": "fr--tiktok-line",
-        "class": "fr-icon-tiktok-line",
+        "class": "fr-icon-fr--tiktok-line",
         "file": "logo/fr--tiktok-line.svg"
       },
       {
@@ -2360,42 +2360,42 @@
     "others": [
       {
         "name": "fr--accessibility-fill",
-        "class": "fr-icon-accessibility-fill",
+        "class": "fr-icon-fr--accessibility-fill",
         "file": "others/fr--accessibility-fill.svg"
       },
       {
         "name": "fr--accessibility-line",
-        "class": "fr-icon-accessibility-line",
+        "class": "fr-icon-fr--accessibility-line",
         "file": "others/fr--accessibility-line.svg"
       },
       {
         "name": "fr--ear-off-fill",
-        "class": "fr-icon-ear-off-fill",
+        "class": "fr-icon-fr--ear-off-fill",
         "file": "others/fr--ear-off-fill.svg"
       },
       {
         "name": "fr--ear-off-line",
-        "class": "fr-icon-ear-off-line",
+        "class": "fr-icon-fr--ear-off-line",
         "file": "others/fr--ear-off-line.svg"
       },
       {
         "name": "fr--mental-disabilities-fill",
-        "class": "fr-icon-mental-disabilities-fill",
+        "class": "fr-icon-fr--mental-disabilities-fill",
         "file": "others/fr--mental-disabilities-fill.svg"
       },
       {
         "name": "fr--mental-disabilities-line",
-        "class": "fr-icon-mental-disabilities-line",
+        "class": "fr-icon-fr--mental-disabilities-line",
         "file": "others/fr--mental-disabilities-line.svg"
       },
       {
         "name": "fr--sign-language-fill",
-        "class": "fr-icon-sign-language-fill",
+        "class": "fr-icon-fr--sign-language-fill",
         "file": "others/fr--sign-language-fill.svg"
       },
       {
         "name": "fr--sign-language-line",
-        "class": "fr-icon-sign-language-line",
+        "class": "fr-icon-fr--sign-language-line",
         "file": "others/fr--sign-language-line.svg"
       },
       {
@@ -2737,97 +2737,97 @@
       },
       {
         "name": "fr--alert-warning-2-fill",
-        "class": "fr-icon-alert-warning-2-fill",
+        "class": "fr-icon-fr--alert-warning-2-fill",
         "file": "system/fr--alert-warning-2-fill.svg"
       },
       {
         "name": "fr--alert-warning-fill",
-        "class": "fr-icon-alert-warning-fill",
+        "class": "fr-icon-fr--alert-warning-fill",
         "file": "system/fr--alert-warning-fill.svg"
       },
       {
         "name": "fr--arrow-left-s-first-line",
-        "class": "fr-icon-arrow-left-s-first-line",
+        "class": "fr-icon-fr--arrow-left-s-first-line",
         "file": "system/fr--arrow-left-s-first-line.svg"
       },
       {
         "name": "fr--arrow-left-s-line-double",
-        "class": "fr-icon-arrow-left-s-line-double",
+        "class": "fr-icon-fr--arrow-left-s-line-double",
         "file": "system/fr--arrow-left-s-line-double.svg"
       },
       {
         "name": "fr--arrow-right-down-circle-fill",
-        "class": "fr-icon-arrow-right-down-circle-fill",
+        "class": "fr-icon-fr--arrow-right-down-circle-fill",
         "file": "system/fr--arrow-right-down-circle-fill.svg"
       },
       {
         "name": "fr--arrow-right-s-last-line",
-        "class": "fr-icon-arrow-right-s-last-line",
+        "class": "fr-icon-fr--arrow-right-s-last-line",
         "file": "system/fr--arrow-right-s-last-line.svg"
       },
       {
         "name": "fr--arrow-right-s-line-double",
-        "class": "fr-icon-arrow-right-s-line-double",
+        "class": "fr-icon-fr--arrow-right-s-line-double",
         "file": "system/fr--arrow-right-s-line-double.svg"
       },
       {
         "name": "fr--arrow-right-up-circle-fill",
-        "class": "fr-icon-arrow-right-up-circle-fill",
+        "class": "fr-icon-fr--arrow-right-up-circle-fill",
         "file": "system/fr--arrow-right-up-circle-fill.svg"
       },
       {
         "name": "fr--capslock-line",
-        "class": "fr-icon-capslock-line",
+        "class": "fr-icon-fr--capslock-line",
         "file": "system/fr--capslock-line.svg"
       },
       {
         "name": "fr--equal-circle-fill",
-        "class": "fr-icon-equal-circle-fill",
+        "class": "fr-icon-fr--equal-circle-fill",
         "file": "system/fr--equal-circle-fill.svg"
       },
       {
         "name": "fr--error-fill",
-        "class": "fr-icon-error-fill",
+        "class": "fr-icon-fr--error-fill",
         "file": "system/fr--error-fill.svg"
       },
       {
         "name": "fr--error-line",
-        "class": "fr-icon-error-line",
+        "class": "fr-icon-fr--error-line",
         "file": "system/fr--error-line.svg"
       },
       {
         "name": "fr--info-fill",
-        "class": "fr-icon-info-fill",
+        "class": "fr-icon-fr--info-fill",
         "file": "system/fr--info-fill.svg"
       },
       {
         "name": "fr--info-line",
-        "class": "fr-icon-info-line",
+        "class": "fr-icon-fr--info-line",
         "file": "system/fr--info-line.svg"
       },
       {
         "name": "fr--success-fill",
-        "class": "fr-icon-success-fill",
+        "class": "fr-icon-fr--success-fill",
         "file": "system/fr--success-fill.svg"
       },
       {
         "name": "fr--success-line",
-        "class": "fr-icon-success-line",
+        "class": "fr-icon-fr--success-line",
         "file": "system/fr--success-line.svg"
       },
       {
         "name": "fr--theme-fill",
-        "class": "fr-icon-theme-fill",
+        "class": "fr-icon-fr--theme-fill",
         "file": "system/fr--theme-fill.svg"
       },
       {
         "name": "fr--warning-fill",
-        "class": "fr-icon-warning-fill",
+        "class": "fr-icon-fr--warning-fill",
         "file": "system/fr--warning-fill.svg"
       },
       {
         "name": "fr--warning-line",
-        "class": "fr-icon-warning-line",
+        "class": "fr-icon-fr--warning-line",
         "file": "system/fr--warning-line.svg"
       },
       {
@@ -3241,12 +3241,12 @@
       },
       {
         "name": "fr--avalanches-fill",
-        "class": "fr-icon-avalanches-fill",
+        "class": "fr-icon-fr--avalanches-fill",
         "file": "weather/fr--avalanches-fill.svg"
       },
       {
         "name": "fr--submersion-fill",
-        "class": "fr-icon-submersion-fill",
+        "class": "fr-icon-fr--submersion-fill",
         "file": "weather/fr--submersion-fill.svg"
       },
       {
