@@ -5,7 +5,7 @@
  * Usage:
  *   node extract-dsfr-icons.js
  *   node extract-dsfr-icons.js --path ./node_modules/@gouvfr/dsfr/dist/icons
- *   node extract-dsfr-icons.js --output ./src/data/dsfr-icons.json
+ *   node extract-dsfr-icons.js --output ./src/data
  */
 
 const fs = require("node:fs");
@@ -19,7 +19,8 @@ const getArg = (flag, defaultValue) => {
 };
 
 const iconsPath = getArg("--path", "./node_modules/@gouvfr/dsfr/dist/icons");
-const outputPath = getArg("--output", "./data/dsfr-icons.json");
+const outputDir = getArg("--output", "./src/data");
+const outputPath = path.join(outputDir, "dsfr-icons.json");
 
 // Recursive file search
 function getFiles(dir, files = []) {

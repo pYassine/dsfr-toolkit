@@ -514,13 +514,13 @@
 - **format-clear**
   - Classe: `fr-icon-format-clear`
 - **fr--bold**
-  - Classe: `fr-icon-fr--bold`
+  - Classe: `fr-icon-bold`
 - **fr--highlight**
-  - Classe: `fr-icon-fr--highlight`
+  - Classe: `fr-icon-highlight`
 - **fr--quote-fill**
-  - Classe: `fr-icon-fr--quote-fill`
+  - Classe: `fr-icon-quote-fill`
 - **fr--quote-line**
-  - Classe: `fr-icon-fr--quote-line`
+  - Classe: `fr-icon-quote-line`
 - **h-1**
   - Classe: `fr-icon-h-1`
 - **h-2**
@@ -713,13 +713,13 @@
 - **firefox-line**
   - Classe: `fr-icon-firefox-line`
 - **fr--dailymotion-fill**
-  - Classe: `fr-icon-fr--dailymotion-fill`
+  - Classe: `fr-icon-dailymotion-fill`
 - **fr--dailymotion-line**
-  - Classe: `fr-icon-fr--dailymotion-line`
+  - Classe: `fr-icon-dailymotion-line`
 - **fr--tiktok-fill**
-  - Classe: `fr-icon-fr--tiktok-fill`
+  - Classe: `fr-icon-tiktok-fill`
 - **fr--tiktok-line**
-  - Classe: `fr-icon-fr--tiktok-line`
+  - Classe: `fr-icon-tiktok-line`
 - **github-fill**
   - Classe: `fr-icon-github-fill`
 - **github-line**
@@ -984,21 +984,21 @@
 ### Others (24)
 
 - **fr--accessibility-fill**
-  - Classe: `fr-icon-fr--accessibility-fill`
+  - Classe: `fr-icon-accessibility-fill`
 - **fr--accessibility-line**
-  - Classe: `fr-icon-fr--accessibility-line`
+  - Classe: `fr-icon-accessibility-line`
 - **fr--ear-off-fill**
-  - Classe: `fr-icon-fr--ear-off-fill`
+  - Classe: `fr-icon-ear-off-fill`
 - **fr--ear-off-line**
-  - Classe: `fr-icon-fr--ear-off-line`
+  - Classe: `fr-icon-ear-off-line`
 - **fr--mental-disabilities-fill**
-  - Classe: `fr-icon-fr--mental-disabilities-fill`
+  - Classe: `fr-icon-mental-disabilities-fill`
 - **fr--mental-disabilities-line**
-  - Classe: `fr-icon-fr--mental-disabilities-line`
+  - Classe: `fr-icon-mental-disabilities-line`
 - **fr--sign-language-fill**
-  - Classe: `fr-icon-fr--sign-language-fill`
+  - Classe: `fr-icon-sign-language-fill`
 - **fr--sign-language-line**
-  - Classe: `fr-icon-fr--sign-language-line`
+  - Classe: `fr-icon-sign-language-line`
 - **leaf-fill**
   - Classe: `fr-icon-leaf-fill`
 - **leaf-line**
@@ -1137,43 +1137,43 @@
 - **filter-line**
   - Classe: `fr-icon-filter-line`
 - **fr--alert-warning-2-fill**
-  - Classe: `fr-icon-fr--alert-warning-2-fill`
+  - Classe: `fr-icon-alert-warning-2-fill`
 - **fr--alert-warning-fill**
-  - Classe: `fr-icon-fr--alert-warning-fill`
+  - Classe: `fr-icon-alert-warning-fill`
 - **fr--arrow-left-s-first-line**
-  - Classe: `fr-icon-fr--arrow-left-s-first-line`
+  - Classe: `fr-icon-arrow-left-s-first-line`
 - **fr--arrow-left-s-line-double**
-  - Classe: `fr-icon-fr--arrow-left-s-line-double`
+  - Classe: `fr-icon-arrow-left-s-line-double`
 - **fr--arrow-right-down-circle-fill**
-  - Classe: `fr-icon-fr--arrow-right-down-circle-fill`
+  - Classe: `fr-icon-arrow-right-down-circle-fill`
 - **fr--arrow-right-s-last-line**
-  - Classe: `fr-icon-fr--arrow-right-s-last-line`
+  - Classe: `fr-icon-arrow-right-s-last-line`
 - **fr--arrow-right-s-line-double**
-  - Classe: `fr-icon-fr--arrow-right-s-line-double`
+  - Classe: `fr-icon-arrow-right-s-line-double`
 - **fr--arrow-right-up-circle-fill**
-  - Classe: `fr-icon-fr--arrow-right-up-circle-fill`
+  - Classe: `fr-icon-arrow-right-up-circle-fill`
 - **fr--capslock-line**
-  - Classe: `fr-icon-fr--capslock-line`
+  - Classe: `fr-icon-capslock-line`
 - **fr--equal-circle-fill**
-  - Classe: `fr-icon-fr--equal-circle-fill`
+  - Classe: `fr-icon-equal-circle-fill`
 - **fr--error-fill**
-  - Classe: `fr-icon-fr--error-fill`
+  - Classe: `fr-icon-error-fill`
 - **fr--error-line**
-  - Classe: `fr-icon-fr--error-line`
+  - Classe: `fr-icon-error-line`
 - **fr--info-fill**
-  - Classe: `fr-icon-fr--info-fill`
+  - Classe: `fr-icon-info-fill`
 - **fr--info-line**
-  - Classe: `fr-icon-fr--info-line`
+  - Classe: `fr-icon-info-line`
 - **fr--success-fill**
-  - Classe: `fr-icon-fr--success-fill`
+  - Classe: `fr-icon-success-fill`
 - **fr--success-line**
-  - Classe: `fr-icon-fr--success-line`
+  - Classe: `fr-icon-success-line`
 - **fr--theme-fill**
-  - Classe: `fr-icon-fr--theme-fill`
+  - Classe: `fr-icon-theme-fill`
 - **fr--warning-fill**
-  - Classe: `fr-icon-fr--warning-fill`
+  - Classe: `fr-icon-warning-fill`
 - **fr--warning-line**
-  - Classe: `fr-icon-fr--warning-line`
+  - Classe: `fr-icon-warning-line`
 - **information-fill**
   - Classe: `fr-icon-information-fill`
 - **information-line**
@@ -1343,9 +1343,9 @@
 - **flood-line**
   - Classe: `fr-icon-flood-line`
 - **fr--avalanches-fill**
-  - Classe: `fr-icon-fr--avalanches-fill`
+  - Classe: `fr-icon-avalanches-fill`
 - **fr--submersion-fill**
-  - Classe: `fr-icon-fr--submersion-fill`
+  - Classe: `fr-icon-submersion-fill`
 - **heavy-showers-fill**
   - Classe: `fr-icon-heavy-showers-fill`
 - **heavy-showers-line**

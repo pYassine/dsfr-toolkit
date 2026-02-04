@@ -53,10 +53,13 @@ function extractIcons() {
     const category = parts[0];
     const iconName = path.basename(file, ".svg");
 
+    // Remove fr-- prefix from icon name for CSS class
+    const cleanName = iconName.replace(/^fr--/, "");
+
     if (!icons[category]) icons[category] = [];
     icons[category].push({
       name: iconName,
-      class: `fr-icon-${iconName}`,
+      class: `fr-icon-${cleanName}`,
       file: relativePath,
     });
   }
