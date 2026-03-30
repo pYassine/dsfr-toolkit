@@ -3,24 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>🇫🇷 Grille DSFR - Exemples</title>
+    <title>Grille DSFR - Exemples</title>
     <meta name="description" content="Exemples pratiques d'utilisation de la grille du Système de Design de l'État Français (DSFR). Colonnes, espacements, alignements et responsive." />
 
     <link rel="icon" href="./assets/dsfr/favicon/favicon.ico" />
     <link rel="icon" href="./assets/dsfr/favicon/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="./assets/dsfr/favicon/apple-touch-icon.png" />
-    <link
-      rel="stylesheet"
-      href="./assets/dsfr/dsfr.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./assets/dsfr/utility/icons/icons.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./assets/dsfr/utility/utility.min.css"
-    />
+    <link rel="stylesheet" href="./assets/dsfr/dsfr.min.css" />
+    <link rel="stylesheet" href="./assets/dsfr/utility/icons/icons.min.css" />
+    <link rel="stylesheet" href="./assets/dsfr/utility/utility.min.css" />
     <link rel="stylesheet" href="./src/styles/style.css" />
     <style>
       /* Styles pour la démonstration */
@@ -52,7 +43,7 @@
       }
 
       .code-example code {
-        font-family: 'Courier New', monospace;
+        font-family: "Courier New", monospace;
         font-size: 0.875rem;
         line-height: 1.5;
         white-space: pre;
@@ -92,33 +83,21 @@
                 </div>
               </div>
               <div class="fr-header__service">
-                <p class="fr-header__service-title">
-                  🇫🇷 DSFR Toolkit - Grille
-                </p>
-                <p class="fr-header__service-tagline">
-                  Colonnes, espacements et alignements
-                </p>
+                <p class="fr-header__service-title">DSFR Toolkit - Grille</p>
+                <p class="fr-header__service-tagline">Colonnes, espacements et alignements</p>
               </div>
             </div>
             <div class="fr-header__tools">
               <div class="fr-header__tools-links">
                 <ul class="fr-btns-group">
                   <li>
-                    <a
-                      class="fr-btn fr-btn--tertiary-no-outline"
-                      href="./index.html"
-                    >
-                      Accueil
-                    </a>
+                    <a class="fr-btn fr-btn--tertiary-no-outline" href="./index.html"> Accueil </a>
                   </li>
                   <li>
-                    <button
-                      class="fr-btn fr-btn--secondary fr-btn--icon-left fr-icon-theme-fill"
-                      id="theme-toggle"
-                      aria-label="Basculer le mode sombre"
-                    >
-                      Mode sombre
-                    </button>
+                    <a class="fr-btn fr-btn--tertiary-no-outline" href="./artwork-viewer.html"> Pictogrammes </a>
+                  </li>
+                  <li>
+                    <button class="fr-btn fr-btn--secondary fr-btn--icon-left fr-icon-theme-fill" id="theme-toggle" aria-label="Basculer le mode sombre">Mode sombre</button>
                   </li>
                 </ul>
               </div>
@@ -134,8 +113,7 @@
         <div class="fr-mb-6w">
           <h1 class="fr-h1">Système de grille DSFR</h1>
           <p class="fr-text--lead">
-            Le DSFR utilise un système de grille à 12 colonnes, flexible et responsive.
-            Toutes les grilles doivent être encapsulées dans un conteneur <code>.fr-container</code>.
+            Le DSFR utilise un système de grille à 12 colonnes, flexible et responsive. Toutes les grilles doivent être encapsulées dans un conteneur <code>.fr-container</code>.
           </p>
         </div>
 
@@ -171,10 +149,7 @@
           </div>
 
           <div class="code-example">
-            <code>&lt;div class="fr-grid-row"&gt;
-  &lt;div class="fr-col-6"&gt;Colonne 1&lt;/div&gt;
-  &lt;div class="fr-col-6"&gt;Colonne 2&lt;/div&gt;
-&lt;/div&gt;</code>
+            <code>&lt;div class="fr-grid-row"&gt; &lt;div class="fr-col-6"&gt;Colonne 1&lt;/div&gt; &lt;div class="fr-col-6"&gt;Colonne 2&lt;/div&gt; &lt;/div&gt;</code>
           </div>
 
           <h3 class="fr-h5">Colonnes de tailles différentes</h3>
@@ -214,11 +189,11 @@
 
           <div class="fr-alert fr-alert--info fr-mb-3w">
             <p class="fr-text--sm">
-              <strong>Breakpoints DSFR :</strong><br>
-              - <code>xs</code> : &lt; 36em (576px)<br>
-              - <code>sm</code> : ≥ 36em (576px)<br>
-              - <code>md</code> : ≥ 48em (768px)<br>
-              - <code>lg</code> : ≥ 62em (992px)<br>
+              <strong>Breakpoints DSFR :</strong><br />
+              - <code>xs</code> : &lt; 36em (576px)<br />
+              - <code>sm</code> : ≥ 36em (576px)<br />
+              - <code>md</code> : ≥ 48em (768px)<br />
+              - <code>lg</code> : ≥ 62em (992px)<br />
               - <code>xl</code> : ≥ 78em (1248px)
             </p>
           </div>
@@ -238,11 +213,7 @@
           </div>
 
           <div class="code-example">
-            <code>&lt;div class="fr-grid-row"&gt;
-  &lt;div class="fr-col-12 fr-col-md-6 fr-col-lg-4"&gt;
-    Pleine largeur sur mobile, 50% sur tablette, 33% sur desktop
-  &lt;/div&gt;
-&lt;/div&gt;</code>
+            <code>&lt;div class="fr-grid-row"&gt; &lt;div class="fr-col-12 fr-col-md-6 fr-col-lg-4"&gt; Pleine largeur sur mobile, 50% sur tablette, 33% sur desktop &lt;/div&gt; &lt;/div&gt;</code>
           </div>
         </section>
 
@@ -278,11 +249,10 @@
           </div>
 
           <div class="code-example">
-            <code>&lt;div class="fr-grid-row fr-grid-row--gutters"&gt;
-  &lt;div class="fr-col-4"&gt;Col 1&lt;/div&gt;
-  &lt;div class="fr-col-4"&gt;Col 2&lt;/div&gt;
-  &lt;div class="fr-col-4"&gt;Col 3&lt;/div&gt;
-&lt;/div&gt;</code>
+            <code
+              >&lt;div class="fr-grid-row fr-grid-row--gutters"&gt; &lt;div class="fr-col-4"&gt;Col 1&lt;/div&gt; &lt;div class="fr-col-4"&gt;Col 2&lt;/div&gt; &lt;div class="fr-col-4"&gt;Col
+              3&lt;/div&gt; &lt;/div&gt;</code
+            >
           </div>
         </section>
 
@@ -303,9 +273,7 @@
           </div>
 
           <div class="code-example">
-            <code>&lt;div class="fr-grid-row fr-grid-row--center"&gt;
-  &lt;div class="fr-col-6"&gt;Colonne centrée&lt;/div&gt;
-&lt;/div&gt;</code>
+            <code>&lt;div class="fr-grid-row fr-grid-row--center"&gt; &lt;div class="fr-col-6"&gt;Colonne centrée&lt;/div&gt; &lt;/div&gt;</code>
           </div>
 
           <h3 class="fr-h5">Alignement à droite</h3>
@@ -316,9 +284,7 @@
           </div>
 
           <div class="code-example">
-            <code>&lt;div class="fr-grid-row fr-grid-row--right"&gt;
-  &lt;div class="fr-col-6"&gt;Colonne à droite&lt;/div&gt;
-&lt;/div&gt;</code>
+            <code>&lt;div class="fr-grid-row fr-grid-row--right"&gt; &lt;div class="fr-col-6"&gt;Colonne à droite&lt;/div&gt; &lt;/div&gt;</code>
           </div>
         </section>
 
@@ -347,11 +313,7 @@
           </div>
 
           <div class="code-example">
-            <code>&lt;div class="fr-grid-row"&gt;
-  &lt;div class="fr-col-6 fr-col-offset-3"&gt;
-    Colonne centrée avec offset
-  &lt;/div&gt;
-&lt;/div&gt;</code>
+            <code>&lt;div class="fr-grid-row"&gt; &lt;div class="fr-col-6 fr-col-offset-3"&gt; Colonne centrée avec offset &lt;/div&gt; &lt;/div&gt;</code>
           </div>
         </section>
 
@@ -365,23 +327,22 @@
           <div class="fr-grid-row grid-demo-row">
             <div class="fr-col"></div>
             <div class="fr-col-auto">
-              <div class="grid-demo-col" style="padding: 1rem 3rem;">Contenu centré</div>
+              <div class="grid-demo-col" style="padding: 1rem 3rem">Contenu centré</div>
             </div>
             <div class="fr-col"></div>
           </div>
 
           <div class="code-example">
-            <code>&lt;div class="fr-grid-row"&gt;
-  &lt;div class="fr-col"&gt;&lt;/div&gt;
-  &lt;div class="fr-col-auto"&gt;Contenu centré&lt;/div&gt;
-  &lt;div class="fr-col"&gt;&lt;/div&gt;
-&lt;/div&gt;</code>
+            <code
+              >&lt;div class="fr-grid-row"&gt; &lt;div class="fr-col"&gt;&lt;/div&gt; &lt;div class="fr-col-auto"&gt;Contenu centré&lt;/div&gt; &lt;div class="fr-col"&gt;&lt;/div&gt;
+              &lt;/div&gt;</code
+            >
           </div>
 
           <div class="fr-alert fr-alert--info fr-mt-2w">
             <p class="fr-text--sm fr-mb-0">
-              <strong>Fonctionnement :</strong> Les colonnes <code>.fr-col</code> (sans nombre) se partagent l'espace restant de manière égale,
-              poussant ainsi la colonne <code>.fr-col-auto</code> au centre.
+              <strong>Fonctionnement :</strong> Les colonnes <code>.fr-col</code> (sans nombre) se partagent l'espace restant de manière égale, poussant ainsi la colonne <code>.fr-col-auto</code> au
+              centre.
             </p>
           </div>
 
@@ -399,11 +360,10 @@
           </div>
 
           <div class="code-example">
-            <code>&lt;div class="fr-grid-row fr-grid-row--gutters"&gt;
-  &lt;div class="fr-col-auto"&gt;Auto 1&lt;/div&gt;
-  &lt;div class="fr-col-auto"&gt;Auto 2&lt;/div&gt;
-  &lt;div class="fr-col-auto"&gt;Auto 3&lt;/div&gt;
-&lt;/div&gt;</code>
+            <code
+              >&lt;div class="fr-grid-row fr-grid-row--gutters"&gt; &lt;div class="fr-col-auto"&gt;Auto 1&lt;/div&gt; &lt;div class="fr-col-auto"&gt;Auto 2&lt;/div&gt; &lt;div
+              class="fr-col-auto"&gt;Auto 3&lt;/div&gt; &lt;/div&gt;</code
+            >
           </div>
 
           <h3 class="fr-h5">Combinaison col et col-auto</h3>
@@ -418,10 +378,7 @@
           </div>
 
           <div class="code-example">
-            <code>&lt;div class="fr-grid-row fr-grid-row--gutters"&gt;
-  &lt;div class="fr-col-auto"&gt;Sidebar&lt;/div&gt;
-  &lt;div class="fr-col"&gt;Contenu principal&lt;/div&gt;
-&lt;/div&gt;</code>
+            <code>&lt;div class="fr-grid-row fr-grid-row--gutters"&gt; &lt;div class="fr-col-auto"&gt;Sidebar&lt;/div&gt; &lt;div class="fr-col"&gt;Contenu principal&lt;/div&gt; &lt;/div&gt;</code>
           </div>
         </section>
 
@@ -445,11 +402,10 @@
           </div>
 
           <div class="code-example">
-            <code>&lt;div class="fr-grid-row"&gt;
-  &lt;div class="fr-col-4"&gt;Bloc 1&lt;/div&gt;
-  &lt;div class="fr-col-2"&gt;&lt;!-- Espace --&gt;&lt;/div&gt;
-  &lt;div class="fr-col-4"&gt;Bloc 2&lt;/div&gt;
-&lt;/div&gt;</code>
+            <code
+              >&lt;div class="fr-grid-row"&gt; &lt;div class="fr-col-4"&gt;Bloc 1&lt;/div&gt; &lt;div class="fr-col-2"&gt;&lt;!-- Espace --&gt;&lt;/div&gt; &lt;div class="fr-col-4"&gt;Bloc
+              2&lt;/div&gt; &lt;/div&gt;</code
+            >
           </div>
 
           <h3 class="fr-h5">Avec offset</h3>
@@ -464,12 +420,7 @@
           </div>
 
           <div class="code-example">
-            <code>&lt;div class="fr-grid-row"&gt;
-  &lt;div class="fr-col-4"&gt;Bloc 1&lt;/div&gt;
-  &lt;div class="fr-col-4 fr-col-offset-2"&gt;
-    Bloc 2 avec espace avant
-  &lt;/div&gt;
-&lt;/div&gt;</code>
+            <code>&lt;div class="fr-grid-row"&gt; &lt;div class="fr-col-4"&gt;Bloc 1&lt;/div&gt; &lt;div class="fr-col-4 fr-col-offset-2"&gt; Bloc 2 avec espace avant &lt;/div&gt; &lt;/div&gt;</code>
           </div>
 
           <h3 class="fr-h5">Espacements variables (responsive)</h3>
@@ -480,19 +431,17 @@
             </div>
             <div class="fr-col-12 fr-col-md-5 fr-col-md-offset-2">
               <div class="grid-demo-col">
-                Bloc 2<br>
-                <small style="font-size: 0.75rem;">Sans espace sur mobile, avec espace sur desktop</small>
+                Bloc 2<br />
+                <small style="font-size: 0.75rem">Sans espace sur mobile, avec espace sur desktop</small>
               </div>
             </div>
           </div>
 
           <div class="code-example">
-            <code>&lt;div class="fr-grid-row"&gt;
-  &lt;div class="fr-col-12 fr-col-md-5"&gt;Bloc 1&lt;/div&gt;
-  &lt;div class="fr-col-12 fr-col-md-5 fr-col-md-offset-2"&gt;
-    Pas d'espace sur mobile, 2 colonnes d'espace sur desktop
-  &lt;/div&gt;
-&lt;/div&gt;</code>
+            <code
+              >&lt;div class="fr-grid-row"&gt; &lt;div class="fr-col-12 fr-col-md-5"&gt;Bloc 1&lt;/div&gt; &lt;div class="fr-col-12 fr-col-md-5 fr-col-md-offset-2"&gt; Pas d'espace sur mobile, 2
+              colonnes d'espace sur desktop &lt;/div&gt; &lt;/div&gt;</code
+            >
           </div>
 
           <h3 class="fr-h5">Effet "space-between"</h3>
@@ -507,38 +456,32 @@
           </div>
 
           <div class="fr-alert fr-alert--info fr-mt-2w fr-mb-2w">
-            <p class="fr-text--sm fr-mb-0">
-              <strong>Calcul :</strong> 4 colonnes (gauche) + 4 colonnes (offset) + 4 colonnes (droite) = 12 colonnes
-            </p>
+            <p class="fr-text--sm fr-mb-0"><strong>Calcul :</strong> 4 colonnes (gauche) + 4 colonnes (offset) + 4 colonnes (droite) = 12 colonnes</p>
           </div>
 
           <div class="code-example">
-            <code>&lt;div class="fr-grid-row"&gt;
-  &lt;div class="fr-col-4"&gt;Bloc gauche&lt;/div&gt;
-  &lt;div class="fr-col-4 fr-col-offset-4"&gt;Bloc droite&lt;/div&gt;
-&lt;/div&gt;</code>
+            <code>&lt;div class="fr-grid-row"&gt; &lt;div class="fr-col-4"&gt;Bloc gauche&lt;/div&gt; &lt;div class="fr-col-4 fr-col-offset-4"&gt;Bloc droite&lt;/div&gt; &lt;/div&gt;</code>
           </div>
 
           <h3 class="fr-h5">Alternative avec flexbox</h3>
           <p>Pour un vrai <code>space-between</code>, utilisez les classes utilitaires flexbox du DSFR.</p>
-          <div class="fr-grid-row" style="display: flex; justify-content: space-between; margin-bottom: 1rem;">
-            <div style="flex: 0 0 auto;">
-              <div class="grid-demo-col" style="width: 200px;">Bloc 1</div>
+          <div class="fr-grid-row" style="display: flex; justify-content: space-between; margin-bottom: 1rem">
+            <div style="flex: 0 0 auto">
+              <div class="grid-demo-col" style="width: 200px">Bloc 1</div>
             </div>
-            <div style="flex: 0 0 auto;">
-              <div class="grid-demo-col" style="width: 200px;">Bloc 2</div>
+            <div style="flex: 0 0 auto">
+              <div class="grid-demo-col" style="width: 200px">Bloc 2</div>
             </div>
-            <div style="flex: 0 0 auto;">
-              <div class="grid-demo-col" style="width: 200px;">Bloc 3</div>
+            <div style="flex: 0 0 auto">
+              <div class="grid-demo-col" style="width: 200px">Bloc 3</div>
             </div>
           </div>
 
           <div class="code-example">
-            <code>&lt;div class="fr-grid-row" style="display: flex; justify-content: space-between;"&gt;
-  &lt;div&gt;Bloc 1&lt;/div&gt;
-  &lt;div&gt;Bloc 2&lt;/div&gt;
-  &lt;div&gt;Bloc 3&lt;/div&gt;
-&lt;/div&gt;</code>
+            <code
+              >&lt;div class="fr-grid-row" style="display: flex; justify-content: space-between;"&gt; &lt;div&gt;Bloc 1&lt;/div&gt; &lt;div&gt;Bloc 2&lt;/div&gt; &lt;div&gt;Bloc 3&lt;/div&gt;
+              &lt;/div&gt;</code
+            >
           </div>
         </section>
 
@@ -604,18 +547,10 @@
             </p>
           </div>
           <div class="fr-footer__content">
-            <p class="fr-footer__content-desc">
-              DSFR Toolkit - Exemples de grille du Design System de l'État
-            </p>
+            <p class="fr-footer__content-desc">DSFR Toolkit - Exemples de grille du Design System de l'État</p>
             <ul class="fr-footer__content-list">
               <li class="fr-footer__content-item">
-                <a
-                  class="fr-footer__content-link"
-                  href="https://www.systeme-de-design.gouv.fr/"
-                  target="_blank"
-                >
-                  Documentation DSFR
-                </a>
+                <a class="fr-footer__content-link" href="https://www.systeme-de-design.gouv.fr/" target="_blank"> Documentation DSFR </a>
               </li>
             </ul>
           </div>
@@ -623,19 +558,13 @@
         <div class="fr-footer__bottom">
           <ul class="fr-footer__bottom-list">
             <li class="fr-footer__bottom-item">
-              <a
-                class="fr-footer__bottom-link"
-                href="https://github.com/pYassine/dsfr-toolkit"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Fait avec du coeur & des robots
-              </a>
+              <a class="fr-footer__bottom-link" href="./about.html"> À propos </a>
             </li>
             <li class="fr-footer__bottom-item">
-              <span class="fr-footer__bottom-link">
-                DSFR v1.14.0
-              </span>
+              <a class="fr-footer__bottom-link" href="https://github.com/pYassine/dsfr-toolkit" target="_blank" rel="noopener noreferrer"> Fait avec du coeur & des robots </a>
+            </li>
+            <li class="fr-footer__bottom-item">
+              <span class="fr-footer__bottom-link"> DSFR v1.14.0 </span>
             </li>
           </ul>
         </div>
@@ -672,9 +601,6 @@
       initTheme();
     </script>
 
-    <script
-      type="module"
-      src="./assets/dsfr/dsfr.module.min.js"
-    ></script>
+    <script type="module" src="./assets/dsfr/dsfr.module.min.js"></script>
   </body>
 </html>

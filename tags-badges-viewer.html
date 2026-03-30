@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>🇫🇷 Tags & Badges DSFR</title>
+    <title>Tags & Badges DSFR</title>
     <meta name="description" content="Explorez les tags et badges du Design System de l'État Français (DSFR). Toutes les combinaisons accessibles extraites du code source." />
 
     <link rel="icon" href="./assets/dsfr/favicon/favicon.ico" />
@@ -32,13 +32,15 @@
         margin-bottom: 2rem;
       }
 
-      .color-grid, .icon-grid {
+      .color-grid,
+      .icon-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
         gap: 0.5rem;
       }
 
-      .color-btn, .icon-btn {
+      .color-btn,
+      .icon-btn {
         aspect-ratio: 1;
         border: 2px solid transparent;
         border-radius: 0.25rem;
@@ -51,12 +53,14 @@
         padding: 0.5rem;
       }
 
-      .color-btn:hover, .icon-btn:hover {
+      .color-btn:hover,
+      .icon-btn:hover {
         transform: scale(1.05);
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       }
 
-      .color-btn.selected, .icon-btn.selected {
+      .color-btn.selected,
+      .icon-btn.selected {
         border-color: var(--border-action-high-blue-france);
         box-shadow: 0 0 0 2px var(--background-action-high-blue-france);
       }
@@ -105,7 +109,7 @@
                 </div>
               </div>
               <div class="fr-header__service">
-                <p class="fr-header__service-title">🇫🇷 Tags & Badges DSFR</p>
+                <p class="fr-header__service-title">Tags & Badges DSFR</p>
                 <p class="fr-header__service-tagline">Composer et explorer toutes les combinaisons</p>
               </div>
             </div>
@@ -119,9 +123,10 @@
                     <a class="fr-btn fr-btn--tertiary-no-outline" href="./colors-viewer.html">Couleurs</a>
                   </li>
                   <li>
-                    <button class="fr-btn fr-btn--secondary fr-btn--icon-left fr-icon-theme-fill" id="theme-toggle">
-                      Mode sombre
-                    </button>
+                    <a class="fr-btn fr-btn--tertiary-no-outline" href="./artwork-viewer.html">Pictogrammes</a>
+                  </li>
+                  <li>
+                    <button class="fr-btn fr-btn--secondary fr-btn--icon-left fr-icon-theme-fill" id="theme-toggle">Mode sombre</button>
                   </li>
                 </ul>
               </div>
@@ -164,19 +169,13 @@
         <div class="fr-tabs">
           <ul class="fr-tabs__list" role="tablist">
             <li role="presentation">
-              <button id="tab-composer" class="fr-tabs__tab" tabindex="0" role="tab" aria-selected="true" aria-controls="tab-composer-panel">
-                Composer badge & tag
-              </button>
+              <button id="tab-composer" class="fr-tabs__tab" tabindex="0" role="tab" aria-selected="true" aria-controls="tab-composer-panel">Composer badge & tag</button>
             </li>
             <li role="presentation">
-              <button id="tab-badges" class="fr-tabs__tab" tabindex="-1" role="tab" aria-selected="false" aria-controls="tab-badges-panel">
-                Liste des badges
-              </button>
+              <button id="tab-badges" class="fr-tabs__tab" tabindex="-1" role="tab" aria-selected="false" aria-controls="tab-badges-panel">Liste des badges</button>
             </li>
             <li role="presentation">
-              <button id="tab-tags" class="fr-tabs__tab" tabindex="-1" role="tab" aria-selected="false" aria-controls="tab-tags-panel">
-                Liste des tags
-              </button>
+              <button id="tab-tags" class="fr-tabs__tab" tabindex="-1" role="tab" aria-selected="false" aria-controls="tab-tags-panel">Liste des tags</button>
             </li>
           </ul>
 
@@ -196,8 +195,8 @@
                     </div>
                   </div>
 
-                  <!-- Élément HTML -->
-                  <div class="option-group">
+                  <!-- Élément HTML (tags uniquement) -->
+                  <div class="option-group" id="element-group" style="display: none">
                     <span class="option-group-label">Élément HTML</span>
                     <div class="btn-group-inline">
                       <button class="fr-btn fr-btn--sm fr-btn--secondary selected" data-composer="element" data-value="p">Paragraphe</button>
@@ -215,8 +214,20 @@
                     </div>
                   </div>
 
+                  <!-- Type système (badges uniquement) -->
+                  <div class="option-group" id="system-type-group" style="display: block">
+                    <span class="option-group-label">Type système <span class="fr-text--xs fr-text-mention--grey">(optionnel, exclusif avec couleur d'accentuation)</span></span>
+                    <div class="btn-group-inline" id="system-type-grid"></div>
+                  </div>
+
+                  <!-- Couleurs d'accentuation -->
+                  <div class="option-group" id="accent-color-group">
+                    <span class="option-group-label" id="accent-color-label">Couleur d'accentuation</span>
+                    <div class="color-grid" id="color-grid"></div>
+                  </div>
+
                   <!-- Options -->
-                  <div class="option-group">
+                  <div class="option-group" id="option-group">
                     <span class="option-group-label">Options</span>
                     <div class="btn-group-inline">
                       <button class="fr-btn fr-btn--sm fr-btn--secondary" data-composer="option" data-value="icon">Avec icône</button>
@@ -225,15 +236,9 @@
                   </div>
 
                   <!-- Icônes -->
-                  <div class="option-group" id="icon-selector-group" style="display: none;">
+                  <div class="option-group" id="icon-selector-group" style="display: none">
                     <span class="option-group-label">Choisir une icône</span>
                     <div class="icon-grid" id="icon-grid"></div>
-                  </div>
-
-                  <!-- Couleurs -->
-                  <div class="option-group">
-                    <span class="option-group-label">Couleur</span>
-                    <div class="color-grid" id="color-grid"></div>
                   </div>
                 </div>
 
@@ -248,9 +253,7 @@
                     <textarea class="fr-input" id="composer-code" rows="4" readonly></textarea>
                   </div>
 
-                  <button class="fr-btn fr-btn--icon-left fr-icon-clipboard-line" id="copy-composer-code">
-                    Copier le code
-                  </button>
+                  <button class="fr-btn fr-btn--icon-left fr-icon-clipboard-line" id="copy-composer-code">Copier le code</button>
                 </div>
               </div>
             </div>
@@ -279,9 +282,7 @@
             <p class="fr-footer__content-desc">DSFR Toolkit - Composer et explorer</p>
             <ul class="fr-footer__content-list">
               <li class="fr-footer__content-item">
-                <a class="fr-footer__content-link" href="https://www.systeme-de-design.gouv.fr/" target="_blank">
-                  Documentation DSFR
-                </a>
+                <a class="fr-footer__content-link" href="https://www.systeme-de-design.gouv.fr/" target="_blank"> Documentation DSFR </a>
               </li>
             </ul>
           </div>
@@ -289,9 +290,10 @@
         <div class="fr-footer__bottom">
           <ul class="fr-footer__bottom-list">
             <li class="fr-footer__bottom-item">
-              <a class="fr-footer__bottom-link" href="https://github.com/pYassine/dsfr-toolkit" target="_blank">
-                Fait avec du coeur & des robots
-              </a>
+              <a class="fr-footer__bottom-link" href="./about.html"> À propos </a>
+            </li>
+            <li class="fr-footer__bottom-item">
+              <a class="fr-footer__bottom-link" href="https://github.com/pYassine/dsfr-toolkit" target="_blank"> Fait avec du coeur & des robots </a>
             </li>
             <li class="fr-footer__bottom-item">
               <span class="fr-footer__bottom-link" id="dsfr-version">DSFR v1.14.0</span>
@@ -312,39 +314,37 @@
 
       // État du compositeur
       const composer = {
-        type: 'badge',
-        element: 'p',
-        size: 'normal',
-        color: '',
-        option: '',
-        icon: ''
+        type: "badge",
+        element: "p",
+        size: "normal",
+        color: "",
+        systemType: "",
+        option: "",
+        icon: "",
       };
 
       const popularIcons = [
-        { class: 'fr-icon-star-fill', label: '⭐' },
-        { class: 'fr-icon-heart-fill', label: '❤️' },
-        { class: 'fr-icon-home-4-line', label: '🏠' },
-        { class: 'fr-icon-user-line', label: '👤' },
-        { class: 'fr-icon-settings-5-line', label: '⚙️' },
-        { class: 'fr-icon-notification-badge-line', label: '🔔' },
-        { class: 'fr-icon-check-line', label: '✓' },
-        { class: 'fr-icon-close-line', label: '✕' },
-        { class: 'fr-icon-arrow-right-line', label: '→' },
-        { class: 'fr-icon-arrow-left-line', label: '←' },
-        { class: 'fr-icon-add-line', label: '+' },
-        { class: 'fr-icon-subtract-line', label: '−' },
-        { class: 'fr-icon-mail-line', label: '✉' },
-        { class: 'fr-icon-phone-line', label: '☎' },
-        { class: 'fr-icon-search-line', label: '🔍' },
-        { class: 'fr-icon-calendar-line', label: '📅' }
+        { class: "fr-icon-star-fill", label: "⭐" },
+        { class: "fr-icon-heart-fill", label: "❤️" },
+        { class: "fr-icon-home-4-line", label: "🏠" },
+        { class: "fr-icon-user-line", label: "👤" },
+        { class: "fr-icon-settings-5-line", label: "⚙️" },
+        { class: "fr-icon-notification-badge-line", label: "🔔" },
+        { class: "fr-icon-map-pin-2-line", label: "📍" },
+        { class: "fr-icon-time-line", label: "🕐" },
+        { class: "fr-icon-arrow-right-line", label: "→" },
+        { class: "fr-icon-arrow-left-line", label: "←" },
+        { class: "fr-icon-add-line", label: "+" },
+        { class: "fr-icon-subtract-line", label: "−" },
+        { class: "fr-icon-mail-line", label: "✉" },
+        { class: "fr-icon-phone-line", label: "☎" },
+        { class: "fr-icon-search-line", label: "🔍" },
+        { class: "fr-icon-calendar-line", label: "📅" },
       ];
 
       async function loadData() {
         try {
-          const [tagsResponse, iconsResponse] = await Promise.all([
-            fetch("./src/data/tags-badges.json"),
-            fetch("./src/data/dsfr-icons.json")
-          ]);
+          const [tagsResponse, iconsResponse] = await Promise.all([fetch("./src/data/tags-badges.json"), fetch("./src/data/dsfr-icons.json")]);
 
           data = await tagsResponse.json();
           iconsData = await iconsResponse.json();
@@ -360,81 +360,102 @@
         }
       }
 
-      function initComposer() {
-        // Initialiser la grille de couleurs
-        const colorGrid = document.getElementById('color-grid');
-        const colors = [
-          { value: '', name: 'Par défaut', bg: 'var(--background-contrast-grey)' },
-          { value: 'info', name: 'Info', bg: 'var(--background-contrast-info)' },
-          { value: 'success', name: 'Success', bg: 'var(--background-contrast-success)' },
-          { value: 'error', name: 'Error', bg: 'var(--background-contrast-error)' },
-          { value: 'warning', name: 'Warning', bg: 'var(--background-contrast-warning)' },
-          { value: 'new', name: 'New', bg: 'var(--background-contrast-yellow-moutarde)' },
-          { value: 'green-tilleul-verveine', name: 'Green Tilleul', bg: 'var(--background-contrast-green-tilleul-verveine)' },
-          { value: 'green-bourgeon', name: 'Green Bourgeon', bg: 'var(--background-contrast-green-bourgeon)' },
-          { value: 'green-emeraude', name: 'Green Émeraude', bg: 'var(--background-contrast-green-emeraude)' },
-          { value: 'green-menthe', name: 'Green Menthe', bg: 'var(--background-contrast-green-menthe)' },
-          { value: 'green-archipel', name: 'Green Archipel', bg: 'var(--background-contrast-green-archipel)' },
-          { value: 'blue-ecume', name: 'Blue Écume', bg: 'var(--background-contrast-blue-ecume)' },
-          { value: 'blue-cumulus', name: 'Blue Cumulus', bg: 'var(--background-contrast-blue-cumulus)' },
-          { value: 'purple-glycine', name: 'Purple Glycine', bg: 'var(--background-contrast-purple-glycine)' },
-          { value: 'pink-macaron', name: 'Pink Macaron', bg: 'var(--background-contrast-pink-macaron)' },
-          { value: 'pink-tuile', name: 'Pink Tuile', bg: 'var(--background-contrast-pink-tuile)' },
-          { value: 'yellow-tournesol', name: 'Yellow Tournesol', bg: 'var(--background-contrast-yellow-tournesol)' },
-          { value: 'yellow-moutarde', name: 'Yellow Moutarde', bg: 'var(--background-contrast-yellow-moutarde)' },
-          { value: 'orange-terre-battue', name: 'Orange Terre Battue', bg: 'var(--background-contrast-orange-terre-battue)' },
-          { value: 'brown-cafe-creme', name: 'Brown Café Crème', bg: 'var(--background-contrast-brown-cafe-creme)' },
-          { value: 'brown-caramel', name: 'Brown Caramel', bg: 'var(--background-contrast-brown-caramel)' },
-          { value: 'brown-opera', name: 'Brown Opera', bg: 'var(--background-contrast-brown-opera)' },
-          { value: 'beige-gris-galet', name: 'Beige Gris Galet', bg: 'var(--background-contrast-beige-gris-galet)' }
-        ];
+      // Types système pour les badges
+      const systemTypes = [
+        { value: "info", name: "Info", bg: "var(--background-contrast-info)" },
+        { value: "success", name: "Succès", bg: "var(--background-contrast-success)" },
+        { value: "error", name: "Erreur", bg: "var(--background-contrast-error)" },
+        { value: "warning", name: "Avertissement", bg: "var(--background-contrast-warning)" },
+        { value: "new", name: "Nouveau", bg: "var(--background-contrast-yellow-moutarde)" },
+      ];
 
-        colors.forEach((color, index) => {
-          const btn = document.createElement('button');
-          btn.className = `color-btn${index === 0 ? ' selected' : ''}`;
+      // Couleurs d'accentuation
+      const accentColors = [
+        { value: "", name: "Par défaut", bg: "var(--background-contrast-grey)" },
+        { value: "green-tilleul-verveine", name: "Green Tilleul", bg: "var(--background-contrast-green-tilleul-verveine)" },
+        { value: "green-bourgeon", name: "Green Bourgeon", bg: "var(--background-contrast-green-bourgeon)" },
+        { value: "green-emeraude", name: "Green Émeraude", bg: "var(--background-contrast-green-emeraude)" },
+        { value: "green-menthe", name: "Green Menthe", bg: "var(--background-contrast-green-menthe)" },
+        { value: "green-archipel", name: "Green Archipel", bg: "var(--background-contrast-green-archipel)" },
+        { value: "blue-ecume", name: "Blue Écume", bg: "var(--background-contrast-blue-ecume)" },
+        { value: "blue-cumulus", name: "Blue Cumulus", bg: "var(--background-contrast-blue-cumulus)" },
+        { value: "purple-glycine", name: "Purple Glycine", bg: "var(--background-contrast-purple-glycine)" },
+        { value: "pink-macaron", name: "Pink Macaron", bg: "var(--background-contrast-pink-macaron)" },
+        { value: "pink-tuile", name: "Pink Tuile", bg: "var(--background-contrast-pink-tuile)" },
+        { value: "yellow-tournesol", name: "Yellow Tournesol", bg: "var(--background-contrast-yellow-tournesol)" },
+        { value: "yellow-moutarde", name: "Yellow Moutarde", bg: "var(--background-contrast-yellow-moutarde)" },
+        { value: "orange-terre-battue", name: "Orange Terre Battue", bg: "var(--background-contrast-orange-terre-battue)" },
+        { value: "brown-cafe-creme", name: "Brown Café Crème", bg: "var(--background-contrast-brown-cafe-creme)" },
+        { value: "brown-caramel", name: "Brown Caramel", bg: "var(--background-contrast-brown-caramel)" },
+        { value: "brown-opera", name: "Brown Opera", bg: "var(--background-contrast-brown-opera)" },
+        { value: "beige-gris-galet", name: "Beige Gris Galet", bg: "var(--background-contrast-beige-gris-galet)" },
+      ];
+
+      function initComposer() {
+        // Initialiser les boutons de type système
+        const systemGrid = document.getElementById("system-type-grid");
+        systemTypes.forEach((stype) => {
+          const btn = document.createElement("button");
+          btn.className = "fr-btn fr-btn--sm fr-btn--secondary";
+          btn.textContent = stype.name;
+          btn.dataset.systemType = stype.value;
+          btn.addEventListener("click", () => selectSystemType(stype.value));
+          systemGrid.appendChild(btn);
+        });
+
+        // Initialiser la grille de couleurs d'accentuation
+        const colorGrid = document.getElementById("color-grid");
+        accentColors.forEach((color, index) => {
+          const btn = document.createElement("button");
+          btn.className = `color-btn${index === 0 ? " selected" : ""}`;
           btn.style.backgroundColor = color.bg;
           btn.title = color.name;
           btn.dataset.color = color.value;
-          btn.addEventListener('click', () => selectColor(color.value));
+          btn.addEventListener("click", () => selectAccentColor(color.value));
           colorGrid.appendChild(btn);
         });
 
         // Initialiser la grille d'icônes
-        const iconGrid = document.getElementById('icon-grid');
-        popularIcons.forEach(icon => {
-          const btn = document.createElement('button');
-          btn.className = 'icon-btn';
-          btn.innerHTML = `<i class="${icon.class}" aria-hidden="true"></i>`;
+        const iconGrid = document.getElementById("icon-grid");
+        popularIcons.forEach((icon) => {
+          const btn = document.createElement("button");
+          btn.className = "icon-btn";
+          btn.innerHTML = `<span class="${icon.class}" aria-hidden="true"></span>`;
           btn.title = icon.class;
           btn.dataset.icon = icon.class;
-          btn.addEventListener('click', () => selectIcon(icon.class));
+          btn.addEventListener("click", () => selectIcon(icon.class));
           iconGrid.appendChild(btn);
         });
 
         // Event listeners pour les options
-        document.querySelectorAll('[data-composer]').forEach(btn => {
-          btn.addEventListener('click', (e) => {
+        document.querySelectorAll("[data-composer]").forEach((btn) => {
+          btn.addEventListener("click", (e) => {
             const type = e.target.dataset.composer;
             const value = e.target.dataset.value;
 
             // Désélectionner les autres boutons du même groupe
-            document.querySelectorAll(`[data-composer="${type}"]`).forEach(b => {
-              b.classList.remove('selected');
+            document.querySelectorAll(`[data-composer="${type}"]`).forEach((b) => {
+              b.classList.remove("selected");
             });
-            e.target.classList.add('selected');
+            e.target.classList.add("selected");
 
             composer[type] = value;
 
+            // Quand on change le type badge/tag, adapter les options disponibles
+            if (type === "type") {
+              updateComposerConstraints();
+            }
+
             // Afficher/masquer le sélecteur d'icônes
-            if (type === 'option') {
-              const iconSelector = document.getElementById('icon-selector-group');
-              if (value === 'icon') {
-                iconSelector.style.display = 'block';
+            if (type === "option") {
+              const iconSelector = document.getElementById("icon-selector-group");
+              if (value === "icon") {
+                iconSelector.style.display = "block";
                 if (!composer.icon) {
                   selectIcon(popularIcons[0].class);
                 }
               } else {
-                iconSelector.style.display = 'none';
+                iconSelector.style.display = "none";
               }
             }
 
@@ -443,63 +464,138 @@
         });
 
         // Copier le code
-        document.getElementById('copy-composer-code').addEventListener('click', () => {
-          const code = document.getElementById('composer-code').value;
-          copyToClipboard(code, 'Code copié !');
+        document.getElementById("copy-composer-code").addEventListener("click", () => {
+          const code = document.getElementById("composer-code").value;
+          copyToClipboard(code, "Code copié !");
         });
 
+        updateComposerConstraints();
         updateComposerPreview();
       }
 
-      function selectColor(colorValue) {
-        composer.color = colorValue;
-        document.querySelectorAll('.color-btn').forEach(btn => {
-          btn.classList.toggle('selected', btn.dataset.color === colorValue);
-        });
+      function selectSystemType(typeValue) {
+        // Si on clique sur le type déjà sélectionné, on le désélectionne
+        if (composer.systemType === typeValue) {
+          composer.systemType = "";
+          document.querySelectorAll("[data-system-type]").forEach((btn) => btn.classList.remove("selected"));
+        } else {
+          composer.systemType = typeValue;
+          composer.color = ""; // Exclusif : on retire la couleur d'accentuation
+          document.querySelectorAll("[data-system-type]").forEach((btn) => {
+            btn.classList.toggle("selected", btn.dataset.systemType === typeValue);
+          });
+          document.querySelectorAll(".color-btn").forEach((btn) => {
+            btn.classList.toggle("selected", btn.dataset.color === "");
+          });
+        }
+        updateIconAvailability();
         updateComposerPreview();
+      }
+
+      function selectAccentColor(colorValue) {
+        composer.color = colorValue;
+        if (composer.type === "badge") {
+          composer.systemType = ""; // Exclusif : on retire le type système
+          document.querySelectorAll("[data-system-type]").forEach((btn) => btn.classList.remove("selected"));
+        }
+        document.querySelectorAll(".color-btn").forEach((btn) => {
+          btn.classList.toggle("selected", btn.dataset.color === colorValue);
+        });
+        updateIconAvailability();
+        updateComposerPreview();
+      }
+
+      function updateIconAvailability() {
+        const isBadgeWithSystemType = composer.type === "badge" && composer.systemType;
+        const optionGroup = document.getElementById("option-group");
+        const iconSelector = document.getElementById("icon-selector-group");
+
+        if (isBadgeWithSystemType) {
+          // Badge typé : pas de personnalisation d'icône
+          optionGroup.style.display = "none";
+          iconSelector.style.display = "none";
+          composer.option = "";
+          composer.icon = "";
+          document.querySelectorAll('[data-composer="option"]').forEach((b) => b.classList.remove("selected"));
+        } else {
+          optionGroup.style.display = "block";
+        }
+      }
+
+      function updateComposerConstraints() {
+        const isBadge = composer.type === "badge";
+        const elementGroup = document.getElementById("element-group");
+        const systemTypeGroup = document.getElementById("system-type-group");
+        const accentLabel = document.getElementById("accent-color-label");
+
+        // Badges : pas de lien/bouton
+        if (isBadge) {
+          elementGroup.style.display = "none";
+          composer.element = "p";
+          document.querySelectorAll('[data-composer="element"]').forEach((b) => {
+            b.classList.toggle("selected", b.dataset.value === "p");
+          });
+        } else {
+          elementGroup.style.display = "block";
+        }
+
+        // Badges : afficher les types système séparément
+        if (isBadge) {
+          systemTypeGroup.style.display = "block";
+          accentLabel.textContent = "Couleur d'accentuation";
+        } else {
+          systemTypeGroup.style.display = "none";
+          composer.systemType = "";
+          document.querySelectorAll("[data-system-type]").forEach((btn) => btn.classList.remove("selected"));
+          accentLabel.textContent = "Couleur";
+        }
+
+        updateIconAvailability();
       }
 
       function selectIcon(iconClass) {
         composer.icon = iconClass;
-        document.querySelectorAll('.icon-btn').forEach(btn => {
-          btn.classList.toggle('selected', btn.dataset.icon === iconClass);
+        document.querySelectorAll(".icon-btn").forEach((btn) => {
+          btn.classList.toggle("selected", btn.dataset.icon === iconClass);
         });
         updateComposerPreview();
       }
 
       function updateComposerPreview() {
-        const preview = document.getElementById('composer-preview');
-        const codeTextarea = document.getElementById('composer-code');
+        const preview = document.getElementById("composer-preview");
+        const codeTextarea = document.getElementById("composer-code");
 
-        const baseClass = composer.type === 'badge' ? 'fr-badge' : 'fr-tag';
+        const baseClass = composer.type === "badge" ? "fr-badge" : "fr-tag";
         let classes = [baseClass];
 
-        // Ajouter la couleur
-        if (composer.color) {
+        // Ajouter le type système (badges) ou la couleur d'accentuation
+        if (composer.type === "badge" && composer.systemType) {
+          classes.push(`${baseClass}--${composer.systemType}`);
+        } else if (composer.color) {
           classes.push(`${baseClass}--${composer.color}`);
         }
 
         // Ajouter la taille
-        if (composer.size === 'small') {
+        if (composer.size === "small") {
           classes.push(`${baseClass}--sm`);
         }
 
         // Ajouter les options
-        if (composer.option === 'icon' && composer.icon) {
+        if (composer.option === "icon" && composer.icon) {
           classes.push(`${baseClass}--icon-left`);
           classes.push(composer.icon);
-        } else if (composer.option === 'no-icon') {
+        } else if (composer.option === "no-icon") {
           classes.push(`${baseClass}--no-icon`);
         }
 
-        const className = classes.join(' ');
-        const text = composer.type === 'badge' ? 'Label badge' : 'Label tag';
+        const className = classes.join(" ");
+        const text = composer.type === "badge" ? "Label badge" : "Label tag";
 
         // Générer le HTML
-        let html = '';
-        if (composer.element === 'a') {
+        let html = "";
+        if (composer.element === "a") {
           html = `<a href="#" class="${className}">${text}</a>`;
-        } else if (composer.element === 'button') {
+        } else if (composer.element === "button") {
           html = `<button class="${className}">${text}</button>`;
         } else {
           html = `<p class="${className}">${text}</p>`;
@@ -515,24 +611,24 @@
       function initFilters() {
         if (!data) return;
 
-        const badgeTypes = [...new Set(data.badges.map(b => b.type))].sort();
+        const badgeTypes = [...new Set(data.badges.map((b) => b.type))].sort();
         const typeSelect = document.getElementById("type-filter");
 
-        badgeTypes.forEach(type => {
+        badgeTypes.forEach((type) => {
           const option = document.createElement("option");
           option.value = type;
           option.textContent = formatTypeName(type);
           typeSelect.appendChild(option);
         });
 
-        const allColors = [...new Set([...data.badges.map(b => b.color), ...data.tags.map(t => t.color)])].sort();
+        const allColors = [...new Set([...data.badges.map((b) => b.color), ...data.tags.map((t) => t.color)])].sort();
         const colorSelect = document.getElementById("color-filter");
-        const systemColors = allColors.filter(c => ['default', 'blue-france', 'info', 'success', 'error', 'warning', 'new'].includes(c));
+        const systemColors = allColors.filter((c) => ["default", "blue-france", "info", "success", "error", "warning", "new"].includes(c));
 
         if (systemColors.length > 0) {
           const systemGroup = document.createElement("optgroup");
           systemGroup.label = "Couleurs système";
-          systemColors.forEach(color => {
+          systemColors.forEach((color) => {
             const option = document.createElement("option");
             option.value = color;
             option.textContent = formatColorName(color);
@@ -541,11 +637,11 @@
           colorSelect.appendChild(systemGroup);
         }
 
-        const themeColors = allColors.filter(c => !systemColors.includes(c));
+        const themeColors = allColors.filter((c) => !systemColors.includes(c));
         if (themeColors.length > 0) {
           const themeGroup = document.createElement("optgroup");
           themeGroup.label = "Couleurs thématiques";
-          themeColors.forEach(color => {
+          themeColors.forEach((color) => {
             const option = document.createElement("option");
             option.value = color;
             option.textContent = formatColorName(color);
@@ -557,23 +653,26 @@
 
       function formatTypeName(type) {
         const names = {
-          'base': 'Base',
-          'no-icon': 'Sans icône',
-          'icon-left': 'Avec icône',
-          'simple': 'Simple',
-          'link': 'Lien',
-          'button': 'Bouton',
-          'selectable': 'Sélectionnable',
-          'selected': 'Sélectionné',
-          'dismiss': 'Avec suppression'
+          base: "Base",
+          "no-icon": "Sans icône",
+          "icon-left": "Avec icône",
+          simple: "Simple",
+          link: "Lien",
+          button: "Bouton",
+          selectable: "Sélectionnable",
+          selected: "Sélectionné",
+          dismiss: "Avec suppression",
         };
         return names[type] || type;
       }
 
       function formatColorName(color) {
-        if (color === 'default') return 'Par défaut';
-        if (color === 'blue-france') return 'Blue France';
-        return color.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+        if (color === "default") return "Par défaut";
+        if (color === "blue-france") return "Blue France";
+        return color
+          .split("-")
+          .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+          .join(" ");
       }
 
       function renderCurrent() {
@@ -590,40 +689,105 @@
         const container = document.getElementById("badges-container");
         container.innerHTML = "";
 
-        let filteredBadges = data.badges.filter(badge => {
+        const systemColorNames = ["info", "success", "error", "warning", "new"];
+
+        let filteredBadges = data.badges.filter((badge) => {
           if (currentTypeFilter && badge.type !== currentTypeFilter) return false;
           if (currentColorFilter && badge.color !== currentColorFilter) return false;
           if (currentSearch) {
             const searchLower = currentSearch.toLowerCase();
-            return badge.name.toLowerCase().includes(searchLower) ||
-                   badge.className.toLowerCase().includes(searchLower) ||
-                   badge.color.toLowerCase().includes(searchLower);
+            return badge.name.toLowerCase().includes(searchLower) || badge.className.toLowerCase().includes(searchLower) || badge.color.toLowerCase().includes(searchLower);
           }
           return true;
         });
 
-        const groupedByType = {};
-        filteredBadges.forEach(badge => {
-          if (!groupedByType[badge.type]) groupedByType[badge.type] = [];
-          groupedByType[badge.type].push(badge);
-        });
+        // Séparer badges système et badges personnalisés
+        const systemBadges = filteredBadges.filter((b) => systemColorNames.includes(b.color));
+        const customBadges = filteredBadges.filter((b) => systemColorNames.indexOf(b.color) === -1);
 
         let totalDisplayed = 0;
 
-        Object.keys(groupedByType).sort().forEach(type => {
-          const badges = groupedByType[type];
-          const section = createSection(formatTypeName(type), badges.length);
-          const grid = document.createElement("div");
-          grid.className = "fr-grid-row fr-grid-row--gutters";
+        // Rendu des badges système
+        if (systemBadges.length > 0) {
+          const systemSection = document.createElement("div");
+          systemSection.className = "fr-mb-6w";
+          const systemTitle = document.createElement("h2");
+          systemTitle.className = "fr-h3 fr-mb-2w";
+          systemTitle.textContent = `Badges système (${systemBadges.length})`;
+          systemSection.appendChild(systemTitle);
 
-          badges.forEach(badge => {
-            grid.appendChild(createComponentCard(badge));
-            totalDisplayed++;
+          const systemDesc = document.createElement("p");
+          systemDesc.className = "fr-text--sm fr-text-mention--grey fr-mb-3w";
+          systemDesc.textContent = "Badges typés avec icône prédéfinie (info, succès, erreur, avertissement, nouveau)";
+          systemSection.appendChild(systemDesc);
+
+          const groupedSystem = {};
+          systemBadges.forEach((b) => {
+            if (!groupedSystem[b.type]) groupedSystem[b.type] = [];
+            groupedSystem[b.type].push(b);
           });
 
-          section.appendChild(grid);
-          container.appendChild(section);
-        });
+          Object.keys(groupedSystem)
+            .sort()
+            .forEach((type) => {
+              const badges = groupedSystem[type];
+              const subTitle = document.createElement("h3");
+              subTitle.className = "fr-h5 fr-mb-1w";
+              subTitle.textContent = `${formatTypeName(type)} (${badges.length})`;
+              systemSection.appendChild(subTitle);
+
+              const grid = document.createElement("div");
+              grid.className = "fr-grid-row fr-grid-row--gutters fr-mb-3w";
+              badges.forEach((badge) => {
+                grid.appendChild(createComponentCard(badge));
+                totalDisplayed++;
+              });
+              systemSection.appendChild(grid);
+            });
+
+          container.appendChild(systemSection);
+        }
+
+        // Rendu des badges personnalisés (couleurs d'accentuation)
+        if (customBadges.length > 0) {
+          const customSection = document.createElement("div");
+          customSection.className = "fr-mb-6w";
+          const customTitle = document.createElement("h2");
+          customTitle.className = "fr-h3 fr-mb-2w";
+          customTitle.textContent = `Badges personnalisés (${customBadges.length})`;
+          customSection.appendChild(customTitle);
+
+          const customDesc = document.createElement("p");
+          customDesc.className = "fr-text--sm fr-text-mention--grey fr-mb-3w";
+          customDesc.textContent = "Badges avec couleur d'accentuation personnalisable et icône modifiable";
+          customSection.appendChild(customDesc);
+
+          const groupedCustom = {};
+          customBadges.forEach((b) => {
+            if (!groupedCustom[b.type]) groupedCustom[b.type] = [];
+            groupedCustom[b.type].push(b);
+          });
+
+          Object.keys(groupedCustom)
+            .sort()
+            .forEach((type) => {
+              const badges = groupedCustom[type];
+              const subTitle = document.createElement("h3");
+              subTitle.className = "fr-h5 fr-mb-1w";
+              subTitle.textContent = `${formatTypeName(type)} (${badges.length})`;
+              customSection.appendChild(subTitle);
+
+              const grid = document.createElement("div");
+              grid.className = "fr-grid-row fr-grid-row--gutters fr-mb-3w";
+              badges.forEach((badge) => {
+                grid.appendChild(createComponentCard(badge));
+                totalDisplayed++;
+              });
+              customSection.appendChild(grid);
+            });
+
+          container.appendChild(customSection);
+        }
 
         updateStats(totalDisplayed, "badges");
       }
@@ -631,11 +795,11 @@
       function renderTags() {
         if (!data) return;
 
-        const tagTypes = [...new Set(data.tags.map(t => t.type))].sort();
+        const tagTypes = [...new Set(data.tags.map((t) => t.type))].sort();
         const typeSelect = document.getElementById("type-filter");
         typeSelect.innerHTML = '<option value="">Tous les types</option>';
 
-        tagTypes.forEach(type => {
+        tagTypes.forEach((type) => {
           const option = document.createElement("option");
           option.value = type;
           option.textContent = formatTypeName(type);
@@ -645,43 +809,87 @@
         const container = document.getElementById("tags-container");
         container.innerHTML = "";
 
-        let filteredTags = data.tags.filter(tag => {
+        let filteredTags = data.tags.filter((tag) => {
           if (currentTypeFilter && tag.type !== currentTypeFilter) return false;
           if (currentColorFilter && tag.color !== currentColorFilter) return false;
           if (currentSearch) {
             const searchLower = currentSearch.toLowerCase();
-            return tag.name.toLowerCase().includes(searchLower) ||
-                   tag.className.toLowerCase().includes(searchLower) ||
-                   tag.color.toLowerCase().includes(searchLower);
+            return tag.name.toLowerCase().includes(searchLower) || tag.className.toLowerCase().includes(searchLower) || tag.color.toLowerCase().includes(searchLower);
           }
           return true;
         });
 
-        const groupedByType = {};
-        filteredTags.forEach(tag => {
-          if (!groupedByType[tag.type]) groupedByType[tag.type] = [];
-          groupedByType[tag.type].push(tag);
-        });
+        // Séparer tags non-interactifs et tags cliquables
+        const nonInteractiveTags = filteredTags.filter((t) => t.type === "simple");
+        const clickableTags = filteredTags.filter((t) => t.type !== "simple");
 
         let totalDisplayed = 0;
 
-        const typeOrder = ['simple', 'link', 'button', 'icon-left', 'selectable', 'selected', 'dismiss'];
-        typeOrder.forEach(type => {
-          if (groupedByType[type]) {
-            const tags = groupedByType[type];
-            const section = createSection(formatTypeName(type), tags.length);
-            const grid = document.createElement("div");
-            grid.className = "fr-grid-row fr-grid-row--gutters";
+        // Tags non-interactifs
+        if (nonInteractiveTags.length > 0) {
+          const section = document.createElement("div");
+          section.className = "fr-mb-6w";
+          const title = document.createElement("h2");
+          title.className = "fr-h3 fr-mb-2w";
+          title.textContent = `Tags non-interactifs (${nonInteractiveTags.length})`;
+          section.appendChild(title);
 
-            tags.forEach(tag => {
-              grid.appendChild(createComponentCard(tag));
-              totalDisplayed++;
-            });
+          const desc = document.createElement("p");
+          desc.className = "fr-text--sm fr-text-mention--grey fr-mb-3w";
+          desc.textContent = "Tags informatifs simples, sans interaction utilisateur. Pas de couleur d'accentuation.";
+          section.appendChild(desc);
 
-            section.appendChild(grid);
-            container.appendChild(section);
-          }
-        });
+          const grid = document.createElement("div");
+          grid.className = "fr-grid-row fr-grid-row--gutters";
+          nonInteractiveTags.forEach((tag) => {
+            grid.appendChild(createComponentCard(tag));
+            totalDisplayed++;
+          });
+          section.appendChild(grid);
+          container.appendChild(section);
+        }
+
+        // Tags cliquables — groupés par type
+        if (clickableTags.length > 0) {
+          const section = document.createElement("div");
+          section.className = "fr-mb-6w";
+          const title = document.createElement("h2");
+          title.className = "fr-h3 fr-mb-2w";
+          title.textContent = `Tags cliquables (${clickableTags.length})`;
+          section.appendChild(title);
+
+          const desc = document.createElement("p");
+          desc.className = "fr-text--sm fr-text-mention--grey fr-mb-3w";
+          desc.textContent = "Tags interactifs (lien, bouton, sélectionnable, supprimable). Peuvent avoir une couleur d'accentuation.";
+          section.appendChild(desc);
+
+          const groupedByType = {};
+          clickableTags.forEach((tag) => {
+            if (!groupedByType[tag.type]) groupedByType[tag.type] = [];
+            groupedByType[tag.type].push(tag);
+          });
+
+          const typeOrder = ["link", "button", "icon-left", "selectable", "selected", "dismiss"];
+          typeOrder.forEach((type) => {
+            if (groupedByType[type]) {
+              const tags = groupedByType[type];
+              const subTitle = document.createElement("h3");
+              subTitle.className = "fr-h5 fr-mb-1w";
+              subTitle.textContent = `${formatTypeName(type)} (${tags.length})`;
+              section.appendChild(subTitle);
+
+              const grid = document.createElement("div");
+              grid.className = "fr-grid-row fr-grid-row--gutters fr-mb-3w";
+              tags.forEach((tag) => {
+                grid.appendChild(createComponentCard(tag));
+                totalDisplayed++;
+              });
+              section.appendChild(grid);
+            }
+          });
+
+          container.appendChild(section);
+        }
 
         updateStats(totalDisplayed, "tags");
       }
@@ -718,12 +926,11 @@
         }
 
         let preview = "";
+        const ariaPressed = component.ariaPressed ? ` aria-pressed="${component.ariaPressed}"` : "";
         if (component.element === "a") {
-          const ariaPressed = component.ariaPressed ? ` aria-pressed="${component.ariaPressed}"` : "";
-          preview = `<a href="#" class="${component.className}"${ariaPressed} style="pointer-events: none;">${text}</a>`;
+          preview = `<a href="#" class="${component.className}"${ariaPressed} onclick="event.preventDefault()">${text}</a>`;
         } else if (component.element === "button") {
-          const ariaPressed = component.ariaPressed ? ` aria-pressed="${component.ariaPressed}"` : "";
-          preview = `<button class="${component.className}"${ariaPressed} disabled>${text}</button>`;
+          preview = `<button class="${component.className}"${ariaPressed} onclick="event.preventDefault()">${text}</button>`;
         } else {
           preview = `<p class="${component.className}">${text}</p>`;
         }
@@ -735,7 +942,8 @@
         cardContent.className = "fr-card__content";
 
         const previewDiv = document.createElement("div");
-        previewDiv.style.cssText = "text-align: center; padding: 1.5rem; background-color: var(--background-alt-grey); border-radius: 0.5rem; margin-bottom: 1rem; min-height: 80px; display: flex; align-items: center; justify-content: center;";
+        previewDiv.style.cssText =
+          "text-align: center; padding: 1.5rem; background-color: var(--background-alt-grey); border-radius: 0.5rem; margin-bottom: 1rem; min-height: 80px; display: flex; align-items: center; justify-content: center;";
         previewDiv.innerHTML = preview;
 
         const title = document.createElement("h3");
@@ -787,7 +995,7 @@
         }
 
         const alert = document.createElement("div");
-        alert.className = `fr-alert ${isError ? 'fr-alert--error' : 'fr-alert--success'} fr-alert--sm`;
+        alert.className = `fr-alert ${isError ? "fr-alert--error" : "fr-alert--success"} fr-alert--sm`;
         const p = document.createElement("p");
         p.textContent = message;
         alert.appendChild(p);
@@ -800,7 +1008,7 @@
       }
 
       function showError(message) {
-        [document.getElementById("badges-container"), document.getElementById("tags-container")].forEach(container => {
+        [document.getElementById("badges-container"), document.getElementById("tags-container")].forEach((container) => {
           const alert = document.createElement("div");
           alert.className = "fr-alert fr-alert--error";
           const p = document.createElement("p");
@@ -838,26 +1046,26 @@
       }
 
       function initTabs() {
-        document.querySelectorAll('.fr-tabs__tab').forEach(tab => {
-          tab.addEventListener('click', () => {
-            document.querySelectorAll('.fr-tabs__tab').forEach(t => {
-              t.setAttribute('aria-selected', 'false');
-              t.setAttribute('tabindex', '-1');
+        document.querySelectorAll(".fr-tabs__tab").forEach((tab) => {
+          tab.addEventListener("click", () => {
+            document.querySelectorAll(".fr-tabs__tab").forEach((t) => {
+              t.setAttribute("aria-selected", "false");
+              t.setAttribute("tabindex", "-1");
             });
-            document.querySelectorAll('.fr-tabs__panel').forEach(p => {
-              p.classList.remove('fr-tabs__panel--selected');
+            document.querySelectorAll(".fr-tabs__panel").forEach((p) => {
+              p.classList.remove("fr-tabs__panel--selected");
             });
-            tab.setAttribute('aria-selected', 'true');
-            tab.setAttribute('tabindex', '0');
-            const panel = document.getElementById(tab.getAttribute('aria-controls'));
-            if (panel) panel.classList.add('fr-tabs__panel--selected');
+            tab.setAttribute("aria-selected", "true");
+            tab.setAttribute("tabindex", "0");
+            const panel = document.getElementById(tab.getAttribute("aria-controls"));
+            if (panel) panel.classList.add("fr-tabs__panel--selected");
 
             // Mettre à jour l'onglet actif et render si nécessaire
-            if (tab.id === 'tab-badges') {
-              currentTab = 'badges';
+            if (tab.id === "tab-badges") {
+              currentTab = "badges";
               renderCurrent();
-            } else if (tab.id === 'tab-tags') {
-              currentTab = 'tags';
+            } else if (tab.id === "tab-tags") {
+              currentTab = "tags";
               renderCurrent();
             }
             // Pas de render pour l'onglet composer

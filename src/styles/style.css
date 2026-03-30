@@ -38,7 +38,8 @@
   height: 5rem;
 }
 
-[class^="fr-icon-"]::before {
+.icon-display [class^="fr-icon-"]::before,
+.icon-display [class*=" fr-icon-"]::before {
   --icon-size: 3rem;
 }
 
@@ -149,6 +150,20 @@
   font-size: 1.2rem;
   font-weight: bold;
   line-height: 1;
+}
+
+/* Affichage pictogrammes (artwork) */
+.artwork-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 6rem;
+  padding: 0.5rem;
+}
+
+.artwork-display svg {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* Badge d'avertissement double tiret */

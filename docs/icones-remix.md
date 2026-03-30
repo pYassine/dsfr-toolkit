@@ -2457,4 +2457,3 @@
 - `ri-zoom-in-line`
 - `ri-zoom-out-fill`
 - `ri-zoom-out-line`
-

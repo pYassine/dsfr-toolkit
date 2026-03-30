@@ -3,39 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>🇫🇷 Visualiseur d'icônes DSFR</title>
+    <title>Visualiseur d'icônes DSFR</title>
     <meta name="description" content="Parcourez les 662 icônes du Design System de l'État Français (DSFR) organisées en 17 catégories. Recherchez et copiez rapidement les classes CSS." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="🇫🇷 Visualiseur d'icônes DSFR" />
+    <meta property="og:title" content=" Visualiseur d'icônes DSFR" />
     <meta property="og:description" content="662 icônes DSFR organisées en 17 catégories. Recherchez et copiez rapidement les classes CSS pour vos projets." />
     <meta property="og:site_name" content="Visualiseur DSFR" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="🇫🇷 Visualiseur d'icônes DSFR" />
+    <meta name="twitter:title" content=" Visualiseur d'icônes DSFR" />
     <meta name="twitter:description" content="662 icônes DSFR organisées en 17 catégories. Recherchez et copiez rapidement les classes CSS." />
 
     <link rel="icon" href="./assets/dsfr/favicon/favicon.ico" />
     <link rel="icon" href="./assets/dsfr/favicon/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="./assets/dsfr/favicon/apple-touch-icon.png" />
-    <link
-      rel="stylesheet"
-      href="./assets/dsfr/dsfr.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./assets/dsfr/utility/icons/icons.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./assets/dsfr/utility/utility.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./assets/remixicon/fonts/remixicon.css"
-    />
+    <link rel="stylesheet" href="./assets/dsfr/dsfr.min.css" />
+    <link rel="stylesheet" href="./assets/dsfr/utility/icons/icons.min.css" />
+    <link rel="stylesheet" href="./assets/dsfr/utility/utility.min.css" />
+    <link rel="stylesheet" href="./assets/remixicon/fonts/remixicon.css" />
     <link rel="stylesheet" href="./src/styles/style.css" />
   </head>
   <body>
@@ -55,41 +43,24 @@
                 </div>
               </div>
               <div class="fr-header__service">
-                <p class="fr-header__service-title">
-                  🇫🇷 DSFR Toolkit - Icônes
-                </p>
-                <p class="fr-header__service-tagline">
-                  Explorer et copier les icônes du Design System
-                </p>
+                <p class="fr-header__service-title">DSFR Toolkit - Icônes</p>
+                <p class="fr-header__service-tagline">Explorer et copier les icônes du Design System</p>
               </div>
             </div>
             <div class="fr-header__tools">
               <div class="fr-header__tools-links">
                 <ul class="fr-btns-group">
                   <li>
-                    <a
-                      class="fr-btn fr-btn--tertiary-no-outline"
-                      href="./colors-viewer.html"
-                    >
-                      Couleurs
-                    </a>
+                    <a class="fr-btn fr-btn--tertiary-no-outline" href="./colors-viewer.html"> Couleurs </a>
                   </li>
                   <li>
-                    <a
-                      class="fr-btn fr-btn--tertiary-no-outline"
-                      href="./tags-badges-viewer.html"
-                    >
-                      Tags & Badges
-                    </a>
+                    <a class="fr-btn fr-btn--tertiary-no-outline" href="./tags-badges-viewer.html"> Tags & Badges </a>
                   </li>
                   <li>
-                    <button
-                      class="fr-btn fr-btn--secondary fr-btn--icon-left fr-icon-theme-fill"
-                      id="theme-toggle"
-                      aria-label="Basculer le mode sombre"
-                    >
-                      Mode sombre
-                    </button>
+                    <a class="fr-btn fr-btn--tertiary-no-outline" href="./artwork-viewer.html"> Pictogrammes </a>
+                  </li>
+                  <li>
+                    <button class="fr-btn fr-btn--secondary fr-btn--icon-left fr-icon-theme-fill" id="theme-toggle" aria-label="Basculer le mode sombre">Mode sombre</button>
                   </li>
                 </ul>
               </div>
@@ -110,79 +81,36 @@
         </div>
 
         <div class="fr-search-bar fr-mb-3w" role="search">
-          <input
-            class="fr-input"
-            type="search"
-            id="search-input"
-            placeholder="Rechercher une icône..."
-            aria-label="Rechercher une icône"
-          />
+          <input class="fr-input" type="search" id="search-input" placeholder="Rechercher une icône..." aria-label="Rechercher une icône" />
           <button class="fr-btn" title="Rechercher">Rechercher</button>
         </div>
 
-        <div
-          class="fr-text--sm fr-mb-2w fr-text-mention--grey"
-          id="stats"
-        ></div>
+        <div class="fr-text--sm fr-mb-2w fr-text-mention--grey" id="stats"></div>
 
         <div class="fr-tabs">
           <ul class="fr-tabs__list" role="tablist">
             <li role="presentation">
-              <button
-                id="tab-dsfr"
-                class="fr-tabs__tab"
-                tabindex="0"
-                role="tab"
-                aria-selected="true"
-                aria-controls="tab-dsfr-panel"
-              >
-                DSFR
-              </button>
+              <button id="tab-dsfr" class="fr-tabs__tab" tabindex="0" role="tab" aria-selected="true" aria-controls="tab-dsfr-panel">DSFR</button>
             </li>
             <li role="presentation">
-              <button
-                id="tab-remix"
-                class="fr-tabs__tab"
-                tabindex="-1"
-                role="tab"
-                aria-selected="false"
-                aria-controls="tab-remix-panel"
-              >
-                Remix Icon
-              </button>
+              <button id="tab-remix" class="fr-tabs__tab" tabindex="-1" role="tab" aria-selected="false" aria-controls="tab-remix-panel">Remix Icon</button>
             </li>
           </ul>
 
-          <div
-            id="tab-dsfr-panel"
-            class="fr-tabs__panel fr-tabs__panel--selected"
-            role="tabpanel"
-            aria-labelledby="tab-dsfr"
-            tabindex="0"
-          >
+          <div id="tab-dsfr-panel" class="fr-tabs__panel fr-tabs__panel--selected" role="tabpanel" aria-labelledby="tab-dsfr" tabindex="0">
             <div id="icons-container"></div>
           </div>
 
-          <div
-            id="tab-remix-panel"
-            class="fr-tabs__panel"
-            role="tabpanel"
-            aria-labelledby="tab-remix"
-            tabindex="0"
-          >
+          <div id="tab-remix-panel" class="fr-tabs__panel" role="tabpanel" aria-labelledby="tab-remix" tabindex="0">
             <div class="fr-alert fr-alert--info fr-mb-4w">
               <h3 class="fr-alert__title">À propos de Remix Icon</h3>
               <p>
                 Les icônes Remix Icon nécessitent l'installation du package
                 <code>remixicon</code> dans votre projet. Ces icônes
                 <strong>ne sont pas compatibles avec les composants DSFR</strong>
-                (alertes, boutons, etc.) qui utilisent exclusivement les
-                icônes DSFR officielles.
+                (alertes, boutons, etc.) qui utilisent exclusivement les icônes DSFR officielles.
               </p>
-              <p class="fr-mb-0">
-                Utilisez-les uniquement pour des besoins spécifiques en dehors
-                des composants du Design System.
-              </p>
+              <p class="fr-mb-0">Utilisez-les uniquement pour des besoins spécifiques en dehors des composants du Design System.</p>
             </div>
             <div id="remix-container"></div>
           </div>
@@ -200,18 +128,10 @@
             </p>
           </div>
           <div class="fr-footer__content">
-            <p class="fr-footer__content-desc">
-              DSFR Toolkit - Icônes du Design System de l'État
-            </p>
+            <p class="fr-footer__content-desc">DSFR Toolkit - Icônes du Design System de l'État</p>
             <ul class="fr-footer__content-list">
               <li class="fr-footer__content-item">
-                <a
-                  class="fr-footer__content-link"
-                  href="https://www.systeme-de-design.gouv.fr/"
-                  target="_blank"
-                >
-                  Documentation DSFR
-                </a>
+                <a class="fr-footer__content-link" href="https://www.systeme-de-design.gouv.fr/" target="_blank"> Documentation DSFR </a>
               </li>
             </ul>
           </div>
@@ -219,19 +139,13 @@
         <div class="fr-footer__bottom">
           <ul class="fr-footer__bottom-list">
             <li class="fr-footer__bottom-item">
-              <a
-                class="fr-footer__bottom-link"
-                href="https://github.com/pYassine/dsfr-toolkit"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Fait avec du coeur & des robots
-              </a>
+              <a class="fr-footer__bottom-link" href="./about.html"> À propos </a>
             </li>
             <li class="fr-footer__bottom-item">
-              <span class="fr-footer__bottom-link">
-                DSFR v1.14.0 • Remix Icon v4.9.1
-              </span>
+              <a class="fr-footer__bottom-link" href="https://github.com/pYassine/dsfr-toolkit" target="_blank" rel="noopener noreferrer"> Fait avec du coeur & des robots </a>
+            </li>
+            <li class="fr-footer__bottom-item">
+              <span class="fr-footer__bottom-link"> DSFR v1.14.0 • Remix Icon v4.9.1 </span>
             </li>
           </ul>
         </div>
@@ -262,17 +176,17 @@
 
       // Mapping des icônes fr-- vers leurs équivalents
       const iconAlternatives = {
-        'fr--success-fill': 'checkbox-circle-fill',
-        'fr--success-line': 'checkbox-circle-line',
-        'fr--error-fill': 'error-warning-fill',
-        'fr--error-line': 'error-warning-line',
-        'fr--info-fill': 'information-fill',
-        'fr--info-line': 'information-line',
-        'fr--warning-fill': 'alert-fill',
-        'fr--warning-line': 'alert-line',
-        'fr--alert-warning-fill': 'alert-fill',
-        'fr--alert-warning-2-fill': 'alert-fill',
-        'fr--theme-fill': 'moon-fill ou sun-fill',
+        "fr--success-fill": "checkbox-circle-fill",
+        "fr--success-line": "checkbox-circle-line",
+        "fr--error-fill": "error-warning-fill",
+        "fr--error-line": "error-warning-line",
+        "fr--info-fill": "information-fill",
+        "fr--info-line": "information-line",
+        "fr--warning-fill": "alert-fill",
+        "fr--warning-line": "alert-line",
+        "fr--alert-warning-fill": "alert-fill",
+        "fr--alert-warning-2-fill": "alert-fill",
+        "fr--theme-fill": "moon-fill ou sun-fill",
       };
 
       function initColorSelector() {
@@ -304,24 +218,26 @@
         currentColor = colorClass;
         initColorSelector(); // Mettre à jour l'apparence des boutons
 
-        // Appliquer la couleur à toutes les icônes affichées
-        const icons = document.querySelectorAll(".icon-display i, .icon-display .fr-icon-check-line");
-        icons.forEach((icon) => {
-          // Retirer toutes les classes de couleur
-          icon.className = icon.className.split(" ").filter(c => !c.includes("fr-text-")).join(" ");
+        // Appliquer la couleur sur les parents .icon-display (pas sur l'icône directement)
+        const displays = document.querySelectorAll(".icon-display");
+        displays.forEach((el) => {
+          // Retirer toutes les classes de couleur du parent
+          el.className = el.className
+            .split(" ")
+            .filter((c) => !c.includes("fr-text-"))
+            .join(" ");
 
-          // Ajouter la nouvelle couleur
+          // Ajouter la nouvelle couleur sur le parent
           if (colorClass) {
-            icon.classList.add(colorClass);
+            el.classList.add(colorClass);
           }
         });
 
         // Re-render pour appliquer aux nouvelles icônes
-        if (currentTab === 'remix') {
-          const searchTerm = document.getElementById("search-input").value;
+        const searchTerm = document.getElementById("search-input").value;
+        if (currentTab === "remix") {
           renderRemixIcons(searchTerm);
         } else {
-          const searchTerm = document.getElementById("search-input").value;
           renderIcons(searchTerm);
         }
       }
@@ -334,8 +250,7 @@
           updateStats();
         } catch (error) {
           console.error("Erreur lors du chargement des icônes:", error);
-          document.getElementById("icons-container").innerHTML =
-            '<div class="fr-alert fr-alert--error"><p>Erreur lors du chargement des icônes.</p></div>';
+          document.getElementById("icons-container").innerHTML = '<div class="fr-alert fr-alert--error"><p>Erreur lors du chargement des icônes.</p></div>';
         }
       }
 
@@ -346,8 +261,7 @@
           renderRemixIcons();
         } catch (error) {
           console.error("Erreur lors du chargement des icônes Remix:", error);
-          document.getElementById("remix-container").innerHTML =
-            '<div class="fr-alert fr-alert--error"><p>Erreur lors du chargement des icônes Remix.</p></div>';
+          document.getElementById("remix-container").innerHTML = '<div class="fr-alert fr-alert--error"><p>Erreur lors du chargement des icônes Remix.</p></div>';
         }
       }
 
@@ -365,13 +279,7 @@
           .forEach((categoryName) => {
             const icons = categories[categoryName];
             const filteredIcons = searchTerm
-              ? icons.filter(
-                  (icon) =>
-                    icon.name
-                      .toLowerCase()
-                      .includes(searchTerm.toLowerCase()) ||
-                    icon.class.toLowerCase().includes(searchTerm.toLowerCase()),
-                )
+              ? icons.filter((icon) => icon.name.toLowerCase().includes(searchTerm.toLowerCase()) || icon.class.toLowerCase().includes(searchTerm.toLowerCase()))
               : icons;
 
             if (filteredIcons.length === 0) return;
@@ -416,13 +324,7 @@
           .forEach((categoryName) => {
             const icons = categories[categoryName];
             const filteredIcons = searchTerm
-              ? icons.filter(
-                  (icon) =>
-                    icon.name
-                      .toLowerCase()
-                      .includes(searchTerm.toLowerCase()) ||
-                    icon.class.toLowerCase().includes(searchTerm.toLowerCase()),
-                )
+              ? icons.filter((icon) => icon.name.toLowerCase().includes(searchTerm.toLowerCase()) || icon.class.toLowerCase().includes(searchTerm.toLowerCase()))
               : icons;
 
             if (filteredIcons.length === 0) return;
@@ -458,15 +360,15 @@
         card.className = "fr-card fr-card--no-border fr-card--shadow";
         const uniqueId = `select-${type}-${icon.name.replace(/[^a-z0-9]/gi, "-")}`;
 
-        // Ajouter la classe de couleur si une couleur est sélectionnée
+        // La couleur est appliquée sur le parent, pas sur l'icône directement
         const colorClass = currentColor ? ` ${currentColor}` : "";
 
         // Vérifier si l'icône a le préfixe fr-- dans le nom du fichier
-        const hasDoubleDash = icon.name.startsWith('fr--');
+        const hasDoubleDash = icon.name.startsWith("fr--");
         const alternative = iconAlternatives[icon.name];
 
-        let infoBadge = '';
-        let infoMessage = '';
+        let infoBadge = "";
+        let infoMessage = "";
 
         if (hasDoubleDash) {
           infoBadge = `<span class="fr-badge fr-badge--info fr-badge--sm" title="Icône spécifique DSFR">DSFR</span>`;
@@ -485,21 +387,20 @@
         card.innerHTML = `
                 <div class="fr-card__body">
                     <div class="fr-card__content">
-                        <div class="icon-display">
-                            <i class="${icon.class}${colorClass}" aria-hidden="true"></i>
+                        <div class="icon-display${colorClass}">
+                            <span class="${icon.class}" aria-hidden="true"></span>
                         </div>
                         <div style="text-align: center; margin-bottom: 1rem; display: flex; flex-direction: column; align-items: center; gap: 0.5rem;">
                             <p class="fr-tag fr-tag--sm fr-mb-0">${icon.name}</p>
-                            ${hasDoubleDash ? infoBadge : ''}
+                            ${hasDoubleDash ? infoBadge : ""}
                         </div>
                         ${infoMessage}
                         <div class="fr-select-group">
                             <select class="fr-select" id="${uniqueId}" onchange="handleCopy(this, '${icon.name}', '${icon.class}')">
                                 <option value="" selected>Copier...</option>
                                 <option value="name">Le nom</option>
-                                <option value="class">La class</option>
-                                <option value="span">Le span</option>
-                                <option value="i">Le 'i'</option>
+                                <option value="class">La classe</option>
+                                <option value="span">Le &lt;span&gt;</option>
                             </select>
                         </div>
                     </div>
@@ -518,34 +419,25 @@
             copyToClipboard(iconName, "Nom copié !");
             break;
           case "class":
-            copyClass(iconClass);
+            copyToClipboard(iconClass, "Classe copiée !");
             break;
           case "span":
             copySpan(iconClass);
-            break;
-          case "i":
-            copyI(iconClass);
             break;
         }
 
         selectElement.value = "";
       }
 
-      function copyClass(className) {
-        const classWithColor = currentColor ? `${className} ${currentColor}` : className;
-        copyToClipboard(classWithColor, "Classe copiée !");
-      }
-
       function copySpan(className) {
-        const classWithColor = currentColor ? `${className} ${currentColor}` : className;
-        const spanElement = `<span class="${classWithColor}" aria-hidden="true"></span>`;
-        copyToClipboard(spanElement, "Élément <span> copié !");
-      }
-
-      function copyI(className) {
-        const classWithColor = currentColor ? `${className} ${currentColor}` : className;
-        const iElement = `<i class="${classWithColor}" aria-hidden="true"></i>`;
-        copyToClipboard(iElement, "Élément <i> copié !");
+        const spanElement = `<span class="${className}" aria-hidden="true"></span>`;
+        if (currentColor) {
+          // Couleur sur le parent, comme dans le DSFR
+          const wrappedElement = `<p class="${currentColor}">${spanElement} Texte</p>`;
+          copyToClipboard(wrappedElement, "Élément avec couleur copié !");
+        } else {
+          copyToClipboard(spanElement, "Élément <span> copié !");
+        }
       }
 
       async function copyToClipboard(text, message) {
@@ -638,44 +530,44 @@
 
       // Gestion des tabs
       function initTabs() {
-        const tabs = document.querySelectorAll('.fr-tabs__tab');
-        const panels = document.querySelectorAll('.fr-tabs__panel');
+        const tabs = document.querySelectorAll(".fr-tabs__tab");
+        const panels = document.querySelectorAll(".fr-tabs__panel");
 
-        tabs.forEach(tab => {
-          tab.addEventListener('click', () => {
+        tabs.forEach((tab) => {
+          tab.addEventListener("click", () => {
             // Désactiver tous les tabs
-            tabs.forEach(t => {
-              t.setAttribute('aria-selected', 'false');
-              t.setAttribute('tabindex', '-1');
+            tabs.forEach((t) => {
+              t.setAttribute("aria-selected", "false");
+              t.setAttribute("tabindex", "-1");
             });
 
             // Masquer tous les panels
-            panels.forEach(p => {
-              p.classList.remove('fr-tabs__panel--selected');
+            panels.forEach((p) => {
+              p.classList.remove("fr-tabs__panel--selected");
             });
 
             // Activer le tab cliqué
-            tab.setAttribute('aria-selected', 'true');
-            tab.setAttribute('tabindex', '0');
+            tab.setAttribute("aria-selected", "true");
+            tab.setAttribute("tabindex", "0");
 
             // Afficher le panel correspondant
-            const panelId = tab.getAttribute('aria-controls');
+            const panelId = tab.getAttribute("aria-controls");
             const panel = document.getElementById(panelId);
             if (panel) {
-              panel.classList.add('fr-tabs__panel--selected');
+              panel.classList.add("fr-tabs__panel--selected");
             }
 
             // Mettre à jour le tab courant
-            currentTab = tab.id === 'tab-remix' ? 'remix' : 'dsfr';
+            currentTab = tab.id === "tab-remix" ? "remix" : "dsfr";
 
             // Charger les icônes Remix si nécessaire
-            if (currentTab === 'remix' && !remixData) {
+            if (currentTab === "remix" && !remixData) {
               loadRemixIcons();
             }
 
             // Mettre à jour les stats
             const searchTerm = document.getElementById("search-input").value;
-            if (currentTab === 'remix') {
+            if (currentTab === "remix") {
               renderRemixIcons(searchTerm);
             } else {
               renderIcons(searchTerm);
@@ -688,7 +580,7 @@
       document.getElementById("search-input").addEventListener("input", (e) => {
         clearTimeout(searchTimeout);
         searchTimeout = setTimeout(() => {
-          if (currentTab === 'remix') {
+          if (currentTab === "remix") {
             renderRemixIcons(e.target.value);
           } else {
             renderIcons(e.target.value);
@@ -696,18 +588,13 @@
         }, 300);
       });
 
-      document
-        .getElementById("theme-toggle")
-        .addEventListener("click", toggleTheme);
+      document.getElementById("theme-toggle").addEventListener("click", toggleTheme);
 
       initTheme();
       initTabs();
       initColorSelector();
       loadIcons();
     </script>
-    <script
-      type="module"
-      src="./assets/dsfr/dsfr.module.min.js"
-    ></script>
+    <script type="module" src="./assets/dsfr/dsfr.module.min.js"></script>
   </body>
 </html>

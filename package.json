@@ -5,7 +5,8 @@
   "scripts": {
     "start": "http-server -p 8080 -o",
     "dev": "http-server -p 8080 -o",
-    "extract": "node scripts/extract-colors.js --output ./src/data && node scripts/extract-remix.js --output ./src/data && node scripts/extract-tags-badges.js --output ./src/data",
+    "extract": "node scripts/extract-colors.js --output ./src/data && node scripts/extract-remix.js --output ./src/data && node scripts/extract-tags-badges.js --output ./src/data && node scripts/extract-artwork.js --output ./src/data",
+    "extract:artwork": "node scripts/extract-artwork.js --output ./src/data",
     "extract:icons": "node scripts/extract-icons.js --output ./src/data",
     "extract:colors": "node scripts/extract-colors.js --output ./src/data",
     "extract:remix": "node scripts/extract-remix.js --output ./src/data",
