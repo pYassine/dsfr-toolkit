@@ -24,7 +24,8 @@ const FILES = [
 
 const DIRECTORIES = [
   'fonts',
-  'icons'
+  'icons',
+  'artwork'
 ];
 
 function ensureDir(dir) {

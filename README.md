@@ -8,98 +8,75 @@ Un ensemble d'outils interactifs pour faciliter la prise en main du [Système de
 > **Licence :** Open Source - Respecte les standards du DSFR
 > **Note :** Ce projet n'est pas officiel et n'est pas maintenu par l'équipe DSFR.
 
-## 🎯 Objectif
-
-DSFR Toolkit aide les développeurs et designers à découvrir, explorer et utiliser les ressources du DSFR de manière simple et intuitive, avec des exemples pratiques et interactifs.
-
-## 🌐 Démo en ligne
+## Démo en ligne
 
 Découvrez l'outil en ligne : **[https://storied-nougat-78ee14.netlify.app/](https://storied-nougat-78ee14.netlify.app/)**
 
-## 🛠️ Outils disponibles
+## Outils disponibles
 
 ### 1. Visualiseur d'icônes
 
-Un outil interactif pour explorer et copier les icônes DSFR et Remix Icon.
+Explorer et copier les icônes DSFR et Remix Icon.
 
-**Fonctionnalités :**
-
-- 🔍 Recherche en temps réel parmi toutes les icônes
-- 🎨 Deux bibliothèques d'icônes : **DSFR** (662 icônes) et **Remix Icon** (3078 icônes)
-- 🎨 **Sélecteur de couleur interactif** : Testez les icônes avec 11 couleurs DSFR (Success, Error, Warning, Info, etc.)
-- 📋 Copie rapide avec couleur : Le nom, la classe CSS (avec couleur si sélectionnée), ou les éléments HTML (`<span>`, `<i>`)
-- 🏷️ **Badges informatifs** : Identification des icônes spécifiques DSFR avec suggestions d'alternatives
-- 🌓 Mode sombre/clair avec sauvegarde des préférences
-- 📱 Design responsive (grille adaptative)
-- 🎯 Interface 100% DSFR (utilisation des composants natifs : `fr-card`, `fr-tag`, `fr-select`, `fr-tabs`, `fr-badge`, `fr-alert`)
-- 📊 Statistiques en temps réel
-- 🏷️ Organisation par catégories
+- Recherche en temps réel parmi toutes les icônes
+- Deux bibliothèques : **DSFR** (662 icônes) et **Remix Icon** (3078 icônes)
+- Sélecteur de couleur interactif (11 couleurs DSFR)
+- Copie rapide : nom, classe CSS, éléments HTML (`<span>`, `<i>`)
+- Badges informatifs avec suggestions d'alternatives
+- Organisation par catégories
 
 ### 2. Palette de couleurs
 
-Un outil pour explorer et utiliser les couleurs du DSFR.
+Explorer et utiliser les couleurs du DSFR.
 
-**Fonctionnalités :**
-
-- 🎨 Exploration des couleurs de fond (112 couleurs) et de texte (73 couleurs)
-- 🔍 Recherche par nom, classe ou variable CSS
-- 📋 Copie rapide des classes et variables CSS
-- 🎯 Organisation par variantes (action-high, default, contrast, etc.)
-- 📝 Prévisualisation avec Lorem ipsum pour les couleurs de texte
-- ↕️ Tri alphabétique automatique
-- 🌓 Mode sombre/clair
+- Couleurs de fond (112) et de texte (73)
+- Recherche par nom, classe ou variable CSS
+- Copie rapide des classes et variables CSS
+- Organisation par variantes (action-high, default, contrast, etc.)
+- Prévisualisation avec Lorem ipsum pour les couleurs de texte
 
 ### 3. Tags & Badges
 
-Un outil interactif pour composer et explorer les tags et badges DSFR.
+Composer et explorer les tags et badges DSFR.
 
-**Fonctionnalités :**
+- Compositeur interactif : type, élément HTML, taille, couleur, icône
+- 23 couleurs DSFR et 16 icônes populaires
+- Aperçu en temps réel et code HTML généré
+- Catalogues complets : 51 badges et 109 tags
+- 100% accessible : uniquement des combinaisons conformes au DSFR
 
-- 🎨 **Compositeur interactif** : Créez vos propres tags et badges en quelques clics
-- 🎯 Choix du type (Badge ou Tag), élément HTML (paragraphe, lien, bouton), et taille
-- 🌈 **Sélecteur de couleurs** : 23 couleurs DSFR (system colors + couleurs thématiques)
-- 🎨 **Sélecteur d'icônes** : 16 icônes populaires avec aperçu visuel
-- 👁️ **Aperçu en temps réel** : Visualisez votre composition instantanément
-- 📋 **Copie rapide** : Code HTML généré automatiquement
-- 📚 **Catalogues complets** : 51 badges et 109 tags extraits du DSFR
-- 🔍 Recherche et filtrage par type et couleur
-- ✅ **100% accessible** : Uniquement des combinaisons conformes au DSFR
-- 🌓 Mode sombre/clair
+### 4. Pictogrammes
 
-### 4. Exemples de grille
+Parcourir et copier les pictogrammes SVG du DSFR.
 
-Une collection d'exemples pratiques pour maîtriser le système de grille DSFR.
+- 69 pictogrammes organisés par catégorie
+- Copie du SVG, de la balise `<img>` ou du chemin
+- Recherche par nom
 
-**Fonctionnalités :**
+### 5. Exemples de grille
 
-- 📐 Système de grille à 12 colonnes expliqué
-- 📱 Exemples responsive (mobile-first)
-- 📏 Gutters (espacements) et alignements
-- 🎯 Offset et colonnes décalées
-- 🔄 Grilles imbriquées
-- 💼 Exemples pratiques : blog, galerie, dashboard
-- 📊 Tableau de référence rapide des classes
-- 💡 Code source visible pour chaque exemple
+Exemples pratiques pour maîtriser le système de grille DSFR.
 
-## 📦 Installation
+- Système de grille à 12 colonnes
+- Exemples responsive (mobile-first)
+- Gutters, alignements, offsets, grilles imbriquées
+- Exemples pratiques : blog, galerie, dashboard
+- Code source visible pour chaque exemple
+
+## Installation
 
 ```bash
-# Cloner le projet
-git clone <url-du-repo>
+git clone https://github.com/pYassine/dsfr-toolkit.git
 cd dsfr-toolkit
-
-# Installer les dépendances avec pnpm
 pnpm install
 ```
 
-## 🚀 Utilisation
+## Utilisation
 
 ### Démarrer le serveur
 
 ```bash
 pnpm start
-# ou
-pnpm dev
 ```
 
 Le serveur démarre sur http://localhost:8080 et ouvre automatiquement le navigateur.
@@ -107,23 +84,26 @@ Le serveur démarre sur http://localhost:8080 et ouvre automatiquement le naviga
 ### Extraction des données
 
 ```bash
-# Extraire toutes les données (icônes, couleurs, tags & badges, Remix Icon)
+# Extraire toutes les données (icônes, couleurs, tags & badges, Remix Icon, pictogrammes)
 pnpm extract
 
-# Extraire uniquement les icônes DSFR
+# Extraire individuellement
 pnpm extract:icons
-
-# Extraire uniquement les couleurs
 pnpm extract:colors
-
-# Extraire uniquement les tags et badges
 pnpm extract:tags-badges
-
-# Extraire uniquement Remix Icon
 pnpm extract:remix
+pnpm extract:artwork
 ```
 
-## 📝 Structure du projet
+### Build (pour le déploiement)
+
+```bash
+pnpm build
+```
+
+Exécute l'extraction des données, la copie des assets DSFR et la génération de la documentation Markdown.
+
+## Structure du projet
 
 ```
 dsfr-toolkit/
@@ -131,7 +111,9 @@ dsfr-toolkit/
 ├── icons-viewer.html              # Visualiseur d'icônes
 ├── colors-viewer.html             # Palette de couleurs
 ├── tags-badges-viewer.html        # Compositeur de tags et badges
+├── artwork-viewer.html            # Pictogrammes SVG
 ├── grid-viewer.html               # Exemples de grille
+├── about.html                     # À propos
 ├── src/
 │   ├── styles/
 │   │   └── style.css             # Styles centralisés
@@ -139,59 +121,53 @@ dsfr-toolkit/
 │       ├── dsfr-icons.json       # Données des icônes DSFR
 │       ├── remix-icons.json      # Données Remix Icon
 │       ├── dsfr-colors.json      # Données des couleurs
-│       └── tags-badges.json      # Données des tags et badges
+│       ├── tags-badges.json      # Données des tags et badges
+│       └── dsfr-artwork.json     # Données des pictogrammes
 ├── scripts/
-│   ├── extract-icons.js          # Script d'extraction DSFR
-│   ├── extract-colors.js         # Script d'extraction couleurs
-│   ├── extract-tags-badges.js    # Script d'extraction tags & badges
-│   └── extract-remix.js          # Script d'extraction Remix
-├── package.json                  # Dépendances
-└── README.md                     # Documentation
+│   ├── extract-icons.js          # Extraction icônes DSFR
+│   ├── extract-colors.js         # Extraction couleurs
+│   ├── extract-tags-badges.js    # Extraction tags & badges
+│   ├── extract-remix.js          # Extraction Remix Icon
+│   ├── extract-artwork.js        # Extraction pictogrammes
+│   ├── copy-dsfr-assets.js       # Copie assets pour le déploiement
+│   └── generate-markdown.js      # Génération documentation
+├── assets/                        # Assets copiés au build (gitignored)
+│   ├── dsfr/                     # CSS, JS, fonts, icons, artwork
+│   └── remixicon/                # Fonts Remix Icon
+├── package.json
+├── netlify.toml                   # Configuration Netlify
+└── README.md
 ```
 
-## 🎨 Technologies utilisées
+## Technologies
 
-- **DSFR** - Système de Design de l'État Français
+- **DSFR** - Système de Design de l'État Français (v1.14.0)
 - **Vanilla JavaScript** - Aucun framework, code natif uniquement
-- **Node.js** - Pour les scripts d'extraction et le serveur HTTP
+- **Node.js** - Scripts d'extraction et serveur HTTP
 - **http-server** - Serveur HTTP simple pour le développement
-- **Remix Icon** - Bibliothèque d'icônes complémentaire (optionnelle)
+- **Remix Icon** - Bibliothèque d'icônes complémentaire
 
-## 🔧 Contraintes techniques
+## Contraintes techniques
 
-Ce projet respecte des contraintes strictes pour rester simple et maintenable :
+- **Node.js uniquement** : Tous les scripts utilisent Node.js natif
+- **JavaScript vanilla** : Pas de frameworks front-end
+- **Standards DSFR** : Respect des composants et conventions du Design System
+- **Modules CommonJS** : Pour compatibilité maximale avec Node.js
+- **API Web natives** : Fetch, LocalStorage, etc.
 
-- ✅ **Node.js uniquement** : Tous les scripts utilisent Node.js natif
-- ✅ **JavaScript vanilla** : Pas de frameworks front-end
-- ✅ **Standards DSFR** : Respect des composants et conventions du Design System
-- ✅ **Modules CommonJS** : Pour compatibilité maximale avec Node.js
-- ✅ **API Web natives** : Fetch, LocalStorage, etc.
+## Contribution
 
-## 🤝 Contribution
+Les contributions sont les bienvenues ! N'hésitez pas à signaler des bugs, proposer de nouvelles fonctionnalités ou améliorer la documentation.
 
-Les contributions sont les bienvenues ! N'hésitez pas à :
-
-- Signaler des bugs
-- Proposer de nouvelles fonctionnalités
-- Améliorer la documentation
-- Ajouter de nouveaux outils
-
-## 📄 Licence
+## Licence
 
 Ce projet est **open source** et gratuit. Il respecte les standards et les licences du DSFR.
 
 **Auteur :** pYassine
 **Statut :** Projet communautaire non officiel
 
-## 🔗 Liens utiles
+## Liens utiles
 
 - [Documentation DSFR](https://www.systeme-de-design.gouv.fr/)
 - [DSFR sur GitHub](https://github.com/GouvernementFR/dsfr)
 - [DSFR sur npm](https://www.npmjs.com/package/@gouvfr/dsfr)
-
----
-
-<p align="center">
-  Créé avec ❤️ par <a href="https://github.com/pyassine">pYassine</a><br>
-  Projet open source respectant les standards du DSFR
-</p>
